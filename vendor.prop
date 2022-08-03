@@ -117,6 +117,7 @@ debug.renderengine.backend=skiaglthreaded
 debug.sf.auto_latch_unsignaled=1
 debug.sf.default_idle_timer_ms=1100
 debug.sf.enable_gl_backpressure=0
+debug.sf.enable_adpf_cpu_hint=true
 debug.sf.enable_hwc_vds=0
 debug.sf.early.app.duration=11600000
 debug.sf.early.sf.duration=12300000
