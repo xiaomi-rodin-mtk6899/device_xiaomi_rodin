@@ -792,4 +792,7 @@
     <integer name="config_aodMaxRefreshRate">60</integer>
 
     <bool name="config_dozeAfterScreenOff">true</bool>
+
+    <!-- Auto-brightness sensor type string -->
+    <string name="config_displayLightSensorType">"android.sensor.light"</string>
 </resources>
