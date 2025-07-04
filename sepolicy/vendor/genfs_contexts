@@ -1,6 +1,9 @@
 # Audio
 genfscon sysfs /kernel/smartpa/smartpa_type    u:object_r:sysfs_chip_vendor:s0
 
+# Backlight
+genfscon sysfs /class/backlight		u:object_r:vendor_sysfs_backlight:s0
+
 # Battery info
 genfscon sysfs /devices/platform/pd-adapter/Charging_Adapter                                                    u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/soc/11281000.i2c/i2c-11/11-0055/power_supply                                   u:object_r:sysfs_batteryinfo:s0

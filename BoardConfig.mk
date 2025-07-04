@@ -25,6 +25,9 @@ TARGET_USES_VULKAN := true
 # Filesystem
 TARGET_FS_CONFIG_GEN += hardware/nxp/keymint/KM300/res/config.fs
 
+# Lights
+TARGET_LIGHT_HAL_SCAN_FOR_BACKLIGHT_DEVICES := true
+
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_DTB_OFFSET := 0x07c88000
