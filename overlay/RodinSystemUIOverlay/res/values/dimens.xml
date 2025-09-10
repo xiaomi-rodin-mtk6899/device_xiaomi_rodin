@@ -17,4 +17,8 @@
      <!-- 2. The Music / Now Playing Info (Middle layer) -->
     <!-- Pushes song name/artist above the unlock text -->
     <dimen name="ambient_indication_margin_bottom">185.0dp</dimen>
+
+    <!-- UDFPS animation size and offset -->
+    <dimen name="udfps_animation_size">200dp</dimen> <!-- ~556 px -->
+    <integer name="udfps_animation_offset">20</integer> <!-- ~55.6 px -->
 </resources>
