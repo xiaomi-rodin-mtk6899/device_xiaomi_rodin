@@ -29,4 +29,31 @@
        <instance>default</instance>
      </interface>
    </hal>
+   <hal format="aidl" optional="true">
+      <name>vendor.xiaomi.hardware.fingerprintextension</name>
+      <version>1</version>
+          <fqname>IXiaomiFingerprint/default</fqname>
+    </hal>
+      <hal format="aidl" optional="true">
+    <name>vendor.xiaomi.hardware.camera.synthetic</name>
+    <interface>
+        <name>IVirtualCameraRegistrar</name>
+        <instance>default</instance>
+    </interface>
+  </hal>
+  <hal format="aidl" optional="true">
+    <name>vendor.xiaomi.hardware.aidl.mtdservice</name>
+    <interface>
+      <name>IMTService</name>
+      <instance>default</instance>
+    </interface>
+  </hal>
+  <hal format="aidl" optional="true">
+    <name>vendor.xiaomi.hardware.mfidoca</name>
+    <version>1</version>
+    <interface>
+      <name>IFidoService</name>
+      <instance>default</instance>
+    </interface>
+  </hal>
 </compatibility-matrix>
