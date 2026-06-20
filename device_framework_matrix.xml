@@ -29,11 +29,6 @@
        <instance>default</instance>
      </interface>
    </hal>
-   <hal format="aidl" optional="true">
-      <name>vendor.xiaomi.hardware.fingerprintextension</name>
-      <version>1</version>
-          <fqname>IXiaomiFingerprint/default</fqname>
-    </hal>
       <hal format="aidl" optional="true">
     <name>vendor.xiaomi.hardware.camera.synthetic</name>
     <interface>
