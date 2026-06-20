@@ -1,11 +1,23 @@
+# batteryantiaging
+type hal_batteryantiaging_service, hal_service_type, protected_service, service_manager_type;
+
 # Dolby
 type hal_aidl_dms_service, protected_service, service_manager_type, hal_service_type;
+
+# Fido
+type hal_mfidoca_service, protected_service, service_manager_type;
+
+# Frame
+type vendor_hal_framecapturemanager_xiaomi_service, hal_service_type, protected_service, service_manager_type;
 
 # ID manager
 type hal_idmanager_service, protected_service, service_manager_type, hal_service_type;
 
 # MTD service
 type hal_mtdservice_service, protected_service, service_manager_type, hal_service_type;
+
+# Mlipay
+type hal_mlipay_service, protected_service, service_manager_type, hal_service_type;
 
 # TouchFeature
 type hal_touchfeature_xiaomi_service, protected_service, service_manager_type, hal_service_type;

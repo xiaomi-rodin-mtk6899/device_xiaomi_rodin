@@ -22,3 +22,13 @@ attribute hal_mtdservice_server;
 attribute hal_touchfeature_xiaomi;
 attribute hal_touchfeature_xiaomi_client;
 attribute hal_touchfeature_xiaomi_server;
+
+# batteryantiaging
+attribute hal_batteryantiaging;
+attribute hal_batteryantiaging_client;
+attribute hal_batteryantiaging_server;
+
+# Micharge
+attribute hal_micharge;
+attribute hal_micharge_client;
+attribute hal_micharge_server

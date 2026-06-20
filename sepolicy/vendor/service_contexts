@@ -15,8 +15,12 @@ android.hardware.media.c2.IComponentStore/default9    u:object_r:hal_codec2_serv
 android.hardware.media.c2.IComponentStore/dolby       u:object_r:hal_codec2_service:s0
 vendor.dolby.dms.IDms/default                         u:object_r:hal_aidl_dms_service:s0
 
+# Fido
+vendor.xiaomi.hardware.mfidoca.IFidoService/default       u:object_r:hal_mfidoca_service:s0
+
 # Fingerprint
 vendor.xiaomi.hardware.fx.tunnel.IMiFxTunnel/default    u:object_r:hal_fingerprint_service:s0
+vendor.xiaomi.hardware.fingerprintextension.IXiaomiFingerprint/default    u:object_r:hal_fingerprint_service:s0
 
 # HWComposer
 vendor.xiaomi.hardware.display.mihwcextension.IMiHwcExtension/default    u:object_r:hal_graphics_composer_service:s0
@@ -28,8 +32,20 @@ vendor.xiaomi.hardware.idmanager.ISecidService/default        u:object_r:hal_idm
 # MTD service
 vendor.xiaomi.hardware.aidl.mtdservice.IMTService/default    u:object_r:hal_mtdservice_service:s0
 
+# Mlipay
+vendor.xiaomi.hardware.mlipay.IMlipayService/default        u:object_r:hal_mlipay_service:s0
+
 # Sensors
 vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default    u:object_r:hal_sensors_service:s0
 
 # TouchFeature
 vendor.xiaomi.hw.touchfeature.ITouchFeature/default    u:object_r:hal_touchfeature_xiaomi_service:s0
+
+# framecapturemanager
+vendor.xiaomi.hardware.framecapturemanager.IFrameCaptureManager/default            u:object_r:vendor_hal_framecapturemanager_xiaomi_service:s0
+
+# batteryantiaging
+vendor.xiaomi.hardware.batteryantiaging.IBatteryAntiAging/default                  u:object_r:hal_batteryantiaging_service:s0
+
+# Micharge
+vendor.xiaomi.hardware.micharge.IMiCharge/default                                  u:object_r:hal_micharge_service:s0

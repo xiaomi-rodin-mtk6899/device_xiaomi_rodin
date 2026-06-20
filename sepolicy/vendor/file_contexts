@@ -6,6 +6,43 @@
 # Batterysecret
 /vendor/bin/batterysecret    u:object_r:vendor_batterysecret_exec:s0
 
+# batteryantiaging
+/(vendor|odm|system/vendor)/etc/charger(/.*)?                                                                                                   u:object_r:batteryantiaging_cfg_file:s0
+/data/vendor/batteryantiaging(/.*)?                                                                                                             u:object_r:batteryantiaging_cache_file:s0
+/(vendor|system/vendor)/bin/hw/vendor.xiaomi.hardware.batteryantiaging-service                                                                  u:object_r:hal_batteryantiaging_default_exec:s0
+
+# Micharge
+/(vendor|system/vendor)/bin/hw/vendor.xiaomi.hardware.micharge-service                                                                          u:object_r:hal_micharge_default_exec:s0
+
+/sys/devices/platform/11015000.i2c0/i2c-0/0-0035/power_supply/Charger_Identify(/.*)?                                                            u:object_r:sysfs_usb_supply:s0
+/sys/devices/platform/11e00000.i2c/i2c-0/0-0035/power_supply/xmusb350(/.*)?                                                                     u:object_r:sysfs_usb_supply:s0
+/sys/devices/platform/11e00000.i2c/i2c-0/0-0035/switching_charger/xmusb350(/.*)?                                                                u:object_r:sysfs_usb_supply:s0
+
+/sys/devices/platform/battery-manager/power_supply/battery(/.*)?                                                                                u:object_r:sysfs_battery_supply:s0
+/sys/devices/platform/battery-manager/power_supply/battery/wakeup(.*)(/.*)?                                                                     u:object_r:sysfs_wakeup:s0
+
+/sys/devices/platform/charger/power_supply/usb(/.*)?                                                                                            u:object_r:sysfs_usb_supply:s0
+/sys/devices/platform/charger/power_supply/usb/wakeup(.*)(/.*)?                                                                                 u:object_r:sysfs_wakeup:s0
+
+/sys/devices/platform/mt_charger/power_supply/ac(/.*)?                                                                                          u:object_r:sysfs_usb_supply:s0
+/sys/devices/platform/mt_charger/power_supply/charger(/.*)?                                                                                     u:object_r:sysfs_usb_supply:s0
+/sys/devices/platform/mt_charger/power_supply/main(/.*)?                                                                                        u:object_r:sysfs_usb_supply:s0
+
+/sys/devices/platform/pd_adapter/Charging_Adapter/pd_adapter(/.*)?                                                                              u:object_r:sysfs_usbpd_device:s0
+
+/sys/devices/platform/soc/11011800.spi1/spi_master/spi1/spi1.0/wakeup(.*)(/.*)?                                                                 u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-10/10-0055/power_supply/bms(/.*)?                                                                    u:object_r:sysfs_usb_supply:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-10/10-0055/power_supply/bms/wakeup(.*)(/.*)?                                                         u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-10/10-006e/power_supply/bq25985-battery/wakeup(.*)(/.*)?                                             u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-10/10-006e/power_supply/cp_master/wakeup(.*)(/.*)?                                                   u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-10/10-006f/power_supply/cp_master/wakeup(.*)(/.*)?                                                   u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-10/10-006f/power_supply/cp_master(/.*)?                                                              u:object_r:sysfs_ti_battery:s0
+
+/sys/devices/platform/xagapro_charger/power_supply/usb(/.*)?                                                                                    u:object_r:sysfs_usb_supply:s0
+
+/sys/devices/platform/11e01000.i2c/i2c-5/5-0034/11e01000.i2c:mt6375@34:mtk_gauge/power_supply/battery(/.*)?                                     u:object_r:sysfs_battery_supply:s0
+/sys/devices/platform/soc/11280000.i2c/i2c-5/5-0034/11280000.i2c:mt6375@34:mtk_gauge/power_supply/battery(/.*)?                                 u:object_r:sysfs_battery_supply:s0
+
 # Camera
 /odm/bin/crossbuild(/.*)?    u:object_r:vendor_bin_crossbuild_file:s0
 
