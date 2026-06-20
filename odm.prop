@@ -9,6 +9,21 @@ ro.vendor.soundtrigger.dfs.support=1
 persist.vendor.vcb.enable=false
 ro.vendor.dynamiccamera.ability_level=2
 
+# Charging
+persist.vendor.smartchg=854
+persist.vendor.accelerate.charge=true
+persist.vendor.battery.health=true
+persist.vendor.battery.health.optimise=true
+persist.vendor.extreme.mode=true
+persist.vendor.battery.erp=true
+persist.vendor.tracking.dfs=true
+persist.vendor.doublentc=1
+persist.vendor.low.cutoff=true
+persist.vendor.hightemp.notice=true
+persist.vendor.night.charge=true
+persist.vendor.smart.battMntor.V2=true
+persist.vendor.region.charger=default
+
 # Display
 ro.vendor.display.RemapBrightness.MaxRemapSilkybrightness=16379
 ro.vendor.display.RemapBrightness.MaxTolerancefac=1.01
@@ -38,10 +53,15 @@ ro.vendor.pq.disp_game_HDR_support=true
 ro.vendor.sre.enable=false
 sys.displayfeature_hidl=false
 vendor.displayfeature.entry.enable=true
+ro.vendor.mi_sf.hdr_enable_flatmode=true
+ro.vendor.mtk.pq.aidl=true
+ro.vendor.xiaomi.bl.poll=true
 
 # Xiaomi touch features
 persist.vendor.touchfeature.gameturbotool.version=v4
 ro.vendor.touch.touchscheduler.enable=true
 
-# SKUs
-import /odm/etc/goya_${ro.boot.ptcountrycode}.prop
+# SKU
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+import /odm/etc/rodin_${ro.boot.ptcountrycode}_build.prop
+import /odm/etc/${ro.boot.product.hardware.sku}_${ro.boot.hwversion}.prop

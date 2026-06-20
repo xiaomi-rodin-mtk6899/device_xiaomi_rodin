@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Type of a sensor that provides a low-power estimate of the desired display
+         brightness, suitable to listen to while the device is asleep (e.g. during
+         always-on display) -->
+    <string name="doze_brightness_sensor_type" translatable="false">xiaomi.sensor.aod</string>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
+    <integer name="config_keyguardMaxRefreshRate">60</integer>
+
+    <string name="wifi_tether_configure_ssid_default" translatable="false">POCO X7 Pro</string>
+
+    <!-- Override value to use for proximity sensor.  -->
+    <string name="proximity_sensor_type" translatable="false">xiaomi.sensor.oem_pocket</string>
+
+    <!-- If using proximity_sensor_type, specifies a threshold value to distinguish near and
+         far break points. A sensor value less than this is considered "near". -->
+    <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">5</item>
+    
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+</resources>

@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libpowermode-ext-goya",
+    name: "libpowermode-ext-rodin",
     defaults: [
         "android.hardware.power-ndk_shared",
     ],

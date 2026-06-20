@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_goya.mk
+    $(LOCAL_DIR)/lineage_rodin.mk

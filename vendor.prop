@@ -2,6 +2,9 @@
 ro.vendor.aee.convert64=1
 
 # Audio
+AUDIO_FEATURE_SEPARATE_RCV_SPK_CALL_TX=true
+AUDIO_CAMERA_GAIN=true
+AUDIO_FEATURE_REVERSE_MIC_DIRECTION_SUPPORT=true
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=2
 audio.deep_buffer.media=true
@@ -52,6 +55,8 @@ vendor.streamin.pcm.dump=0
 # AVF
 avf.remote_attestation.enabled=0
 hypervisor.memory_reclaim.supported=true
+ro.boot.hypervisor.version=GenieZone
+ro.boot.hypervisor.vm.supported=1
 
 # Bluetooth
 ro.bluetooth.a2dp_offload.supported=true
@@ -67,17 +72,21 @@ ro.oem_unlock_supported=1
 
 # Camera
 camera.disable_zsl_mode=1
-persist.vendor.camera.mialgo.tracegroups=31
+ro.camerax.extensions.enabled=true
+ro.vendor.camera.directfdyuv.support=1
+ro.vendor.camera3.zsl.project=400
+ro.vendor.camera.insensorzoom.support=0
+ro.vendor.camera.isp.support.colorspace=0
 persist.vendor.camera3.pipeline.bufnum.base.imgo=3
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
 persist.vendor.camera3.pipeline.bufnum.base.rrzo=3
 persist.vendor.camera3.pipeline.bufnum.base.rsso=4
-persist.vendor.camera3.pipeline.bufnum.min.high_ram.fdyuv=20
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.fdyuv=5
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=6
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.lcso=7
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.rsso=6
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.rrzo=5
-persist.vendor.camera3.pipeline.bufnum.min.low_ram.fdyuv=20
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.fdyuv=5
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=5
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=5
@@ -86,8 +95,14 @@ persist.vendor.mifaced.fastlaunch=1
 ro.camera.disableHeicUltraHDR=true
 ro.camerax.extensions.enabled=true
 ro.usb.uvc.enabled=false
+ro.vendor.dynamiccamera.ability_level=2
 ro.vendor.afbc.enable=3
-ro.vendor.camera.directfdyuv.support=1
+ro.vendor.hdr10plus.enable=1
+ro.vendor.mtk_camera_app_version=3
+ro.vendor.mtk_video_hevc_enc_support=1
+vendor.camera.mdp.cz.enable=1
+vendor.camera.mdp.dre.enable=1
+vendor.mtk.camera.app.fd.video=1
 ro.vendor.camera3.zsl.default=260
 ro.vendor.jpeg_decode_sw_opt=2
 ro.vendor.mtk_cam_security_support=1
@@ -140,8 +155,10 @@ drm.service.enabled=true
 
 # Fingerprint
 ro.hardware.fp.fod=true
+persist.vendor.sys.fp.expolevel=0x88
 persist.vendor.fingerprint.type=udfps_optical
-persist.vendor.fingerprint.sensor_location=640|2518|105
+persist.vendor.fingerprint.sensor_location=610|2437|108
+ro.vendor.sensors.xiaomi.udfps=true
 
 # FRP
 ro.frp.pst=/dev/block/by-name/frp
@@ -150,8 +167,9 @@ ro.frp.pst=/dev/block/by-name/frp
 persist.vendor.connsys.fm_chipid=connac2x
 
 # GNSS
-ro.vendor.mtk_log_hide_gps=0
+ro.vendor.mtk_log_hide_gps=1
 vendor.agps.submarine.mode=0
+ro.vendor.gps.chrdev=gps_drv_dl_v051
 
 # Graphics
 debug.hwui.initialize_gl_always=1
@@ -159,50 +177,50 @@ graphics.gpu.profiler.support=true
 ro.hardware.egl=mali
 ro.hardware.vulkan=mali
 ro.opengles.version=196610
-ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.framebuffer_target=false
 ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.hal_format=0x4
 ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.recordable=false
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.framebuffer_target=false
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.hal_format=0x3
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.recordable=false
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_yuv_special.framebuffer_target=false
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_yuv_special.hal_format=0x23
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.framebuffer_target=false
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.hal_format=0x2
-ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.recordable=false
-ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.framebuffer_target=false
+ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.framebuffer_target=false
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.hal_format=0x1
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.recordable=true
-ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.framebuffer_target=false
+ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.framebuffer_target=false
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.hal_format=0x2
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.recordable=false
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.framebuffer_target=false
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.hal_format=0x3
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.recordable=false
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.framebuffer_target=false
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_yuv_special.hal_format=0x23
+ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_yuv_special.framebuffer_target=false
 ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.hal_format=0x2b
 ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.recordable=false
-ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.framebuffer_target=false
+ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.framebuffer_target=false
 ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.hal_format=0x16
 ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.recordable=false
+ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.framebuffer_target=false
 ro.vendor.arm.egl.configs.yuyv.hal_format=0x202
 ro.vendor.arm.egl.configs.yuyv.recordable=true
 ro.vendor.arm.egl.configs.nv12.hal_format=0x200
 ro.vendor.arm.egl.configs.nv12.recordable=true
-ro.vendor.arm.egl.configs.nv16.hal_format=0x10
-ro.vendor.arm.egl.configs.nv16.recordable=true
 ro.vendor.arm.egl.configs.nv21.hal_format=0x201
 ro.vendor.arm.egl.configs.nv21.recordable=true
-ro.vendor.arm.egl.configs.p010.hal_format=0x204
-ro.vendor.arm.egl.configs.p010.recordable=true
-ro.vendor.arm.egl.configs.p210.hal_format=0x205
-ro.vendor.arm.egl.configs.p210.recordable=true
-ro.vendor.arm.egl.configs.q410.hal_format=0x20a
-ro.vendor.arm.egl.configs.q410.recordable=true
-ro.vendor.arm.egl.configs.y0l2.hal_format=0x203
-ro.vendor.arm.egl.configs.y0l2.recordable=true
-ro.vendor.arm.egl.configs.y410.hal_format=0x207
-ro.vendor.arm.egl.configs.y410.recordable=true
-ro.vendor.arm.egl.configs.y210.hal_format=0x206
-ro.vendor.arm.egl.configs.y210.recordable=true
+ro.vendor.arm.egl.configs.nv16.hal_format=0x10
+ro.vendor.arm.egl.configs.nv16.recordable=true
 ro.vendor.arm.egl.configs.yuv420.hal_format=0x208
 ro.vendor.arm.egl.configs.yuv420.recordable=true
 ro.vendor.arm.egl.configs.yvu420.hal_format=0x20e
 ro.vendor.arm.egl.configs.yvu420.recordable=true
+ro.vendor.arm.egl.configs.y410.hal_format=0x207
+ro.vendor.arm.egl.configs.y410.recordable=true
+ro.vendor.arm.egl.configs.y210.hal_format=0x206
+ro.vendor.arm.egl.configs.y210.recordable=true
+ro.vendor.arm.egl.configs.y0l2.hal_format=0x203
+ro.vendor.arm.egl.configs.y0l2.recordable=true
+ro.vendor.arm.egl.configs.p210.hal_format=0x205
+ro.vendor.arm.egl.configs.p210.recordable=true
+ro.vendor.arm.egl.configs.p010.hal_format=0x204
+ro.vendor.arm.egl.configs.p010.recordable=true
+ro.vendor.arm.egl.configs.q410.hal_format=0x20a
+ro.vendor.arm.egl.configs.q410.recordable=true
 ro.vendor.arm.gralloc.no_afbc_usage_flags=0x200000000000000
 ro.vendor.arm.gralloc.no_afbc_usage_mask=0x1200000000000000
 ro.vendor.arm.gralloc.force_back_buffer_usage_flags=0x40000000000000
@@ -316,8 +334,8 @@ ro.vendor.pq.mtk_video_transition=0
 
 # Platform
 ro.vendor.mediatek.platform=MT6899
-ro.vendor.mediatek.version.branch=alps-mp-v0.mp1.tc8sp4
-ro.vendor.mediatek.version.release=alps-mp-v0.mp1.tc8sp4-V1
+ro.vendor.mediatek.version.branch=alps-mp-v0.mp1.tc8sp2
+ro.vendor.mediatek.version.release=alps-mp-v0.mp1.tc8sp2-V1
 ro.vendor.mgk_name=mgk_64_k66
 
 # Radio
@@ -386,7 +404,12 @@ ro.vendor.mtk.sensor.support=yes
 ro.vendor.sensors.xiaomi.udfps=true
 
 # TEE
+ro.vendor.mtk_microtrust_tee_support=1
 ro.vendor.mtk_mitee_support=1
+ro.vendor.mtk_tee_gp_support=1
+
+# Touchfeature
+ro.vendor.touchfeature.type=247
 
 # USB
 vendor.usb.controller=11201000.usb0

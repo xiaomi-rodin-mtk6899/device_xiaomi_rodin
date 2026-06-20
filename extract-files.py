@@ -27,7 +27,7 @@ from extract_utils.utils import (
 )
 
 namespace_imports = [
-    'device/xiaomi/goya',
+    'device/xiaomi/rodin',
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
     'hardware/xiaomi',
@@ -109,7 +109,7 @@ blob_fixups: blob_fixups_user_type = {
         'odm/lib64/camera/plugins/capture/com.xiaomi.plugin.gainmap.so',
         'odm/lib64/camera/plugins/capture/com.xiaomi.plugin.jpegrAggr.so',
     ): blob_fixup()
-        .replace_needed('libultrahdr.so', 'libultrahdr-v35.so'),
+        .replace_needed('libultrahdr.so', 'libultrahdr_rodin.so'),
     (
         'odm/lib64/libAncHumanPreviewBokeh.so',
         'odm/lib64/libMiEmojiEffect.so',
@@ -158,8 +158,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('av-audio-types-aidl-ndk.so', 'av-audio-types-aidl-V3-ndk.so'),
     'system_ext/lib64/libimsma.so': blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
-    'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
-        .apktool_patch('blob-patches/ImsService'),
+    #'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
+    #    .apktool_patch('blob-patches/ImsService'),
     'vendor/bin/hw/android.hardware.audio.service-aidl.mediatek': blob_fixup()
         .replace_needed('android.media.audio.common.types-V5-ndk.so', 'android.media.audio.common.types-V3-ndk.so')
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
@@ -242,9 +242,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libmicamera_hal_core.so': blob_fixup()
         .call(blob_fixup_graphic_buffer_size)
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
-    'vendor/lib64/libultrahdr-v35.so': blob_fixup()
-        .replace_needed('libjpegdecoder.so', 'libjpegdecoder-v35.so')
-        .replace_needed('libjpegencoder.so', 'libjpegencoder-v35.so'),
+    'vendor/lib64/libultrahdr_rodin.so': blob_fixup()
+        .replace_needed('libjpegencoder.so', 'libjpegencoder_rodin.so')
+        .replace_needed('libjpegdecoder.so', 'libjpegdecoder_rodin.so'),
     'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     (
@@ -253,12 +253,15 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/vendor.xiaomi.hardware.camera.injection-service.so'
     ): blob_fixup()
         .replace_needed('android.hardware.camera.device-V1-ndk.so', 'android.hardware.camera.device-V2-ndk.so'),
+    'vendor/lib64/libcamera2ndk_vendor.so': blob_fixup()
+        .replace_needed('android.frameworks.cameraservice.service-V2-ndk.so', 'android.frameworks.cameraservice.service-V3-ndk.so')
+        .replace_needed('android.frameworks.cameraservice.device-V2-ndk', 'android.frameworks.cameraservice.device-V3-ndk'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'goya',
+    'rodin',
     'xiaomi',
-    add_firmware_proprietary_file=True,
+    #add_firmware_proprietary_file=True,
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,

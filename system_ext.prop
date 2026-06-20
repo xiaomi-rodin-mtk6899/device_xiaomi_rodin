@@ -8,6 +8,11 @@ ro.camera.sound.forced=0
 # Display
 sys.brightness.disable_gamma_conversion=true
 
+# IMS
+ro.vendor.mtk_cta_set=1
+persist.vendor.wfc.sys_wfc_support=1
+persist.vendor.mtk_rtt_support=1
+
 # Radio
 ro.fota.oem=Xiaomi
 ro.radio.device_type=1

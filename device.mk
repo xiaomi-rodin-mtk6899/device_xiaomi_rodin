@@ -156,7 +156,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2024-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
 # Dolby
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiDolby
 
 # DRM
@@ -210,7 +210,6 @@ PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.modem.rc \
     init.mt6899.rc \
-    init.mt6899.usb.rc \
     init.mtkgki.rc \
     init.pstore.rc \
     init.project.rc \
@@ -235,7 +234,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml
 
 PRODUCT_COPY_FILES += \
-    hardware/nxp/keymint/KM300/res/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_goya.xml
+    hardware/nxp/keymint/KM300/res/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_rodin.xml
 
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore_V3.xml
@@ -281,17 +280,17 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
 PRODUCT_PACKAGES += \
-    GoyaCarrierConfigOverlay \
-    GoyaFrameworksOverlay \
-    GoyaNfcOverlay \
-    GoyaSecureElementOverlay \
-    GoyaSettingsOverlay \
-    GoyaSettingsProviderOverlay \
-    GoyaSystemUIOverlay
+    RodinCarrierConfigOverlay \
+    RodinFrameworksOverlay \
+    RodinNfcOverlay \
+    RodinSecureElementOverlay \
+    RodinSettingsOverlay \
+    RodinSettingsProviderOverlay \
+    RodinSystemUIOverlay
 
 PRODUCT_PACKAGES += \
-    GoyaApertureOverlay \
-    GoyaLineageSettingsOverlay
+    RodinApertureOverlay \
+    RodinLineageSettingsOverlay
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
@@ -326,7 +325,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libpowermode-ext-goya)
+$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libpowermode-ext-rodin)
 
 # Properties
 include hardware/mediatek/configs/properties/vendor_logtag.mk
@@ -372,7 +371,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Security
-BOOT_SECURITY_PATCH := 2026-02-01
+BOOT_SECURITY_PATCH := 2026-05-01
 INIT_BOOT_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
@@ -458,4 +457,4 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/goya/goya-vendor.mk)
+$(call inherit-product, vendor/xiaomi/rodin/rodin-vendor.mk)
