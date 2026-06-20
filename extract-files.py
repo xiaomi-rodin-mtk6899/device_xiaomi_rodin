@@ -112,7 +112,9 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libultrahdr.so', 'libultrahdr_rodin.so'),
     (
         'odm/lib64/libAncHumanPreviewBokeh.so',
+        'odm/lib64/libarcsoft_beautyshot.so',
         'odm/lib64/libMiEmojiEffect.so',
+        'odm/lib64/libMiPhotoFilter.so',
         'odm/lib64/libMiVideoFilter.so',
         'odm/lib64/libTrueSight.so',
         'odm/lib64/libwa_widelens_undistort.so',
