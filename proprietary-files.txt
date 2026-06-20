@@ -2013,7 +2013,7 @@ vendor/data/model/x2_SR_dynamic.dla
 vendor/data/model/x3_SR_dynamic.dla
 vendor/lib64/mt6899/libmmagent.so;SYMLINK=vendor/lib64/libmmagent.so
 vendor/lib64/mt6899/libneuralnetworks_sl_driver_mtk_prebuilt.so;SYMLINK=vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
-vendor/lib64/mt6899/libneuron_adapter_mgvi.so;SYMLINK=vendor/lib64/libneuron_adapter_mgvi.so
+vendor/lib64/mt6899/libneuron_adapter_mgvi.so;SYMLINK=vendor/lib64/libneuron_adapter_mgvi.so;FIX_SONAME
 vendor/lib64/mt6899/libneuron_runtime.8.so;SYMLINK=vendor/lib64/libneuron_runtime.8.so
 vendor/lib64/mt6899/libneuron_runtime.so;SYMLINK=vendor/lib64/libneuron_runtime.so
 vendor/lib64/mt6899/libneuron_wrapper.so;SYMLINK=vendor/lib64/libneuron_wrapper.so
@@ -2301,7 +2301,7 @@ odm/etc/touch/gameturbotool.json
 odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature-service.xml
 odm/etc/init.panel_info.sh
 odm/lib64/libtensorflowlite_touch_c.so
-odm/lib64/libtouchreport_alg_fts.so
+odm/lib64/libtouchreport_alg_fts.so;FIX_SONAME
 odm/lib64/libtouchreport_alg_goodix.so
 odm/lib64/libtouchreport_hal.so
 odm/lib64/libtouchreport_sensor.so
