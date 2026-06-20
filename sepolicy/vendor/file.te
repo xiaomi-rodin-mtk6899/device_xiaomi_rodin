@@ -1,12 +1,6 @@
 # Audio
 type audio_socket, file_type;
 
-# batteryantiaging_cache_fil
-type batteryantiaging_cache_file, data_file_type, file_type;
-
-# batteryantiaging_cfg_file
-type batteryantiaging_cfg_file, file_type, vendor_file_type;
-
 # Diag
 type minidump_data_file, data_file_type, file_type;
 type vendor_bsp_data_log_file, data_file_type, file_type;
