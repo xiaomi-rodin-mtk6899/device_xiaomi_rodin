@@ -143,6 +143,8 @@ on post-fs-data
 # smart pa calibration
     chmod 0660 /dev/fs16xx
     chown system system /dev/fs16xx
+    chmod 0660 /dev/audioswitch
+    chown system system /dev/audioswitch
     mkdir /mnt/vendor/persist/factory/ 0755 system system
     mkdir /mnt/vendor/persist/factory/audio 0755 system system
     mkdir /data/vendor/cit/ 0755 system system
@@ -153,6 +155,11 @@ on post-fs-data
     chown system system /sys/class/fs16xx/fsm_f0
     chmod 0666 /sys/class/fs16xx/fsm_f0
 #END Audio_MIUIAudioFrame
+
+# MIUI ADD: Audio_MIUIAudioFrame
+# ultrasound get A+G reg
+    chmod 0664 /mnt/vendor/persist/sensors/acc_gyro_regdata.txt
+# END Audio_MIUIAudioFrame
 
 on init
     # Refer to http://source.android.com/devices/tech/storage/index.html

@@ -488,6 +488,13 @@ on post-fs-data
     chmod 0660 /sys/class/misc/adsp_1/log_enable
     chown root system /sys/class/misc/adsp_1/log_enable
 
+    chmod 0660 /dev/adsp
+    chown root media /dev/adsp
+    chmod 0440 /dev/adsp_0
+    chown system media /dev/adsp_0
+    chmod 0440 /dev/adsp_1
+    chown system media /dev/adsp_1
+
     # SSPM log
     chmod 0620 /sys/class/misc/sspm/sspm_mobile_log
     chown root system /sys/class/misc/sspm/sspm_mobile_log
@@ -911,6 +918,10 @@ on post-fs-data
     chmod 0664 sys/kernel/debug/rt-regmap/mt6360_pmic.5-001a/reg_addr
     chmod 0664 sys/kernel/debug/rt-regmap/mt6360_ldo.5-0064/reg_addr
     chmod 0664 sys/kernel/debug/rt-regmap/mt6360-4e/reg_addr
+
+    #widevine driver node
+    chmod 0660 /dev/drm_wv
+    chown media system /dev/drm_wv
 
     #Create dir for dolby
     mkdir /data/vendor/dolby 0770 media media
