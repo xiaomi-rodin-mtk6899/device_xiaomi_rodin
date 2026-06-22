@@ -272,6 +272,8 @@ blob_fixups: blob_fixups_user_type = {
             'onrestart restart audioserver',
             'onrestart restart audioserver\n    onrestart restart vendor.sensors-hal-multihal\n    onrestart restart citsensorservice'
         ),
+    'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
+        .replace_needed('libalsautils.so', 'libalsautils-mtk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

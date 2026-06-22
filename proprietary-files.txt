@@ -221,6 +221,7 @@ vendor/lib64/libvow_ap_test_vaca_nn.so
 vendor/lib64/libvow_comp_test.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so
+vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-mtk.so;FIX_SONAME
 
 # Audio firmware
 vendor/firmware/aw882xx_acf.bin
@@ -2126,8 +2127,8 @@ vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/libxiaomi_mtkril.rc
-vendor/etc/apdb/APDB_MT6899___W2533
-vendor/etc/apdb/APDB_MT6899___W2533_ENUM
+vendor/etc/apdb/APDB_MT6899___W2439
+vendor/etc/apdb/APDB_MT6899___W2439_ENUM
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_preference.xml
 vendor/etc/vendor-apns-conf.xml
@@ -2203,6 +2204,7 @@ odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
 vendor/etc/sensors/hals.conf
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
+vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6899.so
 vendor/lib64/libhfmanager.so
