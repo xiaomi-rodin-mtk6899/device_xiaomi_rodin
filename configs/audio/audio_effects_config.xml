@@ -122,7 +122,7 @@
         <stream type="voice_communication">
             <apply effect="acoustic_echo_canceler"/>
             <apply effect="noise_suppression"/>
-            <apply effect="automatic_gain_control_v2"/>
+            <!--<apply effect="automatic_gain_control_v2"/>-->
         </stream>
     </preprocess>
 </audio_effects_conf>

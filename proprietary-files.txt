@@ -2200,13 +2200,16 @@ odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
 odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
 odm/etc/sensors/lightSensorCali.json
 odm/etc/sensors/lightSensorConfig.json
+odm/etc/sensors/lightSensorConfigSec.json
+odm/etc/sensors/ois_params_data.json
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
 vendor/etc/sensors/hals.conf
 vendor/etc/elliptic_sensor.xml
+vendor/etc/sensor_diag.cfg
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/lib64/hw/sensors.elliptic@2.0.so
-vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6899.so
+vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6899.so;FIX_SONAME
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhfmanagerwrapper.so
 vendor/lib64/libhidparser.so
