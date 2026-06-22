@@ -2126,6 +2126,8 @@ vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/libxiaomi_mtkril.rc
+vendor/etc/apdb/APDB_MT6899___W2533
+vendor/etc/apdb/APDB_MT6899___W2533_ENUM
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_preference.xml
 vendor/etc/vendor-apns-conf.xml
