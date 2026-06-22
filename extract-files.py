@@ -105,6 +105,8 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
+        .add_needed('libui_shim.so'),
     (
         'odm/lib64/camera/plugins/capture/com.xiaomi.plugin.gainmap.so',
         'odm/lib64/camera/plugins/capture/com.xiaomi.plugin.jpegrAggr.so',
@@ -212,9 +214,12 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libprocessgroup_shim.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     (
-        'vendor/lib64/hw/hwcomposer.mtk_common.so',
         'vendor/lib64/mt6899/libmtkcam_taskmgr.so',
-        'vendor/lib64/libcameraopt.so'
+        'vendor/lib64/mt6899/libcam.hal3a.so',
+        'vendor/lib64/mt6899/libcam.hal3a.ctrl.so',
+        'vendor/lib64/libcameraopt.so',
+        'vendor/lib64/libmialgoengine.so',
+        'vendor/lib64/libcom.xiaomi.grallocutils.so',
     ): blob_fixup()
         .add_needed('libprocessgroup_shim.so'),
     (
@@ -235,7 +240,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libcodec2_fsr.so': blob_fixup()
         .call(blob_fixup_graphic_buffer_size)
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
-    'vendor/lib64/libcom.xiaomi.grallocutils.so': blob_fixup()
+    ( 
+     'vendor/lib64/libcom.xiaomi.grallocutils.so','vendor/lib64/libmialgoengine.so'): blob_fixup()
         .call(blob_fixup_graphic_buffer_size),
     'vendor/lib64/libkeymint_V3.so': blob_fixup()
         .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_keymint_utils_V3.so'),
@@ -243,6 +249,7 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libbase.so', 'libbase-v35.so'),
     'vendor/lib64/libmicamera_hal_core.so': blob_fixup()
         .call(blob_fixup_graphic_buffer_size)
+        .add_needed('libprocessgroup_shim.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/libultrahdr_rodin.so': blob_fixup()
         .replace_needed('libjpegencoder.so', 'libjpegencoder_rodin.so')
@@ -258,6 +265,13 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libcamera2ndk_vendor.so': blob_fixup()
         .replace_needed('android.frameworks.cameraservice.service-V2-ndk.so', 'android.frameworks.cameraservice.service-V3-ndk.so')
         .replace_needed('android.frameworks.cameraservice.device-V2-ndk', 'android.frameworks.cameraservice.device-V3-ndk'),
+    'vendor/lib64/libdlbdsservice.so': blob_fixup()
+        .replace_needed("libstagefright_foundation.so", "libstagefright_foundation-v33.so"),
+    'vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc': blob_fixup()
+        .regex_replace(
+            'onrestart restart audioserver',
+            'onrestart restart audioserver\n    onrestart restart vendor.sensors-hal-multihal\n    onrestart restart citsensorservice'
+        ),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
