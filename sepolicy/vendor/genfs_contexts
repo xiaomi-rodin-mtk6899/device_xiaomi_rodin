@@ -12,6 +12,9 @@ genfscon sysfs /devices/platform/soc/11f01000.i2c/i2c-5/5-0034/11f01000.i2c:mt63
 # DisplayFeature
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0    u:object_r:vendor_sysfs_displayfeature:s0
 
+# Fingerprint
+genfscon sysfs /devices/virtual/touch/touch_dev/fod_press_status      u:object_r:vendor_fingerprint_sysfs:s0
+
 # Memory
 genfscon proc /mv    u:object_r:procfs_memory:s0
 
