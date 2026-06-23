@@ -49,7 +49,7 @@
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.0009</item>
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.002380662</item>
 
     <!-- Maximum screen brightness allowed by the power manager.
          -2 is invalid so setting will resort to int value specified above.
@@ -77,7 +77,7 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.0009</item>
+    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.4</item>
 
     <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
          For this time after the screen turns on, the Power Manager
@@ -531,7 +531,7 @@
           brightness modes but only the maximum brightness value obtainable in a sustainable manner.
           This array should be equal in size to config_screenBrightnessBacklight -->
      <array name="config_screenBrightnessNits">
-          <item>4.5</item>
+          <item>2.5</item>
           <item>1000</item>
      </array>
 
@@ -753,7 +753,7 @@
          If a non-zero value is set for config_defaultPeakRefreshRate, then
          config_defaultRefreshRate may be set to 0, in which case the value set for
          config_defaultPeakRefreshRate will act as the default frame rate. -->
-    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultRefreshRate">121</integer>
 
     <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
          the framework from using higher refresh rates, even if display modes with higher refresh
@@ -787,4 +787,6 @@
 
     <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
     <integer name="config_aodMaxRefreshRate">60</integer>
+
+    <bool name="config_dozeAfterScreenOff">true</bool>
 </resources>
