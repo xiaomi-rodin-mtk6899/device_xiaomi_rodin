@@ -1,3 +1,6 @@
+# batteryantiaging
+type hal_batteryantiaging_service, hal_service_type, protected_service, service_manager_type;
+
 # Dolby
 type hal_aidl_dms_service, protected_service, service_manager_type, hal_service_type;
 

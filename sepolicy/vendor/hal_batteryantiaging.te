@@ -1,0 +1,42 @@
+binder_call(hal_batteryantiaging_client, hal_batteryantiaging_server)
+allow hal_batteryantiaging_client hal_batteryantiaging_service:service_manager find;
+
+type hal_batteryantiaging_default, domain;
+
+typeattribute hal_batteryantiaging_default domain;
+typeattribute hal_batteryantiaging_default hal_batteryantiaging;
+typeattribute hal_batteryantiaging_default halclientdomain;
+typeattribute hal_batteryantiaging_default halserverdomain;
+
+binder_use(hal_batteryantiaging_default)
+get_prop(hal_batteryantiaging_default, vendor_batteryantiaging_prop)
+hal_client_domain(hal_batteryantiaging_default, hal_batteryantiaging)
+hal_server_domain(hal_batteryantiaging_default, hal_batteryantiaging)
+init_daemon_domain(hal_batteryantiaging_default)
+set_prop(hal_batteryantiaging_default, vendor_batteryantiaging_prop)
+allow hal_batteryantiaging_default batteryantiaging_cache_file:dir create_dir_perms;
+allow hal_batteryantiaging_default batteryantiaging_cache_file:file create_file_perms;
+allow hal_batteryantiaging_default batteryantiaging_cfg_file:dir r_dir_perms;
+allow hal_batteryantiaging_default batteryantiaging_cfg_file:file r_file_perms;
+allow hal_batteryantiaging_default kmsg_device:chr_file rw_file_perms;
+allow hal_batteryantiaging_default self:netlink_kobject_uevent_socket { read create bind getopt setopt };
+allow hal_batteryantiaging_default sysfs:dir r_dir_perms;
+allow hal_batteryantiaging_default sysfs:file rw_file_perms;
+allow hal_batteryantiaging_default sysfs_battery_supply:dir r_dir_perms;
+allow hal_batteryantiaging_default sysfs_battery_supply:file rw_file_perms;
+allow hal_batteryantiaging_default sysfs_battery_supply:lnk_file r_file_perms;
+allow hal_batteryantiaging_default sysfs_batteryinfo:dir r_dir_perms;
+allow hal_batteryantiaging_default sysfs_batteryinfo:file rw_file_perms;
+allow hal_batteryantiaging_default sysfs_batteryinfo:lnk_file r_file_perms;
+allow hal_batteryantiaging_default sysfs_power_supply:dir r_dir_perms;
+allow hal_batteryantiaging_default sysfs_power_supply:file rw_file_perms;
+allow hal_batteryantiaging_default sysfs_usb_supply:dir r_dir_perms;
+allow hal_batteryantiaging_default sysfs_usb_supply:file rw_file_perms;
+allow hal_batteryantiaging_default sysfs_usb_supply:lnk_file r_file_perms;
+allow hal_batteryantiaging_default vendor_data_file:dir create_dir_perms;
+allow hal_batteryantiaging_default vendor_data_file:file create_file_perms;
+
+type hal_batteryantiaging_default_exec, exec_type, file_type, vendor_file_type;
+
+add_service(hal_batteryantiaging_server, hal_batteryantiaging_service)
+binder_call(hal_batteryantiaging_server, hal_batteryantiaging_client)

@@ -1,3 +1,8 @@
+# batteryantiaging
+attribute hal_batteryantiaging;
+attribute hal_batteryantiaging_client;
+attribute hal_batteryantiaging_server;
+
 # Display
 attribute vendor_hal_displayfeature;
 attribute vendor_hal_displayfeature_client;
