@@ -154,7 +154,6 @@ ro.vendor.mtk.gpu.service=1
 drm.service.enabled=true
 
 # Fingerprint
-ro.hardware.fp.fod=true
 persist.vendor.sys.fp.expolevel=0x88
 persist.vendor.fingerprint.type=udfps_optical
 persist.vendor.fingerprint.sensor_location=610|2437|108

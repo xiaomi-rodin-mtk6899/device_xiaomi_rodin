@@ -1322,3 +1322,15 @@ on property:sys.boot_completed=1 && property:ro.build.type=user && property:ro.d
 
 on property:persist.sys.turbosched.enable.coreApp.optimizer=true
     write  /sys/module/metis/parameters/mi_fboost_enable 1
+
+service vendor.fingerprint-default /vendor/bin/hw/android.hardware.biometrics.fingerprint-service.xiaomi
+    override
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system input uhid
+    capabilities SYS_NICE
+    shutdown critical
+    socket fpsensor_socket stream 0777 system system
