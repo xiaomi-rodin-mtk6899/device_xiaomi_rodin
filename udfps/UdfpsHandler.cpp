@@ -4,12 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "UdfpsHandler.onyx"
+#define LOG_TAG "UdfpsHandler.Rodin"
 
 #include <aidl/android/hardware/biometrics/fingerprint/BnFingerprint.h>
 #include <android-base/logging.h>
 #include <android-base/unique_fd.h>
 
+#include <atomic>
 #include <poll.h>
 #include <sys/ioctl.h>
 #include <fstream>
@@ -115,7 +116,7 @@ touch_base touchDataPrimary = {
 
 }  // anonymous namespace
 
-class XiaomiOnyxUdfpsHandler : public UdfpsHandler {
+class XiaomiRodinUdfpsHandler : public UdfpsHandler {
   public:
     void init(fingerprint_device_t* device) {
         mDevice = device;
@@ -203,14 +204,13 @@ class XiaomiOnyxUdfpsHandler : public UdfpsHandler {
 
                 bool localHbmUiReady = value & LOCAL_HBM_UI_READY;
 
-                mDevice->extCmd(mDevice, COMMAND_NIT,
-                                localHbmUiReady ? PARAM_NIT_FOD : PARAM_NIT_NONE);
+                handleDisplayEvent(value);
             }
         }).detach();
     }
 
     void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
-        if (mAuthSuccess) return;
+        if (mAuthCompleted.load()) return; //atomic
         LOG(INFO) << __func__;
         // Ensure touchscreen is aware of the press state, ideally this is not needed
         setFingerDown(true);
@@ -262,11 +262,12 @@ class XiaomiOnyxUdfpsHandler : public UdfpsHandler {
     }
 
     void onAuthenticationSucceeded() {
-        mAuthSuccess = true;
-        onFingerUp();
+        mAuthCompleted.store(true);
+
         std::thread([this]() {
-            std::this_thread::sleep_for(std::chrono::milliseconds(500));
-            mAuthSuccess = false;
+            std::this_thread::sleep_for(std::chrono::milliseconds(300));
+            setFingerDown(false);
+            mAuthCompleted.store(false);
         }).detach();
     }
 
@@ -275,6 +276,7 @@ class XiaomiOnyxUdfpsHandler : public UdfpsHandler {
     android::base::unique_fd touch_fd_;
     android::base::unique_fd disp_fd_;
     bool mAuthSuccess = false;
+    std::atomic<bool> mAuthCompleted{false};
 
     void setFodStatus(int value) {
         ioctl(touch_fd_.get(), TOUCH_IOC_SELECT_TOUCH_ID, MI_DISP_PRIMARY);
@@ -293,10 +295,22 @@ class XiaomiOnyxUdfpsHandler : public UdfpsHandler {
         };
         ioctl(touch_fd_.get(), TOUCH_IOC_COMMON_DATA, &data);
     }
+
+    void handleDisplayEvent(int value) {
+        bool uiReady = value & LOCAL_HBM_UI_READY;
+        
+        if (uiReady && mAuthCompleted.load()) {
+            // If we're already authenticated, we ignore any late events from the driver
+            mDevice->extCmd(mDevice, COMMAND_NIT, PARAM_NIT_NONE);
+            return;
+        }
+
+        mDevice->extCmd(mDevice, COMMAND_NIT, uiReady ? PARAM_NIT_FOD : PARAM_NIT_NONE);
+    }
 };
 
 static UdfpsHandler* create() {
-    return new XiaomiOnyxUdfpsHandler();
+    return new XiaomiRodinUdfpsHandler();
 }
 
 static void destroy(UdfpsHandler* handler) {
