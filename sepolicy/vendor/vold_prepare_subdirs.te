@@ -1,0 +1,9 @@
+# vold_prepare_subdirs — create and relabel fingerprint dirs at boot
+allow vold_prepare_subdirs fingerprint_vendor_data_file:dir { create_dir_perms relabelto reparent rmdir };
+allow vold_prepare_subdirs fingerprint_vendor_data_file:file { getattr unlink };
+
+allow vold_prepare_subdirs vendor_fingerprint_data_file:dir { create_dir_perms relabelto reparent rmdir };
+allow vold_prepare_subdirs vendor_fingerprint_data_file:file { getattr unlink };
+
+allow vold_prepare_subdirs vendor_fingerprint_data_file_fpdump:dir { create_dir_perms relabelto reparent rmdir };
+allow vold_prepare_subdirs vendor_fingerprint_data_file_fpdump:file { getattr unlink };

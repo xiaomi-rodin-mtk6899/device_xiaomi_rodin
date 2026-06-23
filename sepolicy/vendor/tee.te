@@ -3,3 +3,4 @@ allow tee vendor_fingerprint_data_file_fpdump:file create_file_perms;
 
 rw_dir_file(tee, vendor_fingerprint_data_file)
 allow tee fingerprint_vendor_data_file:file { ioctl read write create getattr setattr lock append map unlink rename open };
+allow tee fingerprint_vendor_data_file:dir { ioctl read write getattr lock open add_name remove_name search };

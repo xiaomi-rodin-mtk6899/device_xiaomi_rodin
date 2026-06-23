@@ -15,6 +15,9 @@ vendor_public_prop(vendor_fingerprint_prop)
 # ID manager
 vendor_restricted_prop(vendor_idmanager_prop)
 
+#Mlipay
+vendor_public_prop(vendor_mlipay_prop)
+
 # MTD service
 vendor_restricted_prop(vendor_mtdservice_prop)
 
