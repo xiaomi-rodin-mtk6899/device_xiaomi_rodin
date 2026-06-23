@@ -2352,6 +2352,13 @@ vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
 vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
 vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 
+# TEE (mitee)
+odm/bin/tidad_mitee
+odm/etc/init/vendor.xiaomi.hardware.aidl.tidaservice-miteeservice.rc
+odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml
+odm/lib64/libtida_mitee.so
+vendor/lib64/vendor.xiaomi.hardware.aidl.tidaservice-V1-ndk.so
+
 # UltraHDR
 vendor/lib64/libjpegdecoder.so:vendor/lib64/libjpegdecoder_rodin.so;FIX_SONAME
 vendor/lib64/libjpegencoder.so:vendor/lib64/libjpegencoder_rodin.so;FIX_SONAME

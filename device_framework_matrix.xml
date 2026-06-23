@@ -51,4 +51,12 @@
       <instance>default</instance>
     </interface>
   </hal>
+  <hal format="aidl" optional="true">
+    <name>vendor.xiaomi.hardware.aidl.tidaservice</name>
+    <version>1</version>
+    <interface>
+      <name>ITidaService</name>
+      <instance>default</instance>
+    </interface>
+  </hal>
 </compatibility-matrix>
