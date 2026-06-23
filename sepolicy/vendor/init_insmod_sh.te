@@ -1,0 +1,1 @@
+allow init_insmod_sh init_insmod_sh:key write;

@@ -1,0 +1,2 @@
+allow init proc:file w_file_perms;
+allow init socket_device:sock_file create;
