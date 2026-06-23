@@ -1,5 +1,9 @@
 # Batterysecret
 persist.vendor.accelerate.charge    u:object_r:vendor_batterysecret_prop:s0
+persist.vendor.batterysecret.       u:object_r:vendor_batterysecret_prop:s0
+
+# batteryantiaging
+persist.vendor.batteryantiaging          u:object_r:vendor_batteryantiaging_prop:s0
 
 # Camera
 persist.vendor.camera.       u:object_r:vendor_mtk_camera_prop:s0
@@ -28,9 +32,15 @@ vendor.displayfeature.entry.enable                u:object_r:vendor_displayfeatu
 vendor.esim.state    u:object_r:vendor_esim_state_prop:s0
 
 # Fingerprint
-persist.vendor.sys.fp.     u:object_r:vendor_fingerprint_prop:s0
-ro.hardware.fp.            u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fpc. 	   u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.goodix. 	   u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.sys.fp. 	   u:object_r:vendor_fingerprint_prop:s0
+ro.hardware.fp. 		   u:object_r:vendor_fingerprint_prop:s0
+vendor.fps_hal. 		   u:object_r:vendor_fingerprint_prop:s0
 vendor.anc.fingerprint.    u:object_r:vendor_fingerprint_prop:s0
+vendor.dtool.              u:object_r:vendor_fingerprint_prop:s0
+vendor.panel.touch_vendor       u:object_r:vendor_fingerprint_prop:s0
+vendor.panel.display.           u:object_r:vendor_fingerprint_prop:s0
 
 # ID manager
 persist.vendor.sys.idmgr.    u:object_r:vendor_idmanager_prop:s0

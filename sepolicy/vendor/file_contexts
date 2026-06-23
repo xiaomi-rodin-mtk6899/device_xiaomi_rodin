@@ -31,12 +31,23 @@
 
 # Fingerprint
 /data/vendor/fpdump(/.*)?                                                    u:object_r:vendor_fingerprint_data_file_fpdump:s0
+/data/vendor/fingerprint(/.*)?                                               u:object_r:fingerprint_vendor_data_file:s0
+/data/vendor/jiiov(/.*)?                                                     u:object_r:fingerprint_vendor_data_file:s0
+/data/vendor/gf_data(/.*)?                                                   u:object_r:fingerprint_vendor_data_file:s0
+/data/vendor/fpc(/.*)?                                                       u:object_r:vendor_fingerprint_data_file:s0
+/data/vendor/goodix(/.*)?                                                    u:object_r:fingerprint_vendor_data_file:s0
 /dev/xiaomi-fp                                                               u:object_r:fingerprint_device:s0
+/dev/socket/fpsensor_socket                                                  u:object_r:fpsensor_socket:s0
+/mnt/vendor/persist/fingerprint(/.*)?                                        u:object_r:fingerprint_vendor_data_file:s0
+/mnt/vendor/persist/goodix(/.*)?                                             u:object_r:fingerprint_vendor_data_file:s0
+/mnt/vendor/persist/fpc(/.*)?                                                u:object_r:vendor_fingerprint_data_file:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi    u:object_r:hal_fingerprint_default_exec:s0
 
 # ID manager
 /odm/bin/idmanager    u:object_r:hal_idmanager_default_exec:s0
 
+# LED
+/sys/devices/platform/soc/11281000.i2c/i2c-11/11-0030/leds/aw21024_led(/.*)?      u:object_r:vendor_sysfs_led_file:s0
 # MIEV
 /dev/miev    u:object_r:miev_dev:s0
 
@@ -51,6 +62,7 @@
 /dev/block/by-name/countrycode(_[ab])?                                                            u:object_r:countrycode_block_device:s0
 
 # Sensors
+/data/vendor/cit(/.*)?                                                u:object_r:vendor_audio_data_file:s0
 /dev/elliptic0                                                        u:object_r:sensors_device:s0
 /odm/bin/hw/vendor\.xiaomi\.sensor\.citsensorservice\.aidl            u:object_r:hal_sensors_default_exec:s0
 /vendor/bin/hw/android\.hardware\.sensors-service\.xiaomi-multihal    u:object_r:hal_sensors_default_exec:s0
