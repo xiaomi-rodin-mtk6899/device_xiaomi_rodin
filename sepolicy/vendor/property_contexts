@@ -55,6 +55,12 @@ vendor.sys.feature_state                 u:object_r:vendor_mtdservice_prop:s0
 vendor.sys.rpmb_state                    u:object_r:vendor_mtdservice_prop:s0
 persist.vendor.sys.ese_attestation.status   u:object_r:vendor_mtdservice_prop:s0
 persist.vendor.sys.id.status                u:object_r:vendor_mtdservice_prop:s0
+persist.vendor.sys.pay.ifaa              u:object_r:vendor_mtdservice_prop:s0
+persist.vendor.sys.pay.fido              u:object_r:vendor_mtdservice_prop:s0
+persist.vendor.sys.pay.fido2             u:object_r:vendor_mtdservice_prop:s0
+persist.vendor.sys.pay.fido2pass         u:object_r:vendor_mtdservice_prop:s0
+persist.vendor.sys.pay.fidokey           u:object_r:vendor_mtdservice_prop:s0
+persist.vendor.sys.pay.fido2key          u:object_r:vendor_mtdservice_prop:s0
 
 # Radio
 ro.vendor.oem.      u:object_r:vendor_mtk_radio_prop:s0
