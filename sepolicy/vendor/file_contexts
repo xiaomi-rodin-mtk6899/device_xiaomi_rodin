@@ -22,6 +22,7 @@
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.displayfeature_aidl-service    u:object_r:vendor_hal_displayfeature_default_exec:s0
 /vendor/bin/displayfeature                                              u:object_r:vendor_displayfeature_exec:s0
 /dev/mi_display(/.*)?                                                   u:object_r:vendor_displayfeature_device:s0
+/dev/mi_display/disp_feature                                            u:object_r:vendor_displayfeature_device:s0
 /data/vendor/display(/.*)?                                              u:object_r:vendor_display_data_file:s0
 /mnt/vendor/persist/display(/.*)?                                       u:object_r:vendor_persist_display_file:s0
 
@@ -54,8 +55,13 @@
 # ID manager
 /odm/bin/idmanager    u:object_r:hal_idmanager_default_exec:s0
 
+# Keymint
+/(vendor|system/vendor)/bin/hw/android.hardware.identity-service.mitee@5.0                             u:object_r:hal_identity_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android.hardware.security.keymint@3.0-service.mitee                     u:object_r:hal_keymint_default_exec:s0
+
 # LED
 /sys/devices/platform/soc/11281000.i2c/i2c-11/11-0030/leds/aw21024_led(/.*)?      u:object_r:vendor_sysfs_led_file:s0
+
 # MIEV
 /dev/miev    u:object_r:miev_dev:s0
 
