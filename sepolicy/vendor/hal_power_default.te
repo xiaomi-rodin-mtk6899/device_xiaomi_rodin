@@ -5,3 +5,6 @@ allow hal_power_default hal_touchfeature_xiaomi_service:service_manager find;
 binder_call(hal_power_default, hal_touchfeature_xiaomi_default)
 
 allow hal_power_default sysfs:file rw_file_perms;
+
+#scaling freqs
+allow hal_power_default sysfs_xio_compute:file rw_file_perms;
