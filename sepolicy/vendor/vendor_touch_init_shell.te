@@ -1,0 +1,1 @@
+allow vendor_touch_init_shell vendor_fingerprint_prop:property_service set;

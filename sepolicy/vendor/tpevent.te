@@ -12,3 +12,4 @@ allow tpevent vendor_sysfs_touch:file rw_file_perms;
 allow tpevent touchfeature_device:chr_file rw_file_perms;
 allow tpevent touchfeature_device:file r_file_perms;
 allow tpevent tpevent_exec:file entrypoint;
+allow tpevent sysfs_touch_hostprocess:file  r_file_perms;

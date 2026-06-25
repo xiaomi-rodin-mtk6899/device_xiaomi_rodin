@@ -13,7 +13,8 @@ rw_dir_file(hal_fingerprint_default, vendor_fingerprint_data_file)
 allow hal_fingerprint_default vendor_displayfeature_device:dir r_dir_perms;
 allow hal_fingerprint_default vendor_displayfeature_device:chr_file rw_file_perms;
 allow hal_fingerprint_default vendor_fingerprint_sysfs:file rw_file_perms;
-allow hal_fingerprint_default vendor_panel_info_prop:file read;
+allow hal_fingerprint_default vendor_panel_info_prop:file { open read getattr map };
+allow hal_fingerprint_default vendor_panel_info_prop:dir search;
 allow hal_fingerprint_default vendor_sysfs_displayfeature:dir r_dir_perms;
 allow hal_fingerprint_default vendor_sysfs_displayfeature:file rw_file_perms;
 allow hal_fingerprint_default sysfs_leds:dir r_dir_perms;
@@ -21,3 +22,5 @@ allow hal_fingerprint_default sysfs_leds:file rw_file_perms;
 r_dir_file(hal_fingerprint_default, vendor_sysfs_touch)
 
 set_prop(hal_fingerprint_default, vendor_fingerprint_prop)
+
+allow hal_fingerprint_default vendor_default_prop:file { open read };
