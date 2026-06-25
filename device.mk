@@ -346,7 +346,7 @@ include hardware/mediatek/configs/properties/vendor_logtag.mk
 # Radio
 ENABLE_VENDOR_RIL_SERVICE := true
 
-$(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
+$(call inherit-product, hardware/xperience/compat/frameworks/compat.mk)
 $(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
 $(call inherit-product, vendor/mediatek/ims/ims.mk)
 
@@ -385,7 +385,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/xperience/interfaces/power-libperfmgr \
     hardware/mediatek \
     hardware/mediatek/libmtkperf_client \
     hardware/mediatek/wlan/wifi_hal \

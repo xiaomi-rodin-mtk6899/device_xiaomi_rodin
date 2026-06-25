@@ -6,14 +6,14 @@
 # Inherit from the custom device configuration.
 $(call inherit-product, device/xiaomi/rodin/device.mk)
 
-# Inherit from the LineageOS configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the XPerience configuration.
+$(call inherit-product, vendor/xperience/config/common.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rodin
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2412DPC0AG
-PRODUCT_NAME := lineage_rodin
+PRODUCT_NAME := xperience_rodin
 
 PRODUCT_BRAND_FOR_ATTESTATION := $(PRODUCT_BRAND)
 PRODUCT_DEVICE_FOR_ATTESTATION := $(PRODUCT_DEVICE)
@@ -31,3 +31,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=rodin_global \
     SystemDevice=rodin \
     SystemName=rodin_global
+
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+XPERIENCE_MAINTAINER := Kισżż
+XPERIENCE_BATTERY := 6000mah (TYP)
+XPERIENCE_DISPLAY := 1220*2712
+TARGET_BOOT_ANIMATION_SIZE := 1440

@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rodin.mk
+    $(LOCAL_DIR)/xperience_rodin.mk
