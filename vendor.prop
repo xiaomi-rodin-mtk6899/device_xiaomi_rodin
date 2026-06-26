@@ -269,10 +269,12 @@ ro.vendor.mtk_nn_quant_preferred=1
 ro.vendor.mtk_nn.option=A,B,C,D,E,F,G,Z
 
 # Picture Quality
+debug.mediatek.appgamepq_compress=1
 persist.vendor.sys.pq.disp.ccorr.silky.brightness=0
-persist.vendor.sys.pq.disp.gamma.silky.brightness=0
-persist.vendor.sys.pq.disp_gamma_silky_brightness_by_hwc=0
+persist.vendor.sys.pq.disp.gamma.silky.brightness=1
+persist.vendor.sys.pq.disp_gamma_silky_brightness_by_hwc=1
 persist.vendor.sys.pq.mtk_disp_clarity_support=0
+
 persist.vendor.sys.pq.oddmr_dbi_support=0
 ro.vendor.hdr10plus.enable=1
 ro.vendor.mml.mtk_mml_support=1
@@ -312,7 +314,7 @@ ro.vendor.pq.mtk_dre30_support=1
 ro.vendor.pq.mtk_ds_support=1
 ro.vendor.pq.mtk_hdr10_panel_dtmo_support=1
 ro.vendor.pq.mtk_hdr10_plus_recording_support=1
-ro.vendor.pq.mtk_hdr10p_panel_dtmo_support=1
+ro.vendor.pq.mtk_hdr10p_panel_dtmo_support=0
 ro.vendor.pq.mtk_hfg_support=0
 ro.vendor.pq.mtk_hlg_panel_dtmo_support=0
 ro.vendor.pq.mtk_hdrvivid_panel_dtmo_support=0
@@ -325,12 +327,13 @@ ro.vendor.pq.mtk_pq_interface_support=1
 ro.vendor.pq.mtk_pq_video_whitelist_support=0
 ro.vendor.pq.mtk_scltm_support=1
 ro.vendor.pq.mtk_sdr_panel_dtmo_support=0
-ro.vendor.pq.mtk_silky_brigtness_support=0
+ro.vendor.pq.mtk_silky_brigtness_support=2
 ro.vendor.pq.mtk_smart_bluelight_def_support=1
 ro.vendor.pq.mtk_smart_true_tone_support=1
 ro.vendor.pq.mtk_ultra_dimming_support=0
 ro.vendor.pq.mtk_ultra_resolution_support=1
 ro.vendor.pq.mtk_video_transition=0
+ro.vendor.pq.mtk_libaibld_name=libaibld.nn6.so
 
 # Platform
 ro.vendor.mediatek.platform=MT6899

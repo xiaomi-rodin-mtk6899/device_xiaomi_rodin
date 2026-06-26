@@ -7,3 +7,5 @@ rw_dir_file(hal_audio_default, sysfs_vibrator)
 allow hal_audio_default audio_socket:sock_file rw_file_perms;
 allow hal_audio_default hf_manager_device:chr_file rw_file_perms;
 set_prop(hal_audio_default, log_tag_prop)
+
+allow hal_audio_default vendor_mtk_bt_perf_prop:file r_file_perms;
