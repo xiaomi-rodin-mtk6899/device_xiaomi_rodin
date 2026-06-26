@@ -125,6 +125,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/camerax-vendor-extensions.xml
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.device.front_cam=20MP \
+    ro.device.rear_cam="Dual 50MP+8MP"
+
 # ConsumerIR
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
