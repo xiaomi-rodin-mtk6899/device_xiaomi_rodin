@@ -218,32 +218,6 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
 
     void onAcquired(int32_t result, int32_t vendorCode) override {
         LOG(INFO) << __func__ << " result: " << result << " vendorCode: " << vendorCode;
-        switch (static_cast<AcquiredInfo>(result)) {
-            case AcquiredInfo::GOOD:
-            case AcquiredInfo::PARTIAL:
-            case AcquiredInfo::INSUFFICIENT:
-            case AcquiredInfo::SENSOR_DIRTY:
-            case AcquiredInfo::TOO_SLOW:
-            case AcquiredInfo::TOO_FAST:
-            case AcquiredInfo::TOO_DARK:
-            case AcquiredInfo::TOO_BRIGHT:
-            case AcquiredInfo::IMMOBILE:
-            case AcquiredInfo::LIFT_TOO_SOON:
-                // These are transient acquisition errors — the sensor may retry,
-                // so we turn off HBM immediately without clearing mFodEnabled.
-                // If the finger is still down when vendorCode 21 fires again,
-                // updateHbm() will re-enable HBM automatically.
-                {
-                    struct disp_local_hbm_req req = {
-                        .base = displayBasePrimary,
-                        .local_hbm_value = LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP,
-                    };
-                    ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &req);
-                }
-                break;
-            default:
-                break;
-        }
 
         /* vendorCode
          * 21: waiting for finger (FOD UI ready)
@@ -284,7 +258,8 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
         LOG(INFO) << __func__;
         // Full reset — a failed attempt must go through vendorCode 21 again
         // before HBM can be re-enabled
-        resetFodState();
+        mAuthCompleted.store(false);
+        updateHbm();
     }
 
   private:
