@@ -1,7 +1,6 @@
 /*
- * Copyright (C) 2024 The LineageOS Project
- *
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  */
 
 #define LOG_TAG "UdfpsHandler.Rodin"
@@ -15,6 +14,7 @@
 #include <sys/ioctl.h>
 #include <fstream>
 #include <thread>
+#include <bitset>
 
 #include "mi_disp.h"
 
@@ -125,16 +125,18 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
         touch_fd_ = android::base::unique_fd(open(TOUCH_DEV_PATH, O_RDWR));
         disp_fd_ = android::base::unique_fd(open(DISP_FEATURE_PATH, O_RDWR));
 
-        // Thread to notify fingeprint hwmodule about fod presses
+        // Thread to notify fingerprint hwmodule about FOD press/release events.
+        // mFingerPressed is the single source of truth for physical finger state —
+        // only this thread writes to it, avoiding races with setFingerDown().
         std::thread([this]() {
-            int fd = open(FOD_PRESS_STATUS_PATH, O_RDONLY);
+            android::base::unique_fd fd(open(FOD_PRESS_STATUS_PATH, O_RDONLY));
             if (fd < 0) {
-                LOG(ERROR) << "failed to open " << FOD_PRESS_STATUS_PATH << " , err: " << fd;
+                LOG(ERROR) << "failed to open " << FOD_PRESS_STATUS_PATH << " , err: " << fd.get();
                 return;
             }
 
             struct pollfd fodPressStatusPoll = {
-                    .fd = fd,
+                    .fd = fd.get(),
                     .events = POLLERR | POLLPRI,
                     .revents = 0,
             };
@@ -146,32 +148,20 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
                     continue;
                 }
 
-                if (!mRunning.load()) break;
-
-                bool pressed = readBool(fd);
-
-                if (mDevice) {
-                    mDevice->extCmd(mDevice, COMMAND_FOD_PRESS_STATUS,
-                                    pressed ? PARAM_FOD_PRESSED : PARAM_FOD_RELEASED);
-                }
-
-                // Request HBM
-                struct disp_local_hbm_req displayLhbmRequest = {
-                        .base = displayBasePrimary,
-                        .local_hbm_value = pressed ? LHBM_TARGET_BRIGHTNESS_WHITE_1000NIT
-                                                   : LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP,
-                };
-                if (disp_fd_.get() >= 0) {
-                    ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &displayLhbmRequest);
-                }
+                bool pressed = readBool(fd.get());
+                mFingerPressed.store(pressed);
+                mDevice->extCmd(mDevice, COMMAND_FOD_PRESS_STATUS,
+                                pressed ? PARAM_FOD_PRESSED : PARAM_FOD_RELEASED);
+                // Reflect the new press state into HBM (only lights up if FOD UI is also active)
+                updateHbm();
             }
         }).detach();
 
-        // Thread to listen for fod ui changes
+        // Thread to listen for FOD UI events from the display driver
         std::thread([this]() {
             android::base::unique_fd fd(open(DISP_FEATURE_PATH, O_RDWR));
             if (fd < 0) {
-                LOG(ERROR) << "failed to open " << DISP_FEATURE_PATH << " , err: " << fd;
+                LOG(ERROR) << "failed to open " << DISP_FEATURE_PATH << " , err: " << fd.get();
                 return;
             }
 
@@ -198,9 +188,7 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
                     continue;
                 }
 
-                if (!mRunning.load()) break;
-
-                struct disp_event_resp* response = parseDispEvent(fd);
+                struct disp_event_resp* response = parseDispEvent(fd.get());
                 if (response == nullptr) {
                     continue;
                 }
@@ -210,24 +198,21 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
                     continue;
                 }
 
-                int value = response->data[0];
-                LOG(DEBUG) << "received data: " << std::bitset<8>(value);
-
-                handleDisplayEvent(value);
+                handleDisplayEvent(response->data[0]);
             }
         }).detach();
     }
 
-    void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) override {
+    void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
         if (mAuthCompleted.load()) return;
         LOG(INFO) << __func__;
-        // Ensure touchscreen is aware of the press state, ideally this is not needed
+        // Ensure touchscreen is aware of the press state; ideally not needed
         setFingerDown(true);
     }
 
     void onFingerUp() override {
         LOG(INFO) << __func__;
-        // Ensure touchscreen is aware of the press state, ideally this is not needed
+        // Ensure touchscreen is aware of the release state; ideally not needed
         setFingerDown(false);
     }
 
@@ -243,44 +228,51 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
             case AcquiredInfo::TOO_DARK:
             case AcquiredInfo::TOO_BRIGHT:
             case AcquiredInfo::IMMOBILE:
-            case AcquiredInfo::LIFT_TOO_SOON: {
-                struct disp_local_hbm_req displayLhbmRequest = {
+            case AcquiredInfo::LIFT_TOO_SOON:
+                // These are transient acquisition errors — the sensor may retry,
+                // so we turn off HBM immediately without clearing mFodEnabled.
+                // If the finger is still down when vendorCode 21 fires again,
+                // updateHbm() will re-enable HBM automatically.
+                {
+                    struct disp_local_hbm_req req = {
                         .base = displayBasePrimary,
                         .local_hbm_value = LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP,
                     };
-                    if (disp_fd_.get() >= 0) {
-                        ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &displayLhbmRequest);
+                    ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &req);
                 }
                 break;
-            }
             default:
                 break;
         }
 
         /* vendorCode
-         * 21: waiting for finger
+         * 21: waiting for finger (FOD UI ready)
          * 22: finger down
          * 23: finger up
          */
         if (vendorCode == 21) {
+            mFodEnabled.store(true);
             setFodStatus(FOD_STATUS_ON);
+            // If the finger is already physically pressed, light up HBM immediately
+            updateHbm();
         }
     }
     
     void cancel() override {
         LOG(INFO) << __func__;
-        // Detener hilos (usa un flag atómico y join si los hilos son joinables)
-        // Resetear estado de autenticación
-        mRunning.store(false);
-        mAuthCompleted.store(false);
-        setFodStatus(FOD_STATUS_OFF);
-        touch_fd_.reset();
-        disp_fd_.reset();
+        resetFodState();
     }
 
-    void onAuthenticationSucceeded() override {
+    void onAuthenticationSucceeded() {
+        LOG(INFO) << __func__;
         mAuthCompleted.store(true);
+        // Disable FOD UI and HBM immediately on success
+        mFodEnabled.store(false);
+        setFodStatus(FOD_STATUS_OFF);
+        updateHbm();
 
+        // Give the display a short window to render the success animation
+        // before releasing the finger down state
         std::thread([this]() {
             std::this_thread::sleep_for(std::chrono::milliseconds(300));
             setFingerDown(false);
@@ -288,12 +280,43 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
         }).detach();
     }
 
+    void onAuthenticationFailed() {
+        LOG(INFO) << __func__;
+        // Full reset — a failed attempt must go through vendorCode 21 again
+        // before HBM can be re-enabled
+        resetFodState();
+    }
+
   private:
     fingerprint_device_t* mDevice = nullptr;
     android::base::unique_fd touch_fd_;
     android::base::unique_fd disp_fd_;
-    std::atomic<bool> mRunning;
     std::atomic<bool> mAuthCompleted{false};
+    std::atomic<bool> mFodEnabled{false};    // True when the FOD UI overlay is active
+    std::atomic<bool> mFingerPressed{false}; // True when the finger is physically on the sensor
+                                             // Written only by the FOD press status thread
+
+    // Centralized HBM control — HBM is only active when both the FOD UI
+    // is visible AND the finger is physically pressing the sensor
+    void updateHbm() {
+        __u32 hbm_value = (mFodEnabled.load() && mFingerPressed.load())
+                            ? LHBM_TARGET_BRIGHTNESS_WHITE_1000NIT
+                            : LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP;
+        struct disp_local_hbm_req req = {
+            .base = displayBasePrimary,
+            .local_hbm_value = hbm_value,
+        };
+        ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &req);
+    }
+
+    // Resets all FOD state. Used by cancel() and onAuthenticationFailed()
+    // to ensure a clean slate before the next authentication attempt.
+    void resetFodState() {
+        mFodEnabled.store(false);
+        mAuthCompleted.store(false);
+        setFodStatus(FOD_STATUS_OFF);
+        updateHbm();
+    }
 
     void setFodStatus(int value) {
         if (touch_fd_.get() < 0) {
@@ -308,6 +331,9 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
         ioctl(touch_fd_.get(), TOUCH_IOC_COMMON_DATA, &data);
     }
 
+    // Notifies the touchscreen of finger press/release state.
+    // Does NOT write mFingerPressed — that is exclusively owned by the
+    // FOD press status polling thread to avoid races.
     void setFingerDown(bool pressed) {
         if (touch_fd_.get() < 0) {
             LOG(ERROR) << "touch_fd_ invalid";
@@ -323,13 +349,11 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
 
     void handleDisplayEvent(int value) {
         bool uiReady = value & LOCAL_HBM_UI_READY;
-        
+
         if (uiReady && mAuthCompleted.load()) {
-            // If we're already authenticated, we ignore any late events from the driver
-            if (mDevice) {
-                mDevice->extCmd(mDevice, COMMAND_NIT, PARAM_NIT_NONE);
-                return;
-            }
+            // Authentication already completed — ignore stale FOD UI events from the driver
+            mDevice->extCmd(mDevice, COMMAND_NIT, PARAM_NIT_NONE);
+            return;
         }
 
         if (mDevice) {
