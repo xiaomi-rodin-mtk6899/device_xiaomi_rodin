@@ -71,6 +71,11 @@ ro.vendor.radio.    u:object_r:vendor_mtk_radio_prop:s0
 
 # Sensors
 ro.vendor.sensors.xiaomi.udfps    u:object_r:vendor_mtk_sensor_prop:s0
+ro.vendor.sensors.xiaomi.    u:object_r:vendor_sensors_prop:s0
+persist.vendor.sensors.used.framebuffer  u:object_r:vendor_hal_citsensorservice_xiaomi_prop:s0
+
+# US proximity
+ro.vendor.audio.us.proximity    u:object_r:vendor_us_proximity_prop:s0 exact bool
 
 # Thermal
 vendor.sys.thermal.    u:object_r:vendor_thermal_prop:s0

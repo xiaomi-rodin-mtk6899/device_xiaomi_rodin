@@ -3,6 +3,11 @@ attribute hal_batteryantiaging;
 attribute hal_batteryantiaging_client;
 attribute hal_batteryantiaging_server;
 
+# CITSensorService
+attribute vendor_hal_citsensorservice_xiaomi;
+attribute vendor_hal_citsensorservice_xiaomi_client;
+attribute vendor_hal_citsensorservice_xiaomi_server;
+
 # Display
 attribute vendor_hal_displayfeature;
 attribute vendor_hal_displayfeature_client;
