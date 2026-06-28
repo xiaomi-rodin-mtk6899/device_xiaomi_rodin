@@ -5,7 +5,7 @@ vendor.xiaomi.hardware.mediaeventgatherservice.IMediaGather/default    u:object_
 vendor.xiaomi.hardware.batteryantiaging.IBatteryAntiAging/default                  u:object_r:hal_batteryantiaging_service:s0
 
 # Camera
-vendor.xiaomi.hardware.aidlbgservice.IBGService/default                    u:object_r:hal_camera_service:s0
+vendor.xiaomi.hardware.aidlbgservice.IBGService/default                    u:object_r:hal_aidlbgservice_service:s0
 vendor.xiaomi.hardware.camera.injection.ICameraInjectionService/default    u:object_r:hal_camera_service:s0
 vendor.xiaomi.hardware.camera.synthetic.IVirtualCameraRegistrar/default    u:object_r:hal_camera_service:s0
 vendor.xiaomi.hardware.postprocservice.IPostProcService/default            u:object_r:hal_camera_service:s0

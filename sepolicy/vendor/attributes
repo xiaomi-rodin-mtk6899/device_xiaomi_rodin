@@ -3,6 +3,11 @@ attribute hal_batteryantiaging;
 attribute hal_batteryantiaging_client;
 attribute hal_batteryantiaging_server;
 
+# Camera
+attribute hal_aidlbgservice;
+attribute hal_aidlbgservice_client;
+attribute hal_aidlbgservice_server;
+
 # CITSensorService
 attribute vendor_hal_citsensorservice_xiaomi;
 attribute vendor_hal_citsensorservice_xiaomi_client;
@@ -42,3 +47,4 @@ attribute hal_mtdservice_server;
 attribute hal_touchfeature_xiaomi;
 attribute hal_touchfeature_xiaomi_client;
 attribute hal_touchfeature_xiaomi_server;
+
