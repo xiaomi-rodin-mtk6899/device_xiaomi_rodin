@@ -1,1 +1,0 @@
-allow tee system_userdir_file:dir { search };
