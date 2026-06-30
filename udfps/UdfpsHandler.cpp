@@ -118,9 +118,7 @@ touch_base touchDataPrimary = {
 
 class XiaomiRodinUdfpsHandler : public UdfpsHandler {
   public:
-    XiaomiRodinUdfpsHandler() : mRunning(true) {}
-
-    void init(fingerprint_device_t* device) override {
+    void init(fingerprint_device_t* device) {
         mDevice = device;
         touch_fd_ = android::base::unique_fd(open(TOUCH_DEV_PATH, O_RDWR));
         disp_fd_ = android::base::unique_fd(open(DISP_FEATURE_PATH, O_RDWR));
@@ -141,7 +139,7 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
                     .revents = 0,
             };
 
-            while (mRunning.load()) {
+            while (true) {
                 int rc = poll(&fodPressStatusPoll, 1, -1);
                 if (rc < 0) {
                     LOG(ERROR) << "failed to poll " << FOD_PRESS_STATUS_PATH << ", err: " << rc;
@@ -181,7 +179,7 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
                     .revents = 0,
             };
 
-            while (mRunning.load()) {
+            while (true) {
                 int rc = poll(&dispEventPoll, 1, -1);
                 if (rc < 0) {
                     LOG(ERROR) << "failed to poll " << DISP_FEATURE_PATH << ", err: " << rc;
@@ -210,13 +208,13 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
         setFingerDown(true);
     }
 
-    void onFingerUp() override {
+    void onFingerUp() {
         LOG(INFO) << __func__;
         // Ensure touchscreen is aware of the release state; ideally not needed
         setFingerDown(false);
     }
 
-    void onAcquired(int32_t result, int32_t vendorCode) override {
+    void onAcquired(int32_t result, int32_t vendorCode) {
         LOG(INFO) << __func__ << " result: " << result << " vendorCode: " << vendorCode;
 
         /* vendorCode
@@ -231,8 +229,8 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
             updateHbm();
         }
     }
-    
-    void cancel() override {
+
+    void cancel() {
         LOG(INFO) << __func__;
         resetFodState();
     }
@@ -263,7 +261,7 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
     }
 
   private:
-    fingerprint_device_t* mDevice = nullptr;
+    fingerprint_device_t* mDevice;
     android::base::unique_fd touch_fd_;
     android::base::unique_fd disp_fd_;
     std::atomic<bool> mAuthCompleted{false};
@@ -294,14 +292,10 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
     }
 
     void setFodStatus(int value) {
-        if (touch_fd_.get() < 0) {
-            LOG(ERROR) << "touch_fd_ invalid";
-            return;
-        }
         ioctl(touch_fd_.get(), TOUCH_IOC_SELECT_TOUCH_ID, MI_DISP_PRIMARY);
         touch_base data = {
-                    .mode = Touch_Fod_Enable,
-                    .data_buf = {value},
+            .mode = Touch_Fod_Enable,
+            .data_buf = {value},
         };
         ioctl(touch_fd_.get(), TOUCH_IOC_COMMON_DATA, &data);
     }
@@ -310,14 +304,10 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
     // Does NOT write mFingerPressed — that is exclusively owned by the
     // FOD press status polling thread to avoid races.
     void setFingerDown(bool pressed) {
-        if (touch_fd_.get() < 0) {
-            LOG(ERROR) << "touch_fd_ invalid";
-            return;
-        }
         ioctl(touch_fd_.get(), TOUCH_IOC_SELECT_TOUCH_ID, MI_DISP_PRIMARY);
         touch_base data = {
-                    .mode = THP_FOD_DOWNUP_CTL,
-                    .data_buf = {pressed ? 1 : 0},
+            .mode = THP_FOD_DOWNUP_CTL,
+            .data_buf = {pressed ? 1 : 0},
         };
         ioctl(touch_fd_.get(), TOUCH_IOC_COMMON_DATA, &data);
     }
@@ -331,9 +321,7 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
             return;
         }
 
-        if (mDevice) {
-            mDevice->extCmd(mDevice, COMMAND_NIT, uiReady ? PARAM_NIT_FOD : PARAM_NIT_NONE);
-        }
+        mDevice->extCmd(mDevice, COMMAND_NIT, uiReady ? PARAM_NIT_FOD : PARAM_NIT_NONE);
     }
 };
 
