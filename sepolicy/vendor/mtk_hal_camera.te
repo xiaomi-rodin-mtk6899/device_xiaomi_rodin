@@ -3,6 +3,7 @@ binder_call(system_app, mtk_hal_camera)
 allow mtk_hal_camera proc_pressure_mem:file rw_file_perms;
 allow mtk_hal_camera procfs_memory:file r_file_perms;
 
+r_dir_file(mtk_hal_camera, camera_persist_file)
 allow mtk_hal_camera persist_data_file:lnk_file r_file_perms;
 allow mtk_hal_camera sysfs_therm:file rw_file_perms;
 allow mtk_hal_camera vendor_data_file:dir create_dir_perms;
@@ -10,10 +11,16 @@ allow mtk_hal_camera vendor_data_file:file create_file_perms;
 allow mtk_hal_camera vendor_default_prop:file read;
 allow mtk_hal_camera camera_config_prop:file read;
 r_dir_file(mtk_hal_camera, persist_data_file)
-r_dir_file(mtk_hal_camera, sysfs_therm)
+rw_dir_file(mtk_hal_camera, sysfs_therm)
+r_dir_file(mtk_hal_camera, vendor_bin_crossbuild_file)
 
 # Memecam wb_avail_buf
 allow mtk_hal_camera sysfs:file r_file_perms;
 allow mtk_hal_camera hal_aidlbgservice_service:service_manager find;
 # silence W PreviewAlgoFwkT: type=1400 audit(0.0:1067): avc:  denied  { read } for  name="u:object_r:default_prop:s0" dev="tmpfs"
 dontaudit mtk_hal_camera default_prop:file { read write };
+allow mtk_hal_camera system_data_file:dir { search };
+# Allow only AlgoFwkThd8 memfd:gralloc_shared_memory
+allowxperm mtk_hal_camera hal_graphics_allocator_default_tmpfs:file ioctl { 0x6201 };
+allow mtk_hal_camera vendor_camera_data_file:dir { create rw_dir_perms };
+allow mtk_hal_camera vendor_camera_data_file:file create_file_perms;

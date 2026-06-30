@@ -1,0 +1,11 @@
+type hal_misys_vendor_default, domain;
+type hal_misys_vendor_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_misys_vendor_default)
+
+binder_call(hal_misys_vendor, platform_app)
+
+allow hal_misys_vendor_default mnt_vendor_file:dir rw_dir_perms;
+allow hal_misys_vendor_default mnt_vendor_file:file rw_file_perms;
+allow hal_misys_vendor_default property_socket:sock_file write;
+allow hal_misys_vendor_default vendor_default_prop:file r_file_perms;
