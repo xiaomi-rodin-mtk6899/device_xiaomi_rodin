@@ -7,5 +7,3 @@ init_daemon_domain(hal_misys_vendor_default)
 allow hal_misys_vendor_default mnt_vendor_file:dir rw_dir_perms;
 allow hal_misys_vendor_default mnt_vendor_file:file rw_file_perms;
 allow hal_misys_vendor_default property_socket:sock_file write;
-allow hal_misys_vendor_default vendor_default_prop:file r_file_perms;
-allow hal_misys_vendor_default hal_misys_vendor_service:service_manager { add };
