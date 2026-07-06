@@ -14,15 +14,15 @@
     <dimen name="status_bar_height_portrait">@dimen/status_bar_height_default</dimen>
 
     <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">156px</dimen>
+    <dimen name="rounded_corner_radius">96px</dimen>
 
     <!-- Radius of the software rounded corners at the top of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">156px</dimen>
+    <dimen name="rounded_corner_radius_top">96px</dimen>
 
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">156px</dimen>
+    <dimen name="rounded_corner_radius_bottom">96px</dimen>
 
     <!-- Default paddings for content around the corners. -->
     <dimen name="rounded_corner_content_padding">14dp</dimen>
