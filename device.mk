@@ -135,6 +135,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.device.front_cam=20MP \
     ro.device.rear_cam="50MP+8MP"
 
+# Chipinfo
+PRODUCT_PACKAGES += \
+    chipinfo
+
 # ConsumerIR
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
