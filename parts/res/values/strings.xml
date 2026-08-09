@@ -8,17 +8,88 @@
 
     <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
     <string name="xiaomi_parts_title">Xiaomi Parts</string>
-    <string name="xiaomi_parts_summary">Display, Thermal &amp; Touch</string>
+    <string name="xiaomi_parts_summary">Display, Performance &amp; System</string>
     <string name="xiaomi_parts_category_diagnostics">Diagnostics</string>
 
     <!-- ── HomeScreen category headers ─────────────────────── -->
     <string name="display_category">Display</string>
     <string name="performance_category">Performance</string>
+    <string name="system_category">System</string>
 
     <!-- ── Common UI ───────────────────────────────────────── -->
     <string name="dismiss">Dismiss</string>
     <string name="cancel">Cancel</string>
     <string name="navigate_up">Navigate up</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Battery status</string>
+    <string name="battery_status_summary">Health, charging and live metrics</string>
+    <string name="battery_live_section">Battery</string>
+    <string name="battery_wear_section">Health &amp; wear</string>
+    <string name="battery_status_charging">Charging</string>
+    <string name="battery_status_discharging">Discharging</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Not charging</string>
+    <string name="battery_status_unknown">Unknown</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheated</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_failure">Failure</string>
+    <string name="battery_status">Status</string>
+    <string name="battery_health">Health</string>
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_current_now">Current now</string>
+    <string name="battery_power">Power draw</string>
+    <string name="battery_charge_counter">Charge counter</string>
+    <string name="battery_technology">Technology</string>
+    <string name="battery_plug_type">Power source</string>
+    <string name="battery_cycle_count">Cycle count</string>
+    <string name="battery_state_of_health">State of health</string>
+    <string name="battery_first_usage">First used</string>
+    <string name="battery_manufactured">Manufactured</string>
+    <string name="battery_max_charge_current">Max charge current</string>
+    <string name="battery_max_charge_voltage">Max charge voltage</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Wireless</string>
+    <string name="battery_plug_dock">Dock</string>
+    <string name="battery_plug_none">Battery</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Performance monitor</string>
+    <string name="performance_summary">CPU load and live metrics</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperatures</string>
+    <string name="monitor_all_zones">All thermal zones</string>
+    <string name="monitor_cpu_load">CPU load</string>
+    <string name="monitor_load_average">Load average (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Uptime</string>
+    <string name="monitor_freq_range">Range %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">GPU frequency</string>
+    <string name="monitor_gpu_load">GPU load: %1$d%%</string>
+    <string name="monitor_unavailable">Monitoring data is not available on this device.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Memory manager</string>
+    <string name="memory_summary">RAM usage and running processes</string>
+    <string name="memory_used">Used</string>
+    <string name="memory_free_summary">%1$s free</string>
+    <string name="memory_total">Total</string>
+    <string name="memory_available">Available</string>
+    <string name="memory_cached">Cached</string>
+    <string name="memory_swap">Swap free</string>
+    <string name="memory_processes">Processes</string>
+    <string name="memory_no_processes">No process information available.</string>
+    <string name="memory_unavailable">Memory information is not available on this device.</string>
+    <string name="memory_low_warning">Low memory — consider closing background apps</string>
+    <string name="memory_stop">Stop process</string>
+    <string name="memory_process_stopped">Process stopped</string>
+
 
     <!-- ── Display Colours ────────────────────────────────── -->
     <string name="display_colours_title">Display colours</string>
@@ -96,6 +167,8 @@
     <string name="touch_boost_summary">Faster touch response</string>
     <string name="touch_boost_description">Raises the touch controller polling rate, reducing tap-to-response latency. May slightly increase power draw during active use.</string>
     <string name="touch_boost_failed">Touch boost failed to apply</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Fingerprint calibration</string>

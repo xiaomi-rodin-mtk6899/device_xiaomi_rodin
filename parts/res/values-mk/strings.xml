@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Екран, перформанси и систем</string>
+    <string name="xiaomi_parts_category_diagnostics">Дијагностика</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Екран</string>
+    <string name="performance_category">Перформанси</string>
+    <string name="system_category">Систем</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Затвори</string>
+    <string name="cancel">Откажи</string>
+    <string name="navigate_up">Нагоре</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Статус на батеријата</string>
+    <string name="battery_status_summary">Здравје, полнење и податоци во живо</string>
+    <string name="battery_live_section">Батерија</string>
+    <string name="battery_wear_section">Здравје и абеље</string>
+    <string name="battery_status_charging">Се полни</string>
+    <string name="battery_status_discharging">Се празни</string>
+    <string name="battery_status_full">Полна</string>
+    <string name="battery_status_not_charging">Не се полни</string>
+    <string name="battery_status_unknown">Непознато</string>
+    <string name="battery_health_good">Добро</string>
+    <string name="battery_health_overheat">Прегреана</string>
+    <string name="battery_health_dead">Мртва</string>
+    <string name="battery_health_over_voltage">Пренапон</string>
+    <string name="battery_health_cold">Ладна</string>
+    <string name="battery_health_failure">Дефект</string>
+    <string name="battery_status">Статус</string>
+    <string name="battery_health">Здравје</string>
+    <string name="battery_temperature">Температура</string>
+    <string name="battery_voltage">Напон</string>
+    <string name="battery_current_now">Тековна струја</string>
+    <string name="battery_power">Потрошена моќ</string>
+    <string name="battery_charge_counter">Бројач на полнење</string>
+    <string name="battery_technology">Технологија</string>
+    <string name="battery_plug_type">Извор на напојување</string>
+    <string name="battery_cycle_count">Број на циклуси</string>
+    <string name="battery_state_of_health">Состојба на здравјето</string>
+    <string name="battery_first_usage">Прва употреба</string>
+    <string name="battery_manufactured">Датум на производство</string>
+    <string name="battery_max_charge_current">Максимална струја на полнење</string>
+    <string name="battery_max_charge_voltage">Максимален напон на полнење</string>
+    <string name="battery_plug_ac">Мрежа</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Безжично</string>
+    <string name="battery_plug_dock">Док станица</string>
+    <string name="battery_plug_none">Батерија</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Следење на перформанси</string>
+    <string name="performance_summary">Оптовареност на процесорот и податоци во живо</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Температури</string>
+    <string name="monitor_all_zones">Сите топлински зони</string>
+    <string name="monitor_cpu_load">Оптовареност на CPU</string>
+    <string name="monitor_load_average">Просечна оптовареност (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Време на работа</string>
+    <string name="monitor_freq_range">Опсег %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">Фреквенција на графичката единица</string>
+    <string name="monitor_gpu_load">Оптовареност на GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Податоците за следење не се достапни на овој уред.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Управувач со меморија</string>
+    <string name="memory_summary">Користење на RAM и активни процеси</string>
+    <string name="memory_used">Искористено</string>
+    <string name="memory_free_summary">Слободно %1$s</string>
+    <string name="memory_total">Вкупно</string>
+    <string name="memory_available">Достапно</string>
+    <string name="memory_cached">Во кеш</string>
+    <string name="memory_swap">Слободен swap</string>
+    <string name="memory_processes">Процеси</string>
+    <string name="memory_no_processes">Нема информации за процесите.</string>
+    <string name="memory_unavailable">Информациите за меморијата не се достапни.</string>
+    <string name="memory_low_warning">Малку меморија — затворете ги апликациите во позадина</string>
+    <string name="memory_stop">Запри процес</string>
+    <string name="memory_process_stopped">Процесот е запрен</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Бои на екранот</string>
+    <string name="display_colours_summary">Режим на бои и температура</string>
+    <string name="display_colours_description">Прилагодете го режимот на бои за поприроден или пожив изглед.</string>
+    <string name="color_mode_vivid">Жив</string>
+    <string name="color_mode_saturated">Заситен</string>
+    <string name="color_mode_standard">Стандарден</string>
+    <string name="color_mode_original">Оригинален</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Не успеав применава на режимот на бои</string>
+    <string name="color_mode_vivid_summary">Засилени бои и контраст</string>
+    <string name="color_mode_saturated_summary">Богати бои за секојдневна употреба</string>
+    <string name="color_mode_standard_summary">Фабричка калибрација, верен приказ</string>
+    <string name="color_mode_original_summary">Оригинално широко подесување</string>
+    <string name="color_mode_p3_summary">Филмски простор на бои DCI-P3</string>
+    <string name="color_mode_srgb_summary">Прецизен sRGB за веб и дизајн</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Резолуција на екранот</string>
+    <string name="screen_resolution_home_summary">Промени резолуција на екранот</string>
+    <string name="screen_resolution_description">Поголема резолуција дава поостра слика, но троши повеќе батерија. Помалите резолуции штедат батерија.</string>
+    <string name="screen_resolution_failed">Не успеав применава на резолуцијата</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Најостра — поголема потрошувачка</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Стандардна)</string>
+    <string name="screen_resolution_1220p_summary">Стандардна резолуција на екранот</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Баланс помеѓу јасност и потрошувачка</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Најдолго траење на батеријата</string>
+    <string name="screen_resolution_dialog_title">Промена на резолуцијата?</string>
+    <string name="screen_resolution_restart_hint_body">По примената се препорачува рестартирање на System UI. Не менувајте големина на приказот во поставките.</string>
+    <string name="screen_resolution_dialog_confirm">Примени</string>
+    <string name="screen_resolution_dialog_cancel">Откажи</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Управување со температурата</string>
+    <string name="thermal_summary">Перформанси по апликација и температура</string>
+    <string name="thermal_enable_title">Топлински профили</string>
+    <string name="thermal_enable_summary">Применувај топлински профили по апликации и за време на полнење</string>
+    <string name="thermal_global_label">Глобален профил</string>
+    <string name="thermal_global_profile_title">Активен профил</string>
+    <string name="thermal_per_app_label">Профили по апликации</string>
+    <string name="thermal_select_profile">Избери профил</string>
+    <string name="thermal_apply">Примени</string>
+    <string name="thermal_no_apps">Уште нема апликации</string>
+    <string name="thermal_failed_toast">Топлинската операција не успеа</string>
+    <string name="thermal_charging_toast_connected">Профилот за полнење е активиран</string>
+    <string name="thermal_charging_toast_disconnected">Профилите за апликации се продолжани</string>
+    <string name="thermal_charging_banner_body">Апдикационите профили се паузирани за време на полнење</string>
+    <string name="thermal_reset_title">Ресетирај ги сите профили</string>
+    <string name="thermal_reset_summary">Врати ги профилите на стандардни вредности</string>
+    <string name="thermal_reset_confirm">Ресетирај</string>
+    <string name="thermal_reset_confirm_body">Сите индивидуални поставки ќе бидат избришани.</string>
+    <string name="thermal_add_app">Додај апликација</string>
+    <string name="thermal_search_apps">Барај апликации</string>
+    <string name="thermal_default">Стандардно</string>
+    <string name="thermal_nolimits">Без ограничувања</string>
+    <string name="thermal_navigation">Навигација</string>
+    <string name="thermal_dialer">Телефон</string>
+    <string name="thermal_video_call">Видео повик</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_video">Видео</string>
+    <string name="thermal_video_4k">Видео 4K</string>
+    <string name="thermal_gaming">Игри</string>
+    <string name="thermal_gaming_heavy">Игри (моќни)</string>
+    <string name="thermal_gaming_competitive">Игри (натпреварувачки)</string>
+    <string name="thermal_yuanshen">Yuan Shen</string>
+    <string name="thermal_charge">Полнење</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Забрзан одзвив на допирот</string>
+    <string name="touch_boost_summary">Побрз одзив на допир</string>
+    <string name="touch_boost_description">Ја зголемува фреквенцијата на читање на слојот за допир и ја намалува латенцијата.</string>
+    <string name="touch_boost_failed">Примена не успеа</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Калибрација на отпечатокот</string>
+    <string name="fingerprint_calibration_summary">Повторна калибрација на сензорот</string>
+    <string name="fingerprint_calibration_not_found">Калибрацијата не е достапна</string>
+    <string name="speaker_calibration_title">Калибрација на звучникот</string>
+    <string name="speaker_calibration_summary">CIT тест за самокалибрација на звучникот</string>
+    <string name="speaker_calibration_not_found">Калибрацијата на звучникот не е достапна</string>
+</resources>

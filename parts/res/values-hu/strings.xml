@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Kijelző, teljesítmény és rendszer</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnosztika</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Kijelző</string>
+    <string name="performance_category">Teljesítmény</string>
+    <string name="system_category">Rendszer</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Elvetés</string>
+    <string name="cancel">Mégse</string>
+    <string name="navigate_up">Felfelé navigálás</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Akkumulátor állapota</string>
+    <string name="battery_status_summary">Egészség, töltés és élő mérőszámok</string>
+    <string name="battery_live_section">Akkumulátor</string>
+    <string name="battery_wear_section">Állapot és kopás</string>
+    <string name="battery_status_charging">Töltés</string>
+    <string name="battery_status_discharging">Kisütés</string>
+    <string name="battery_status_full">Teli</string>
+    <string name="battery_status_not_charging">Nem tölt</string>
+    <string name="battery_status_unknown">Ismeretlen</string>
+    <string name="battery_health_good">Jó</string>
+    <string name="battery_health_overheat">Túlfűtött</string>
+    <string name="battery_health_dead">Meghalt</string>
+    <string name="battery_health_over_voltage">Túlfeszültség</string>
+    <string name="battery_health_cold">Hideg</string>
+    <string name="battery_health_failure">Hiba</string>
+    <string name="battery_status">Állapot</string>
+    <string name="battery_health">Egészség</string>
+    <string name="battery_temperature">Hőmérséklet</string>
+    <string name="battery_voltage">Feszültség</string>
+    <string name="battery_current_now">Pillanatnyi áram</string>
+    <string name="battery_power">Áramfelvétel</string>
+    <string name="battery_charge_counter">Töltésszámláló</string>
+    <string name="battery_technology">Technológia</string>
+    <string name="battery_plug_type">Áramforrás</string>
+    <string name="battery_cycle_count">Töltési ciklusok</string>
+    <string name="battery_state_of_health">Egészségi állapot</string>
+    <string name="battery_first_usage">Első használat</string>
+    <string name="battery_manufactured">Gyártás dátuma</string>
+    <string name="battery_max_charge_current">Maximális töltőáram</string>
+    <string name="battery_max_charge_voltage">Maximális töltőfeszültség</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Vezeték nélküli</string>
+    <string name="battery_plug_dock">Dokkoló</string>
+    <string name="battery_plug_none">Akkumulátor</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Teljesítményfigyelő</string>
+    <string name="performance_summary">CPU-terhelés és élő mérőszámok</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Hőmérsékletek</string>
+    <string name="monitor_all_zones">Minden hőzóna</string>
+    <string name="monitor_cpu_load">CPU-terhelés</string>
+    <string name="monitor_load_average">Átlagos terhelés (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Üzemidő</string>
+    <string name="monitor_freq_range">Tartomány: %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">GPU-frekvencia</string>
+    <string name="monitor_gpu_load">GPU-terhelés: %1$d%%</string>
+    <string name="monitor_unavailable">A megfigyelési adatok nem érhetők el ezen az eszközön.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Memóriakezelő</string>
+    <string name="memory_summary">RAM-használat és futó folyamatok</string>
+    <string name="memory_used">Használt</string>
+    <string name="memory_free_summary">%1$s szabad</string>
+    <string name="memory_total">Összesen</string>
+    <string name="memory_available">Elérhető</string>
+    <string name="memory_cached">Gyorsítótárazott</string>
+    <string name="memory_swap">Szabad swap</string>
+    <string name="memory_processes">Folyamatok</string>
+    <string name="memory_no_processes">Nincs folyamatinformáció.</string>
+    <string name="memory_unavailable">A memóriainformáció nem érhető el ezen az eszközön.</string>
+    <string name="memory_low_warning">Alacsony memória — fontolja meg a háttéralkalmazások bezárását</string>
+    <string name="memory_stop">Folyamat leállítása</string>
+    <string name="memory_process_stopped">Folyamat leállítva</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Kijelzőszínek</string>
+    <string name="display_colours_summary">Színmód és hőmérséklet</string>
+    <string name="display_colours_description">Állítsa be a kijelző színmódját és fehéregyensúlyát a természetesebb vagy élénkebb megjelenés érdekében.</string>
+    <string name="color_mode_vivid">Élénk</string>
+    <string name="color_mode_saturated">Telített</string>
+    <string name="color_mode_standard">Normál</string>
+    <string name="color_mode_original">Eredeti</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">A színmód alkalmazása nem sikerült</string>
+    <string name="color_mode_vivid_summary">Fokozott színek és kontraszt</string>
+    <string name="color_mode_saturated_summary">Gazdag színek mindennapi használatra</string>
+    <string name="color_mode_standard_summary">Gyári kalibrálás, élethű színek</string>
+    <string name="color_mode_original_summary">Eredeti széles színskálájú hangolás</string>
+    <string name="color_mode_p3_summary">DCI-P3 mozis színtér</string>
+    <string name="color_mode_srgb_summary">Pontos sRGB webhez és tervezéshez</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Képernyőfelbontás</string>
+    <string name="screen_resolution_home_summary">Képernyőfelbontás módosítása</string>
+    <string name="screen_resolution_description">A nagyobb felbontás élesebb képet ad, de több akkumulátort fogyaszt. A kisebb felbontások csökkentik az akkumulátorhasználatot.</string>
+    <string name="screen_resolution_failed">A felbontás alkalmazása nem sikerült</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">A legélesebb — nagyobb akkumulátorfogyasztás</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">A panel natív felbontása</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Kiegyensúlyozott élesség és akkumulátor</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Legjobb akkumulátor-üzemidő</string>
+    <string name="screen_resolution_dialog_title">Felbontás módosítása?</string>
+    <string name="screen_resolution_restart_hint_body">Az alkalmazás után javasolt a System UI újraindítása. Kerülje a képernyőméret módosítását az eszközkijelző beállításaiban, mert ütközhet vele.</string>
+    <string name="screen_resolution_dialog_confirm">Alkalmaz</string>
+    <string name="screen_resolution_dialog_cancel">Mégse</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Hőkezelés</string>
+    <string name="thermal_summary">Alkalmazásonkénti teljesítmény és hőmérséklet</string>
+    <string name="thermal_enable_title">Hőprofilok</string>
+    <string name="thermal_enable_summary">Hőprofilok alkalmazása alkalmazásonként és töltés közben</string>
+    <string name="thermal_global_label">Globális profil</string>
+    <string name="thermal_global_profile_title">Aktív profil</string>
+    <string name="thermal_per_app_label">Alkalmazásonkénti profilok</string>
+    <string name="thermal_select_profile">Profil kiválasztása</string>
+    <string name="thermal_apply">Alkalmaz</string>
+    <string name="thermal_no_apps">Még nincsenek beállított alkalmazások</string>
+    <string name="thermal_failed_toast">A hőkezelési művelet nem sikerült</string>
+    <string name="thermal_charging_toast_connected">A töltési profil aktív</string>
+    <string name="thermal_charging_toast_disconnected">Az alkalmazásonkénti profilok folytatódnak</string>
+    <string name="thermal_charging_banner_body">Az alkalmazásonkénti profilok szünetelnek töltés közben</string>
+    <string name="thermal_reset_title">Összes profil visszaállítása</string>
+    <string name="thermal_reset_summary">Az összes alkalmazásonkénti profil visszaállítása az alapértékekre</string>
+    <string name="thermal_reset_confirm">Visszaállítás</string>
+    <string name="thermal_reset_confirm_body">Minden alkalmazásonkénti hőbeállítás törlődik, és a profilok visszaállnak az automatikusan felismert alapértékekre.</string>
+    <string name="thermal_add_app">Alkalmazás hozzáadása</string>
+    <string name="thermal_search_apps">Alkalmazások keresése</string>
+    <string name="thermal_default">Alapértelmezett</string>
+    <string name="thermal_nolimits">Korlátlan</string>
+    <string name="thermal_navigation">Navigáció</string>
+    <string name="thermal_dialer">Telefonáló</string>
+    <string name="thermal_video_call">Videóhívás</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Videó</string>
+    <string name="thermal_video_4k">Videó 4K</string>
+    <string name="thermal_gaming">Játék</string>
+    <string name="thermal_gaming_heavy">Játék (nagy terhelés)</string>
+    <string name="thermal_gaming_competitive">Játék (verseny)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Töltés</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Érintésgyorsítás</string>
+    <string name="touch_boost_summary">Gyorsabb érintésválasz</string>
+    <string name="touch_boost_description">Megnöveli az érintésvezérlő lekérdezési frekvenciáját, csökkentve az érintés és a válasz közötti késleltetést. Aktív használat közben kismértékben növelheti az áramfelvételt.</string>
+    <string name="touch_boost_failed">Az érintésgyorsítás alkalmazása nem sikerült</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Ujjlenyomat-kalibráció</string>
+    <string name="fingerprint_calibration_summary">Az ujjlenyomat-érzékelő újrakalibrálása</string>
+    <string name="fingerprint_calibration_not_found">Az ujjlenyomat-kalibráció nem érhető el</string>
+    <string name="speaker_calibration_title">Hangszóró-kalibráció</string>
+    <string name="speaker_calibration_summary">CIT hangszóró önteszt kalibráció</string>
+    <string name="speaker_calibration_not_found">A hangszóró-kalibráció nem érhető el</string>
+</resources>

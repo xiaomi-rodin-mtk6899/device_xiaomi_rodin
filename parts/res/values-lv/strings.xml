@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Ekrāns, veiktspēja un sistēma</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnostika</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Ekrāns</string>
+    <string name="performance_category">Veiktspēja</string>
+    <string name="system_category">Sistēma</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Aizvērt</string>
+    <string name="cancel">Atcelt</string>
+    <string name="navigate_up">Pārvietoties uz augšu</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Akumulatora statuss</string>
+    <string name="battery_status_summary">Stāvoklis, uzlāde un tiešie rādītāji</string>
+    <string name="battery_live_section">Akumulators</string>
+    <string name="battery_wear_section">Stāvoklis un nolietojums</string>
+    <string name="battery_status_charging">Tiek uzlādēts</string>
+    <string name="battery_status_discharging">Tiek izlādēts</string>
+    <string name="battery_status_full">Pilns</string>
+    <string name="battery_status_not_charging">Netiek uzlādēts</string>
+    <string name="battery_status_unknown">Nezināms</string>
+    <string name="battery_health_good">Labs</string>
+    <string name="battery_health_overheat">Pārkarsis</string>
+    <string name="battery_health_dead">Beigts</string>
+    <string name="battery_health_over_voltage">Pārspriegums</string>
+    <string name="battery_health_cold">Auksts</string>
+    <string name="battery_health_failure">Bojājums</string>
+    <string name="battery_status">Statuss</string>
+    <string name="battery_health">Stāvoklis</string>
+    <string name="battery_temperature">Temperatūra</string>
+    <string name="battery_voltage">Spriegums</string>
+    <string name="battery_current_now">Pašreizējā strāva</string>
+    <string name="battery_power">Enerģijas patēriņš</string>
+    <string name="battery_charge_counter">Uzlādes skaitītājs</string>
+    <string name="battery_technology">Tehnoloģija</string>
+    <string name="battery_plug_type">Barošanas avots</string>
+    <string name="battery_cycle_count">Uzlādes cikli</string>
+    <string name="battery_state_of_health">Veselības stāvoklis</string>
+    <string name="battery_first_usage">Pirmā lietošana</string>
+    <string name="battery_manufactured">Ražošanas datums</string>
+    <string name="battery_max_charge_current">Maksimālā uzlādes strāva</string>
+    <string name="battery_max_charge_voltage">Maksimālais uzlādes spriegums</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Bezvadu</string>
+    <string name="battery_plug_dock">Doks</string>
+    <string name="battery_plug_none">Akumulators</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Veiktspējas monitors</string>
+    <string name="performance_summary">CPU slodze un tiešie rādītāji</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperatūras</string>
+    <string name="monitor_all_zones">Visas termālās zonas</string>
+    <string name="monitor_cpu_load">CPU slodze</string>
+    <string name="monitor_load_average">Vidējā slodze (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Darba laiks</string>
+    <string name="monitor_freq_range">Diapazons %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">GPU frekvence</string>
+    <string name="monitor_gpu_load">GPU slodze: %1$d%%</string>
+    <string name="monitor_unavailable">Šajā ierīcē uzraudzības dati nav pieejami.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Atmiņas pārvaldnieks</string>
+    <string name="memory_summary">RAM lietojums un darbojošies procesi</string>
+    <string name="memory_used">Izmantots</string>
+    <string name="memory_free_summary">Brīvi %1$s</string>
+    <string name="memory_total">Kopā</string>
+    <string name="memory_available">Pieejams</string>
+    <string name="memory_cached">Kešatmiņā</string>
+    <string name="memory_swap">Brīva mijmaiņas atmiņa</string>
+    <string name="memory_processes">Procesi</string>
+    <string name="memory_no_processes">Informācija par procesiem nav pieejama.</string>
+    <string name="memory_unavailable">Šajā ierīcē atmiņas informācija nav pieejama.</string>
+    <string name="memory_low_warning">Maz atmiņas — apsveriet fona lietotņu aizvēršanu</string>
+    <string name="memory_stop">Apturēt procesu</string>
+    <string name="memory_process_stopped">Process apturēts</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Ekrāna krāsas</string>
+    <string name="display_colours_summary">Krāsu režīms un temperatūra</string>
+    <string name="display_colours_description">Pielāgojiet ekrāna krāsu režīmu un baltās krāsas balansu, lai attēls izskatītos dabiskāk vai košāk.</string>
+    <string name="color_mode_vivid">Košs</string>
+    <string name="color_mode_saturated">Piesātināts</string>
+    <string name="color_mode_standard">Standarta</string>
+    <string name="color_mode_original">Oriģināls</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Neizdevās lietot krāsu režīmu</string>
+    <string name="color_mode_vivid_summary">Pastiprinātas krāsas un kontrasts</string>
+    <string name="color_mode_saturated_summary">Bagātīgas krāsas ikdienas lietošanai</string>
+    <string name="color_mode_standard_summary">Rūpnīcas kalibrēts, dzīvībai atbilstošs</string>
+    <string name="color_mode_original_summary">Oriģinālā plašā krāsu gamma</string>
+    <string name="color_mode_p3_summary">DCI-P3 kino krāsu telpa</string>
+    <string name="color_mode_srgb_summary">Precīzs sRGB tīmeklim un dizainam</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Ekrāna izšķirtspēja</string>
+    <string name="screen_resolution_home_summary">Mainīt ekrāna izšķirtspēju</string>
+    <string name="screen_resolution_description">Lielāka izšķirtspēja padara ekrānu asāku, bet patērē vairāk akumulatora. Mazākas izšķirtspējas samazina akumulatora patēriņu.</string>
+    <string name="screen_resolution_failed">Neizdevās lietot izšķirtspēju</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Asākais — lielāks akumulatora patēriņš</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Paneļa vietējā izšķirtspēja</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Līdzsvarots asums un akumulators</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Vislabākais akumulatora darbības laiks</string>
+    <string name="screen_resolution_dialog_title">Mainīt izšķirtspēju?</string>
+    <string name="screen_resolution_restart_hint_body">Pēc lietošanas ieteicams restartēt System UI. Izvairieties no ekrāna izmēra maiņas ierīces ekrāna iestatījumos — tas var radīt konfliktus.</string>
+    <string name="screen_resolution_dialog_confirm">Lietot</string>
+    <string name="screen_resolution_dialog_cancel">Atcelt</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Termālā pārvaldība</string>
+    <string name="thermal_summary">Veiktspēja un temperatūra katrai lietotnei</string>
+    <string name="thermal_enable_title">Termālie profili</string>
+    <string name="thermal_enable_summary">Lietot termālos profilus katrai lietotnei un uzlādes laikā</string>
+    <string name="thermal_global_label">Globālais profils</string>
+    <string name="thermal_global_profile_title">Aktīvais profils</string>
+    <string name="thermal_per_app_label">Profili lietotnēm</string>
+    <string name="thermal_select_profile">Atlasīt profilu</string>
+    <string name="thermal_apply">Lietot</string>
+    <string name="thermal_no_apps">Lietotnes vēl nav konfigurētas</string>
+    <string name="thermal_failed_toast">Termālā darbība neizdevās</string>
+    <string name="thermal_charging_toast_connected">Uzlādes profils aktīvs</string>
+    <string name="thermal_charging_toast_disconnected">Lietotņu profili atsākti</string>
+    <string name="thermal_charging_banner_body">Uzlādes laikā lietotņu profili tiek apturēti</string>
+    <string name="thermal_reset_title">Atiestatīt visus profilus</string>
+    <string name="thermal_reset_summary">Atjaunot visus lietotņu profilus uz noklusējuma vērtībām</string>
+    <string name="thermal_reset_confirm">Atiestatīt</string>
+    <string name="thermal_reset_confirm_body">Visi lietotņu termālie pārlabojumi tiks dzēsti, un profili atgriezīsies pie automātiski noteiktajiem noklusējuma iestatījumiem.</string>
+    <string name="thermal_add_app">Pievienot lietotni</string>
+    <string name="thermal_search_apps">Meklēt lietotnes</string>
+    <string name="thermal_default">Noklusējums</string>
+    <string name="thermal_nolimits">Bez ierobežojumiem</string>
+    <string name="thermal_navigation">Navigācija</string>
+    <string name="thermal_dialer">Zvanītājs</string>
+    <string name="thermal_video_call">Videozvans</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Spēles</string>
+    <string name="thermal_gaming_heavy">Spēles (liela slodze)</string>
+    <string name="thermal_gaming_competitive">Spēles (sacensību režīms)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Uzlāde</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Skārienvadības pastiprināšana</string>
+    <string name="touch_boost_summary">Ātrāka reakcija uz pieskārieniem</string>
+    <string name="touch_boost_description">Palielina skārienvadības aptaujas biežumu, samazinot latentumu starp pieskārienu un reakciju. Aktīvas lietošanas laikā var nedaudz palielināt enerģijas patēriņu.</string>
+    <string name="touch_boost_failed">Neizdevās lietot skārienvadības pastiprināšanu</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Pirkstu nospiedumu kalibrēšana</string>
+    <string name="fingerprint_calibration_summary">Pārkalibrēt pirkstu nospiedumu sensoru</string>
+    <string name="fingerprint_calibration_not_found">Pirkstu nospiedumu kalibrēšana nav pieejama</string>
+    <string name="speaker_calibration_title">Skaļruņa kalibrēšana</string>
+    <string name="speaker_calibration_summary">CIT skaļruņa pašpārbaudes kalibrēšana</string>
+    <string name="speaker_calibration_not_found">Skaļruņa kalibrēšana nav pieejama</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Skjerm, ytelse &amp; system</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnostikk</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Skjerm</string>
+    <string name="performance_category">Ytelse</string>
+    <string name="system_category">System</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Avvis</string>
+    <string name="cancel">Avbryt</string>
+    <string name="navigate_up">Naviger opp</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Batteristatus</string>
+    <string name="battery_status_summary">Helse, lading og sanntidsmålinger</string>
+    <string name="battery_live_section">Batteri</string>
+    <string name="battery_wear_section">Helse &amp; slitasje</string>
+    <string name="battery_status_charging">Lader</string>
+    <string name="battery_status_discharging">Lades ut</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Lader ikke</string>
+    <string name="battery_status_unknown">Ukjent</string>
+    <string name="battery_health_good">God</string>
+    <string name="battery_health_overheat">Overopphetet</string>
+    <string name="battery_health_dead">Død</string>
+    <string name="battery_health_over_voltage">Overspenning</string>
+    <string name="battery_health_cold">Kald</string>
+    <string name="battery_health_failure">Feil</string>
+    <string name="battery_status">Status</string>
+    <string name="battery_health">Helse</string>
+    <string name="battery_temperature">Temperatur</string>
+    <string name="battery_voltage">Spenning</string>
+    <string name="battery_current_now">Aktuell strøm</string>
+    <string name="battery_power">Effektforbruk</string>
+    <string name="battery_charge_counter">Ladeteller</string>
+    <string name="battery_technology">Teknologi</string>
+    <string name="battery_plug_type">Strømkilde</string>
+    <string name="battery_cycle_count">Antall ladesykluser</string>
+    <string name="battery_state_of_health">Helsetilstand</string>
+    <string name="battery_first_usage">Første bruk</string>
+    <string name="battery_manufactured">Produsert</string>
+    <string name="battery_max_charge_current">Maks. ladestrøm</string>
+    <string name="battery_max_charge_voltage">Maks. ladespenning</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Trådløs</string>
+    <string name="battery_plug_dock">Dokk</string>
+    <string name="battery_plug_none">Batteri</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Ytelsesmonitor</string>
+    <string name="performance_summary">CPU-belastning og sanntidsmålinger</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperaturer</string>
+    <string name="monitor_all_zones">Alle termiske soner</string>
+    <string name="monitor_cpu_load">CPU-belastning</string>
+    <string name="monitor_load_average">Snittbelastning (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Oppetid</string>
+    <string name="monitor_freq_range">Område %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">GPU-frekvens</string>
+    <string name="monitor_gpu_load">GPU-belastning: %1$d%%</string>
+    <string name="monitor_unavailable">Overvåkingsdata er ikke tilgjengelig på denne enheten.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Minneadministrasjon</string>
+    <string name="memory_summary">RAM-bruk og aktive prosesser</string>
+    <string name="memory_used">Brukt</string>
+    <string name="memory_free_summary">%1$s ledig</string>
+    <string name="memory_total">Totalt</string>
+    <string name="memory_available">Tilgjengelig</string>
+    <string name="memory_cached">Bufret</string>
+    <string name="memory_swap">Swap ledig</string>
+    <string name="memory_processes">Prosesser</string>
+    <string name="memory_no_processes">Ingen prosessinformasjon er tilgjengelig.</string>
+    <string name="memory_unavailable">Minneinformasjon er ikke tilgjengelig på denne enheten.</string>
+    <string name="memory_low_warning">Lite minne — vurder å lukke bakgrunnsapper</string>
+    <string name="memory_stop">Stopp prosessen</string>
+    <string name="memory_process_stopped">Prosessen stoppet</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Skjermfarger</string>
+    <string name="display_colours_summary">Fargemodus og temperatur</string>
+    <string name="display_colours_description">Juster fargemodus og hvitbalanse på skjermen for et mer naturlig eller livlig utseende.</string>
+    <string name="color_mode_vivid">Levende</string>
+    <string name="color_mode_saturated">Mettet</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_original">Original</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Kunne ikke bruke fargemodus</string>
+    <string name="color_mode_vivid_summary">Forsterkede farger og kontrast</string>
+    <string name="color_mode_saturated_summary">Rike farger for hverdagsbruk</string>
+    <string name="color_mode_standard_summary">Fabrikkalibrert, naturtro</string>
+    <string name="color_mode_original_summary">Original bred fargeramme</string>
+    <string name="color_mode_p3_summary">DCI-P3-fargerom for film</string>
+    <string name="color_mode_srgb_summary">Nøye sRGB for web og design</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Skjermoppløsning</string>
+    <string name="screen_resolution_home_summary">Endre skjermoppløsning</string>
+    <string name="screen_resolution_description">En høyere oppløsning gjør skjermen skarpere, men bruker mer batteri. Lavere oppløsninger reduserer batteribruken.</string>
+    <string name="screen_resolution_failed">Kunne ikke bruke oppløsningen</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Skarpest — høyere batteribruk</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Opprinnelig paneloppløsning</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Balansert skarphet og batteri</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Best batteritid</string>
+    <string name="screen_resolution_dialog_title">Endre oppløsning?</string>
+    <string name="screen_resolution_restart_hint_body">Etter anvendelse anbefales omstart av System UI. Unngå å endre skjermstørrelsen i enhetens visningsinnstillinger; det kan gi konflikter.</string>
+    <string name="screen_resolution_dialog_confirm">Bruk</string>
+    <string name="screen_resolution_dialog_cancel">Avbryt</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Termisk styring</string>
+    <string name="thermal_summary">Ytelse og temperatur per app</string>
+    <string name="thermal_enable_title">Termiske profiler</string>
+    <string name="thermal_enable_summary">Bruk termiske profiler per app og ved lading</string>
+    <string name="thermal_global_label">Global profil</string>
+    <string name="thermal_global_profile_title">Aktiv profil</string>
+    <string name="thermal_per_app_label">Profiler per app</string>
+    <string name="thermal_select_profile">Velg profil</string>
+    <string name="thermal_apply">Bruk</string>
+    <string name="thermal_no_apps">Ingen apper konfigurert ennå</string>
+    <string name="thermal_failed_toast">Termisk handling mislyktes</string>
+    <string name="thermal_charging_toast_connected">Ladeprofil aktiv</string>
+    <string name="thermal_charging_toast_disconnected">Per-app-profiler gjenopptatt</string>
+    <string name="thermal_charging_banner_body">Per-app-profiler er satt på pause mens det lader</string>
+    <string name="thermal_reset_title">Tilbakestill alle profiler</string>
+    <string name="thermal_reset_summary">Tilbakestill alle per-app-profiler til standard</string>
+    <string name="thermal_reset_confirm">Tilbakestill</string>
+    <string name="thermal_reset_confirm_body">Alle termiske overstyringer per app vil bli fjernet, og profilene går tilbake til de automatiske detekterte standardene.</string>
+    <string name="thermal_add_app">Legg til app</string>
+    <string name="thermal_search_apps">Søk i apper</string>
+    <string name="thermal_default">Standard</string>
+    <string name="thermal_nolimits">Ingen begrensninger</string>
+    <string name="thermal_navigation">Navigasjon</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_video_call">Videoanrop</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Spilling</string>
+    <string name="thermal_gaming_heavy">Spilling (tungt)</string>
+    <string name="thermal_gaming_competitive">Spilling (konkurranse)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Lading</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Touch-boost</string>
+    <string name="touch_boost_summary">Raskere touch-respo</string>
+    <string name="touch_boost_description">Øker pollingfrekvensen til touch-kontrolleren, noe som reduserer latansen fra berøring til respons. Kan øke strømforbruket under aktiv bruk.</string>
+    <string name="touch_boost_failed">Touch-boost kunne ikke brukes</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Fingeravtrykk-kalibrering</string>
+    <string name="fingerprint_calibration_summary">Kalibrere fingeravtrykkssensoren på nytt</string>
+    <string name="fingerprint_calibration_not_found">Fingeravtrykk-kalibrering er ikke tilgjengelig</string>
+    <string name="speaker_calibration_title">Høytalerkalibrering</string>
+    <string name="speaker_calibration_summary">CIT-selvkalibreringstest for høytalere</string>
+    <string name="speaker_calibration_not_found">Høytalerkalibrering er ikke tilgjengelig</string>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- ── About ─────────────────────────────────────────────── -->
+    <string name="app_name">Xiaomi Parts</string>
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Afișează, performanță și setările de sistem</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnosticare</string>
+    <string name="display_category">Afișare</string>
+    <string name="performance_category">Performanță</string>
+    <string name="system_category">Sistem</string>
+    <string name="dismiss">Închide</string>
+    <string name="cancel">Anulează</string>
+    <string name="navigate_up">Navighează în sus</string>
+
+    <!-- ── Battery ──────────────────────────────────────────── -->
+    <string name="battery_status_title">Stare baterie</string>
+    <string name="battery_status_summary">Vizualizați starea bateriei în timp real: nivel, sănătate și detalii de încărcare</string>
+    <string name="battery_live_section">Stare live</string>
+    <string name="battery_wear_section">Sănătate și uzură</string>
+    <string name="battery_status_charging">Se încarcă</string>
+    <string name="battery_status_discharging">Se descarcă</string>
+    <string name="battery_status_full">Încărcare completă</string>
+    <string name="battery_status_not_charging">Nu se încarcă</string>
+    <string name="battery_status_unknown">Necunoscut</string>
+    <string name="battery_health_good">Bună</string>
+    <string name="battery_health_overheat">Supraîncălzire</string>
+    <string name="battery_health_dead">Mortă</string>
+    <string name="battery_health_over_voltage">Supra-tensiune</string>
+    <string name="battery_health_cold">Înghețat</string>
+    <string name="battery_health_failure">Eroare</string>
+    <string name="battery_status">Stare</string>
+    <string name="battery_health">Sănătate</string>
+    <string name="battery_temperature">Temperatură</string>
+    <string name="battery_voltage">Tensiune</string>
+    <string name="battery_current_now">Curent acum</string>
+    <string name="battery_power">Putere</string>
+    <string name="battery_charge_counter">Contor de încărcare</string>
+    <string name="battery_technology">Tehnologie</string>
+    <string name="battery_plug_type">Tip de mufă</string>
+    <string name="battery_cycle_count">Număr de cicluri</string>
+    <string name="battery_state_of_health">Stare de sănătate</string>
+    <string name="battery_first_usage">Prima utilizare</string>
+    <string name="battery_manufactured">Data fabricației</string>
+    <string name="battery_max_charge_current">Curent max de încărcare</string>
+    <string name="battery_max_charge_voltage">Tensiune max de încărcare</string>
+
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Fără fir</string>
+    <string name="battery_plug_dock">Dock</string>
+    <string name="battery_plug_none">Fără</string>
+    <!-- ── Performance Monitor ──────────────────────────────── -->
+    <string name="performance_title">Monitor de performanță</string>
+    <string name="performance_summary">Monitorizează utilizarea procesorului, GPU-ului și temperatura sistemului</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperaturi</string>
+    <string name="monitor_all_zones">Toate zonele</string>
+    <string name="monitor_cpu_load">Încărcare CPU</string>
+    <string name="monitor_load_average">Sarcina medie (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Timp de rulare</string>
+    <string name="monitor_freq_range">Interval frecvență: %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">Frecvență GPU</string>
+    <string name="monitor_gpu_load">Încărcare GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Indisponibil</string>
+
+    <!-- ── Memory Manager ───────────────────────────────────── -->
+    <string name="memory_title">Manager memorie</string>
+    <string name="memory_summary">Gestionarea RAM și a proceselor.</string>
+    <string name="memory_used">Utilizat</string>
+    <string name="memory_free_summary">%1$s RAM liberă</string>
+    <string name="memory_total">Total</string>
+    <string name="memory_available">Disponibilă</string>
+    <string name="memory_cached">Cache</string>
+    <string name="memory_swap">Swap</string>
+    <string name="memory_processes">Procese</string>
+    <string name="memory_no_processes">Niciun proces activ.</string>
+    <string name="memory_unavailable">Vizualizarea proceselor nu este disponibilă.</string>
+    <string name="memory_low_warning">Memorie RAM scăzută</string>
+    <string name="memory_stop">Oprire</string>
+    <string name="memory_process_stopped">Proces oprit</string>
+    <!-- ── Display Colours ──────────────────────────────────── -->
+    <string name="display_colours_title">Culori afișaj</string>
+    <string name="display_colours_summary">Alege profilul de afișare a culorilor</string>
+    <string name="display_colours_description">Setarea afișajului de culori controlează aspectul ecranului prin alegerea unui profil de culoare în acord cu conținutul. Pentru conținut mobil, profilul „Vivid" este recomandat.</string>
+    <string name="color_mode_vivid">Intens</string>
+    <string name="color_mode_saturated">Satruat</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_original">Original</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Nu s-a putut aplica profilul de culori</string>
+    <string name="color_mode_vivid_summary">Culori vii, calibrate pentru conținutul gratuit</string>
+    <string name="color_mode_saturated_summary">Culori saturate, intensificate</string>
+    <string name="color_mode_standard_summary">Utilizează curba standard</string>
+    <string name="color_mode_original_summary">Versiunea inițială, nelmărită</string>
+    <string name="color_mode_p3_summary">Gamut wide, calibrat pentru conținut conform</string>
+    <string name="color_mode_srgb_summary">sRGB precis pentru web și design</string>
+    <!-- ── Screen Resolution ────────────────────────────────── -->
+    <string name="screen_resolution_title">Rezoluția ecranului</string>
+    <string name="screen_resolution_home_summary">Modifică rezoluția ecranului</string>
+    <string name="screen_resolution_description">Rezoluția mai mare face ecranul mai clar, dar consumă mai multă baterie. O rezoluție mai mică economisește energie și poate îmbunătăți performanța în jocuri.</string>
+    <string name="screen_resolution_failed">Nu s-a putut aplica rezoluția</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Cea mai clară — consumă mai multă baterie</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Rezoluția nativă a panoului</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Echilibru între claritate și baterie</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Bateria cea mai longevivă</string>
+    <string name="screen_resolution_dialog_title">Schimbă rezoluția?</string>
+    <string name="screen_resolution_restart_hint_body">După aplicare, repornirea System UI este recomandată. Evită modificarea dimensiunii ecranului în Setări afișare, deoarece aceasta poate cauza conflicte.</string>
+    <string name="screen_resolution_dialog_confirm">Aplică</string>
+    <string name="screen_resolution_dialog_cancel">Anulare</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Management termic</string>
+    <string name="thermal_summary">Performanță și temperatură pentru fiecare aplicație</string>
+    <string name="thermal_enable_title">Profile termice</string>
+    <string name="thermal_enable_summary">Aplică profile termice per aplicație și în timpul încărcării</string>
+    <string name="thermal_global_label">Profil global</string>
+    <string name="thermal_global_profile_title">Profil activ</string>
+    <string name="thermal_per_app_label">Profile per aplicație</string>
+    <string name="thermal_select_profile">Selectează profilul</string>
+    <string name="thermal_apply">Aplică</string>
+    <string name="thermal_no_apps">Nicio aplicație selectată încă</string>
+    <string name="thermal_failed_toast">Operația termică nu s-a putut finaliza</string>
+    <string name="thermal_charging_toast_connected">Profilul de încărcare este activ</string>
+    <string name="thermal_charging_toast_disconnected">Profilele per aplicație au fost reluata</string>
+    <string name="thermal_charging_banner_body">Profilele per aplicație sunt puse în pauză în timpul încărcării</string>
+    <string name="thermal_reset_title">Resetează toate</string>
+    <string name="thermal_reset_summary">Returnează toate profilurile la valorile implicite</string>
+    <string name="thermal_reset_confirm">Resetează toate</string>
+    <string name="thermal_reset_confirm_body">Toate profilurile vor fi resetate. Continui?</string>
+    <string name="thermal_add_app">Adaugă aplicație</string>
+    <string name="thermal_search_apps">Caută aplicații</string>
+    <string name="thermal_default">Implicit</string>
+    <string name="thermal_nolimits">Fără limite</string>
+    <string name="thermal_navigation">Navigație</string>
+    <string name="thermal_dialer">Apelare</string>
+    <string name="thermal_video_call">Apel video</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Jocuri</string>
+    <string name="thermal_gaming_heavy">Jocuri (intensive)</string>
+    <string name="thermal_gaming_competitive">Jocuri (competitiv)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Încărcare</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Touch Boost</string>
+    <string name="touch_boost_summary">Răspuns tactil mai rapid</string>
+    <string name="touch_boost_description">Crește frecvența de sondare a controlului tactil, reducând latența răspunsului. Consumă puțin mai multă energie în timpul utilizării active.</string>
+    <string name="touch_boost_failed">Touch Boost nu a putut fi activat</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Calibrare amprentă</string>
+    <string name="fingerprint_calibration_summary">Recalibrează senzorul de amprentă</string>
+    <string name="fingerprint_calibration_not_found">Senzorul de ampărentă nu a fost găsit</string>
+    <string name="speaker_calibration_title">Calibrare difuzor</string>
+    <string name="speaker_calibration_summary">Auto-calibrare difuzor prin CIT</string>
+    <string name="speaker_calibration_not_found">Difuzorul nu a fost găsit</string>
+</resources>

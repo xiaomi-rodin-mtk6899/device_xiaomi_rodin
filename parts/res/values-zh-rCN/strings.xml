@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">显示、性能与系统</string>
+    <string name="xiaomi_parts_category_diagnostics">诊断</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">显示</string>
+    <string name="performance_category">性能</string>
+    <string name="system_category">系统</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">关闭</string>
+    <string name="cancel">取消</string>
+    <string name="navigate_up">向上导航</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">电池状态</string>
+    <string name="battery_status_summary">健康度、充电状态和实时指标</string>
+    <string name="battery_live_section">电池</string>
+    <string name="battery_wear_section">健康与损耗</string>
+    <string name="battery_status_charging">充电中</string>
+    <string name="battery_status_discharging">放电中</string>
+    <string name="battery_status_full">已满</string>
+    <string name="battery_status_not_charging">未充电</string>
+    <string name="battery_status_unknown">未知</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">过热</string>
+    <string name="battery_health_dead">报废</string>
+    <string name="battery_health_over_voltage">电压过高</string>
+    <string name="battery_health_cold">过冷</string>
+    <string name="battery_health_failure">故障</string>
+    <string name="battery_status">状态</string>
+    <string name="battery_health">健康</string>
+    <string name="battery_temperature">温度</string>
+    <string name="battery_voltage">电压</string>
+    <string name="battery_current_now">当前电流</string>
+    <string name="battery_power">功耗</string>
+    <string name="battery_charge_counter">充电量</string>
+    <string name="battery_technology">技术</string>
+    <string name="battery_plug_type">电源</string>
+    <string name="battery_cycle_count">循环次数</string>
+    <string name="battery_state_of_health">健康度</string>
+    <string name="battery_first_usage">首次使用</string>
+    <string name="battery_manufactured">生产日期</string>
+    <string name="battery_max_charge_current">最大充电电流</string>
+    <string name="battery_max_charge_voltage">最大充电电压</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">无线</string>
+    <string name="battery_plug_dock">底座</string>
+    <string name="battery_plug_none">电池</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">性能监视器</string>
+    <string name="performance_summary">CPU 负载和实时指标</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">温度</string>
+    <string name="monitor_all_zones">所有散热区域</string>
+    <string name="monitor_cpu_load">CPU 负载</string>
+    <string name="monitor_load_average">平均负载 (1 · 5 · 15)</string>
+    <string name="monitor_uptime">运行时长</string>
+    <string name="monitor_freq_range">范围 %1$s – %2$s</string>
+    <string name="monitor_governor">处理器调速器: %1$s</string>
+    <string name="monitor_gpu_freq">GPU 频率</string>
+    <string name="monitor_gpu_load">GPU 负载: %1$d%%</string>
+    <string name="monitor_unavailable">此设备无法获取监控数据。</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">内存管理器</string>
+    <string name="memory_summary">RAM 使用情况和正在运行的进程</string>
+    <string name="memory_used">已用</string>
+    <string name="memory_free_summary">可用 %1$s</string>
+    <string name="memory_total">总计</string>
+    <string name="memory_available">可用</string>
+    <string name="memory_cached">已缓存</string>
+    <string name="memory_swap">可用交换空间</string>
+    <string name="memory_processes">进程</string>
+    <string name="memory_no_processes">暂无进程信息。</string>
+    <string name="memory_unavailable">此设备无法获取内存信息。</string>
+    <string name="memory_low_warning">内存不足 — 请考虑关闭后台应用</string>
+    <string name="memory_stop">停止进程</string>
+    <string name="memory_process_stopped">进程已停止</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">显示色彩</string>
+    <string name="display_colours_summary">色彩模式和色温</string>
+    <string name="display_colours_description">调整屏幕的色彩模式和白平衡，以获得更自然或更鲜艳的显示效果。</string>
+    <string name="color_mode_vivid">鲜艳</string>
+    <string name="color_mode_saturated">浓郁</string>
+    <string name="color_mode_standard">标准</string>
+    <string name="color_mode_original">原始</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">无法应用色彩模式</string>
+    <string name="color_mode_vivid_summary">色彩和对比度更强</string>
+    <string name="color_mode_saturated_summary">日常使用色彩更丰富</string>
+    <string name="color_mode_standard_summary">出厂校准，还原真实</string>
+    <string name="color_mode_original_summary">原始广色域调校</string>
+    <string name="color_mode_p3_summary">DCI-P3 影院色彩空间</string>
+    <string name="color_mode_srgb_summary">精准的 sRGB，适合网页和设计</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">屏幕分辨率</string>
+    <string name="screen_resolution_home_summary">更改屏幕分辨率</string>
+    <string name="screen_resolution_description">选择更高的分辨率可以让屏幕更清晰，但会消耗更多电量；较低的分辨率可以节省电量。</string>
+    <string name="screen_resolution_failed">无法应用分辨率</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">最清晰 — 功耗更高</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">面板原生分辨率</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">清晰度与功耗平衡</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">最省电</string>
+    <string name="screen_resolution_dialog_title">更改分辨率？</string>
+    <string name="screen_resolution_restart_hint_body">应用后建议重启 System UI。请避免在设备显示设置中更改显示大小，这可能会产生冲突。</string>
+    <string name="screen_resolution_dialog_confirm">应用</string>
+    <string name="screen_resolution_dialog_cancel">取消</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">温度管理</string>
+    <string name="thermal_summary">每个应用的性能和温度</string>
+    <string name="thermal_enable_title">热管理配置文件</string>
+    <string name="thermal_enable_summary">针对每个应用以及充电时应用热配置文件</string>
+    <string name="thermal_global_label">全局配置文件</string>
+    <string name="thermal_global_profile_title">生效的配置文件</string>
+    <string name="thermal_per_app_label">按应用的配置文件</string>
+    <string name="thermal_select_profile">选择配置文件</string>
+    <string name="thermal_apply">应用</string>
+    <string name="thermal_no_apps">尚未配置应用</string>
+    <string name="thermal_failed_toast">热管理操作失败</string>
+    <string name="thermal_charging_toast_connected">充电配置文件已生效</string>
+    <string name="thermal_charging_toast_disconnected">已恢复按应用的配置文件</string>
+    <string name="thermal_charging_banner_body">充电期间，按应用的配置文件会暂停</string>
+    <string name="thermal_reset_title">重置所有配置文件</string>
+    <string name="thermal_reset_summary">将所有按应用的配置文件恢复为默认值</string>
+    <string name="thermal_reset_confirm">重置</string>
+    <string name="thermal_reset_confirm_body">所有按应用的热管理覆盖将被清除，配置文件将恢复为自动检测到的默认值。</string>
+    <string name="thermal_add_app">添加应用</string>
+    <string name="thermal_search_apps">搜索应用</string>
+    <string name="thermal_default">默认</string>
+    <string name="thermal_nolimits">无限制</string>
+    <string name="thermal_navigation">导航</string>
+    <string name="thermal_dialer">拨号</string>
+    <string name="thermal_video_call">视频通话</string>
+    <string name="thermal_camera">相机</string>
+    <string name="thermal_video">视频</string>
+    <string name="thermal_video_4k">4K 视频</string>
+    <string name="thermal_gaming">游戏</string>
+    <string name="thermal_gaming_heavy">游戏 (重度)</string>
+    <string name="thermal_gaming_competitive">游戏 (竞技)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">充电</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">触控增强</string>
+    <string name="touch_boost_summary">更快的触控响应</string>
+    <string name="touch_boost_description">提高触控控制器的轮询速率，降低从触摸到响应的延迟。使用期间功耗可能会略有增加。</string>
+    <string name="touch_boost_failed">触控增强应用失败</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">指纹校准</string>
+    <string name="fingerprint_calibration_summary">重新校准指纹传感器</string>
+    <string name="fingerprint_calibration_not_found">指纹校准不可用</string>
+    <string name="speaker_calibration_title">扬声器校准</string>
+    <string name="speaker_calibration_summary">CIT 扬声器自校准测试</string>
+    <string name="speaker_calibration_not_found">扬声器校准不可用</string>
+</resources>

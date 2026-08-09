@@ -25,6 +25,13 @@
         -->
         <permission name="android.permission.BATTERY_STATS"/>
 
+        <!--
+             KILL_BACKGROUND_PROCESSES:
+               Required by the Memory manager (task manager) to stop
+               background processes via ActivityManager.killBackgroundProcesses.
+        -->
+        <permission name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
         <!-- ── Thermal ─────────────────────────────────────────────────── -->
         <!--
              PACKAGE_USAGE_STATS:

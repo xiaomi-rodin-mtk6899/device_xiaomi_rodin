@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Isibonisi, ukusebenza &amp; uhlelo</string>
+    <string name="xiaomi_parts_category_diagnostics">Ukuxilisa</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Isibonisi</string>
+    <string name="performance_category">Ukusebenza</string>
+    <string name="system_category">Uhlelo</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Vala</string>
+    <string name="cancel">Khansela</string>
+    <string name="navigate_up">Hamba ngenhla</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Isimo sebhethri</string>
+    <string name="battery_status_summary">Impilo, ukushaja nokukala zamanje</string>
+    <string name="battery_live_section">Bhethri</string>
+    <string name="battery_wear_section">Impilo &amp; ukuguga</string>
+    <string name="battery_status_charging">Iyashaja</string>
+    <string name="battery_status_discharging">Iyachithwa</string>
+    <string name="battery_status_full">Igcwele</string>
+    <string name="battery_status_not_charging">Ayishaji</string>
+    <string name="battery_status_unknown">Akungaziwa</string>
+    <string name="battery_health_good">Kuhle</string>
+    <string name="battery_health_overheat">Kushisa kakhulu</string>
+    <string name="battery_health_dead">Yonakalile</string>
+    <string name="battery_health_over_voltage">Ivolthi edlulele</string>
+    <string name="battery_health_cold">Kubanda</string>
+    <string name="battery_health_failure">Ukwehluleka</string>
+    <string name="battery_status">Isimo</string>
+    <string name="battery_health">Impilo</string>
+    <string name="battery_temperature">Izinga lokushisa</string>
+    <string name="battery_voltage">I-voltage</string>
+    <string name="battery_current_now">Ukugudluka kwamanje</string>
+    <string name="battery_power">Ukudla amandla</string>
+    <string name="battery_charge_counter">Isibali sokushaja</string>
+    <string name="battery_technology">Ubuchwepheshe</string>
+    <string name="battery_plug_type">Umthombo wamandla</string>
+    <string name="battery_cycle_count">Isibalo semjikelezo</string>
+    <string name="battery_state_of_health">Isimo sempilo</string>
+    <string name="battery_first_usage">Ukusetshenziswa okokuqala</string>
+    <string name="battery_manufactured">Kwenziwe</string>
+    <string name="battery_max_charge_current">Ukushaja okulingene</string>
+    <string name="battery_max_charge_voltage">I-voltage ephezulu yokushaja</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Ngaphandle kwezintambo</string>
+    <string name="battery_plug_dock">Idock</string>
+    <string name="battery_plug_none">Bhethri</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Ukugada ukusebenza</string>
+    <string name="performance_summary">Umthwalo we-CPU nokukala zamanje</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Amazinga okushisa</string>
+    <string name="monitor_all_zones">Zonke indawo zokushisa</string>
+    <string name="monitor_cpu_load">Umthwalo we-CPU</string>
+    <string name="monitor_load_average">Isilinganiso somthwalo (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Isikhathi sokusebenza</string>
+    <string name="monitor_freq_range">Ububanzi %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">Imvamisa ye-GPU</string>
+    <string name="monitor_gpu_load">Umthwalo we-GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Iminingwane yokuqapha ayitholakali kulo mshini.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Umphathi wememori</string>
+    <string name="memory_summary">Ukusetshenziswa kwe-RAM nezinqubo ezisebenzayo</string>
+    <string name="memory_used">Kusetshenzisiwe</string>
+    <string name="memory_free_summary">%1$s kukhululekile</string>
+    <string name="memory_total">Isamba</string>
+    <string name="memory_available">Kuyatholakala</string>
+    <string name="memory_cached">Kulondoloziwe</string>
+    <string name="memory_swap">Swap kukhululekile</string>
+    <string name="memory_processes">Izinqubo</string>
+    <string name="memory_no_processes">Akukho ulwazi ngezinqubo.</string>
+    <string name="memory_unavailable">Ulwazi ngememori alutholakali kulo mshini.</string>
+    <string name="memory_low_warning">Imemori isencane — cabanga ukuvala izinhlelo</string>
+    <string name="memory_stop">Misa inqubo</string>
+    <string name="memory_process_stopped">Inqubo imisiwe</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Imibala yesibonisi</string>
+    <string name="display_colours_summary">Imodi yombala nokushisa</string>
+    <string name="display_colours_description">Lungisa imodi yombala nohlelo olunamathelanga I-ACT without journal</string>
+    <string name="color_mode_vivid">Vivid</string>
+    <string name="color_mode_saturated">Zigcwele</string>
+    <string name="color_mode_standard">Okujwayelekile</string>
+    <string name="color_mode_original">Okwangempela</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Akuphumelelanga ukufaka imodi yombala</string>
+    <string name="color_mode_vivid_summary">Imibala enamandla nokukhanya ok uhlele</string>
+    <string name="color_mode_saturated_summary">Imibala enothile ngokwansuku zonke</string>
+    <string name="color_mode_standard_summary">Ikhalibrathiwe ngenzwa incache for bin</string>
+    <string name="color_mode_original_summary">Isizinda se wide-gamut okokuqala</string>
+    <string name="color_mode_p3_summary">Isigungu se-DCI-P3 sebhayisikobha</string>
+    <string name="color_mode_srgb_summary">sRGB enembile kuwebhu nokuklama</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Ukucaca kwesibonisi</string>
+    <string name="screen_resolution_home_summary">Shintsha ukucaca kwesibonisi</string>
+    <string name="screen_resolution_description">Ukukhetha ukucaca okuphezulu kwenza isibonisi sibonke kungcono, kepha kusebenzisi amandla aweningi. Ukucaca okuphasi kunciphisa ukusetshenziswa kwamandla.</string>
+    <string name="screen_resolution_failed">Akuphumelelanga ukufaka ukucaca</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Kucace kakhulu — ukusetshenziswa kwamandla okuphez</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Ukucaca kwangempela kwe-panel</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Ukulinganisa ukucaca nobhethri</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Ubhethri oluhlala isikhathi eside</string>
+    <string name="screen_resolution_dialog_title">Shintsha ukucaca?</string>
+    <string name="screen_resolution_restart_hint_body">Ngemva kokufaka kuyancomeleleka ukuvuselela i-System UI. Gwema ukushintsha usayizi wesibonisi kuseting kwedivayisi.</string>
+    <string name="screen_resolution_dialog_confirm">Faka</string>
+    <string name="screen_resolution_dialog_cancel">Khansela</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Ukuphathwa kokushisa</string>
+    <string name="thermal_summary">Ukusebenza nokushisa kwe-app</string>
+    <string name="thermal_enable_title">Amaphrofayili okushisa</string>
+    <string name="thermal_enable_summary">Sebenzisa amaphrofayili wokushisa nge-app ngenxa yokushaja</string>
+    <string name="thermal_global_label">Iphrofayili yomhlaba</string>
+    <string name="thermal_global_profile_title">Iphrofayili edumeni</string>
+    <string name="thermal_per_app_label">Amaphrofayili okushisa nge-app</string>
+    <string name="thermal_select_profile">Khetha iphrofayili</string>
+    <string name="thermal_apply">Faka</string>
+    <string name="thermal_no_apps">Akunekho apps zakhetsisiwe</string>
+    <string name="thermal_failed_toast">Ukusebenza kwesimo sokushisa kuhlulekile</string>
+    <string name="thermal_charging_toast_connected">Iphrofayili yokushaja iyenze</string>
+    <string name="thermal_charging_toast_disconnected">Amaphrofayili e-app aqhubeke</string>
+    <string name="thermal_charging_banner_body">Amaphrofayili e-app ayahleli ngenkathi kushaja</string>
+    <string name="thermal_reset_title">Setha kabusha onke amaphrofayili</string>
+    <string name="thermal_reset_summary">Buyisela wonke amaphrofayili e-app ekwisimo sokulicolelwa</string>
+    <string name="thermal_reset_confirm">Setha kabusha</string>
+    <string name="thermal_reset_confirm_body">Zonke izilungiselelo ezengezwe zokushisa zizosuswa bese amafayili ebuyela kuzimiso ezatholwa ngokuzenzekelayo.</string>
+    <string name="thermal_add_app">Engeza app</string>
+    <string name="thermal_search_apps">Sesesha apps</string>
+    <string name="thermal_default">Okujwayelekile</string>
+    <string name="thermal_nolimits">Azikho izikhohliso</string>
+    <string name="thermal_navigation">Ukuzulazula</string>
+    <string name="thermal_dialer">Ucingo</string>
+    <string name="thermal_video_call">Ukushayela ividiyo</string>
+    <string name="thermal_camera">Ikhamera</string>
+    <string name="thermal_video">Ividiyo</string>
+    <string name="thermal_video_4k">Ividiyo 4K</string>
+    <string name="thermal_gaming">Ukudlala</string>
+    <string name="thermal_gaming_heavy">Ukudlala (kulezo)</string>
+    <string name="thermal_gaming_competitive">Ukudlala (okuncintisanayo)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Ukushaja</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Touch-boost</string>
+    <string name="touch_boost_summary">Ukuphendula ngokushesha kokuthinta</string>
+    <string name="touch_boost_description">Khuphula izinga lokwelapha lwento ethintekile, kunciphisa ukuphindisela. Ingawandisa ukusebenza kvolzaningi kancane.</string>
+    <string name="touch_boost_failed">Touch-boost akaphumelelanga</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Ukulinganisa umbhenkeli wezihla</string>
+    <string name="fingerprint_calibration_summary">Linganisha kabusha imumbo ye-fineyprint</string>
+    <string name="fingerprint_calibration_not_found">Ukulinganisha okurningyene akutholakali</string>
+    <string name="speaker_calibration_title">Ukulinganisha khathazikwe speaker</string>
+    <string name="speaker_calibration_summary">CIT ukulinga kakhulu husb kuleto</string>
+    <string name="speaker_calibration_not_found">Ukulinganisa kwe-speaker akutholakali</string>
+</resources>

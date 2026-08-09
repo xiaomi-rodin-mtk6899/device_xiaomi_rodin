@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">الشاشة والأداء والنظام</string>
+    <string name="xiaomi_parts_category_diagnostics">التشخيص</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">الشاشة</string>
+    <string name="performance_category">الأداء</string>
+    <string name="system_category">النظام</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">تجاهل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="navigate_up">صعود إلى الأعلى</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">حالة البطارية</string>
+    <string name="battery_status_summary">الصحة، الشحن والمقاييس اللحظية</string>
+    <string name="battery_live_section">البطارية</string>
+    <string name="battery_wear_section">الصحة والتآكل</string>
+    <string name="battery_status_charging">جارٍ الشحن</string>
+    <string name="battery_status_discharging">جارٍ التفريغ</string>
+    <string name="battery_status_full">ممتلئة</string>
+    <string name="battery_status_not_charging">لا تشحن</string>
+    <string name="battery_status_unknown">غير معروف</string>
+    <string name="battery_health_good">جيدة</string>
+    <string name="battery_health_overheat">محمومة</string>
+    <string name="battery_health_dead">تالفة</string>
+    <string name="battery_health_over_voltage">جهد زائد</string>
+    <string name="battery_health_cold">باردة</string>
+    <string name="battery_health_failure">عطل</string>
+    <string name="battery_status">الحالة</string>
+    <string name="battery_health">الصحة</string>
+    <string name="battery_temperature">درجة الحرارة</string>
+    <string name="battery_voltage">الجهد</string>
+    <string name="battery_current_now">التيار الحالي</string>
+    <string name="battery_power">استهلاك الطاقة</string>
+    <string name="battery_charge_counter">عداد الشحن</string>
+    <string name="battery_technology">التقنية</string>
+    <string name="battery_plug_type">مصدر الطاقة</string>
+    <string name="battery_cycle_count">عدد دورات الشحن</string>
+    <string name="battery_state_of_health">الحالة الصحية</string>
+    <string name="battery_first_usage">أول استخدام</string>
+    <string name="battery_manufactured">تاريخ التصنيع</string>
+    <string name="battery_max_charge_current">أقصى تيار شحن</string>
+    <string name="battery_max_charge_voltage">أقصى جهد شحن</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">لاسلكي</string>
+    <string name="battery_plug_dock">قاعدة إرساء</string>
+    <string name="battery_plug_none">البطارية</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">مراقب الأداء</string>
+    <string name="performance_summary">حمل المعالج والمقاييس اللحظية</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">درجات الحرارة</string>
+    <string name="monitor_all_zones">جميع المناطق الحرارية</string>
+    <string name="monitor_cpu_load">حمل المعالج</string>
+    <string name="monitor_load_average">متوسط الحمل (1 · 5 · 15)</string>
+    <string name="monitor_uptime">مدة التشغيل</string>
+    <string name="monitor_freq_range">النطاق %1$s – %2$s</string>
+    <string name="monitor_governor">المحكّم: %1$s</string>
+    <string name="monitor_gpu_freq">تردد معالج الرسومات</string>
+    <string name="monitor_gpu_load">حمل معالج الرسومات: %1$d%%</string>
+    <string name="monitor_unavailable">بيانات المراقبة غير متاحة على هذا الجهاز.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">مدير الذاكرة</string>
+    <string name="memory_summary">استخدام الذاكرة والعمليات الجارية</string>
+    <string name="memory_used">المستخدم</string>
+    <string name="memory_free_summary">%1$s متاح</string>
+    <string name="memory_total">الإجمالي</string>
+    <string name="memory_available">المتاح</string>
+    <string name="memory_cached">مخزّن مؤقتاً</string>
+    <string name="memory_swap">مساحة المبادلة المتاحة</string>
+    <string name="memory_processes">العمليات</string>
+    <string name="memory_no_processes">لا تتوفر معلومات عن العمليات.</string>
+    <string name="memory_unavailable">معلومات الذاكرة غير متاحة على هذا الجهاز.</string>
+    <string name="memory_low_warning">ذاكرة منخفضة — فكّر في إغلاق تطبيقات الخلفية</string>
+    <string name="memory_stop">إيقاف العملية</string>
+    <string name="memory_process_stopped">تم إيقاف العملية</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">ألوان الشاشة</string>
+    <string name="display_colours_summary">وضع الألوان ودرجة الحرارة</string>
+    <string name="display_colours_description">عدّل وضع الألوان وتوازن اللون الأبيض للشاشة للحصول على مظهر أكثر طبيعية أو حيوية.</string>
+    <string name="color_mode_vivid">زاهي</string>
+    <string name="color_mode_saturated">مشبع</string>
+    <string name="color_mode_standard">قياسي</string>
+    <string name="color_mode_original">أصلي</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">فشل تطبيق وضع الألوان</string>
+    <string name="color_mode_vivid_summary">ألوان وتباين معزّزان</string>
+    <string name="color_mode_saturated_summary">ألوان غنية للاستخدام اليومي</string>
+    <string name="color_mode_standard_summary">معاير بدقة من المصنع، ألوان واقعية</string>
+    <string name="color_mode_original_summary">ضبط أصلي واسع المدى للألوان</string>
+    <string name="color_mode_p3_summary">فضاء ألوان سينمائي DCI-P3</string>
+    <string name="color_mode_srgb_summary">sRGB دقيق للويب والتصميم</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">دقة الشاشة</string>
+    <string name="screen_resolution_home_summary">تغيير دقة الشاشة</string>
+    <string name="screen_resolution_description">اختيار دقة أعلى يجعل الشاشة أكثر وضوحاً لكنه يستهلك بطارية أكثر، في حين تقلّل الدقة المنخفضة استهلاك البطارية.</string>
+    <string name="screen_resolution_failed">فشل تطبيق الدقة</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">الأوضح — استهلاك أعلى للبطارية</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">دقة اللوحة الأصلية</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">توازن بين الوضوح والبطارية</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">أفضل عمر للبطارية</string>
+    <string name="screen_resolution_dialog_title">تغيير الدقة؟</string>
+    <string name="screen_resolution_restart_hint_body">بعد التطبيق، يُنصح بإعادة تشغيل System UI. تجنّب تغيير حجم الشاشة في إعدادات عرض الجهاز، فقد يؤدي ذلك إلى تعارض.</string>
+    <string name="screen_resolution_dialog_confirm">تطبيق</string>
+    <string name="screen_resolution_dialog_cancel">إلغاء</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">الإدارة الحرارية</string>
+    <string name="thermal_summary">الأداء ودرجة الحرارة لكل تطبيق</string>
+    <string name="thermal_enable_title">الملامح الحرارية</string>
+    <string name="thermal_enable_summary">تطبيق ملامح حرارية لكل تطبيق وأثناء الشحن</string>
+    <string name="thermal_global_label">ملف عام</string>
+    <string name="thermal_global_profile_title">الملف النشط</string>
+    <string name="thermal_per_app_label">ملفات مخصصة لكل تطبيق</string>
+    <string name="thermal_select_profile">اختر ملفاً</string>
+    <string name="thermal_apply">تطبيق</string>
+    <string name="thermal_no_apps">لم يتم تكوين أي تطبيقات بعد</string>
+    <string name="thermal_failed_toast">فشلت العملية الحرارية</string>
+    <string name="thermal_charging_toast_connected">ملف الشحن نشط</string>
+    <string name="thermal_charging_toast_disconnected">تم استئناف الملفات الخاصة بالتطبيقات</string>
+    <string name="thermal_charging_banner_body">الملفات الخاصة بالتطبيقات متوقفة مؤقتاً أثناء الشحن</string>
+    <string name="thermal_reset_title">إعادة تعيين جميع الملفات</string>
+    <string name="thermal_reset_summary">استعادة جميع ملفات التطبيقات إلى إعداداتها الافتراضية</string>
+    <string name="thermal_reset_confirm">إعادة تعيين</string>
+    <string name="thermal_reset_confirm_body">سيتم مسح جميع تجاوزات التطبيقات الحرارية وستعود الملفات إلى قيمها الافتراضية المكتشفة تلقائياً.</string>
+    <string name="thermal_add_app">إضافة تطبيق</string>
+    <string name="thermal_search_apps">البحث عن التطبيقات</string>
+    <string name="thermal_default">الافتراضي</string>
+    <string name="thermal_nolimits">بدون حدود</string>
+    <string name="thermal_navigation">الملاحة</string>
+    <string name="thermal_dialer">الاتصال</string>
+    <string name="thermal_video_call">مكالمة فيديو</string>
+    <string name="thermal_camera">الكاميرا</string>
+    <string name="thermal_video">فيديو</string>
+    <string name="thermal_video_4k">فيديو 4K</string>
+    <string name="thermal_gaming">الألعاب</string>
+    <string name="thermal_gaming_heavy">ألعاب (ثقيلة)</string>
+    <string name="thermal_gaming_competitive">ألعاب (تنافسية)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">الشحن</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">تعزيز اللمس</string>
+    <string name="touch_boost_summary">استجابة أسرع للمس</string>
+    <string name="touch_boost_description">يرفع معدل المعاينة لمستشعر اللمس، مما يقلل الوقت المستغرق للاستجابة للنقر. قد يزيد استهلاك الطاقة قليلاً أثناء الاستخدام النشط.</string>
+    <string name="touch_boost_failed">فشل تطبيق تعزيز اللمس</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">معايرة البصمة</string>
+    <string name="fingerprint_calibration_summary">إعادة معايرة مستشعر البصمة</string>
+    <string name="fingerprint_calibration_not_found">معايرة البصمة غير متاحة</string>
+    <string name="speaker_calibration_title">معايرة السماعة</string>
+    <string name="speaker_calibration_summary">اختبار المعايرة الذاتية للسماعة CIT</string>
+    <string name="speaker_calibration_not_found">معايرة السماعة غير متاحة</string>
+</resources>

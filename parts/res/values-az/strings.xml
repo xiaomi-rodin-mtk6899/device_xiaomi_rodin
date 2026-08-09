@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Ekran, Performans və Sistem</string>
+    <string name="xiaomi_parts_category_diagnostics">Diaqnostika</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Ekran</string>
+    <string name="performance_category">Performans</string>
+    <string name="system_category">Sistem</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Bağla</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="navigate_up">Yuxarı qayıt</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Batareya statusu</string>
+    <string name="battery_status_summary">Sağlamlıq, doldurma və canlı göstəricilər</string>
+    <string name="battery_live_section">Batareya</string>
+    <string name="battery_wear_section">Sağlamlıq və aşınma</string>
+    <string name="battery_status_charging">Doldurulur</string>
+    <string name="battery_status_discharging">Boşaldılır</string>
+    <string name="battery_status_full">Tam dolu</string>
+    <string name="battery_status_not_charging">Doldurulmur</string>
+    <string name="battery_status_unknown">Bilinmir</string>
+    <string name="battery_health_good">Yaxşı</string>
+    <string name="battery_health_overheat">Həddindən çox isti</string>
+    <string name="battery_health_dead">Sıradan çıxıb</string>
+    <string name="battery_health_over_voltage">Həddindən artıq gərginlik</string>
+    <string name="battery_health_cold">Soyuq</string>
+    <string name="battery_health_failure">Xəta</string>
+    <string name="battery_status">Status</string>
+    <string name="battery_health">Sağlamlıq</string>
+    <string name="battery_temperature">Temperatur</string>
+    <string name="battery_voltage">Gərginlik</string>
+    <string name="battery_current_now">Anlıq cərəyan</string>
+    <string name="battery_power">Güc istehlakı</string>
+    <string name="battery_charge_counter">Doldurma sayğacı</string>
+    <string name="battery_technology">Texnologiya</string>
+    <string name="battery_plug_type">Enerji mənbəyi</string>
+    <string name="battery_cycle_count">Dövr sayı</string>
+    <string name="battery_state_of_health">Sağlamlıq vəziyyəti</string>
+    <string name="battery_first_usage">İlk istifadə</string>
+    <string name="battery_manufactured">İstehsal tarixi</string>
+    <string name="battery_max_charge_current">Maksimal doldurma cərəyanı</string>
+    <string name="battery_max_charge_voltage">Maksimal doldurma gərginliyi</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Simsiz</string>
+    <string name="battery_plug_dock">Dock</string>
+    <string name="battery_plug_none">Batareya</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Performans monitoru</string>
+    <string name="performance_summary">CPU yükü və canlı göstəricilər</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperaturlar</string>
+    <string name="monitor_all_zones">Bütün termal zonalar</string>
+    <string name="monitor_cpu_load">CPU yükü</string>
+    <string name="monitor_load_average">Orta yük (1 · 5 · 15)</string>
+    <string name="monitor_uptime">İşləmə müddəti</string>
+    <string name="monitor_freq_range">Aralıq %1$s – %2$s</string>
+    <string name="monitor_governor">İdarəedici: %1$s</string>
+    <string name="monitor_gpu_freq">GPU tezliyi</string>
+    <string name="monitor_gpu_load">GPU yükü: %1$d%%</string>
+    <string name="monitor_unavailable">Bu cihazda monitorinq məlumatları mövcud deyil.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Yaddaş meneceri</string>
+    <string name="memory_summary">RAM istifadəsi və işləyən proseslər</string>
+    <string name="memory_used">İstifadə olunur</string>
+    <string name="memory_free_summary">%1$s boş</string>
+    <string name="memory_total">Ümumi</string>
+    <string name="memory_available">Mövcud</string>
+    <string name="memory_cached">Keş</string>
+    <string name="memory_swap">Boş swap</string>
+    <string name="memory_processes">Proseslər</string>
+    <string name="memory_no_processes">Proses haqqında məlumat mövcud deyil.</string>
+    <string name="memory_unavailable">Bu cihazda yaddaş haqqında məlumat mövcud deyil.</string>
+    <string name="memory_low_warning">Yaddaş azdır — fon proqramlarını bağlamağı nəzərdən keçirin</string>
+    <string name="memory_stop">Prosesi dayandır</string>
+    <string name="memory_process_stopped">Proses dayandırıldı</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Ekran rəngləri</string>
+    <string name="display_colours_summary">Rəng rejimi və temperaturu</string>
+    <string name="display_colours_description">Daha təbii və ya canlı görünüş üçün ekranın rəng rejimini və ağ balansını tənzimləyin.</string>
+    <string name="color_mode_vivid">Canlı</string>
+    <string name="color_mode_saturated">Zəngin</string>
+    <string name="color_mode_standard">Standart</string>
+    <string name="color_mode_original">Orijinal</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Rəng rejimi tətbiq edilə bilmədi</string>
+    <string name="color_mode_vivid_summary">Gücləndirilmiş rənglər və kontrast</string>
+    <string name="color_mode_saturated_summary">Gündəlik istifadə üçün zəngin rənglər</string>
+    <string name="color_mode_standard_summary">Zavod tərəfindən kalibrlənmiş, dəqiq rənglər</string>
+    <string name="color_mode_original_summary">Orijinal geniş rəng palitrası</string>
+    <string name="color_mode_p3_summary">DCI-P3 kino rəng sahəsi</string>
+    <string name="color_mode_srgb_summary">Veb və dizayn üçün dəqiq sRGB</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Ekran çözünürlüyü</string>
+    <string name="screen_resolution_home_summary">Ekran çözünürlüyünü dəyişdirin</string>
+    <string name="screen_resolution_description">Daha yüksək çözünürlük ekranı daha kəskin edir, lakin daha çox batareya enerjisi istifadə edir. Aşağı çözünürlüklər batareya istehlakını azaldır.</string>
+    <string name="screen_resolution_failed">Çözünürlük tətbiq edilə bilmədi</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Ən kəskin — daha yüksək batareya istifadəsi</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Yerli)</string>
+    <string name="screen_resolution_1220p_summary">Panelin yerli çözünürlüyü</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Tarazlaşdırılmış kəskinlik və batareya</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Ən yaxşı batareya ömrü</string>
+    <string name="screen_resolution_dialog_title">Çözünürlük dəyişdirilsin?</string>
+    <string name="screen_resolution_restart_hint_body">Tətbiq etdikdən sonra System UI-nu yenidən başlatmaq tövsiyə olunur. Cihaz Ekran parametrlərində ekran ölçüsünü dəyişdirməkdən çəkinin, bu ziddiyyət yarada bilər.</string>
+    <string name="screen_resolution_dialog_confirm">Tətbiq et</string>
+    <string name="screen_resolution_dialog_cancel">Ləğv et</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Termal idarəetmə</string>
+    <string name="thermal_summary">Tətbiq əsaslı performans və temperatur</string>
+    <string name="thermal_enable_title">Termal profillər</string>
+    <string name="thermal_enable_summary">Tətbiqlər və doldurma zamanı termal profilləri tətbiq edin</string>
+    <string name="thermal_global_label">Qlobal profil</string>
+    <string name="thermal_global_profile_title">Aktiv profil</string>
+    <string name="thermal_per_app_label">Tətbiq profilləri</string>
+    <string name="thermal_select_profile">Profil seçin</string>
+    <string name="thermal_apply">Tətbiq et</string>
+    <string name="thermal_no_apps">Hələ heç bir tətbiq konfiqurasiya edilməyib</string>
+    <string name="thermal_failed_toast">Termal əməliyyat uğursuz oldu</string>
+    <string name="thermal_charging_toast_connected">Doldurma profili aktividir</string>
+    <string name="thermal_charging_toast_disconnected">Tətbiq profilləri bərpa edildi</string>
+    <string name="thermal_charging_banner_body">Doldurma zamanı tətbiq profilləri müvəqqəti dayandırılıb</string>
+    <string name="thermal_reset_title">Bütün profilləri sıfırla</string>
+    <string name="thermal_reset_summary">Bütün tətbiq profillərini ilkin qiymətlərinə bərpa edin</string>
+    <string name="thermal_reset_confirm">Sıfırla</string>
+    <string name="thermal_reset_confirm_body">Bütün tətbiq əsaslı termal dəyişikliklər silinəcək və profillər əvvəlki standart qiymtlərinə qayıdacaq.</string>
+    <string name="thermal_add_app">Tətbiq əlavə et</string>
+    <string name="thermal_search_apps">Tətbiq axtar</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_nolimits">Limitsiz</string>
+    <string name="thermal_navigation">Naviqasiya</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_video_call">Video zəng</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Oyun</string>
+    <string name="thermal_gaming_heavy">Oyun (ağır)</string>
+    <string name="thermal_gaming_competitive">Oyun (rəqabətli)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Doldurma</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Touch boost</string>
+    <string name="touch_boost_summary">Daha sürətli toxunma cavabı</string>
+    <string name="touch_boost_description">Toxunma nəzarətçisinin sorğu sürətini artırır, toxunuşdan cavaba gecikməni azaldır. Fəal istifadə zamanı güc istehlakını yüngülcə artıra bilər.</string>
+    <string name="touch_boost_failed">Touch boost tətbiq edilə bilmədi</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Barmaq izi kalibrləşdirməsi</string>
+    <string name="fingerprint_calibration_summary">Barmaq izi sensorunu yenidən kalibrləyin</string>
+    <string name="fingerprint_calibration_not_found">Barmaq izi kalibrləşdirməsi mövcud deyil</string>
+    <string name="speaker_calibration_title">Dinamik kalibrləşdirməsi</string>
+    <string name="speaker_calibration_summary">CIT dinamik özünü kalibrləmə testi</string>
+    <string name="speaker_calibration_not_found">Dinamik kalibrləşdirməsi mövcud deyil</string>
+</resources>

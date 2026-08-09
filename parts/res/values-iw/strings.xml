@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">תצוגה, ביצועים ומערכת</string>
+    <string name="xiaomi_parts_category_diagnostics">אבחון</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">תצוגה</string>
+    <string name="performance_category">ביצועים</string>
+    <string name="system_category">מערכת</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">בטול</string>
+    <string name="cancel">בטל</string>
+    <string name="navigate_up">גלול למעלה</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">מצב הסוללה</string>
+    <string name="battery_status_summary">תקינות, טעינה ומדדים חיים</string>
+    <string name="battery_live_section">סוללה</string>
+    <string name="battery_wear_section">תקינות ובלאיה</string>
+    <string name="battery_status_charging">בטעינה</string>
+    <string name="battery_status_discharging">מתפרקת</string>
+    <string name="battery_status_full">מלאה</string>
+    <string name="battery_status_not_charging">לא נטענת</string>
+    <string name="battery_status_unknown">לא ידוע</string>
+    <string name="battery_health_good">תקינה</string>
+    <string name="battery_health_overheat">התחממה יתר</string>
+    <string name="battery_health_dead">מתה</string>
+    <string name="battery_health_over_voltage">מתח יתר</string>
+    <string name="battery_health_cold">קרה</string>
+    <string name="battery_health_failure">תקלה</string>
+    <string name="battery_status">מצב</string>
+    <string name="battery_health">תקינות</string>
+    <string name="battery_temperature">טמפרטורה</string>
+    <string name="battery_voltage">מתח</string>
+    <string name="battery_current_now">זרם כעת</string>
+    <string name="battery_power">צריכת הספק</string>
+    <string name="battery_charge_counter">מונה טעינה</string>
+    <string name="battery_technology">טכנולוגיה</string>
+    <string name="battery_plug_type">מקור מתח</string>
+    <string name="battery_cycle_count">מספר מעגלים</string>
+    <string name="battery_state_of_health">מצב תקינות</string>
+    <string name="battery_first_usage">שימוש ראשונה</string>
+    <string name="battery_manufactured">תאריך ייצור</string>
+    <string name="battery_max_charge_current">זרם טעינה מרבי</string>
+    <string name="battery_max_charge_voltage">מתח טעינה מרבי</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">אלחוטי</string>
+    <string name="battery_plug_dock">תחנת עגינה</string>
+    <string name="battery_plug_none">סוללה</string><!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">ניטור ביצועים</string>
+    <string name="performance_summary">עומס CPU ומדדים חיים</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">טמפרטורות</string>
+    <string name="monitor_all_zones">כל האזורים התרמיים</string>
+    <string name="monitor_cpu_load">עומס המעבד</string>
+    <string name="monitor_load_average">עומס ממוצע (1 · 5 · 15)</string>
+    <string name="monitor_uptime">זמן פעולה</string>
+    <string name="monitor_freq_range">טווח %1$s – %2$s</string>
+    <string name="monitor_governor">בקר: %1$s</string>
+    <string name="monitor_gpu_freq">תדר GPU</string>
+    <string name="monitor_gpu_load">עומס GPU: %1$d%%</string>
+    <string name="monitor_unavailable">נתוני הניטור לא זמינים במכשיר זה.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">מנהל זיכרון</string>
+    <string name="memory_summary">שימוש בזיכרון ותהליכים פעילים</string>
+    <string name="memory_used">בשימוש</string>
+    <string name="memory_free_summary">%1$s פנויים</string>
+    <string name="memory_total">סה"כ</string>
+    <string name="memory_available">זמין</string>
+    <string name="memory_cached">במטמון</string>
+    <string name="memory_swap">Swap פנוי</string>
+    <string name="memory_processes">תהליכים</string>
+    <string name="memory_no_processes">אין מידע על תהליכים.</string>
+    <string name="memory_unavailable">מידע הזיכרון אינו זמין במכשיר זה.</string>
+    <string name="memory_low_warning">זיכרון נמוך – מומלץ לסגור אפליקציות רקע</string>
+    <string name="memory_stop">עצור תהליך</string>
+    <string name="memory_process_stopped">התהליך נעצר</string>
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">צבעי תצוגה</string>
+    <string name="display_colours_summary">מצב צבע וטמפרטורה</string>
+    <string name="display_colours_description">התאם את מצב הצבע ואיזון הלבן בתצוגה למראה טבעי יותר או חי יותר.</string>
+    <string name="color_mode_vivid">חי</string>
+    <string name="color_mode_saturated">רווי</string>
+    <string name="color_mode_standard">תקני</string>
+    <string name="color_mode_original">מקורי</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">כשל בהחלת מצב הצבע</string>
+    <string name="color_mode_vivid_summary">צבעים וניגודיות מוגברים</string>
+    <string name="color_mode_saturated_summary">צבעים עשירים לשימוש יומיומי</string>
+    <string name="color_mode_standard_summary">מכייל במפעל, נאמן למקור</string>
+    <string name="color_mode_original_summary">כוונון מקורי בטווח צבע רחב</string>
+    <string name="color_mode_p3_summary">מרחב צבע קולנועי DCI-P3</string>
+    <string name="color_mode_srgb_summary">sRGB מדויק לאינטרנט ועיצוב</string><!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">רזולוציית מסך</string>
+    <string name="screen_resolution_home_summary">שינוי רזולוציית תצוגה</string>
+    <string name="screen_resolution_description">בחירת רזולוציה גבוהה יותר הופכת את התצוגה לחדה יותר, אבל צורכת יותר סוללה. רזולוציות נמוכות יותר מורידות את צריכת הסוללה.</string>
+    <string name="screen_resolution_failed">כשל בהחלת הרזולוציה</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">החדה ביותר - צריכת סוללה גבוהה</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">רזולוציית פאנל מקורית</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">איזון בין חדות לסוללה</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">חיי סבלה אופטימליים</string>
+    <string name="screen_resolution_dialog_title">לשנות רזולוציה?</string>
+    <string name="screen_resolution_restart_hint_body">לאחר ההחלה, מומלץ להפעיל מחדש את System UI. הימנע משינוי גודל התצוגה בהגדרות תצוגת המכשיר כדי למנוע קונפליקט.</string>
+    <string name="screen_resolution_dialog_confirm">החל</string>
+    <string name="screen_resolution_dialog_cancel">בטל</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">ניהול תרמי</string>
+    <string name="thermal_summary">ביצועים וטמפרטורה לכל אפליקציה</string>
+    <string name="thermal_enable_title">פרופילים תרמיים</string>
+    <string name="thermal_enable_summary">החלת פרופילים תרמיים לכל אפליקציה ובעת טעינה</string>
+    <string name="thermal_global_label">פרופיל גלובלי</string>
+    <string name="thermal_global_profile_title">פרופיל פעיל</string>
+    <string name="thermal_per_app_label">פרופילים לכל אפליקציה</string>
+    <string name="thermal_select_profile">בחירת פרופיל</string>
+    <string name="thermal_apply">החל</string>
+    <string name="thermal_no_apps">עדיין לא הוגדרו אפליקציות</string><string name="thermal_failed_toast">הפעולה התרמית נכשלה</string>
+    <string name="thermal_charging_toast_connected">פרופיל הטעינה פעיל</string>
+    <string name="thermal_charging_toast_disconnected">פרופילי האפליקציות חזרו לפעולה</string>
+    <string name="thermal_charging_banner_body">פרופילי האפליקציות מושהים בזמן הטעינה</string>
+    <string name="thermal_reset_title">איפוס כל הפרופילים</string>
+    <string name="thermal_reset_summary">אחזור כל פרופילי האפליקציות לברירת המחדל</string>
+    <string name="thermal_reset_confirm">איפוס</string>
+    <string name="thermal_reset_confirm_body">כל ההתאמות התרמיות יימחקו והפרופילים יחזרו לערכים המוגדרים אוטומטית.</string>
+    <string name="thermal_add_app">הוספת%אפליקציה</string>
+    <string name="thermal_search_apps">חיפוש אפליקציות</string>
+    <string name="thermal_default">ברירת מחדל</string>
+    <string name="thermal_nolimits">ללא הגבלות</string>
+    <string name="thermal_navigation">ניווט</string>
+    <string name="thermal_dialer">חייגן</string>
+    <string name="thermal_video_call">שיחת וידאו</string>
+    <string name="thermal_camera">מצלמה</string>
+    <string name="thermal_video">וידאו</string>
+    <string name="thermal_video_4k">וידאו 4K</string>
+    <string name="thermal_gaming">משחקים</string>
+    <string name="thermal_gaming_heavy">משחקים (כבדים)</string>
+    <string name="thermal_gaming_competitive">משחקים (תחרותיים)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">טעינה</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">הגבר מגע</string>
+    <string name="touch_boost_summary">תגובה מהירה יותר למגע</string>
+    <string name="touch_boost_description">מעלה את קצב הדגימה של בקר המגע ומקצר את זמן התגובה. עלול להעלות מעט את צריכת החשמל בעת שימוש פעיל.</string>
+    <string name="touch_boost_failed">כשל בהחלת הגברת המגע</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">כיול טביעת אצבע</string>
+    <string name="fingerprint_calibration_summary">כיול מחדש של חיישן טביעת האצבע</string>
+    <string name="fingerprint_calibration_not_found">כיול טביעת האצבע אינו זמין</string>
+    <string name="speaker_calibration_title">כיול רמקול</string>
+    <string name="speaker_calibration_summary">בדיקת כיול עצמי של הרמקול CIT</string>
+    <string name="speaker_calibration_not_found">כיול הרמקול אינו זמין</string>
+</resources>

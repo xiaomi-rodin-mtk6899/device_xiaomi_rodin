@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Zaslon, zmogljivost in sistem</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnostika</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Zaslon</string>
+    <string name="performance_category">Zmogljivost</string>
+    <string name="system_category">Sistem</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Zapri</string>
+    <string name="cancel">Prekliči</string>
+    <string name="navigate_up">Nazaj</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Stanje baterije</string>
+    <string name="battery_status_summary">Zdravje, polnjenje in podatki v živo</string>
+    <string name="battery_live_section">Baterija</string>
+    <string name="battery_wear_section">Zdravje in obraba</string>
+    <string name="battery_status_charging">Polnjenje</string>
+    <string name="battery_status_discharging">Praznjenje</string>
+    <string name="battery_status_full">Polna</string>
+    <string name="battery_status_not_charging">Se ne polni</string>
+    <string name="battery_status_unknown">Neznano</string>
+    <string name="battery_health_good">Dobro</string>
+    <string name="battery_health_overheat">Pregrevanje</string>
+    <string name="battery_health_dead">Okvarjena</string>
+    <string name="battery_health_over_voltage">Prenapetost</string>
+    <string name="battery_health_cold">Hladna</string>
+    <string name="battery_health_failure">Napaka</string>
+    <string name="battery_status">Stanje</string>
+    <string name="battery_health">Zdravje</string>
+    <string name="battery_temperature">Temperatura</string>
+    <string name="battery_voltage">Napetost</string>
+    <string name="battery_current_now">Trenutni tok</string>
+    <string name="battery_power">Poraba energije</string>
+    <string name="battery_charge_counter">Števec polnjenja</string>
+    <string name="battery_technology">Tehnologija</string>
+    <string name="battery_plug_type">Vir napajanja</string>
+    <string name="battery_cycle_count">Število ciklov</string>
+    <string name="battery_state_of_health">Stanje zdravja</string>
+    <string name="battery_first_usage">Prva uporaba</string>
+    <string name="battery_manufactured">Datum izdelave</string>
+    <string name="battery_max_charge_current">Največji polnilni tok</string>
+    <string name="battery_max_charge_voltage">Največja polnilna napetost</string>
+    <string name="battery_plug_ac">Omrežje</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Brezžično</string>
+    <string name="battery_plug_dock">Priklopna postaja</string>
+    <string name="battery_plug_none">Baterija</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Spremljanje zmogljivosti</string>
+    <string name="performance_summary">Obremenitev procesorja in podatki v živo</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperature</string>
+    <string name="monitor_all_zones">Vse toplotne cone</string>
+    <string name="monitor_cpu_load">Obremenitev CPU</string>
+    <string name="monitor_load_average">Povprečna obremenitev (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Čas delovanja</string>
+    <string name="monitor_freq_range">Območje %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">Frekvenca GPU</string>
+    <string name="monitor_gpu_load">Obremenitev GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Podatki spremljanja na tej napravi niso na voljo.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Upravitelj pomnilnika</string>
+    <string name="memory_summary">Uporaba RAM-a in aktivni procesi</string>
+    <string name="memory_used">Uporabljeno</string>
+    <string name="memory_free_summary">Prosto %1$s</string>
+    <string name="memory_total">Skupaj</string>
+    <string name="memory_available">Na voljo</string>
+    <string name="memory_cached">V predpomnilniku</string>
+    <string name="memory_swap">Prost swap</string>
+    <string name="memory_processes">Procesi</string>
+    <string name="memory_no_processes">Ni podatkov o procesih.</string>
+    <string name="memory_unavailable">Podatki o pomnilniku niso na voljo.</string>
+    <string name="memory_low_warning">Premalo pomnilnika — zaprite aplikacije v ozadju</string>
+    <string name="memory_stop">Ustavi proces</string>
+    <string name="memory_process_stopped">Proces je ustavljen</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Barve zaslona</string>
+    <string name="display_colours_summary">Barvni način in temperatura</string>
+    <string name="display_colours_description">Prilagodite barvni način za bolj naraven ali živ videz.</string>
+    <string name="color_mode_vivid">Živ</string>
+    <string name="color_mode_saturated">Nasičen</string>
+    <string name="color_mode_standard">Standardni</string>
+    <string name="color_mode_original">Prvotni</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Barvnega načina ni bilo mogoče uporabiti</string>
+    <string name="color_mode_vivid_summary">Poudarjene barve in kontrast</string>
+    <string name="color_mode_saturated_summary">Živahne barve za vsakodnevno uporabo</string>
+    <string name="color_mode_standard_summary">Tovarniška kalibracija, zvest prikaz</string>
+    <string name="color_mode_original_summary">Prvotna nastavitev širokega razpona</string>
+    <string name="color_mode_p3_summary">Filmski barvni prostor DCI-P3</string>
+    <string name="color_mode_srgb_summary">Natančen sRGB za splet in oblikovanje</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Ločljivost zaslona</string>
+    <string name="screen_resolution_home_summary">Spremeni ločljivost zaslona</string>
+    <string name="screen_resolution_description">Višja ločljivost daje ostrejšo sliko, a porabi več baterije. Nižje ločljivosti prihranijo baterijo.</string>
+    <string name="screen_resolution_failed">Ločljivosti ni bilo mogoče uporabiti</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Najostrejše — večja poraba</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Prvotna)</string>
+    <string name="screen_resolution_1220p_summary">Prvotna ločljivost zaslona</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Uravnotežena ostrina in poraba</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Najdaljša vzdržljivost baterije</string>
+    <string name="screen_resolution_dialog_title">Spremenim ločljivost?</string>
+    <string name="screen_resolution_restart_hint_body">Po uporabi je priporočljiv ponovni zagon System UI. Ne spreminjajte velikosti prikaza v nastavitvah.</string>
+    <string name="screen_resolution_dialog_confirm">Uporabi</string>
+    <string name="screen_resolution_dialog_cancel">Prekliči</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Upravljanje temperature</string>
+    <string name="thermal_summary">Zmogljivost po aplikaciji in temperature</string>
+    <string name="thermal_enable_title">Toplotni profili</string>
+    <string name="thermal_enable_summary">Uporabi toplotne profile po aplikacijah in med polnjenjem</string>
+    <string name="thermal_global_label">Globalni profil</string>
+    <string name="thermal_global_profile_title">Aktivni profil</string>
+    <string name="thermal_per_app_label">Profili po aplikacijah</string>
+    <string name="thermal_select_profile">Izberi profil</string>
+    <string name="thermal_apply">Uporabi</string>
+    <string name="thermal_no_apps">Še ni aplikacij</string>
+    <string name="thermal_failed_toast">Toplotna operacija ni uspela</string>
+    <string name="thermal_charging_toast_connected">Profil polnjenja je aktiven</string>
+    <string name="thermal_charging_toast_disconnected">Profili aplikacij se sprožijo naprej</string>
+    <string name="thermal_charging_banner_body">Profili aplikacij so med polnjenjem zaustavljeni</string>
+    <string name="thermal_reset_title">Ponastavi vse profile</string>
+    <string name="thermal_reset_summary">Obnovi profile na privzete vrednosti</string>
+    <string name="thermal_reset_confirm">Ponastavi</string>
+    <string name="thermal_reset_confirm_body">Vse posamezne nastavitve bodo izbrisane.</string>
+    <string name="thermal_add_app">Dodaj aplikacijo</string>
+    <string name="thermal_search_apps">Išči aplikacije</string>
+    <string name="thermal_default">Privzeto</string>
+    <string name="thermal_nolimits">Brez omejitev</string>
+    <string name="thermal_navigation">Navigacija</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_video_call">Video klic</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Igre</string>
+    <string name="thermal_gaming_heavy">Igre (zahtevne)</string>
+    <string name="thermal_gaming_competitive">Igre (tekmovalne)</string>
+    <string name="thermal_yuanshen">Yuan Shen</string>
+    <string name="thermal_charge">Polnjenje</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Boost za dotik</string>
+    <string name="touch_boost_summary">Hitrejši odziv na dotik</string>
+    <string name="touch_boost_description">Poveča frekvenco zaznavanja dotika in zmanjša zakasnitev.</string>
+    <string name="touch_boost_failed">Uporaba ni uspela</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Kalibracija prstnega odtisa</string>
+    <string name="fingerprint_calibration_summary">Ponovna kalibracija senzorja</string>
+    <string name="fingerprint_calibration_not_found">Kalibracija ni na voljo</string>
+    <string name="speaker_calibration_title">Kalibracija zvočnika</string>
+    <string name="speaker_calibration_summary">CIT samokalibracija zvočnika</string>
+    <string name="speaker_calibration_not_found">Kalibracija zvočnika ni na voljo</string>
+</resources>

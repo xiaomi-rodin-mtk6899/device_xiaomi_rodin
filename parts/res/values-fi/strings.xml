@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Näyttö, suorituskyky ja järjestelmä</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnostiikka</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Näyttö</string>
+    <string name="performance_category">Suorituskyky</string>
+    <string name="system_category">Järjestelmä</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Sulje</string>
+    <string name="cancel">Peruuta</string>
+    <string name="navigate_up">Selaa ylös</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Akun tila</string>
+    <string name="battery_status_summary">Akun kunto, lataus ja reaaliaikaiset arvot</string>
+    <string name="battery_live_section">Akku</string>
+    <string name="battery_wear_section">Kunto ja kuluminen</string>
+    <string name="battery_status_charging">Latautuu</string>
+    <string name="battery_status_discharging">Purkautuu</string>
+    <string name="battery_status_full">Täynnä</string>
+    <string name="battery_status_not_charging">Ei lataudu</string>
+    <string name="battery_status_unknown">Tuntematon</string>
+    <string name="battery_health_good">Hyvä</string>
+    <string name="battery_health_overheat">Ylikuumentunut</string>
+    <string name="battery_health_dead">Kuollut</string>
+    <string name="battery_health_over_voltage">Ylijännite</string>
+    <string name="battery_health_cold">Kylmä</string>
+    <string name="battery_health_failure">Vikaantunut</string>
+    <string name="battery_status">Tila</string>
+    <string name="battery_health">Kunto</string>
+    <string name="battery_temperature">Lämpötila</string>
+    <string name="battery_voltage">Jännite</string>
+    <string name="battery_current_now">Hetkellinen virta</string>
+    <string name="battery_power">Virrankulutus</string>
+    <string name="battery_charge_counter">Latauslaskuri</string>
+    <string name="battery_technology">Teknologia</string>
+    <string name="battery_plug_type">Virtalähde</string>
+    <string name="battery_cycle_count">Lataussyklit</string>
+    <string name="battery_state_of_health">Kunnontila</string>
+    <string name="battery_first_usage">Ensimmäinen käyttö</string>
+    <string name="battery_manufactured">Valmistuspäivä</string>
+    <string name="battery_max_charge_current">Suurin latausvirta</string>
+    <string name="battery_max_charge_voltage">Suurin latausjännite</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Langaton</string>
+    <string name="battery_plug_dock">Telakka</string>
+    <string name="battery_plug_none">Akku</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Suorituskykymonitori</string>
+    <string name="performance_summary">CPU:n kuormitus ja reaaliaikaiset arvot</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Lämpötilat</string>
+    <string name="monitor_all_zones">Kaikki lämpövyöhykkeet</string>
+    <string name="monitor_cpu_load">CPU:n kuormitus</string>
+    <string name="monitor_load_average">Keskimääräinen rasitus (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Käynnissäoloaika</string>
+    <string name="monitor_freq_range">Alue %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">GPU:n taajuus</string>
+    <string name="monitor_gpu_load">GPU:n kuormitus: %1$d%%</string>
+    <string name="monitor_unavailable">Valvontatiedot eivät ole käytettävissä tässä laitteessa.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Muistinhallinta</string>
+    <string name="memory_summary">RAM-muistin käyttö ja käynnissä olevat prosessit</string>
+    <string name="memory_used">Käytössä</string>
+    <string name="memory_free_summary">%1$s vapaana</string>
+    <string name="memory_total">Yhteensä</string>
+    <string name="memory_available">Käytettävissä</string>
+    <string name="memory_cached">Välimuistissa</string>
+    <string name="memory_swap">Vapaata swap-tilaa</string>
+    <string name="memory_processes">Prosessit</string>
+    <string name="memory_no_processes">Prosessitietoja ei ole käytettävissä.</string>
+    <string name="memory_unavailable">Muistitiedot eivät ole käytettävissä tässä laitteessa.</string>
+    <string name="memory_low_warning">Muisti vähissä — harkitse taustasovellusten sulkemista</string>
+    <string name="memory_stop">Pysäytä prosessi</string>
+    <string name="memory_process_stopped">Prosessi pysäytetty</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Näytön värit</string>
+    <string name="display_colours_summary">Värimoodi ja lämpötila</string>
+    <string name="display_colours_description">Säädä näytön värimoodia ja valkotasapainoa luonnollisempaa tai elävämpää ilmettä varten.</string>
+    <string name="color_mode_vivid">Elävä</string>
+    <string name="color_mode_saturated">Kylläinen</string>
+    <string name="color_mode_standard">Vakio</string>
+    <string name="color_mode_original">Alkuperäinen</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Värimoodin käyttöönotto epäonnistui</string>
+    <string name="color_mode_vivid_summary">Tehostetut värit ja kontrasti</string>
+    <string name="color_mode_saturated_summary">Runsaat värit arkipäiväiseen käyttöön</string>
+    <string name="color_mode_standard_summary">Tehdaskalibroitu ja luonnollinen</string>
+    <string name="color_mode_original_summary">Alkuperäinen laajan väriskaalan viritys</string>
+    <string name="color_mode_p3_summary">DCI-P3-elokuvien väriavaruus</string>
+    <string name="color_mode_srgb_summary">Tarkka sRGB verkkoa ja suunnittelua varten</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Näytön tarkkuus</string>
+    <string name="screen_resolution_home_summary">Muuta näytön tarkkuutta</string>
+    <string name="screen_resolution_description">Suurempi tarkkuus tekee näytöstä terävämmän mutta kuluttaa enemmän akkua. Pienemmillä tarkkuuksilla akkua kuluu vähemmän.</string>
+    <string name="screen_resolution_failed">Tarkkuuden käyttöönotto epäonnistui</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Terävin — suurempi akun kulutus</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Paneelin natiivitarkkuus</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Tasapainoinen tarkkuus ja akunkesto</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Paras akunkesto</string>
+    <string name="screen_resolution_dialog_title">Muutetaanko tarkkuutta?</string>
+    <string name="screen_resolution_restart_hint_body">Käyttöönoton jälkeen System UI kannattaa käynnistää uudelleen. Vältä näytön koon muuttamista laitenäytön asetuksissa; se voi aiheuttaa ristiriitoja.</string>
+    <string name="screen_resolution_dialog_confirm">Ota käyttöön</string>
+    <string name="screen_resolution_dialog_cancel">Peruuta</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Lämmönhallinta</string>
+    <string name="thermal_summary">Sovelluskohtainen suorituskyky ja lämpötila</string>
+    <string name="thermal_enable_title">Lämpöprofiilit</string>
+    <string name="thermal_enable_summary">Käytä lämpöprofiileja sovelluskohtaisesti ja latauksen aikana</string>
+    <string name="thermal_global_label">Globaali profiili</string>
+    <string name="thermal_global_profile_title">Aktiivinen profiili</string>
+    <string name="thermal_per_app_label">Sovelluskohtaiset profiilit</string>
+    <string name="thermal_select_profile">Valitse profiili</string>
+    <string name="thermal_apply">Käytä</string>
+    <string name="thermal_no_apps">Sovelluksia ei ole vielä määritetty</string>
+    <string name="thermal_failed_toast">Lämpötoiminto epäonnistui</string>
+    <string name="thermal_charging_toast_connected">Latausprofiili käytössä</string>
+    <string name="thermal_charging_toast_disconnected">Sovelluskohtaiset profiilit palautettu</string>
+    <string name="thermal_charging_banner_body">Sovelluskohtaiset profiilit ovat tauolla latauksen aikana</string>
+    <string name="thermal_reset_title">Nollaa kaikki profiilit</string>
+    <string name="thermal_reset_summary">Palauta kaikki sovelluskohtaiset profiilit oletusarvoihinsa</string>
+    <string name="thermal_reset_confirm">Nollaa</string>
+    <string name="thermal_reset_confirm_body">Kaikki sovelluskohtaiset lämpöasetukset poistetaan ja profiilit palautuvat automaattisesti havaittuihin oletusarvoihinsa.</string>
+    <string name="thermal_add_app">Lisää sovellus</string>
+    <string name="thermal_search_apps">Hae sovelluksia</string>
+    <string name="thermal_default">Oletus</string>
+    <string name="thermal_nolimits">Ei rajoituksia</string>
+    <string name="thermal_navigation">Navigointi</string>
+    <string name="thermal_dialer">Puhelin</string>
+    <string name="thermal_video_call">Videopuhelu</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Pelaaminen</string>
+    <string name="thermal_gaming_heavy">Pelaaminen (raskas)</string>
+    <string name="thermal_gaming_competitive">Pelaaminen (kilpailullinen)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Lataus</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Kosketusvahvistus</string>
+    <string name="touch_boost_summary">Nopeampi kosketusvaste</string>
+    <string name="touch_boost_description">Nostaa kosketusohjaimen kyselytaajuutta, mikä vähentää kosketuksen ja vasteen välistä viivettä. Voi hieman lisätä virrankulutusta aktiivisessa käytössä.</string>
+    <string name="touch_boost_failed">Kosketusvahvistuksen käyttöönotto epäonnistui</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Sormenjälkitunnistimen kalibrointi</string>
+    <string name="fingerprint_calibration_summary">Kalibroi sormenjälkitunnistin uudelleen</string>
+    <string name="fingerprint_calibration_not_found">Sormenjälkitunnistimen kalibrointi ei ole käytettävissä</string>
+    <string name="speaker_calibration_title">Kaiuttimen kalibrointi</string>
+    <string name="speaker_calibration_summary">CIT-kaiuttimen itsetestikalibrointi</string>
+    <string name="speaker_calibration_not_found">Kaiuttimen kalibrointi ei ole käytettävissä</string>
+</resources>

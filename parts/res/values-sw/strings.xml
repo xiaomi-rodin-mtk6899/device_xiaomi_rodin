@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Onyesho, utendaji &amp; mfumo</string>
+    <string name="xiaomi_parts_category_diagnostics">Utambuzi</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Onyesho</string>
+    <string name="performance_category">Utendaji</string>
+    <string name="system_category">Mfumo</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Funga</string>
+    <string name="cancel">Ghairi</string>
+    <string name="navigate_up">Nenda juu</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Hali ya betri</string>
+    <string name="battery_status_summary">Afya, kuchaji na vipimo vya wakati halisi</string>
+    <string name="battery_live_section">Betri</string>
+    <string name="battery_wear_section">Afya &amp; uchakavu</string>
+    <string name="battery_status_charging">Inachaji</string>
+    <string name="battery_status_discharging">Inatoa nishati</string>
+    <string name="battery_status_full">Imejaa</string>
+    <string name="battery_status_not_charging">Haichaji</string>
+    <string name="battery_status_unknown">Haijulikani</string>
+    <string name="battery_health_good">Nzuri</string>
+    <string name="battery_health_overheat">Joto kupita kiasi</string>
+    <string name="battery_health_dead">Imekufa</string>
+    <string name="battery_health_over_voltage">Voltage ya ziada</string>
+    <string name="battery_health_cold">Baridi</string>
+    <string name="battery_health_failure">Kushindwa</string>
+    <string name="battery_status">Hali</string>
+    <string name="battery_health">Afya</string>
+    <string name="battery_temperature">Joto</string>
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_current_now">Mkondo wa sasa</string>
+    <string name="battery_power">Matumizi ya nishati</string>
+    <string name="battery_charge_counter">Kaunta ya kuchaji</string>
+    <string name="battery_technology">Teknolojia</string>
+    <string name="battery_plug_type">Chanzo cha nishati</string>
+    <string name="battery_cycle_count">Idadi ya miduara</string>
+    <string name="battery_state_of_health">Hali ya afya</string>
+    <string name="battery_first_usage">Ilianza kutumika</string>
+    <string name="battery_manufactured">Imetengenezwa</string>
+    <string name="battery_max_charge_current">Upeo wa sasa wa kuchaji</string>
+    <string name="battery_max_charge_voltage">Upeo wa voltage ya kuchaji</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Bila waya</string>
+    <string name="battery_plug_dock">Dock</string>
+    <string name="battery_plug_none">Betri</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Kifuatili cha utendaji</string>
+    <string name="performance_summary">Mzigo wa CPU na vipimo vya wakati halisi</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Joto</string>
+    <string name="monitor_all_zones">Kanda zote za joto</string>
+    <string name="monitor_cpu_load">Mzigo wa CPU</string>
+    <string name="monitor_load_average">Wastani wa mzigo (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Muda ulio wazi</string>
+    <string name="monitor_freq_range">Masafa %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">Masafa ya GPU</string>
+    <string name="monitor_gpu_load">Mzigo wa GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Data ya ufuatiliaji haipatikani kwenye kifaa hiki.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Kidhibiti cha kumbukumbu</string>
+    <string name="memory_summary">Matumizi ya RAM na michakato inayotend</string>
+    <string name="memory_used">Imetumika</string>
+    <string name="memory_free_summary">%1$s bure</string>
+    <string name="memory_total">Jumla</string>
+    <string name="memory_available">Inapatikana</string>
+    <string name="memory_cached">Kwenye kashe</string>
+    <string name="memory_swap">Swap bure</string>
+    <string name="memory_processes">Michakato</string>
+    <string name="memory_no_processes">Hakuna taarifa ya michakato.</string>
+    <string name="memory_unavailable">Taarifa ya kumbukumbu haipaitikana kwenye kifaa hiki.</string>
+    <string name="memory_low_warning">Kumbukumbu chache — fikiria kufunga apps za usuli</string>
+    <string name="memory_stop">Simamisha mchakato</string>
+    <string name="memory_process_stopped">Mchakato umesimamishwa</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Rangi za onyesho</string>
+    <string name="display_colours_summary">Hali ya rangi na joto</string>
+    <string name="display_colours_description">Rekebisha hali ya rangi na usawanya wa zero ya onyesho lako kwa mwonekano asili zaidi.</string>
+    <string name="color_mode_vivid">Safi</string>
+    <string name="color_mode_saturated">Imejaa rangi</string>
+    <string name="color_mode_standard">Kawaida</string>
+    <string name="color_mode_original">Asili</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Imeshindwa kutumia hali ya rangi</string>
+    <string name="color_mode_vivid_summary">Rangi na tofauti uliboreshwa</string>
+    <string name="color_mode_saturated_summary">Rangi nzuri kwa matumizi ya kila siku</string>
+    <string name="color_mode_standard_summary">imehakikiwa viwandani, ya asili</string>
+    <string name="color_mode_original_summary">Urekebishaji asili wa rangi pana</string>
+    <string name="color_mode_p3_summary">Nafasi ya rangi DCI-P3 ya sinema</string>
+    <string name="color_mode_srgb_summary">sRGB sahihi kwa web na muundo</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Azimio la skrini</string>
+    <string name="screen_resolution_home_summary">Badilisha azimio la skrini</string>
+    <string name="screen_resolution_description">Kuchagua ubora wa juu unatoa skrini kali zaidi lakini hutumia betri zaidi. Viwango vya chini vinapunguza matumizi ya betri.</string>
+    <string name="screen_resolution_failed">Imeshindwa kuweka ubora</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Angavu — matumizi ya betri juu</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Ubora wa asili wa paneli</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Usawa kati ya ubora na betri</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Bora kwa betri</string>
+    <string name="screen_resolution_dialog_title">Badilisha ubora?</string>
+    <string name="screen_resolution_restart_hint_body">Baada ya kutumia, inashauriwa kuwasha upya System UI. Epuka kubadilisha ukubwa wa skrini kwenye mipangilio ya kifaa; inaweza kusababisha migogoro.</string>
+    <string name="screen_resolution_dialog_confirm">Tumia</string>
+    <string name="screen_resolution_dialog_cancel">Ghairi</string>
+
+    <!-- ── Thermal Management ─────────────────────────────── -->
+    <string name="thermal_title">Usimami wa joto</string>
+    <string name="thermal_summary">Utendaji wa app na joto</string>
+    <string name="thermal_enable_title">Profaili za joto</string>
+    <string name="thermal_enable_summary">Weka profaili za joto kwa kila app na wakati wa kuchaji</string>
+    <string name="thermal_global_label">Profaili ya dunia</string>
+    <string name="thermal_global_profile_title">Profaili inayotenda</string>
+    <string name="thermal_per_app_label">Profaili za app</string>
+    <string name="thermal_select_profile">Chagua profaili</string>
+    <string name="thermal_apply">Tumia</string>
+    <string name="thermal_no_apps">Hakuna apps bado</string>
+    <string name="thermal_failed_toast">Utendaji wa joto umeshindwa</string>
+    <string name="thermal_charging_toast_connected">Profaili ya kuchaji inatumika</string>
+    <string name="thermal_charging_toast_disconnected">Profaili za app zimeendelea</string>
+    <string name="thermal_charging_banner_body">Profaili za app zimesimamishwa wakati wa kuchaji</string>
+    <string name="thermal_reset_title">Rudisha profaili zote</string>
+    <string name="thermal_reset_summary">Rudisha profaili za app zote kwa chaguo-msingi</string>
+    <string name="thermal_reset_confirm">Rudisha</string>
+    <string name="thermal_reset_confirm_body">Mabadiliko yote ya joto ya apps yataondolewa, profaili zitarudi kwenye hali yao ya awali.</string>
+    <string name="thermal_add_app">Ongeza app</string>
+    <string name="thermal_search_apps">Tafuta apps</string>
+    <string name="thermal_default">Chaguo-msingi</string>
+    <string name="thermal_nolimits">Hakuna mipaka</string>
+    <string name="thermal_navigation">Urambazaji</string>
+    <string name="thermal_dialer">Simu</string>
+    <string name="thermal_video_call">Simu ya video</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_video">Video</string>
+    <string name="thermal_video_4k">Video 4K</string>
+    <string name="thermal_gaming">Michezo</string>
+    <string name="thermal_gaming_heavy">Michezo (zito)</string>
+    <string name="thermal_gaming_competitive">Michezo (shindani)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Kuchaji</string>
+
+    <!-- ── Touch Boost ────────────────────────────────────── -->
+    <string name="touch_boost_title">Touch-boost</string>
+    <string name="touch_boost_summary">Mwitikio wa mguso haraka</string>
+    <string name="touch_boost_description">Huongeza kasi ya majibu ya mguso na matumizi ya nishati kidogo.</string>
+    <string name="touch_boost_failed">Touch-boost haijaweza kutumika</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Urekebishaji wa alama ya vidole</string>
+    <string name="fingerprint_calibration_summary">Rekebisha tena sensor ya alama ya vidole</string>
+    <string name="fingerprint_calibration_not_found">Urekebishaji wa alama haipatikani</string>
+    <string name="speaker_calibration_title">Urekebishaji wa spika</string>
+    <string name="speaker_calibration_summary">Jaribio la CIT la busafisha kwa spika</string>
+    <string name="speaker_calibration_not_found">Urekebishaji wa spika haipatikani</string>
+</resources>

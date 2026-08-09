@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Pantalla, rendimiento y sistema</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnóstico</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Pantalla</string>
+    <string name="performance_category">Rendimiento</string>
+    <string name="system_category">Sistema</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Descartar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="navigate_up">Navegar hacia arriba</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Estado de la batería</string>
+    <string name="battery_status_summary">Salud, carga y métricas en vivo</string>
+    <string name="battery_live_section">Batería</string>
+    <string name="battery_wear_section">Salud y desgaste</string>
+    <string name="battery_status_charging">Cargando</string>
+    <string name="battery_status_discharging">Descargando</string>
+    <string name="battery_status_full">Carga completa</string>
+    <string name="battery_status_not_charging">Sin carga</string>
+    <string name="battery_status_unknown">Desconocido</string>
+    <string name="battery_health_good">Buena</string>
+    <string name="battery_health_overheat">Sobrecalentada</string>
+    <string name="battery_health_dead">Agotada</string>
+    <string name="battery_health_over_voltage">Sobretensión</string>
+    <string name="battery_health_cold">Fría</string>
+    <string name="battery_health_failure">Error</string>
+    <string name="battery_status">Estado</string>
+    <string name="battery_health">Salud</string>
+    <string name="battery_temperature">Temperatura</string>
+    <string name="battery_voltage">Tensión</string>
+    <string name="battery_current_now">Corriente actual</string>
+    <string name="battery_power">Consumo de potencia</string>
+    <string name="battery_charge_counter">Contador de carga</string>
+    <string name="battery_technology">Tecnología</string>
+    <string name="battery_plug_type">Fuente de alimentación</string>
+    <string name="battery_cycle_count">Ciclos de carga</string>
+    <string name="battery_state_of_health">Estado de salud</string>
+    <string name="battery_first_usage">Primer uso</string>
+    <string name="battery_manufactured">Fabricación</string>
+    <string name="battery_max_charge_current">Corriente máxima de carga</string>
+    <string name="battery_max_charge_voltage">Tensión máxima de carga</string>
+    <string name="battery_plug_ac">CA</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Inalámbrica</string>
+    <string name="battery_plug_dock">Base</string>
+    <string name="battery_plug_none">Batería</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Monitor de rendimiento</string>
+    <string name="performance_summary">Carga de la CPU y métricas en vivo</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperaturas</string>
+    <string name="monitor_all_zones">Todas las zonas térmicas</string>
+    <string name="monitor_cpu_load">Carga de la CPU</string>
+    <string name="monitor_load_average">Carga media (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Tiempo de funcionamiento</string>
+    <string name="monitor_freq_range">Rango %1$s – %2$s</string>
+    <string name="monitor_governor">Gobernador: %1$s</string>
+    <string name="monitor_gpu_freq">Frecuencia de la GPU</string>
+    <string name="monitor_gpu_load">Carga de la GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Los datos de monitoreo no están disponibles en este dispositivo.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Administrador de memoria</string>
+    <string name="memory_summary">Uso de RAM y procesos en ejecución</string>
+    <string name="memory_used">En uso</string>
+    <string name="memory_free_summary">%1$s libres</string>
+    <string name="memory_total">Total</string>
+    <string name="memory_available">Disponible</string>
+    <string name="memory_cached">En caché</string>
+    <string name="memory_swap">Swap libre</string>
+    <string name="memory_processes">Procesos</string>
+    <string name="memory_no_processes">No hay información de procesos disponible.</string>
+    <string name="memory_unavailable">La información de memoria no está disponible en este dispositivo.</string>
+    <string name="memory_low_warning">Memoria baja — considera cerrar apps en segundo plano</string>
+    <string name="memory_stop">Detener el proceso</string>
+    <string name="memory_process_stopped">Proceso detenido</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Colores de la pantalla</string>
+    <string name="display_colours_summary">Modo de color y temperatura</string>
+    <string name="display_colours_description">Ajusta el modo de color y el balance de blancos de tu pantalla para obtener un aspecto más natural o más vívido.</string>
+    <string name="color_mode_vivid">Vivo</string>
+    <string name="color_mode_saturated">Saturado</string>
+    <string name="color_mode_standard">Estándar</string>
+    <string name="color_mode_original">Original</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">No se pudo aplicar el modo de color</string>
+    <string name="color_mode_vivid_summary">Colores y contraste realzados</string>
+    <string name="color_mode_saturated_summary">Colores intensos para el uso diario</string>
+    <string name="color_mode_standard_summary">Calibrado de fábrica, fiel a la realidad</string>
+    <string name="color_mode_original_summary">Ajuste original de amplia gama</string>
+    <string name="color_mode_p3_summary">Espacio de color de cine DCI-P3</string>
+    <string name="color_mode_srgb_summary">sRGB preciso para la web y el diseño</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Resolución de pantalla</string>
+    <string name="screen_resolution_home_summary">Cambiar la resolución de pantalla</string>
+    <string name="screen_resolution_description">Seleccionar una resolución más alta hace que la pantalla sea más nítida, pero consume más batería. Las resoluciones más bajas reducen el consumo de batería.</string>
+    <string name="screen_resolution_failed">No se pudo aplicar la resolución</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">La más nítida: mayor consumo de batería</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Nativa)</string>
+    <string name="screen_resolution_1220p_summary">Resolución nativa del panel</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Nitidez y batería equilibradas</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Mejor autonomía de batería</string>
+    <string name="screen_resolution_dialog_title">¿Cambiar la resolución?</string>
+    <string name="screen_resolution_restart_hint_body">Tras aplicarlo, se recomienda reiniciar el System UI. Evita cambiar el tamaño de la pantalla en los ajustes de visualización del dispositivo, ya que podría causar conflictos.</string>
+    <string name="screen_resolution_dialog_confirm">Aplicar</string>
+    <string name="screen_resolution_dialog_cancel">Cancelar</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Gestión térmica</string>
+    <string name="thermal_summary">Rendimiento y temperatura por app</string>
+    <string name="thermal_enable_title">Perfiles térmicos</string>
+    <string name="thermal_enable_summary">Aplicar perfiles térmicos por app y durante la carga</string>
+    <string name="thermal_global_label">Perfil general</string>
+    <string name="thermal_global_profile_title">Perfil activo</string>
+    <string name="thermal_per_app_label">Perfiles por app</string>
+    <string name="thermal_select_profile">Seleccionar perfil</string>
+    <string name="thermal_apply">Aplicar</string>
+    <string name="thermal_no_apps">Todavía no hay apps configuradas</string>
+    <string name="thermal_failed_toast">La operación térmica ha fallado</string>
+    <string name="thermal_charging_toast_connected">Perfil de carga activo</string>
+    <string name="thermal_charging_toast_disconnected">Perfiles por app reanudados</string>
+    <string name="thermal_charging_banner_body">Los perfiles por app están en pausa mientras se carga</string>
+    <string name="thermal_reset_title">Restablecer todos los perfiles</string>
+    <string name="thermal_reset_summary">Restaurar todos los perfiles por app a sus valores predefinidos</string>
+    <string name="thermal_reset_confirm">Restablecer</string>
+    <string name="thermal_reset_confirm_body">Se borrarán todos los ajustes térmicos por app y los perfiles volverán a sus valores predefinidos detectados automáticamente.</string>
+    <string name="thermal_add_app">Añadir app</string>
+    <string name="thermal_search_apps">Buscar apps</string>
+    <string name="thermal_default">Predeterminado</string>
+    <string name="thermal_nolimits">Sin límites</string>
+    <string name="thermal_navigation">Navegación</string>
+    <string name="thermal_dialer">Marcador</string>
+    <string name="thermal_video_call">Videollamada</string>
+    <string name="thermal_camera">Cámara</string>
+    <string name="thermal_video">Vídeo</string>
+    <string name="thermal_video_4k">Vídeo 4K</string>
+    <string name="thermal_gaming">Juegos</string>
+    <string name="thermal_gaming_heavy">Juegos (pesados)</string>
+    <string name="thermal_gaming_competitive">Juegos (competitivos)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Carga</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Refuerzo táctil</string>
+    <string name="touch_boost_summary">Respuesta táctil más rápida</string>
+    <string name="touch_boost_description">Aumenta la frecuencia de muestreo del panel táctil, reduciendo la latencia entre el toque y la respuesta. Puede aumentar ligeramente el consumo de energía durante el uso activo.</string>
+    <string name="touch_boost_failed">No se pudo aplicar el refuerzo táctil</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Calibración de la huella dactilar</string>
+    <string name="fingerprint_calibration_summary">Recalibrar el sensor de huella dactilar</string>
+    <string name="fingerprint_calibration_not_found">Calibración de huella no disponible</string>
+    <string name="speaker_calibration_title">Calibración del altavoz</string>
+    <string name="speaker_calibration_summary">Prueba de autocalibración del altavoz CIT</string>
+    <string name="speaker_calibration_not_found">Calibración del altavoz no disponible</string>
+</resources>

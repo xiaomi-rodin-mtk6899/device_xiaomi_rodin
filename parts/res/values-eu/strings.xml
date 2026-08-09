@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Pantaila, errendimendua eta sistema</string>
+    <string name="xiaomi_parts_category_diagnostics">Diagnostikak</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Pantaila</string>
+    <string name="performance_category">Errendimendua</string>
+    <string name="system_category">Sistema</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Baztertu</string>
+    <string name="cancel">Ezeztatu</string>
+    <string name="navigate_up">Nabigatu gora</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Bateriaren egoera</string>
+    <string name="battery_status_summary">Osasuna, karga eta denbora errealeko metrikak</string>
+    <string name="battery_live_section">Bateria</string>
+    <string name="battery_wear_section">Osasuna eta higadura</string>
+    <string name="battery_status_charging">Kargatzen</string>
+    <string name="battery_status_discharging">Deskargatzen</string>
+    <string name="battery_status_full">Betea</string>
+    <string name="battery_status_not_charging">Ez da kargatzen</string>
+    <string name="battery_status_unknown">Ezezaguna</string>
+    <string name="battery_health_good">Ona</string>
+    <string name="battery_health_overheat">Gehiegi berotuta</string>
+    <string name="battery_health_dead">Agortuta</string>
+    <string name="battery_health_over_voltage">Tentsio handi eta</string>
+    <string name="battery_health_cold">Hotza</string>
+    <string name="battery_health_failure">Hutsegitea</string>
+    <string name="battery_status">Egoera</string>
+    <string name="battery_health">Osasuna</string>
+    <string name="battery_temperature">Tenperatura</string>
+    <string name="battery_voltage">Tentsioa</string>
+    <string name="battery_current_now">Uneko korrontea</string>
+    <string name="battery_power">Energia gastua</string>
+    <string name="battery_charge_counter">Karga kontagailua</string>
+    <string name="battery_technology">Teknologia</string>
+    <string name="battery_plug_type">Elikagai iturria</string>
+    <string name="battery_cycle_count">Ziklo kopurua</string>
+    <string name="battery_state_of_health">Osasun egoera</string>
+    <string name="battery_first_usage">Lehen erabilera</string>
+    <string name="battery_manufactured">Fabrikazioa</string>
+    <string name="battery_max_charge_current">Karga korronte maximoa</string>
+    <string name="battery_max_charge_voltage">Karga tentsio maximoa</string>
+    <string name="battery_plug_ac">CA</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Haririk gabe</string>
+    <string name="battery_plug_dock">Dokk</string>
+    <string name="battery_plug_none">Bateria</string>
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Errendimenduko monitoria</string>
+    <string name="performance_summary">CPU karga eta denbora errealeko metrikak</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Tenperaturak</string>
+    <string name="monitor_all_zones">Zona termiko guztiak</string>
+    <string name="monitor_cpu_load">CPU karga</string>
+    <string name="monitor_load_average">Karga bitartekoa (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Funtzionamendu denbora</string>
+    <string name="monitor_freq_range">Tartea %1$s – %2$s</string>
+    <string name="monitor_governor">Gobernatzaile: %1$s</string>
+    <string name="monitor_gpu_freq">GPU maiztasuna</string>
+    <string name="monitor_gpu_load">GPU karga: %1$d%%</string>
+    <string name="monitor_unavailable">Monitorizazjako datuok ez daude erabilgarri gailu honetan.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Memoriaren kudeatzaile</string>
+    <string name="memory_summary">RAM erabilera eta prozesu aktiboak</string>
+    <string name="memory_used">Erabilitakoa</string>
+    <string name="memory_free_summary">%1$s aske</string>
+    <string name="memory_total">Guztira</string>
+    <string name="memory_available">Eskuragarria</string>
+    <string name="memory_cached">Cachean</string>
+    <string name="memory_swap">Swap librea</string>
+    <string name="memory_processes">Prozesuk</string>
+    <string name="memory_no_processes">Prozesuen informazioa ez da erabilgarri.</string>
+    <string name="memory_unavailable">Memoriaren informazioa ere ez da erabilgarri لاgailu honetan.</string>
+    <string name="memory_low_warning">Memoria baxua — gargariako aplikazioak itxi</string>
+    <string name="memory_stop">Gelditu prozesua</string>
+    <string name="memory_process_stopped">Prozesua gelditu da</string>
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Pantailako koloreak</string>
+    <string name="display_colours_summary">Kolore modua eta tenperatura</string>
+    <string name="display_colours_description">Egokitu zure pantailaren kolore modua eta zuri-balantza itxura naturalagoa edo biziagoa izateko.</string>
+    <string name="color_mode_vivid">Bizia</string>
+    <string name="color_mode_saturated">Saturatua</string>
+    <string name="color_mode_standard">Estandarra</string>
+    <string name="color_mode_original">Jatorrizkoa</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Kolore modua ezin izan da aplikatu</string>
+    <string name="color_mode_vivid_summary">Kolore eta kontraste areagotuak</string>
+    <string name="color_mode_saturated_summary">Kolore aberatsak eguneroko erabilerarako</string>
+    <string name="color_mode_standard_summary">Fabrika-kalibratua, erre­li­kora gerterre</string>
+    <string name="color_mode_original_summary">Jatorrizko gama zabaleko doiketa</string>
+    <string name="color_mode_p3_summary">DCI-P3 zinema kolore tartea</string>
+    <string name="color_mode_srgb_summary">sRGB zehatza web eta diseinurako</string>
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Pantailaren ebazpena</string>
+    <string name="screen_resolution_home_summary">Aldatu pantailaren ebazpena</string>
+    <string name="screen_resolution_description">Ebazpen handiagoak argitasun handiagoa eskaintzen du, baina bateria gehiago kontsumitzen du.</string>
+    <string name="screen_resolution_failed">Ezin izan da ebazpena aplikatu</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Zorrotzena - bateria gehiago</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Panelaren ebazpen jatorrizkoa</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Zorroztasuna eta bateria orekan</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Bateria luzatuena</string>
+    <string name="screen_resolution_dialog_title">Ebazpena aldatu?</string>
+    <string name="screen_resolution_restart_hint_body">Aplikatu ondoren System UI berrabiatzea gomendatzen da. Saihestu pantailaren tamaina aldatzea Display ezarpenetan, gatazkak sor ditzake.</string>
+    <string name="screen_resolution_dialog_confirm">Aplikatu</string>
+    <string name="screen_resolution_dialog_cancel">Ezeztatu</string>
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Kudeaketa termika</string>
+    <string name="thermal_summary">Errendimendua eta tenperatura aplikazio bakoitzeko</string>
+    <string name="thermal_enable_title">Profil termiko</string>
+    <string name="thermal_enable_summary">Aplikatu profil termiko app bakoitzean eta kargatzen ari</string>
+    <string name="thermal_global_label">Profil globala</string>
+    <string name="thermal_global_profile_title">Profil aktiboa</string>
+    <string name="thermal_per_app_label">App bakoitzeko profilak</string>
+    <string name="thermal_select_profile">Hautatu profila</string>
+    <string name="thermal_apply">Aplikatu</string>
+    <string name="thermal_no_apps">Oraindik ez da aplikaziorik</string>
+    <string name="thermal_failed_toast">Eragiketa termikoa ez da burutu</string>
+    <string name="thermal_charging_toast_connected">Karga profile aktiboa</string>
+    <string name="thermal_charging_toast_disconnected">App profiles jarraitua</string>
+    <string name="thermal_charging_banner_body">App bakoitzeko profilak pausarazi dira kargatzen ari den</string>
+    <string name="thermal_reset_title">Berrezarri guztiak</string>
+    <string name="thermal_reset_summary">Itzuli profil guztiak lehenetsitako balioetara</string>
+    <string name="thermal_reset_confirm">Berrezarri</string>
+    <string name="thermal_reset_confirm_body">Profil guztiak berrezarri</string>
+    <string name="thermal_add_app">Gehitu aplikaziora</string>
+    <string name="thermal_search_apps">Bilatu apps</string>
+    <string name="thermal_default">Lehenetsia</string>
+    <string name="thermal_nolimits">Mugarik gabe</string>
+    <string name="thermal_navigation">Nabigazio</string>
+    <string name="thermal_dialer">Markatzaile</string>
+    <string name="thermal_video_call">Bideo-deia</string>
+    <string name="thermal_camera">Kamara</string>
+    <string name="thermal_video">Bideoa</string>
+    <string name="thermal_video_4k">Bideoa 4K</string>
+    <string name="thermal_gaming">Jokoak</string>
+    <string name="thermal_gaming_heavy">Jokoak (intentsiboak)</string>
+    <string name="thermal_gaming_competitive">Jokoak (lehiakorrak)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Karga</string>
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Ukipen bultzada</string>
+    <string name="touch_boost_summary">Ukipen erantzun azkarragoa</string>
+    <string name="touch_boost_description">Ukipen kontroleko polling maiztasuna handitzen du, erantzunaren lat lorpena murrizten du. Erabilera aktiboan energia-xahutze apur gehiago.</string>
+    <string name="touch_boost_failed">Ukipen bultsak ez du funtzionatu</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Hatze-markaren kalibrazio</string>
+    <string name="fingerprint_calibration_summary">Berriro kalibratu hatz-marka</string>
+    <string name="fingerprint_calibration_not_found">Hatz-marka kalibra</string>
+    <string name="speaker_calibration_title">Bozgorailuen kalibrazio</string>
+    <string name="speaker_calibration_summary">Bozgorailu autodeia CIT</string>
+    <string name="speaker_calibration_not_found">Bozgorailu</string>
+</resources>

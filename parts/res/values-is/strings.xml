@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Skjár, afköst &amp; kerfi</string>
+    <string name="xiaomi_parts_category_diagnostics">Greining</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">Skjár</string>
+    <string name="performance_category">Afköst</string>
+    <string name="system_category">Kerfi</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">Loka</string>
+    <string name="cancel">Hætta við</string>
+    <string name="navigate_up">Fara upp</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">Staða rafhlöðu</string>
+    <string name="battery_status_summary">Heilsa, hleðsla og rauntímamælingar</string>
+    <string name="battery_live_section">Rafhlaða</string>
+    <string name="battery_wear_section">Heilsa &amp; slit</string>
+    <string name="battery_status_charging">Hleður</string>
+    <string name="battery_status_discharging">Tæmir</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Ekki að hlaða</string>
+    <string name="battery_status_unknown">Óþekkt</string>
+    <string name="battery_health_good">Gott</string>
+    <string name="battery_health_overheat">Ofhitnuð</string>
+    <string name="battery_health_dead">Dauð</string>
+    <string name="battery_health_over_voltage">Ofspenna</string>
+    <string name="battery_health_cold">Köld</string>
+    <string name="battery_health_failure">Bilun</string>
+    <string name="battery_status">Staða</string>
+    <string name="battery_health">Heilsa</string>
+    <string name="battery_temperature">Hitastig</string>
+    <string name="battery_voltage">Spenna</string>
+    <string name="battery_current_now">Núverandi straumur</string>
+    <string name="battery_power">Aflnotkun</string>
+    <string name="battery_charge_counter">Hleðsluteljari</string>
+    <string name="battery_technology">Tækni</string>
+    <string name="battery_plug_type">Rafmagnsgjafi</string>
+    <string name="battery_cycle_count">Fjöldi lota</string>
+    <string name="battery_state_of_health">Heilsuástand</string>
+    <string name="battery_first_usage">Fyrst notað</string>
+    <string name="battery_manufactured">Framleitt</string>
+    <string name="battery_max_charge_current">Hámarks hleðslustraumur</string>
+    <string name="battery_max_charge_voltage">Hámarks hleðsluspenna</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">Þráðlaust</string>
+    <string name="battery_plug_dock">Dock</string>
+    <string name="battery_plug_none">Rafhlaða</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">Afkastamælir</string>
+    <string name="performance_summary">CPU-álag og rauntímamælingar</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Hitastig</string>
+    <string name="monitor_all_zones">Öll hitasvæði</string>
+    <string name="monitor_cpu_load">CPU-álag</string>
+    <string name="monitor_load_average">Meðalálag (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Upptími</string>
+    <string name="monitor_freq_range">Svið %1$s – %2$s</string>
+    <string name="monitor_governor">Governor: %1$s</string>
+    <string name="monitor_gpu_freq">GPU-tíðni</string>
+    <string name="monitor_gpu_load">GPU-álag: %1$d%%</string>
+    <string name="monitor_unavailable">Vöktunargögn eru ekki í boði á þessu tæki.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">Minnisstjóri</string>
+    <string name="memory_summary">RAM-notkun og virkir ferlar</string>
+    <string name="memory_used">Notað</string>
+    <string name="memory_free_summary">%1$s laust</string>
+    <string name="memory_total">Samtals</string>
+    <string name="memory_available">Í boði</string>
+    <string name="memory_cached">Í skyndiminni</string>
+    <string name="memory_swap">Swap laust</string>
+    <string name="memory_processes">Ferlar</string>
+    <string name="memory_no_processes">Engar upplýsingar um ferla.</string>
+    <string name="memory_unavailable">Upplýsingar um minni eru ekki í boði á þessu tæki.</string>
+    <string name="memory_low_warning">Lítið minni — íhugaðu að loka bakgrunnsforritum</string>
+    <string name="memory_stop">Stöðva ferli</string>
+    <string name="memory_process_stopped">Ferli stöðvað</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">Skjálitir</string>
+    <string name="display_colours_summary">Litastilling og hitastig</string>
+    <string name="display_colours_description">Stilltu litastillingu og hvíthalla skjásins fyrir náttúrulegra eða líflegra útlit.</string>
+    <string name="color_mode_vivid">Líflegur</string>
+    <string name="color_mode_saturated">Mettuð</string>
+    <string name="color_mode_standard">Staðall</string>
+    <string name="color_mode_original">Upprunalegur</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">Mistókst að beita litastillingu</string>
+    <string name="color_mode_vivid_summary">Auknir litir og birtuskil</string>
+    <string name="color_mode_saturated_summary">Ríkir litir fyrir daglega notkun</string>
+    <string name="color_mode_standard_summary">Kvarðað í verksmiðju, náttúrulegt</string>
+    <string name="color_mode_original_summary">Upprunaleg breiður litaskali</string>
+    <string name="color_mode_p3_summary">DCI-P3 litakerfi fyrir kvikmyndir</string>
+    <string name="color_mode_srgb_summary">Nákvæmt sRGB fyrir vef og hönnun</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">Skjáupplausn</string>
+    <string name="screen_resolution_home_summary">Breyta skjáupplausn</string>
+    <string name="screen_resolution_description">Hærri upplausn gerir skjáinn skarpari en eykur rafhlöðunotkun. Lægri upplausnir draga úr rafhlöðunotkun.</string>
+    <string name="screen_resolution_failed">Mistókst að beita upplausn</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">Skarpast — meiri rafhlöðunotkun</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">Upprunaleg skjáupplausn</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">Jafnvægi skerpu og rafhlöðu</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">Besta rafhlöðuending</string>
+    <string name="screen_resolution_dialog_title">Breyta upplausn?</string>
+    <string name="screen_resolution_restart_hint_body">Eftir beitingu er mælt með endurræsingu System UI. Forðastu að breyta stærð skjásins í stillingum tækisins; það getur valdið átökum.</string>
+    <string name="screen_resolution_dialog_confirm">Beita</string>
+    <string name="screen_resolution_dialog_cancel">Hætta við</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">Hitastýring</string>
+    <string name="thermal_summary">Afköst og hitastig fyrir hvert forrit</string>
+    <string name="thermal_enable_title">Hitasnið</string>
+    <string name="thermal_enable_summary">Beita hitasniðum fyrir hvert forrit og meðan verið er að hlaða</string>
+    <string name="thermal_global_label">Almennt snið</string>
+    <string name="thermal_global_profile_title">Virk snið</string>
+    <string name="thermal_per_app_label">Snið fyrir hvert forrit</string>
+    <string name="thermal_select_profile">Velja snið</string>
+    <string name="thermal_apply">Beita</string>
+    <string name="thermal_no_apps">Engin forrit stillt ennþá</string>
+    <string name="thermal_failed_toast">Hitastilling mistókst</string>
+    <string name="thermal_charging_toast_connected">Hleðslusnið virkt</string>
+    <string name="thermal_charging_toast_disconnected">Snið fyrir forrit héldu áfram</string>
+    <string name="thermal_charging_banner_body">Snið fyrir forrit eru sett í bið meðan hlaðið er</string>
+    <string name="thermal_reset_title">Endurstilla öll snið</string>
+    <string name="thermal_reset_summary">Endurstilla öll snið fyrir forrit í sjálfgefið</string>
+    <string name="thermal_reset_confirm">Endurstilla</string>
+    <string name="thermal_reset_confirm_body">Öll hitastillingargögn fyrir forrit verða hreinsuð og sniðin snúa aftur í sjálfvirkt greindar sjálfgefnar stillingar.</string>
+    <string name="thermal_add_app">Bæta við forriti</string>
+    <string name="thermal_search_apps">Leita að forritum</string>
+    <string name="thermal_default">Sjálfgefið</string>
+    <string name="thermal_nolimits">Engin mörk</string>
+    <string name="thermal_navigation">Leiðsögn</string>
+    <string name="thermal_dialer">Sími</string>
+    <string name="thermal_video_call">Myndsímtal</string>
+    <string name="thermal_camera">Myndavél</string>
+    <string name="thermal_video">Myndband</string>
+    <string name="thermal_video_4k">Myndband 4K</string>
+    <string name="thermal_gaming">Leikir</string>
+    <string name="thermal_gaming_heavy">Leikir (mikil)</string>
+    <string name="thermal_gaming_competitive">Leikir (samkeppni)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">Hleðsla</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">Touch-boost</string>
+    <string name="touch_boost_summary">Hraðari snertiviðbrögð</string>
+    <string name="touch_boost_description">Hækkar tíðni snertistýringar og dregur úr bið milli snertingar og svars. Getur aukið orkunotkun lítillega við virka notkun.</string>
+    <string name="touch_boost_failed">Mistókst að beita Touch-boost</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">Kvörðun fingrafara</string>
+    <string name="fingerprint_calibration_summary">Kvörða fingrafaraskynjarann aftur</string>
+    <string name="fingerprint_calibration_not_found">Kvörðun fingrafara ekki í boði</string>
+    <string name="speaker_calibration_title">Kvörðun hátalara</string>
+    <string name="speaker_calibration_summary">CIT sjálfkvörðunarpróf fyrir hátalara</string>
+    <string name="speaker_calibration_not_found">Kvörðun hátalara ekki í boði</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">ការបង្ហាញ ដំណើរការ និងប្រព័ន្ធ</string>
+    <string name="xiaomi_parts_category_diagnostics">ការធ្វើរោគវិនិច្ឆ័យ</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">ការបង្ហាញ</string>
+    <string name="performance_category">ដំណើរការ</string>
+    <string name="system_category">ប្រព័ន្ធ</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">បិទ</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="navigate_up">នាំឡើងលើ</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">ស្ថានភាពថ្ម</string>
+    <string name="battery_status_summary">សុខភាព ការសាកថ្ម និងលក្ខណៈពេលវេលាជាក់ស្តែង</string>
+    <string name="battery_live_section">ថ្ម</string>
+    <string name="battery_wear_section">សុខភាព និងការបាត់បង់</string>
+    <string name="battery_status_charging">កំពុងសាក</string>
+    <string name="battery_status_discharging">កំពុងបញ្ចេញ</string>
+    <string name="battery_status_full">ពេញ</string>
+    <string name="battery_status_not_charging">មិនកំពុងសាក</string>
+    <string name="battery_status_unknown">មិនស្គាល់</string>
+    <string name="battery_health_good">ល្អ</string>
+    <string name="battery_health_overheat">កម្តៅខ្លាំង</string>
+    <string name="battery_health_dead">ខូច</string>
+    <string name="battery_health_over_voltage">វ៉ុលខ្ពស់ពេក</string>
+    <string name="battery_health_cold">ត្រជាក់</string>
+    <string name="battery_health_failure">បរាជ័យ</string>
+    <string name="battery_status">ស្ថានភាព</string>
+    <string name="battery_health">សុខភាព</string>
+    <string name="battery_temperature">សីតុណ្ហភាព</string>
+    <string name="battery_voltage">វ៉ុល</string>
+    <string name="battery_current_now">ចរន្តបច្ចុប្បន្ន</string>
+    <string name="battery_power">ការប្រើប្រាស់ថាមពល</string>
+    <string name="battery_charge_counter">ការរាប់ការសាក</string>
+    <string name="battery_technology">បច្ចេកវិទ្យា</string>
+    <string name="battery_plug_type">ប្រភពថាមពល</string>
+    <string name="battery_cycle_count">ចំនួនវដ្ត</string>
+    <string name="battery_state_of_health">ស្ថានភាពសុខភាព</string>
+    <string name="battery_first_usage">ការប្រើលើកដំបូង</string>
+    <string name="battery_manufactured">ការផលិត</string>
+    <string name="battery_max_charge_current">ចរន្តសាកអតិបរិមា</string>
+    <string name="battery_max_charge_voltage">វ៉ុលសាកអតិបរិមា</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">ឥតខ្សែ</string>
+    <string name="battery_plug_dock">ឌុក</string>
+    <string name="battery_plug_none">ថ្ម</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">អ្នកតាមដានដំណើរការ</string>
+    <string name="performance_summary">បន្ទុក CPU និងលក្ខណៈពេលវេលា</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">សីតុណ្ហភាព</string>
+    <string name="monitor_all_zones">គ្រប់តំបន់កម្តៅ</string>
+    <string name="monitor_cpu_load">បន្ទុក CPU</string>
+    <string name="monitor_load_average">ការផ្ទុកជាមធ្យម (1 · 5 · 15)</string>
+    <string name="monitor_uptime">រយៈពេលដំណើរការ</string>
+    <string name="monitor_freq_range">ជួរ %1$s – %2$s</string>
+    <string name="monitor_governor">អ្នកគ្រប់គ្រង: %1$s</string>
+    <string name="monitor_gpu_freq">ប្រេកង់ GPU</string>
+    <string name="monitor_gpu_load">បន្ទុក GPU: %1$d%%</string>
+    <string name="monitor_unavailable">ទិន្នន័យតាមដានមិនអាចប្រើលើឧបករណ៍នេះបានទេ។</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">កម្មវិធីគ្រប់គ្រងអង្គចងចាំ</string>
+    <string name="memory_summary">ការប្រើប្រាស់ RAM និងដំណើរការកំពុងដំណើរការ</string>
+    <string name="memory_used">បានប្រើ</string>
+    <string name="memory_free_summary">%1$s ទំនេរ</string>
+    <string name="memory_total">សរុប</string>
+    <string name="memory_available">មាន</string>
+    <string name="memory_cached">បានរក្សាទុក</string>
+    <string name="memory_swap">Swap ទំនេរ</string>
+    <string name="memory_processes">ដំណើរការ</string>
+    <string name="memory_no_processes">មិនមានពត៌មានអំពីដំណើរការ។</string>
+    <string name="memory_unavailable">ពត៌មានអំពីអង់ចងចាំមិនមានលើឧបករណ៍នេះទេ។</string>
+    <string name="memory_low_warning">អង់ចងចាំទាប — សូមពិចារណាបិទកម្មវិធីផ្ទៃខាងក្រោយ</string>
+    <string name="memory_stop">បញ្ឈប់ដំណើរការ</string>
+    <string name="memory_process_stopped">បានបញ្ឈប់ដំណើរការ</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">ពណ៌ការបង្ហាញ</string>
+    <string name="display_colours_summary">របៀបពណ៌ និងសីតុណ្ហភាព</string>
+    <string name="display_colours_description">កែតម្រូវរបៀបពណ៌ និងតុល្យភាពពណ៌សរបស់អេក្រង់ ដើម្បីផ្តល់រូបភាពធម្មជាតិ ឬភ្លឺជាងមុន។</string>
+    <string name="color_mode_vivid">ភ្លឺ</string>
+    <string name="color_mode_saturated">ក្រមពណ៌</string>
+    <string name="color_mode_standard">ស្ដង់ដារ</string>
+    <string name="color_mode_original">ដើម</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">មិនអាចអនុវត្តរបៀបពណ៌</string>
+    <string name="color_mode_vivid_summary">ពណ៌ និងកម្រិតកម្លាំងពន្លឺកើនឡើង</string>
+    <string name="color_mode_saturated_summary">ពណ៌សម្បូរសម្រាប់ការប្រើប្រចាំថ្ងៃ</string>
+    <string name="color_mode_standard_summary">កែតម្រូវពីរោងចក្រ ត្រឹមត្រូវ</string>
+    <string name="color_mode_original_summary">ការកែតម្រូវជួរពណ៌ធំដើម</string>
+    <string name="color_mode_p3_summary">ពណ៌ភាពយន្ត DCI-P3</string>
+    <string name="color_mode_srgb_summary">sRGB ត្រឹមត្រូវសម្រាប់វេប និងការរចនា</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">គុណ្យភាពអេក្រង</string>
+    <string name="screen_resolution_home_summary">ផ្លាស់ប្តូរគុណភាពការបង្ហាញ</string>
+    <string name="screen_resolution_description">ការជ្រើសគុណភាពខ្ពស់ធ្វើឲ្យអេក្រងច្បាស់ ប៉ុន្តែប្រើថ្មច្រើលាងគ្នា។ គុណភាពទាបមជួយកាត់បន្ថយថាមពលថ្ម។</string>
+    <string name="screen_resolution_failed">មិនអាចអនុវត្តគុណភាព</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">ច្បាស់បំផុត — ប្រើថ្មច្រើន</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">គុណភាពអេក្រងដើម</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">តុល្យភាពច្បាស់ និងថ្ម</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">អាយុកាលថ្មល្អបំផុត</string>
+    <string name="screen_resolution_dialog_title">ផ្លាស់ប្តូរគុណភាព?</string>
+    <string name="screen_resolution_restart_hint_body">បន្ទាប់ពីអនុវត្ត ការចាប់ផ្តើម System UI ឡើងវិញត្រូវបានណែនាំ។ សូមជៀសវាងការប្ដូរទំហំអេក្រងនៅក្នុងការកំណត់ ដើម្បីកុំឱ្យមានការប៉ះទង្គិច។</string>
+    <string name="screen_resolution_dialog_confirm">អនុវត្ត</string>
+    <string name="screen_resolution_dialog_cancel">បោះបង់</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">គ្រប់គ្រងសម្ពាធកម្រតៅ</string>
+    <string name="thermal_summary">ដំណើរការ និងសីតុណ្ហភាពតាមកម្មវិធី</string>
+    <string name="thermal_enable_title">ប្រូហ្វាយកម្តៅ</string>
+    <string name="thermal_enable_summary">អនុវត្តប្រូហ្វាយកម្តៅតាមកម្មវិធី និងពេលសាក</string>
+    <string name="thermal_global_label">ប្រូហ្វាយសកល</string>
+    <string name="thermal_global_profile_title">ប្រូហ្វាយដែលប្រើ</string>
+    <string name="thermal_per_app_label">ប្រូហ្វាយតាមកម្មវិធី</string>
+    <string name="thermal_select_profile">ជ្រើសរើសប្រូហ្វាយ</string>
+    <string name="thermal_apply">អនុវត្ត</string>
+    <string name="thermal_no_apps">មិនទានាប់មានកម្មវិធីដែលបានកំណត់</string>
+    <string name="thermal_failed_toast">បរាជ័យក្នុងការប្រតិបត្តិកម្តៅ</string>
+    <string name="thermal_charging_toast_connected">ប្រូហ្វាយសាកបានប្រើ</string>
+    <string name="thermal_charging_toast_disconnected">បានបន្តប្រូហ្វាយតាមកម្មវិធី</string>
+    <string name="thermal_charging_banner_body">ប្រូហ្វាយតាមកម្មវិធីត្រូវបានផ្អាកខណៈសាក</string>
+    <string name="thermal_reset_title">កំណត់ប្រូហ្វាយទាំងអស់ឡើងវិញ</string>
+    <string name="thermal_reset_summary">រាយបន្តប្រូហ្វាយគ្រប់កម្មវិធី ទៅវាលដើម</string>
+    <string name="thermal_reset_confirm">កំណត់ឡើងវិញ</string>
+    <string name="thermal_reset_confirm_body">គ្រប់ការកំណត់កម្តៅផ្ទាល់កម្មវិធីីត្រូវបានជម្រះ ហើយប្រូហ្វាយនឹងត្រឡប់ទៅបណ្តាលដោយស្វា័យប្រវ័ច្ឆ័យវវិញ។</string>
+    <string name="thermal_add_app">បន្ថែមកម្មវិធី</string>
+    <string name="thermal_search_apps">ស្វែងរកកម្មវិធី</string>
+    <string name="thermal_default">លំនាំដើម</string>
+    <string name="thermal_nolimits">គ្មានដែនកំណត់</string>
+    <string name="thermal_navigation">ការណែនាំផ្លូវ</string>
+    <string name="thermal_dialer">ទូរសព្ទ</string>
+    <string name="thermal_video_call">ការហៅជាវីដេអូ</string>
+    <string name="thermal_camera">កាមេរ៉ា</string>
+    <string name="thermal_video">វីដេអូ</string>
+    <string name="thermal_video_4k">វីដេអូ 4K</string>
+    <string name="thermal_gaming">ហ្គេម</string>
+    <string name="thermal_gaming_heavy">ហ្គេម (ទម្ងន់ធ្ងន់)</string>
+    <string name="thermal_gaming_competitive">ហ្គេម (ប្រកួតប្រជែង)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">ការសាក</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">ពន្លឿការប៉ះ</string>
+    <string name="touch_boost_summary">ការឆ្លើយតបការប៉ះលឿនជាង</string>
+    <string name="touch_boost_description">បង្កើនអត្រាស្វែងរករបស់ touch controller កាត់បន្ថយការយឺតយ៉ាវ អាចប្រើថាមពលច្រើនបន្តិចពេលប្រើ។</string>
+    <string name="touch_boost_failed">មិនអាចអនុវត្តការពន្លឿកការប៉ះ</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">ការក្រិតស្នាមម្រាមដៃ</string>
+    <string name="fingerprint_calibration_summary">ក្រិតឧបករណ៍ចាប់ស្នាមម្រាមដៃឡើងវិញ</string>
+    <string name="fingerprint_calibration_not_found">ការក្រិតស្នាមម្រាមដៃមិនអាចប្រើបាន</string>
+    <string name="speaker_calibration_title">ការក្រិតឧបករណ៍សំឡេង</string>
+    <string name="speaker_calibration_summary">CIT ការសាកល្បងក្រិតសំឡេងដោយខ្លួនឯង</string>
+    <string name="speaker_calibration_not_found">ការក្រិតឧបករណ៍សំឡេងមិនអាចប្រើបាន</string>
+</resources>

@@ -8,6 +8,7 @@ package com.xiaomi.settings.ui
 import android.os.Build
 import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.DurationBasedAnimationSpec
+import androidx.compose.animation.core.Easing
 import androidx.compose.animation.core.FiniteAnimationSpec
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.Spring
@@ -51,6 +52,16 @@ private fun Color.liftLightness(amount: Float): Color {
 private val LightColorScheme = lightColorScheme()
 private val DarkColorScheme  = darkColorScheme()
 
+// Material Expressive 3 shape tokens — generous radii for the
+// expressive "pill + sheet" language used across the UI.
+private val ExpressiveShapes = Shapes(
+    extraSmall = RoundedCornerShape(8.dp),
+    small      = RoundedCornerShape(12.dp),
+    medium     = RoundedCornerShape(16.dp),
+    large      = RoundedCornerShape(20.dp),
+    extraLarge = RoundedCornerShape(28.dp),
+)
+
 @Composable
 fun XiaomiPartsTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -85,37 +96,54 @@ fun XiaomiPartsTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography  = Typography(),
-        shapes = Shapes(
-            extraSmall = RoundedCornerShape(4.dp),
-            small      = RoundedCornerShape(8.dp),
-            medium     = RoundedCornerShape(12.dp),
-            large      = RoundedCornerShape(16.dp),
-            extraLarge = RoundedCornerShape(28.dp),
-        ),
-        content = content,
+        shapes      = ExpressiveShapes,
+        content     = content,
     )
 }
 
 // ──────────────────────────────────────────────────────────────────────────
-// Motion engine — M3 Expressive spring tokens
+// Motion engine — M3 Expressive motion tokens
+// ──────────────────────────────────────────────────────────────────────────
+// Emphasized easing curves per the Material Motion spec:
+//   • Emphasized-decelerate 0.05, 0.7, 0.1, 1.0   (elements entering)
+//   • Emphasized-accelerate 0.3, 0.0, 0.8, 0.15   (elements exiting)
+// Springs use low damping for the bouncy "expressive" feel.
 // ──────────────────────────────────────────────────────────────────────────
 
 object Motion {
-    private val EmphasizedDecelerate = CubicBezierEasing(0.05f, 0.7f, 0.1f, 1f)
-    private val EmphasizedAccelerate = CubicBezierEasing(0.3f, 0f, 0.8f, 0.15f)
+    private val EmphasizedDecelerate: Easing = CubicBezierEasing(0.05f, 0.7f, 0.1f, 1f)
+    private val EmphasizedAccelerate: Easing = CubicBezierEasing(0.3f, 0f, 0.8f, 0.15f)
+    private val StandardEasing: Easing       = CubicBezierEasing(0.2f, 0f, 0f, 1f)
 
+    /** Full-screen navigation: subtle spatial spring with a gentle bounce. */
     fun <T> navSpatialSpec(): FiniteAnimationSpec<T> = spring(
         dampingRatio = Spring.DampingRatioLowBouncy,
         stiffness    = Spring.StiffnessMediumLow,
     )
 
+    /** Nav fade/scale cross-fade on top of the spatial movement. */
     fun <T> navEffectsSpec(): FiniteAnimationSpec<T> =
-        tween(durationMillis = 150, easing = EmphasizedDecelerate)
+        tween(durationMillis = 200, easing = EmphasizedDecelerate)
 
+    /** Default enter/exit for cards, sheets, banners. */
     fun <T> defaultEffectsSpec(): FiniteAnimationSpec<T> = spring(
         dampingRatio = Spring.DampingRatioMediumBouncy,
         stiffness    = Spring.StiffnessMedium,
     )
+
+    /** Staggered entry for list items (fade + small slide). */
+    fun <T> itemEnterSpec(): FiniteAnimationSpec<T> =
+        tween(durationMillis = 280, easing = EmphasizedDecelerate)
+
+    /** Quick press feedback on interactive cards. */
+    fun <T> pressSpec(): FiniteAnimationSpec<T> = spring(
+        dampingRatio = Spring.DampingRatioMediumBouncy,
+        stiffness    = Spring.StiffnessMedium,
+    )
+
+    /** Live value transitions (frequencies, percentages, temps). */
+    fun <T> liveValueSpec(): FiniteAnimationSpec<T> =
+        tween(durationMillis = 700, easing = StandardEasing)
 
     fun <T> shimmerSpec(): DurationBasedAnimationSpec<T> =
         tween(durationMillis = 2800, easing = LinearEasing)

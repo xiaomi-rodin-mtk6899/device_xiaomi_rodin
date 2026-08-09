@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">ಪ್ರದರ್ಶನ, ಕಾರ್ಯಕ್ಷಮತೆ &amp; ವ್ಯವಸ್ಥೆ</string>
+    <string name="xiaomi_parts_category_diagnostics">ರೋಗನಿರ್ಣಯ</string>
+
+    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <string name="display_category">ಪ್ರದರ್ಶನ</string>
+    <string name="performance_category">ಕಾರ್ಯಕ್ಷಮತೆ</string>
+    <string name="system_category">ವ್ಯವಸ್ಥೆ</string>
+
+    <!-- ── Common UI ───────────────────────────────────────── -->
+    <string name="dismiss">ಮುಚ್ಚು</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="navigate_up">ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್</string>
+
+    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="battery_status_title">ಬ್ಯಾಟರಿ ಸ್ಥಿತಿ</string>
+    <string name="battery_status_summary">ಆರೋಗ್ಯ, ಚಾರ್ಜಿಂಗ್ ಮತ್ತು ನೇರ ಮೆಟ್ರಿಕ್</string>
+    <string name="battery_live_section">ಬ್ಯಾಟರಿ</string>
+    <string name="battery_wear_section">ಆರೋಗ್ಯ &amp; ಸವೆತ</string>
+    <string name="battery_status_charging">ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="battery_status_discharging">ಡಿಸ್ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="battery_status_full">ಪೂರ್ಣ</string>
+    <string name="battery_status_not_charging">ಚಾರ್ಜ್ ಆಗುತ್ತಿಲ್ಲ</string>
+    <string name="battery_status_unknown">ಗೊತ್ತಿಲ್ಲ</string>
+    <string name="battery_health_good">ಉತ್ತಮ</string>
+    <string name="battery_health_overheat">ಹೆಚ್ಚು ಬಿಸಿಯಾಗಿದೆ</string>
+    <string name="battery_health_dead">ಸತ್ತು</string>
+    <string name="battery_health_over_voltage">ಅಧಿಕ ವೋಲ್ಟೇಜ್</string>
+    <string name="battery_health_cold">ಶೀತ</string>
+    <string name="battery_health_failure">ವಿಫಲ</string>
+    <string name="battery_status">ಸ್ಥಿತಿ</string>
+    <string name="battery_health">ಆರೋಗ್ಯ</string>
+    <string name="battery_temperature">ಉಷ್ಣಾತ</string>
+    <string name="battery_voltage">ವೋಲ್ಟೇಜ್</string>
+    <string name="battery_current_now">ಪ್ರಸ್ತುತ ಕರೆಂಟ್</string>
+    <string name="battery_power">ವಿದ್ಯುತ್ ಬಳಕೆ</string>
+    <string name="battery_charge_counter">ಚಾರ್ಜ್ ಕೌಂಟರ್</string>
+    <string name="battery_technology">ತಂತ್ರಜ್ಞಾನ</string>
+    <string name="battery_plug_type">ವಿದ್ಯುತ್ ಮೂಲ</string>
+    <string name="battery_cycle_count">ಚಕ್ರಗಳ ಸಂಖ್ಯೆ</string>
+    <string name="battery_state_of_health">ಆರೋಗ್ಯದ ಸ್ಥಿತಿ</string>
+    <string name="battery_first_usage">ಮೊದಲ ಬಳಕೆ</string>
+    <string name="battery_manufactured">ನಿರ್ಮಾಣ ದಿನಾಂಕ</string>
+    <string name="battery_max_charge_current">ಗರಿಷ್ಠ ಚಾರ್ಜ್ ಕರೆಂಟ್</string>
+    <string name="battery_max_charge_voltage">ಗರಿಷ್ಠ ಚಾರ್ಜ್ ವೋಲ್ಟೇಜ್</string>
+    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_wireless">ವೈರ್‌ರಹಿತ</string>
+    <string name="battery_plug_dock">ಡಾಕ್</string>
+    <string name="battery_plug_none">ಬ್ಯಾಟರಿ</string>
+
+    <!-- ── Performance monitor ────────────────────────────── -->
+    <string name="performance_title">ಕಾರ್ಯಕ್ಷಮತೆ ಮಾನಿಟರ್</string>
+    <string name="performance_summary">CPU ಲೋಡ್ ಮತ್ತು ಲೈವ್ ಮೆಟ್ರಿಕ್</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">ಉಷ್ಣಾತಗಳು</string>
+    <string name="monitor_all_zones">ಎಲ್ಲಾ ಥರ್ಮಲ್ ವಲಯಗಳು</string>
+    <string name="monitor_cpu_load">CPU ಲೋಡ್</string>
+    <string name="monitor_load_average">ಲೋಡ್ ಸರಾಸರಿ (1 · 5 · 15)</string>
+    <string name="monitor_uptime">ಅಪ್‌ಟೈಮ್</string>
+    <string name="monitor_freq_range">ವ್ಯಾಪ್ತಿ %1$s – %2$s</string>
+    <string name="monitor_governor">ಗವರ್ನರ್: %1$s</string>
+    <string name="monitor_gpu_freq">GPU ಆವರ್ತನ</string>
+    <string name="monitor_gpu_load">GPU ಲೋಡ್: %1$d%%</string>
+    <string name="monitor_unavailable">ಈ ಸಾಧನದಲ್ಲಿ ಮಾನಿಟರಿಂಗ್ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ.</string>
+
+    <!-- ── Memory manager ─────────────────────────────────── -->
+    <string name="memory_title">ಮೆಮೊರಿ ಮ್ಯಾನೇಜರ್</string>
+    <string name="memory_summary">RAM ಬಳಕೆ ಮತ್ತು ಚಾಲನೆಯಲ್ಲಿರುವ ಪ್ರಕ್ರಿಯೆಗಳು</string>
+    <string name="memory_used">ಬಳಸಿದ್ದು</string>
+    <string name="memory_free_summary">%1$s ಮುಕ್ತ</string>
+    <string name="memory_total">ಒಟ್ಟು</string>
+    <string name="memory_available">ಲಭ್ಯ</string>
+    <string name="memory_cached">ಕ್ಯಾಶ್</string>
+    <string name="memory_swap">Swap ಮುಕ್ತ</string>
+    <string name="memory_processes">ಪ್ರಕ್ರಿಯೆಗಳು</string>
+    <string name="memory_no_processes">ಯಾವುದೇ ಪ್ರಕ್ರಿಯೆ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="memory_unavailable">ಈ ಸಾಧನದಲ್ಲಿ ಮೆಮೊರಿ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="memory_low_warning">ಕಡಿಮೆ ಮೆಮೊರಿ — ಹಾಗು ಹಿನ್ನೆಲೆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಮುಚ್ಚುವುದನ್ನು ಪರಿಗಣಿಸಿ</string>
+    <string name="memory_stop">ಪ್ರಕ್ರಿಯೆ ನಿಲ್ಲಿಸಿ</string>
+    <string name="memory_process_stopped">ಪ್ರಕ್ರಿಯೆ ನಿಲ್ಲಿಸಲಾಗಿದೆ</string>
+
+
+    <!-- ── Display Colours ────────────────────────────────── -->
+    <string name="display_colours_title">ಪ್ರದರ್ಶನ ಬಣ್ಣಗಳು</string>
+    <string name="display_colours_summary">ಬಣ್ಣ ಮೋಡ್ ಮತ್ತು ಉಷ್ಣಾತ</string>
+    <string name="display_colours_description">ಹೆಚ್ಚು ನೈಸರ್ಗಿಕ ಅಥವಾ ಎದ್ದುಕಾಣುವ ನೋಟಕ್ಕಾಗಿ ನಿಮ್ಮ ಪ್ರದರ್ಶನದ ಬಣ್ಣ ಮೋಡ್ ಮತ್ತು ಬಿಳಿ ಸಮತೋಲನವನ್ನು ಸರಿಹೊಂದಿಸಿ.</string>
+    <string name="color_mode_vivid">ಪ್ರಖರ</string>
+    <string name="color_mode_saturated">ತೀವ್ರ</string>
+    <string name="color_mode_standard">ಸ್ಟ್ಯಂಡರ್ಡ್</string>
+    <string name="color_mode_original">ಮೂಲ</string>
+    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_srgb">sRGB</string>
+    <string name="display_colours_failed">ಬಣ್ಣ ಮೋಡ್ ಅನ್ವಯಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+    <string name="color_mode_vivid_summary">ವರ್ಧಿಸಿದ ಬಣ್ಣಗಳು ಮತ್ತು ಕಾಂಟ್ರಾಸ್ಟ್</string>
+    <string name="color_mode_saturated_summary">ದೈನಂದಿನ ಬಳಕೆಗೆ ಶ್ರೀಮಂತ ಬಣ್ಣಗಳು</string>
+    <string name="color_mode_standard_summary">ಕಾರ್ಖಾನೆ ಮಾಪನ, ನೈಜ-ಜೀವನ</string>
+    <string name="color_mode_original_summary">ಮೂಲ ವೈಡ್-ಗ್ಯಾಮಟ್ ಹೊಂದಾಣಿಕೆ</string>
+    <string name="color_mode_p3_summary">DCI-P3 ಸಿನಿಮಾ ಬಣ್ಣ ಶ್ರೇಣಿ</string>
+    <string name="color_mode_srgb_summary">ವೆಬ್ ಮತ್ತು ವಿನ್ಯಾಸಕ್ಕೆ ನಿಖರ sRGB</string>
+
+    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="screen_resolution_title">ಪ್ರದರ್ಶನ ಸ್ಕ್ರೀನ್ ರೆಸಲ್ಯೂಶನ್</string>
+    <string name="screen_resolution_home_summary">ಪ್ರದರ್ಶನ ರೆಸಲ್ಯೂಶನ್ ಬದಲಿಸಿ</string>
+    <string name="screen_resolution_description">ಹೆಚ್ಚಿನ ರೆಸಲ್ಯೂಶನ್ ಬದಲಿಸುವಿಕೆಯಿಂದ ಪ್ರದರ್ಶಾನ ಹರಿಯಾಗುತ್ತದೆ, ಆದರೆ ಹೆಚ್ಚಿನ ಬ್ಯಾಟರಿ ವ್ಯಯವಾಗುತ್ತದೆ. ಕಡಿಮೆ ರೆಸಲ್ಯೂಶನ್ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.</string>
+    <string name="screen_resolution_failed">ರೆಸಲ್ಯೂಶನ್ ಅನ್ವಯಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+    <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
+    <string name="screen_resolution_1440p_summary">ಅತ್ಯಂತ ಹರಿಯ — ಹೆಚ್ಚಿನ ಬ್ಯಾಟರಿ ಬಳಕೆ</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
+    <string name="screen_resolution_1220p_summary">ನೈಸರ್ಗಿಕ ಪ್ಯಾನೆಲ್ ರೆಸಲ್ಯೂಶನ್</string>
+    <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
+    <string name="screen_resolution_1080p_summary">ಹರಿಯುವಿಕೆ ಮತ್ತು ಬ್ಯಾಟರಿ ನಡುವಿನ ಸಮತೋಲನ</string>
+    <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
+    <string name="screen_resolution_720p_summary">ಅತ್ಯುತ್ತಮ ಬ್ಯಾಟರಿ ಬಾಳಿಕೆ</string>
+    <string name="screen_resolution_dialog_title">ರೆಸಲ್ಯೂಶನ್ ಬದಲಿಸಿ?</string>
+    <string name="screen_resolution_restart_hint_body">ಅನ್ವಯಿಸಿದ ನಂತರ System UI ಪುನರಾರಂಭಿಸುವುದು ಶಿಫಾರಸ್ಸು. ಸಾಧನದ ಪ್ರದಿಶನ ಸೆಟ್ಟಿಂಗ್ನಲ್ಲಿ ಡಿಸ್ಪ್ಲೇ ಗಾತ್ರ ಬದಲಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ, ಅದು ಸಂಘರ್ಷವಾಗಬಹುದು.</string>
+    <string name="screen_resolution_dialog_confirm">ಅನ್ವಯಿಸು</string>
+    <string name="screen_resolution_dialog_cancel">ರದ್ದುಮಾಡಿ</string>
+
+    <!-- ── Thermal Management ───────────────────────────────── -->
+    <string name="thermal_title">ಥರ್ಮಲ್ ನಿರಮಣ</string>
+    <string name="thermal_summary">ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ಗೆ ಕಾರ್ಯಕ್ಷಮತೆ ಮತ್ತು ಉಷ್ಣಾತ</string>
+    <string name="thermal_enable_title">ಥರ್ಮಲ್ ಪ್ರೊಫೈಲ್ಗಳ</string>
+    <string name="thermal_enable_summary">ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ಗೆ ಮತ್ತು ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಥರ್ಮಲ್ ಪ್ರೊಫೈಲ್ ಅನ್ವಯಿಸಿ</string>
+    <string name="thermal_global_label">ಗ್ಲೋಬಲ್ ಪ್ರೊಫೈಲ್</string>
+    <string name="thermal_global_profile_title">ಸಕ್ರಿಯ ಪ್ರೊಫೈಲ್</string>
+    <string name="thermal_per_app_label">ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರೊಫೈಲ್ಗಳ</string>
+    <string name="thermal_select_profile">ಪ್ರೊಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="thermal_apply">ಅನ್ವಯಿಸು</string>
+    <string name="thermal_no_apps">ಇನ್ನೂ ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್ ಸಂರಚಿಸಿಲ್ಲ</string>
+    <string name="thermal_failed_toast">ಥರ್ಮಲ್ ಕಾರ್ಯ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="thermal_charging_toast_connected">ಚಾರ್ಜಿಂಗ್ ಪ್ರೊಫೈಲ್ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="thermal_charging_toast_disconnected">ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರೊಫೈಲ್ಗಳ ಪುನರಾರಂಭಿಸಲಾಗಿದೆ</string>
+    <string name="thermal_charging_banner_body">ಚಾರ್ಜಿಂಗ್ ಸಮಯದಲ್ಲಿ ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರೊಫೈಲ್ ವಿಶ್ರಾಂತಿಯಲ್ಲಿವೆ</string>
+    <string name="thermal_reset_title">ಎಲ್ಲಾ ಪ್ರೊಫೈಲ್ಗಳನ್ನು ರೀಸೆಟ್ ಮಾಡಿ</string>
+    <string name="thermal_reset_summary">ಎಲ್ಲಾ ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರೊಫೈಲ್ಗಳನ್ನು ಡೀಫೌಲ್ಗೆ ಮರುಸ್ಥಾಪಿಸಿ</string>
+    <string name="thermal_reset_confirm">ರೀಸೆಟ್</string>
+    <string name="thermal_reset_confirm_body">ಎಲ್ಲಾ ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ ಥರ್ಮಲ್ ಮಿತಿಗಳನ್ನು ಅಳಿಸಲಾಗುವುದು ಮತ್ತು ಸಾವಂ ಪತ್ತೆಯ ಡೀಫೌಲ್ಗೆ ಮರಳುತ್ತವೆ.</string>
+    <string name="thermal_add_app">ಅಪ್ಪು ಸೇರಿಸಿ</string>
+    <string name="thermal_search_apps">ಅಪ್ಪು ಹುಡುಕಿ</string>
+    <string name="thermal_default">ಡೀಫಾಲ್ಟ್</string>
+    <string name="thermal_nolimits">ಮಿತಿಗಳಿಲ್ಲ</string>
+    <string name="thermal_navigation">ನ್ಯಾವಿಗೇಶನ್</string>
+    <string name="thermal_dialer">ಡಾಲರ್</string>
+    <string name="thermal_video_call">ವಿಡಿಯೋ ಕರೆ</string>
+    <string name="thermal_camera">ಕ್ಯಾಮೆರಾ</string>
+    <string name="thermal_video">ವಿಡಿಯೋ</string>
+    <string name="thermal_video_4k">4K ವಿಡಿಯೋ</string>
+    <string name="thermal_gaming">ಗೇಮಿಂಗ್</string>
+    <string name="thermal_gaming_heavy">ಗೇಮಿಂಗ್ (ಭಾರೀ)</string>
+    <string name="thermal_gaming_competitive">ಗೇಮಿಂಗ್ (ಸ್ಪರ್ಧಾತ್ಮಕ)</string>
+    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_charge">ಚಾರ್ಜಿಂಗ್</string>
+
+    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <string name="touch_boost_title">ಟಚ್ ಬೂಸ್ಟ್</string>
+    <string name="touch_boost_summary">ವೇಗದ ಟಚ್ ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="touch_boost_description">ಟಚ್ ನಿಯಂತ್ರಕದ ಪೋಲಿಂಗ್ ದರವನ್ನು ಹೆಚ್ಚಿಸಿ, ಟಚ್-ರೆಸ್ಪಾನ್ಸ್ ವಿಳಂಬವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಸಕ್ರಿಯ ಬಳಕೆಯ ಸಮಯದಲ್ಲಿ ವಿದ್ಯುತ್ ಬಳಕೆ ಸ್ವಲ್ಪ ಹೆಚ್ಚಬಹುದು.</string>
+    <string name="touch_boost_failed">ಟಚ್ ಬೂಸ್ಟ್ ಅನ್ವಯಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+
+    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+
+    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="fingerprint_calibration_title">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್</string>
+    <string name="fingerprint_calibration_summary">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆನ್ಸರ್ ಮರುಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡಿ</string>
+    <string name="fingerprint_calibration_not_found">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="speaker_calibration_title">ಸ್ಪೀಕರ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್</string>
+    <string name="speaker_calibration_summary">CIT ಸ್ಪೀಕರ್ ಸ್ವಯಂ-ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಪರೀಕ್ಷೆ</string>
+    <string name="speaker_calibration_not_found">ಸ್ಪೀಕರ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಲಭ್ಯವಿಲ್ಲ</string>
+</resources>
