@@ -19,9 +19,16 @@ allow platform_app sysfs_therm:file { read open getattr };
 binder_call(platform_app, hal_aidlbgservice)
 allow platform_app hal_aidlbgservice_service:service_manager find;
 binder_call(platform_app, hal_misys_vendor_default)
+binder_call(platform_app, hypsys_vendor)
+binder_call(platform_app, misys_core)
+allow platform_app misys_core_service:service_manager find;
+allow platform_app misys_blackbox_service:service_manager find;
 
 # prox sensor
 allow platform_app vendor_us_proximity_prop:file { read open getattr map };
 allow platform_app proc_pressure_mem:file { read open getattr };
 allow platform_app proc_pressure_cpu:file  { read open getattr };
 allow platform_app proc_pressure_io:file  { read open getattr };
+allow platform_app unlabeled:filesystem getattr;
+allow platform_app app_data_file:file execute;
+allow platform_app hal_misys_vendor_service_custom:service_manager find;
