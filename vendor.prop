@@ -94,7 +94,7 @@ persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=5
 persist.vendor.mifaced.fastlaunch=1
 ro.camera.disableHeicUltraHDR=true
 ro.camerax.extensions.enabled=true
-ro.usb.uvc.enabled=false
+ro.usb.uvc.enabled=true
 ro.vendor.dynamiccamera.ability_level=2
 ro.vendor.afbc.enable=3
 ro.vendor.hdr10plus.enable=1
@@ -175,7 +175,7 @@ vendor.agps.submarine.mode=0
 ro.vendor.gps.chrdev=gps_drv_dl_v051
 
 # Graphics
-debug.hwui.initialize_gl_always=1
+debug.hwui.initialize_gl_always=0
 graphics.gpu.profiler.support=true
 ro.hardware.egl=mali
 ro.hardware.vulkan=mali
@@ -428,10 +428,16 @@ ro.vendor.wifi.sap.interface=ap0
 # Xiaomi display features
 ro.vendor.displayfeature.dump=true
 
-# zRAM writeback
-ro.zram.mark_idle_delay_mins=60
+# LMK
+ro.lmk.filecache_min_kb=153600
+ro.lmk.kill_timeout_ms=50
+ro.lmk.stall_limit_critical=40
+
+# ZRAM writeback
 ro.zram.first_wb_delay_mins=1440
+ro.zram.mark_idle_delay_mins=60
 ro.zram.periodic_wb_delay_hours=24
+ro.zram_backing_device_min_free_mb=1536
 
 # Zygote
 zygote.critical_window.minute=10

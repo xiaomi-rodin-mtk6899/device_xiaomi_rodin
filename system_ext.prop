@@ -28,8 +28,8 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Version
 ro.mi.os.version.code=3
-ro.mi.os.version.incremental=OS3.0.304.0.WOEEUXM
-ro.product.marketname=Xiaomi 15T
+ro.mi.os.version.incremental=OS3.0.301.0.WOJMIXM
+ro.product.marketname=Poco X7 Pro
 
 # Wifi
 wifi.direct.interface=p2p0

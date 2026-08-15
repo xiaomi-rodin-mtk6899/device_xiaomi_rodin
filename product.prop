@@ -34,6 +34,15 @@ persist.sys.fuse.passthrough.enable=true
 #Marketname
 ro.product.marketname=POCO X7 Pro
 
+# Radio
+ro.vendor.radio.5g=3
+ro.vendor.radio.features_common=2
+persist.vendor.vonr_setting_support=1
+ro.vendor.mtk_gwsd_support=1
+ro.vendor.vodata_support=1
+persist.vendor.mtk.vodata.data_mode=1
+persist.vendor.mtk.vodata.allow_rat=0
+
 # RKP
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
 
