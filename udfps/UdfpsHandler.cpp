@@ -15,6 +15,8 @@
 #include <fstream>
 #include <thread>
 #include <bitset>
+#include <mutex>
+#include <condition_variable>
 
 #include "mi_disp.h"
 
@@ -269,17 +271,67 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
     std::atomic<bool> mFingerPressed{false}; // True when the finger is physically on the sensor
                                              // Written only by the FOD press status thread
 
+    // Some touch drivers (jiiov in particular, but not exclusively) occasionally
+    // drop the "finger up" edge on FOD_PRESS_STATUS_PATH, so mFingerPressed never
+    // flips back and HBM stays stuck on. This is a backstop that force-clears it
+    // if nothing has refreshed the HBM state for a while. 3s is comfortably above
+    // a slow match, so it shouldn't fire during a normal auth attempt.
+    static constexpr int kHbmWatchdogMs = 3000;
+    std::mutex mHbmWatchdogMutex;
+    std::condition_variable mHbmWatchdogCv;
+    bool mHbmWatchdogActive{false};
+
     // Centralized HBM control — HBM is only active when both the FOD UI
     // is visible AND the finger is physically pressing the sensor
     void updateHbm() {
-        __u32 hbm_value = (mFodEnabled.load() && mFingerPressed.load())
-                            ? LHBM_TARGET_BRIGHTNESS_WHITE_1000NIT
-                            : LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP;
+        bool hbmOn = mFodEnabled.load() && mFingerPressed.load();
+        __u32 hbm_value = hbmOn ? LHBM_TARGET_BRIGHTNESS_WHITE_1000NIT
+                                 : LHBM_TARGET_BRIGHTNESS_OFF_FINGER_UP;
         struct disp_local_hbm_req req = {
             .base = displayBasePrimary,
             .local_hbm_value = hbm_value,
         };
         ioctl(disp_fd_.get(), MI_DISP_IOCTL_SET_LOCAL_HBM, &req);
+
+        // Every real state change cancels whatever watchdog was pending, then
+        // arms a fresh one if we just turned HBM on.
+        {
+            std::lock_guard<std::mutex> lock(mHbmWatchdogMutex);
+            mHbmWatchdogActive = false;
+        }
+        mHbmWatchdogCv.notify_all();
+
+        if (hbmOn) {
+            armHbmWatchdog();
+        }
+    }
+
+    void armHbmWatchdog() {
+        {
+            std::lock_guard<std::mutex> lock(mHbmWatchdogMutex);
+            mHbmWatchdogActive = true;
+        }
+        std::thread([this]() {
+            auto deadline = std::chrono::steady_clock::now() +
+                            std::chrono::milliseconds(kHbmWatchdogMs);
+            std::unique_lock<std::mutex> lock(mHbmWatchdogMutex);
+            bool cancelledEarly = mHbmWatchdogCv.wait_until(lock, deadline, [this]() {
+                return !mHbmWatchdogActive;
+            });
+            if (cancelledEarly) {
+                // updateHbm() already handled the state change, nothing to do
+                return;
+            }
+            mHbmWatchdogActive = false;
+            lock.unlock();
+
+            LOG(ERROR) << "HBM watchdog timed out, forcing finger state to released";
+            // mFingerPressed is otherwise only touched by the FOD press status
+            // thread — this is the one deliberate exception, used purely as a
+            // safety net for a missed driver edge.
+            mFingerPressed.store(false);
+            updateHbm();
+        }).detach();
     }
 
     // Resets all FOD state. Used by cancel() and onAuthenticationFailed()
@@ -315,8 +367,12 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
     void handleDisplayEvent(int value) {
         bool uiReady = value & LOCAL_HBM_UI_READY;
 
-        if (uiReady && mAuthCompleted.load()) {
-            // Authentication already completed — ignore stale FOD UI events from the driver
+        // Some panels fire a stray MI_DISP_EVENT_FOD with LOCAL_HBM_UI_READY set
+        // outside of an actual auth attempt (seen around wake-up / refresh rate
+        // switches). Only forward it if we actually asked for the FOD UI and
+        // haven't already finished the current attempt, otherwise the icon
+        // lights up on its own with nothing driving it.
+        if (uiReady && (!mFodEnabled.load() || mAuthCompleted.load())) {
             mDevice->extCmd(mDevice, COMMAND_NIT, PARAM_NIT_NONE);
             return;
         }
