@@ -30,6 +30,8 @@ allow parts_app system_app_data_file:file create_file_perms;
 allow parts_app system_app_data_file:lnk_file create_file_perms;
 allow parts_app sysfs_therm:file rw_file_perms;
 
+allow parts_app app_function_service:service_manager find;
+
 # ── System monitor (battery / CPU / GPU / thermal) ──────────────────────
 # Read-only access to the sysfs and proc nodes used by the System Monitor
 # section: CPU cpufreq policies, power-supply (battery) info, DVFSRC,

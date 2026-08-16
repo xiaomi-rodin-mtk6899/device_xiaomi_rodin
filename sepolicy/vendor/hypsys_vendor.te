@@ -4,3 +4,5 @@ type hypsys_vendor_exec, exec_type, vendor_file_type, file_type;
 permissive hypsys_vendor;
 
 init_daemon_domain(hypsys_vendor)
+
+allow hypsys_vendor vendor_camera_data_file:file { write open };
