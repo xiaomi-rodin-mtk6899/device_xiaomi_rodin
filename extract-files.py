@@ -281,6 +281,11 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
         .replace_needed('libalsautils.so', 'libalsautils-mtk.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    (
+        'system_ext/bin/spkcal',
+        'system_ext/bin/spkcal_tfa',
+    ): blob_fixup()
+        .add_needed('libaudiobase.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
