@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.device.front_cam=20MP \
-    ro.device.rear_cam="Dual 50MP+8MP"
+    ro.device.rear_cam="50MP+8MP"
 
 # ConsumerIR
 PRODUCT_PACKAGES += \
