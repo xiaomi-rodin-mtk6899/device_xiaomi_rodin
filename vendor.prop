@@ -438,7 +438,7 @@ ro.lmk.stall_limit_critical=40
 
 # XPerience
 ro.device.front_cam=20MP
-ro.device.rear_cam=Dual 50MP+8MP
+ro.device.rear_cam=50MP+8MP
 
 # zRAM writeback
 ro.zram.first_wb_delay_mins=1440
