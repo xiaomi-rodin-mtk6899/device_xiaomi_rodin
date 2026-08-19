@@ -6,3 +6,4 @@ permissive misys_core;
 init_daemon_domain(misys_core)
 
 allow servicemanager misys_core:binder call;
+allow misys_core servicemanager:binder call;
