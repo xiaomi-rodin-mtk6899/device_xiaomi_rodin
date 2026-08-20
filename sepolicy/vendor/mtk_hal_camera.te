@@ -41,3 +41,6 @@ allow mtk_hal_camera unlabeled:filesystem getattr;
 allow mtk_hal_camera hal_misys_vendor_service_custom:service_manager find;
 allow mtk_hal_camera misys_core_service:service_manager find;
 binder_call(mtk_hal_camera, hypsys_vendor)
+
+allow mtk_hal_camera sysfs_dmabuf_stats:dir r_dir_perms;
+allow mtk_hal_camera sysfs_dmabuf_stats:file r_file_perms;
