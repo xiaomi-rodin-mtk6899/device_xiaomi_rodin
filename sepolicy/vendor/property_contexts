@@ -12,6 +12,7 @@ persist.vendor.EnableP3ColorSpace  u:object_r:vendor_mtk_camera_prop:s0
 persist.vendor.camera3.                                   u:object_r:vendor_mtk_camera_prop:s0
 ro.vendor.camera.                                         u:object_r:vendor_mtk_camera_prop:s0
 ro.vendor.camera3.                                        u:object_r:vendor_mtk_camera_prop:s0
+persist.vendor.XDRVersion    u:object_r:vendor_mtk_camera_prop:s0
 
 # CIT App
 vendor.audio.cit.spkcal.copy   u:object_r:vendor_audio_cit_prop:s0

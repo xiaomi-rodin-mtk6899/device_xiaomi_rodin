@@ -5,9 +5,16 @@ permissive hypsys_vendor;
 
 init_daemon_domain(hypsys_vendor)
 
+get_prop(hypsys_vendor, vendor_fingerprint_prop)
+
 allow hypsys_vendor vendor_camera_data_file:file { write open };
 allow hypsys_vendor procfs_memory:file r_file_perms;
 allow hypsys_vendor vendor_proc_tp_file:file r_file_perms;
 allow hypsys_vendor vendor_proc_tp_lockdown:file r_file_perms;
 allow hypsys_vendor sysfs_soc:dir search;
 allow hypsys_vendor vendor_sysfs_displayfeature:file r_file_perms;
+allow hypsys_vendor sysfs:file rw_file_perms;
+allow hypsys_vendor sysfs_soc:file r_file_perms;
+allow hypsys_vendor block_device:dir search;
+allow hypsys_vendor { servicemanager misys_core }:binder call;
+allow hypsys_vendor vendor_sysfs_displayfeature:dir search;
