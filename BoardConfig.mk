@@ -126,7 +126,7 @@ BOARD_PVMFWIMAGE_PARTITION_SIZE := 2097152
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
 
 ifeq ($(PRODUCT_SYSTEM_PARTITIONS_FILE_SYSTEM_TYPE),ext4)
--include vendor/xperience/config/BoardConfigReservedSize.mk
+-include vendor/lineage/config/BoardConfigReservedSize.mk
 endif
 
 BOARD_SUPER_PARTITION_SIZE := 9125756928
