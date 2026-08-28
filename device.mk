@@ -260,6 +260,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(LOCAL_PATH)/configs/linker/linker.config.json
 
+# Legacy Dolby Vision Codec2 compatibility
+$(call soong_config_set_bool,codec2_compat,legacy_dolby_igba,true)
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
