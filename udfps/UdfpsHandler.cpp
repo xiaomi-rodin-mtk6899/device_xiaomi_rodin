@@ -205,9 +205,21 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
 
     void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
         if (mAuthCompleted.load()) return;
+
         LOG(INFO) << __func__;
-        // Ensure touchscreen is aware of the press state; ideally not needed
+
+        /*
+         * Do not make screen-off UDFPS depend exclusively on vendorCode 21.
+         * During an AOD/screen-off attempt the framework pointer-down may arrive
+         * before (or without a second) vendorCode 21. Treat pointer-down as enough
+         * evidence that the FOD path is active.
+         */
+        mFodEnabled.store(true);
+        setFodStatus(FOD_STATUS_ON);
         setFingerDown(true);
+
+        // HBM still remains gated by the real physical press state.
+        updateHbm();
     }
 
     void onFingerUp() {
@@ -367,12 +379,15 @@ class XiaomiRodinUdfpsHandler : public UdfpsHandler {
     void handleDisplayEvent(int value) {
         bool uiReady = value & LOCAL_HBM_UI_READY;
 
-        // Some panels fire a stray MI_DISP_EVENT_FOD with LOCAL_HBM_UI_READY set
-        // outside of an actual auth attempt (seen around wake-up / refresh rate
-        // switches). Only forward it if we actually asked for the FOD UI and
-        // haven't already finished the current attempt, otherwise the icon
-        // lights up on its own with nothing driving it.
-        if (uiReady && (!mFodEnabled.load() || mAuthCompleted.load())) {
+        /*
+         * Do NOT reject LOCAL_HBM_UI_READY merely because mFodEnabled is still
+         * false. On screen-off/AOD wake the display event can legitimately arrive
+         * before UdfpsController delivers onFingerDown(), and suppressing it here
+         * prevents the vendor from entering the optical/NIT path.
+         *
+         * Keep only the stale-event protection after a completed authentication.
+         */
+        if (uiReady && mAuthCompleted.load()) {
             mDevice->extCmd(mDevice, COMMAND_NIT, PARAM_NIT_NONE);
             return;
         }
