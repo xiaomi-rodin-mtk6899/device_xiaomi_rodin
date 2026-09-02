@@ -25,6 +25,7 @@
         android:name=".XiaomiPartsApp"
         android:label="Xiaomi Parts"
         android:theme="@style/XiaomiParts.Theme"
+        android:enableOnBackInvokedCallback="true"
         android:defaultToDeviceProtectedStorage="true"
         android:directBootAware="true">
 
@@ -46,6 +47,10 @@
 
         <service
             android:name=".touchsampling.TouchSamplingService"
+            android:exported="false" />
+
+        <service
+            android:name=".cpu.CpuControlService"
             android:exported="false" />
 
         <activity

@@ -1,178 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2023 Paranoid Android
-     SPDX-License-Identifier: Apache-2.0
--->
+<!-- Machine-translated baseline with official AOSP terminology where available. -->
 <resources>
-
-    <string name="app_name">Xiaomi Parts</string>
-
-    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
-    <string name="xiaomi_parts_title">Xiaomi Parts</string>
-    <string name="xiaomi_parts_summary">نمایش، عملکرد و سیستم</string>
+    <string name="app_name">قطعات شیائومی</string>
+    <string name="xiaomi_parts_title">قطعات شیائومی</string>
+    <string name="xiaomi_parts_summary">نمایش، عملکرد، لمس و تشخیص</string>
     <string name="xiaomi_parts_category_diagnostics">تشخیص</string>
-
-    <!-- ── HomeScreen category headers ─────────────────────── -->
-    <string name="display_category">نمایش</string>
+    <string name="display_category">نمایشگر</string>
     <string name="performance_category">عملکرد</string>
     <string name="system_category">سیستم</string>
-
-    <!-- ── Common UI ───────────────────────────────────────── -->
-    <string name="dismiss">رد کردن</string>
+    <string name="dismiss">اخراج</string>
     <string name="cancel">لغو</string>
     <string name="navigate_up">پیمایش به بالا</string>
-
-    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="cpu_control_title">کنترل CPU</string>
+    <string name="cpu_control_summary">پروفایل های عملکرد، فرکانس ها و هسته ها</string>
+    <string name="cpu_control_description">پروفایل ها با فرکانس هایی که توسط هسته در معرض دید قرار می گیرند سازگار می شوند. حفاظت حرارتی اندروید در هر حالت فعال باقی می ماند.</string>
+    <string name="cpu_profiles_category">نمایه عملکرد</string>
+    <string name="cpu_profile_economy">بهینه‌سازی باتری</string>
+    <string name="cpu_profile_economy_summary">فقط هسته های کارآمد، فرکانس ها برای عمر باتری بیشتر محدود شده است</string>
+    <string name="cpu_profile_normal">عادی</string>
+    <string name="cpu_profile_normal_summary">همه هسته‌ها با محدوده تطبیقی معمولی هسته فعال شده‌اند</string>
+    <string name="cpu_profile_boost">تقویت</string>
+    <string name="cpu_profile_boost_summary">همه هسته‌ها با فرکانس بالاتر فعال می‌شوند</string>
+    <string name="cpu_profile_extreme">افراطی</string>
+    <string name="cpu_profile_extreme_summary">هر خوشه را در حداکثر فرکانس قفل می کند</string>
+    <string name="cpu_profile_custom">سفارشی</string>
+    <string name="cpu_profile_custom_summary">فرکانس دستی و پیکربندی هسته</string>
+    <string name="cpu_extreme_warning_title">مصرف انرژی بالا</string>
+    <string name="cpu_extreme_warning">حالت شدید گرما و تخلیه باتری به میزان قابل توجهی تولید می کند. دریچه گاز حرارتی هرگز غیرفعال نمی شود.</string>
+    <string name="cpu_frequencies_category">محدودیت های فرکانس دستی</string>
+    <string name="cpu_cores_category">هسته های CPU</string>
+    <string name="cpu_efficiency_cluster">خوشه کارایی</string>
+    <string name="cpu_performance_cluster">خوشه عملکرد</string>
+    <string name="cpu_prime_cluster">خوشه نخست</string>
+    <string name="cpu_cluster">خوشه %1$d</string>
+    <string name="cpu_frequency_range">%1$s – %2$s</string>
+    <string name="cpu_frequency_dialog_title">%1$s فرکانس</string>
+    <string name="cpu_min_frequency">حداقل: %1$s</string>
+    <string name="cpu_max_frequency">حداکثر: %1$s</string>
+    <string name="cpu_core">CPU %1$d</string>
+    <string name="cpu_core_online">آنلاین</string>
+    <string name="cpu_core_offline">آفلاین</string>
+    <string name="cpu_core_required">هسته بوت - همیشه آنلاین</string>
+    <string name="cpu_apply">اعمال</string>
+    <string name="cpu_refresh">وضعیت CPU را تازه کنید</string>
+    <string name="cpu_apply_failed">برخی از تنظیمات CPU اعمال نشدند</string>
+    <string name="cpu_not_supported">کنترل فرکانس CPU توسط این هسته در معرض نمایش قرار نمی گیرد</string>
     <string name="battery_status_title">وضعیت باتری</string>
-    <string name="battery_status_summary">سلامت، شارژ و شاخصهای زنده</string>
+    <string name="battery_status_summary">معیارهای سلامت، شارژ و زنده</string>
     <string name="battery_live_section">باتری</string>
-    <string name="battery_wear_section">سلامت و پیری</string>
-    <string name="battery_status_charging">در حال شارژ</string>
-    <string name="battery_status_discharging">در حال تخلیه</string>
+    <string name="battery_wear_section">سلامتی</string>
+    <string name="battery_status_charging">شارژ</string>
+    <string name="battery_status_discharging">تخلیه</string>
     <string name="battery_status_full">کامل</string>
-    <string name="battery_status_not_charging">بدون شارژ</string>
-    <string name="battery_status_unknown">ناشناخته</string>
+    <string name="battery_status_not_charging">شارژ نمی شود</string>
+    <string name="battery_status_unknown">ناشناس</string>
     <string name="battery_health_good">خوب</string>
-    <string name="battery_health_overheat">بیش از حد گرم</string>
-    <string name="battery_health_dead">از کار افتاده</string>
+    <string name="battery_health_overheat">بیش از حد گرم شده است</string>
+    <string name="battery_health_dead">مرده</string>
     <string name="battery_health_over_voltage">ولتاژ بیش از حد</string>
     <string name="battery_health_cold">سرد</string>
-    <string name="battery_health_failure">خرابی</string>
+    <string name="battery_health_failure">شکست</string>
     <string name="battery_status">وضعیت</string>
-    <string name="battery_health">سلامت</string>
+    <string name="battery_health">سلامتی</string>
     <string name="battery_temperature">دما</string>
     <string name="battery_voltage">ولتاژ</string>
-    <string name="battery_current_now">جریان فعلی</string>
-    <string name="battery_power">مصرف برق</string>
+    <string name="battery_current_now">در حال حاضر</string>
+    <string name="battery_power">قدرت</string>
     <string name="battery_charge_counter">شمارنده شارژ</string>
     <string name="battery_technology">فناوری</string>
     <string name="battery_plug_type">منبع تغذیه</string>
-    <string name="battery_cycle_count">تعداد سیکلها</string>
-    <string name="battery_state_of_health">وضعیت سلامت</string>
-    <string name="battery_first_usage">اولین استفاده</string>
-    <string name="battery_manufactured">تاریخ تولید</string>
-    <string name="battery_max_charge_current">حداکثر جریان شارژ</string>
-    <string name="battery_max_charge_voltage">حداکثر ولتاژ شارژ</string>
+    <string name="battery_cycle_count">تعداد چرخه</string>
     <string name="battery_plug_ac">AC</string>
     <string name="battery_plug_usb">USB</string>
-    <string name="battery_plug_wireless">بیسیم</string>
-    <string name="battery_plug_dock">داک</string>
-    <string name="battery_plug_none">باتری</string><!-- ── Performance monitor ────────────────────────────── -->
-    <string name="performance_title">مانیتور عملکرد</string>
-    <string name="performance_summary">بار پردازنده و شاخصهای زنده</string>
-    <string name="monitor_cpu_section">CPU</string>
-    <string name="monitor_gpu_section">GPU</string>
-    <string name="monitor_temp_section">دماها</string>
-    <string name="monitor_all_zones">همه مناطق حرارتی</string>
-    <string name="monitor_cpu_load">بار پردازنده</string>
-    <string name="monitor_load_average">میانگین بار (1 · 5 · 15)</string>
-    <string name="monitor_uptime">زمان روشن بودن</string>
-    <string name="monitor_freq_range">بازه %1$s – %2$s</string>
-    <string name="monitor_governor">مدیر فرکانس: %1$s</string>
-    <string name="monitor_gpu_freq">فرکانس GPU</string>
-    <string name="monitor_gpu_load">بار GPU: %1$d%%</string>
-    <string name="monitor_unavailable">دادههای نظارت روی این دستگاه فعال نیست.</string>
-
-    <!-- ── Memory manager ─────────────────────────────────── -->
-    <string name="memory_title">مدیریت حافظه</string>
-    <string name="memory_summary">استفاده از RAM و فرایندهای در حال اجرا</string>
-    <string name="memory_used">استفادهشده</string>
-    <string name="memory_free_summary">%1$s آزاد</string>
-    <string name="memory_total">کل</string>
+    <string name="battery_plug_wireless">بی سیم</string>
+    <string name="battery_plug_dock">بارانداز</string>
+    <string name="battery_plug_none">باتری</string>
+    <string name="memory_title">مدیر حافظه</string>
+    <string name="memory_summary">RAM، تعویض و اجرای فرآیندها</string>
+    <string name="memory_used">استفاده شده</string>
+    <string name="memory_free_summary">%1$s رایگان</string>
+    <string name="memory_total">مجموع</string>
     <string name="memory_available">موجود</string>
-    <string name="memory_cached">در حافظه نهان</string>
-    <string name="memory_swap">فضای سواپ آزاد</string>
-    <string name="memory_processes">فرایندها</string>
-    <string name="memory_no_processes">اطلاعاتی درباره فرایندها موجود نیست.</string>
-    <string name="memory_unavailable">اطلاعات حافظه روی این دستگاه موجود نیست.</string>
-    <string name="memory_low_warning">حافظه کم — بستن برنامههای پسزمینه را در نظر بگیرید</string>
-    <string name="memory_stop">توقف فرایند</string>
-    <string name="memory_process_stopped">فرایند متوقف شد</string>
-
-    <!-- ── Display Colours ────────────────────────────────── -->
-    <string name="display_colours_title">رنگهای نمایشگر</string>
+    <string name="memory_cached">ذخیره شده</string>
+    <string name="memory_swap">تعویض رایگان</string>
+    <string name="memory_processes">فرآیندها</string>
+    <string name="memory_no_processes">هیچ اطلاعاتی درباره فرآیند موجود نیست.</string>
+    <string name="memory_unavailable">اطلاعات حافظه در این دستگاه موجود نیست.</string>
+    <string name="memory_low_warning">حافظه کم — بستن برنامه های پس زمینه را در نظر بگیرید</string>
+    <string name="memory_stop">فرآیند را متوقف کنید</string>
+    <string name="memory_process_stopped">فرآیند متوقف شد</string>
+    <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
+    <string name="display_colours_title">نمایش رنگ ها</string>
     <string name="display_colours_summary">حالت رنگ و دما</string>
-    <string name="display_colours_description">حالت رنگ و تعادل سفیدی نمایشگر را برای ظاهری طبیعیتر یا زندهتر تنظیم کنید.</string>
-    <string name="color_mode_vivid">زنده</string>
-    <string name="color_mode_saturated">فشرده</string>
+    <string name="display_colours_description">حالت رنگ و تعادل رنگ سفید صفحه نمایش خود را برای ظاهری طبیعی تر یا واضح تر تنظیم کنید.</string>
+    <string name="color_mode_vivid">واضح</string>
+    <string name="color_mode_saturated">اشباع شده</string>
     <string name="color_mode_standard">استاندارد</string>
-    <string name="color_mode_original">اصلی</string>
+    <string name="color_mode_original">اصل</string>
     <string name="color_mode_p3">DCI-P3</string>
     <string name="color_mode_srgb">sRGB</string>
-    <string name="display_colours_failed">اعمال حالت رنگ انجام نشد</string>
-    <string name="color_mode_vivid_summary">رنگها و کنتراست تقویتشده</string>
-    <string name="color_mode_saturated_summary">رنگهای غنی برای استفاده روزمره</string>
-    <string name="color_mode_standard_summary">کالیبرهشده در کارخانه، نزدیک به واقعیت</string>
-    <string name="color_mode_original_summary">تنظیم اصیل طیف گسترده رنگ</string>
-    <string name="color_mode_p3_summary">فضای رنگ سینمایی DCI-P3</string>
-    <string name="color_mode_srgb_summary">sRGB دقیق برای وب و طراح</string>
-<!-- ── Screen Resolution ──────────────────────────────── -->
-    <string name="screen_resolution_title">وضوح تصویر</string>
-    <string name="screen_resolution_home_summary">تغییر وضوح نمایشگر</string>
-    <string name="screen_resolution_description">انتخاب وضوح بالاتر نمایشگر را شارپتر میکند اما باتری بیشتری مصرف میکند. وضوحهای پایینتر مصرف باتری را کاهش میدهند.</string>
-    <string name="screen_resolution_failed">اعمال وضوح انجام نشد</string>
+    <string name="display_colours_failed">حالت رنگ اعمال نشد</string>
+    <string name="color_mode_vivid_summary">افزایش رنگ و کنتراست</string>
+    <string name="color_mode_saturated_summary">رنگ های غنی برای استفاده روزمره</string>
+    <string name="color_mode_standard_summary">کالیبره شده در کارخانه، واقعی</string>
+    <string name="color_mode_original_summary">تنظیم اصلی با گستره وسیع</string>
+    <string name="color_mode_p3_summary">فضای رنگی سینمای DCI-P3</string>
+    <string name="color_mode_srgb_summary">sRGB دقیق برای وب و طراحی</string>
+    <string name="screen_resolution_title">وضوح صفحه نمایش</string>
+    <string name="screen_resolution_home_summary">وضوح صفحه نمایش را تغییر دهید</string>
+    <string name="screen_resolution_description">انتخاب وضوح بالاتر صفحه نمایش را واضح تر می کند، اما باتری بیشتری مصرف می کند. وضوح کمتر مصرف باتری را کاهش می دهد.</string>
+    <string name="screen_resolution_failed">رزولوشن اعمال نشد</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
-    <string name="screen_resolution_1440p_summary">شارپترین — مصرف باتری بیشتر</string>
-    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
-    <string name="screen_resolution_1220p_summary">وضوح اصلی پنل</string>
+    <string name="screen_resolution_1440p_summary">تیزترین - مصرف باتری بالاتر</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (بومی)</string>
+    <string name="screen_resolution_1220p_summary">وضوح پانل بومی</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
-    <string name="screen_resolution_1080p_summary">تعادل شارپنس و باتری</string>
+    <string name="screen_resolution_1080p_summary">وضوح و باتری متعادل</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">بهترین عمر باتری</string>
-    <string name="screen_resolution_dialog_title">تغییر وضوح؟</string>
-    <string name="screen_resolution_restart_hint_body">پس از اعمال، راهاندازی مجدد System UI توصیه میشود. از تغییر اندازه نمایشگر در تنظیمات نمایش دستگاه خودداری کنید؛ ممکن است تداخل ایجاد شود.</string>
+    <string name="screen_resolution_dialog_title">وضوح را تغییر دهید؟</string>
+    <string name="screen_resolution_restart_hint_body">پس از اعمال، راه اندازی مجدد رابط کاربری سیستم توصیه می شود. از تغییر اندازه نمایشگر در تنظیمات نمایشگر دستگاه خودداری کنید، ممکن است تداخل داشته باشد.</string>
     <string name="screen_resolution_dialog_confirm">اعمال</string>
     <string name="screen_resolution_dialog_cancel">لغو</string>
-
-    <!-- ── Thermal Management ───────────────────────────────── -->
     <string name="thermal_title">مدیریت حرارتی</string>
-    <string name="thermal_summary">عملکرد و دما به تفکیک برنامه</string>
-    <string name="thermal_enable_title">پروفایلهای حرارتی</string>
-    <string name="thermal_enable_summary">اعمال پروفایلهای حرارتی برای هر برنامه و هنگام شارژ</string>
-    <string name="thermal_global_label">پروفایل عمومی</string>
-    <string name="thermal_global_profile_title">پروفایل فعال</string>
-    <string name="thermal_per_app_label">پروفایلهای مخصوص برنامه</string>
-    <string name="thermal_select_profile">انتخاب پروفایل</string>
+    <string name="thermal_summary">عملکرد و دما در هر برنامه</string>
+    <string name="thermal_enable_title">پروفیل های حرارتی</string>
+    <string name="thermal_enable_summary">پروفایل های حرارتی را در هر برنامه و هنگام شارژ اعمال کنید</string>
+    <string name="thermal_safety_label">نادیده گرفتن ایمنی</string>
+    <string name="thermal_disable_throttling_title">دریچه گاز حرارتی را غیرفعال کنید</string>
+    <string name="thermal_disable_throttling_summary">تا زمانی که این گزینه خاموش نشود از نمایه فروشنده بدون محدودیت استفاده کنید</string>
+    <string name="thermal_disable_warning_title">حفاظت حرارتی را غیرفعال کنید؟</string>
+    <string name="thermal_disable_warning_body">دستگاه ممکن است بیش از حد گرم شود، ناپایدار شود، به باتری آسیب برساند یا خاموش شود. حفاظت اضطراری هسته ممکن است فعال باقی بماند. از این فقط برای تست های کوتاه استفاده کنید و هرگز دستگاه را بدون مراقبت رها نکنید.</string>
+    <string name="thermal_disable_confirm">به هر حال غیرفعال شود</string>
+    <string name="thermal_global_label">نمایه جهانی</string>
+    <string name="thermal_global_profile_title">نمایه فعال</string>
+    <string name="thermal_per_app_label">پروفایل های هر برنامه</string>
+    <string name="thermal_select_profile">نمایه را انتخاب کنید</string>
     <string name="thermal_apply">اعمال</string>
-    <string name="thermal_no_apps">هنوز برنامهای تنظیم نشده است</string>
-<string name="thermal_failed_toast">عملیات حرارتی انجام نشد</string>
-    <string name="thermal_charging_toast_connected">پروفایل شارژ فعال است</string>
-    <string name="thermal_charging_toast_disconnected">پروفایلهای برنامه ادامه یافتند</string>
-    <string name="thermal_charging_banner_body">پروفایلهای برنامه هنگام شارژ موقتاً متوقف میشوند</string>
-    <string name="thermal_reset_title">بازنشانی همه پروفایلها</string>
-    <string name="thermal_reset_summary">بازگردانی همه پروفایلهای برنامه به مقادیر پیش‌فرض</string>
-    <string name="thermal_reset_confirm">بازنشانی</string>
-    <string name="thermal_reset_confirm_body">همه تنظیمات حرارتی برنامهها پاک و پروفایلها به مقادیر پیش‌فرض تشخیص داده‌شده‌شان بازمیگردند.</string>
-    <string name="thermal_add_app">افزودن برنامه</string>
-    <string name="thermal_search_apps">جستجوی برنامهها</string>
-    <string name="thermal_default">پیش‌فرض</string>
+    <string name="thermal_no_apps">هنوز هیچ برنامه ای پیکربندی نشده است</string>
+    <string name="thermal_failed_toast">عملیات حرارتی ناموفق بود</string>
+    <string name="thermal_charging_toast_connected">نمایه شارژ فعال است</string>
+    <string name="thermal_charging_toast_disconnected">نمایه های هر برنامه از سر گرفته شد</string>
+    <string name="thermal_charging_banner_body">نمایه‌های هر برنامه هنگام شارژ شدن موقتاً متوقف می‌شوند</string>
+    <string name="thermal_reset_title">بازنشانی تمام نمایه ها</string>
+    <string name="thermal_reset_summary">همه نمایه‌های هر برنامه را به پیش‌فرض خود بازیابی کنید</string>
+    <string name="thermal_reset_confirm">بازنشانی کنید</string>
+    <string name="thermal_reset_confirm_body">همه موارد لغو حرارتی برای هر برنامه پاک می‌شوند و نمایه‌ها به پیش‌فرض‌های شناسایی شده به‌طور خودکار خود برمی‌گردند.</string>
+    <string name="thermal_add_app">برنامه را اضافه کنید</string>
+    <string name="thermal_search_apps">برنامه ها را جستجو کنید</string>
+    <string name="thermal_default">پیش فرض</string>
     <string name="thermal_nolimits">بدون محدودیت</string>
     <string name="thermal_navigation">ناوبری</string>
-    <string name="thermal_dialer">گوشی</string>
+    <string name="thermal_dialer">شماره گیر</string>
     <string name="thermal_video_call">تماس تصویری</string>
     <string name="thermal_camera">دوربین</string>
-    <string name="thermal_video">ویدیو</string>
-    <string name="thermal_video_4k">ویدیو 4K</string>
-    <string name="thermal_gaming">گیمینگ</string>
-    <string name="thermal_gaming_heavy">گیمینگ (سنگین)</string>
-    <string name="thermal_gaming_competitive">گیمینگ (رقابتی)</string>
-    <string name="thermal_yuanshen">Yuanshen</string>
+    <string name="thermal_video">ویدئو</string>
+    <string name="thermal_video_4k">ویدئو 4K</string>
+    <string name="thermal_gaming">بازی</string>
+    <string name="thermal_gaming_heavy">بازی (سنگین)</string>
+    <string name="thermal_gaming_competitive">بازی (رقابتی)</string>
+    <string name="thermal_yuanshen">یوانشن</string>
     <string name="thermal_charge">شارژ</string>
-
-    <!-- ── Touch Boost ───────────────────────────────────────── -->
-    <string name="touch_boost_title">تقویت لمس</string>
+    <string name="touch_boost_title">تقویت لمسی</string>
     <string name="touch_boost_summary">پاسخ سریعتر لمسی</string>
-    <string name="touch_boost_description">نرخ نمونهبرداری کنترلر لمسی را افزایش میدهد و تأخیر قبل از پاسخ را کاهش میدهد. ممکن است در استفاده فعال مصرف برق کمی افزایش یابد.</string>
-    <string name="touch_boost_failed">اعمال تقویت لمس انجام نشد</string>
-
-    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
-
-    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="touch_boost_description">نرخ نظرسنجی کنترلر لمسی را افزایش می‌دهد و تأخیر ضربه به پاسخ را کاهش می‌دهد. ممکن است در حین استفاده فعال، مصرف برق را اندکی افزایش دهد.</string>
+    <string name="touch_boost_failed">تقویت لمسی اعمال نشد</string>
     <string name="fingerprint_calibration_title">کالیبراسیون اثر انگشت</string>
-    <string name="fingerprint_calibration_summary">کالیبراسیون مجدد سنسور اثر انگشت</string>
+    <string name="fingerprint_calibration_summary">سنسور اثر انگشت را دوباره کالیبره کنید</string>
     <string name="fingerprint_calibration_not_found">کالیبراسیون اثر انگشت در دسترس نیست</string>
     <string name="speaker_calibration_title">کالیبراسیون بلندگو</string>
-    <string name="speaker_calibration_summary">تست خودکالیبراسیون بلندگو CIT</string>
+    <string name="speaker_calibration_summary">تست خود کالیبراسیون بلندگو CIT</string>
     <string name="speaker_calibration_not_found">کالیبراسیون بلندگو در دسترس نیست</string>
-
 </resources>

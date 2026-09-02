@@ -18,10 +18,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.xiaomi.settings.battery.BatteryStatusScreen
+import com.xiaomi.settings.cpu.CpuControlScreen
 import com.xiaomi.settings.display.DisplayColoursScreen
 import com.xiaomi.settings.display.ScreenResolutionScreen
 import com.xiaomi.settings.monitor.MemoryMonitorScreen
-import com.xiaomi.settings.monitor.PerformanceMonitorScreen
 import com.xiaomi.settings.thermal.ThermalManagementScreen
 import com.xiaomi.settings.touchsampling.TouchBoostScreen
 import com.xiaomi.settings.ui.Motion
@@ -65,21 +65,21 @@ private fun PartsNavHost() {
     ) {
         composable("home") {
             XiaomiPartsHomeScreen(
-                onNavigateToDisplay      = { nav.navigate("displayColours") },
-                onNavigateToResolution   = { nav.navigate("screenResolution") },
-                onNavigateToThermal      = { nav.navigate("thermal") },
-                onNavigateToTouch        = { nav.navigate("touchBoost") },
-                onNavigateToBattery      = { nav.navigate("batteryStatus") },
-                onNavigateToPerformance  = { nav.navigate("performance") },
-                onNavigateToMemory       = { nav.navigate("memory") },
+                onNavigateToDisplay     = { nav.navigate("displayColours") },
+                onNavigateToResolution  = { nav.navigate("screenResolution") },
+                onNavigateToCpu         = { nav.navigate("cpuControl") },
+                onNavigateToBattery     = { nav.navigate("batteryStatus") },
+                onNavigateToMemory      = { nav.navigate("memory") },
+                onNavigateToThermal     = { nav.navigate("thermal") },
+                onNavigateToTouch       = { nav.navigate("touchBoost") },
             )
         }
         composable("displayColours")    { DisplayColoursScreen { nav.popBackStack() } }
         composable("screenResolution")  { ScreenResolutionScreen { nav.popBackStack() } }
+        composable("cpuControl")        { CpuControlScreen { nav.popBackStack() } }
+        composable("batteryStatus")     { BatteryStatusScreen { nav.popBackStack() } }
+        composable("memory")            { MemoryMonitorScreen { nav.popBackStack() } }
         composable("thermal")           { ThermalManagementScreen { nav.popBackStack() } }
         composable("touchBoost")        { TouchBoostScreen { nav.popBackStack() } }
-        composable("batteryStatus")     { BatteryStatusScreen { nav.popBackStack() } }
-        composable("performance")       { PerformanceMonitorScreen { nav.popBackStack() } }
-        composable("memory")            { MemoryMonitorScreen { nav.popBackStack() } }
     }
 }

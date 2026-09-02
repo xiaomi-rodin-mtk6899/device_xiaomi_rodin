@@ -1,180 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2023 Paranoid Android
-     SPDX-License-Identifier: Apache-2.0
--->
+<!-- Machine-translated baseline with official AOSP terminology where available. -->
 <resources>
-    <string name="app_name">Xiaomi Parts</string>
-
-    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
-    <string name="xiaomi_parts_title">Xiaomi Parts</string>
-    <string name="xiaomi_parts_summary">การแสดงผล, ประสิทธิภาพ &amp; ระบบ</string>
+    <string name="app_name">อะไหล่เสี่ยวหมี่</string>
+    <string name="xiaomi_parts_title">อะไหล่เสี่ยวหมี่</string>
+    <string name="xiaomi_parts_summary">จอแสดงผล ประสิทธิภาพ การสัมผัส และการวินิจฉัย</string>
     <string name="xiaomi_parts_category_diagnostics">การวินิจฉัย</string>
-
-    <!-- ── HomeScreen category headers ─────────────────────── -->
-    <string name="display_category">การแสดงผล</string>
-    <string name="performance_category">ประสิทธิภาพ</string>
+    <string name="display_category">จอแสดงผล</string>
+    <string name="performance_category">การแสดง</string>
     <string name="system_category">ระบบ</string>
-
-    <!-- ── Common UI ───────────────────────────────────────── -->
-    <string name="dismiss">ปิด</string>
+    <string name="dismiss">ยกเลิก</string>
     <string name="cancel">ยกเลิก</string>
-    <string name="navigate_up">ย้อนกลับ</string>
-
-    <!-- ── Battery status ─────────────────────────────────── -->
+    <string name="navigate_up">นำทางขึ้น</string>
+    <string name="cpu_control_title">การควบคุมซีพียู</string>
+    <string name="cpu_control_summary">โปรไฟล์ประสิทธิภาพ ความถี่ และคอร์</string>
+    <string name="cpu_control_description">โปรไฟล์ปรับให้เข้ากับความถี่ที่เคอร์เนลเปิดเผย การป้องกันความร้อนของ Android ยังคงทำงานอยู่ในทุกโหมด</string>
+    <string name="cpu_profiles_category">โปรไฟล์ประสิทธิภาพ</string>
+    <string name="cpu_profile_economy">โหมดประหยัดแบตเตอรี่</string>
+    <string name="cpu_profile_economy_summary">แกนประสิทธิภาพเท่านั้น ความถี่ถูกจำกัดไว้เพื่ออายุการใช้งานแบตเตอรี่ที่ยาวนานขึ้น</string>
+    <string name="cpu_profile_normal">ปกติ</string>
+    <string name="cpu_profile_normal_summary">คอร์ทั้งหมดเปิดใช้งานด้วยช่วงการปรับตัวปกติของเคอร์เนล</string>
+    <string name="cpu_profile_boost">บูสต์</string>
+    <string name="cpu_profile_boost_summary">คอร์ทั้งหมดเปิดใช้งานด้วยความถี่ขั้นต่ำที่สูงกว่า</string>
+    <string name="cpu_profile_extreme">สุดขั้ว</string>
+    <string name="cpu_profile_extreme_summary">ล็อคทุกคลัสเตอร์ที่ความถี่สูงสุด</string>
+    <string name="cpu_profile_custom">กำหนดเอง</string>
+    <string name="cpu_profile_custom_summary">ความถี่แบบแมนนวลและการกำหนดค่าหลัก</string>
+    <string name="cpu_extreme_warning_title">ใช้พลังงานสูง</string>
+    <string name="cpu_extreme_warning">โหมดเอ็กซ์ตรีมสร้างความร้อนและการระบายแบตเตอรี่มากขึ้นอย่างมาก การควบคุมปริมาณความร้อนไม่เคยถูกปิดใช้งาน</string>
+    <string name="cpu_frequencies_category">การจำกัดความถี่ด้วยตนเอง</string>
+    <string name="cpu_cores_category">แกนซีพียู</string>
+    <string name="cpu_efficiency_cluster">คลัสเตอร์ประสิทธิภาพ</string>
+    <string name="cpu_performance_cluster">คลัสเตอร์ประสิทธิภาพ</string>
+    <string name="cpu_prime_cluster">คลัสเตอร์ไพรม์</string>
+    <string name="cpu_cluster">คลัสเตอร์ %1$d</string>
+    <string name="cpu_frequency_range">%1$s – %2$s</string>
+    <string name="cpu_frequency_dialog_title">%1$s ความถี่</string>
+    <string name="cpu_min_frequency">ขั้นต่ำ: %1$s</string>
+    <string name="cpu_max_frequency">สูงสุด: %1$s</string>
+    <string name="cpu_core">ซีพียู %1$d</string>
+    <string name="cpu_core_online">ออนไลน์</string>
+    <string name="cpu_core_offline">ออฟไลน์</string>
+    <string name="cpu_core_required">Boot core — ออนไลน์ตลอดเวลา</string>
+    <string name="cpu_apply">ใช้</string>
+    <string name="cpu_refresh">รีเฟรชสถานะ CPU</string>
+    <string name="cpu_apply_failed">การตั้งค่า CPU บางอย่างไม่สามารถใช้งานได้</string>
+    <string name="cpu_not_supported">เคอร์เนลนี้ไม่ได้เปิดเผยการควบคุมความถี่ CPU</string>
     <string name="battery_status_title">สถานะแบตเตอรี่</string>
-    <string name="battery_status_summary">สุขภาพ การชาร์จ และค่าต่าง ๆ แบบเรียลไทม์</string>
+    <string name="battery_status_summary">สุขภาพ การชาร์จ และการวัดแบบสด</string>
     <string name="battery_live_section">แบตเตอรี่</string>
-    <string name="battery_wear_section">สุขภาพ &amp; การเสื่อมสภาพ</string>
+    <string name="battery_wear_section">สุขภาพ</string>
     <string name="battery_status_charging">กำลังชาร์จ</string>
-    <string name="battery_status_discharging">กำลังจ่ายไฟ</string>
+    <string name="battery_status_discharging">การคายประจุ</string>
     <string name="battery_status_full">เต็ม</string>
-    <string name="battery_status_not_charging">ไม่กำลังชาร์จ</string>
-    <string name="battery_status_unknown">ไม่รู้จัก</string>
+    <string name="battery_status_not_charging">ไม่ชาร์จ</string>
+    <string name="battery_status_unknown">ไม่ทราบ</string>
     <string name="battery_health_good">ดี</string>
     <string name="battery_health_overheat">ร้อนเกินไป</string>
-    <string name="battery_health_dead">เสีย</string>
-    <string name="battery_health_over_voltage">แรงดันเกิน</string>
-    <string name="battery_health_cold">เย็น</string>
-    <string name="battery_health_failure">มีปัญหา</string>
+    <string name="battery_health_dead">ตายแล้ว</string>
+    <string name="battery_health_over_voltage">แรงดันไฟฟ้าเกิน</string>
+    <string name="battery_health_cold">หนาว</string>
+    <string name="battery_health_failure">ความล้มเหลว</string>
     <string name="battery_status">สถานะ</string>
     <string name="battery_health">สุขภาพ</string>
     <string name="battery_temperature">อุณหภูมิ</string>
-    <string name="battery_voltage">แรงดัน</string>
-    <string name="battery_current_now">กระแสปัจจุบัน</string>
-    <string name="battery_power">กำลังที่ใช้</string>
-    <string name="battery_charge_counter">ตัวนับการชาร์จ</string>
+    <string name="battery_voltage">แรงดันไฟฟ้า</string>
+    <string name="battery_current_now">ปัจจุบัน</string>
+    <string name="battery_power">พลัง</string>
+    <string name="battery_charge_counter">เคาน์เตอร์ชาร์จ</string>
     <string name="battery_technology">เทคโนโลยี</string>
-    <string name="battery_plug_type">แหล่งจ่ายไฟ</string>
+    <string name="battery_plug_type">แหล่งพลังงาน</string>
     <string name="battery_cycle_count">จำนวนรอบ</string>
-    <string name="battery_state_of_health">สถานะสุขภาพ</string>
-    <string name="battery_first_usage">ใช้ครั้งแรก</string>
-    <string name="battery_manufactured">วันที่ผลิต</string>
-    <string name="battery_max_charge_current">กระแสชาร์จสูงสุด</string>
-    <string name="battery_max_charge_voltage">แรงดันชาร์จสูงสุด</string>
-    <string name="battery_plug_ac">AC</string>
-    <string name="battery_plug_usb">USB</string>
+    <string name="battery_plug_ac">เอซี</string>
+    <string name="battery_plug_usb">ยูเอสบี</string>
     <string name="battery_plug_wireless">ไร้สาย</string>
-    <string name="battery_plug_dock">Dock</string>
+    <string name="battery_plug_dock">ท่าเรือ</string>
     <string name="battery_plug_none">แบตเตอรี่</string>
-
-    <!-- ── Performance monitor ────────────────────────────── -->
-    <string name="performance_title">ตัวตรวจสอบประสิทธิภาพ</string>
-    <string name="performance_summary">การรับโหลด CPU และค่าต่าง ๆ แบบเรียลไทม์</string>
-    <string name="monitor_cpu_section">CPU</string>
-    <string name="monitor_gpu_section">GPU</string>
-    <string name="monitor_temp_section">อุณหภูมิ</string>
-    <string name="monitor_all_zones">โซนความร้อนทั้งหมด</string>
-    <string name="monitor_cpu_load">โหลด CPU</string>
-    <string name="monitor_load_average">ค่าเฉลี่ยโหลด (1 · 5 · 15)</string>
-    <string name="monitor_uptime">เวลาทำงาน</string>
-    <string name="monitor_freq_range">ช่วง %1$s – %2$s</string>
-    <string name="monitor_governor">Governor: %1$s</string>
-    <string name="monitor_gpu_freq">ความถี่ GPU</string>
-    <string name="monitor_gpu_load">โหลด GPU: %1$d%%</string>
-    <string name="monitor_unavailable">ข้อมูลการตรวจสอบไม่พร้อมใช้งานบนอุปกรณ์นี้</string>
-
-    <!-- ── Memory manager ─────────────────────────────────── -->
-    <string name="memory_title">ตัวจัดการหน่วยความจำ</string>
-    <string name="memory_summary">การใช้งาน RAM และกระบวนการที่กำลังทำงาน</string>
-    <string name="memory_used">ใช้ไปแล้ว</string>
-    <string name="memory_free_summary">%1$s ว่าง</string>
-    <string name="memory_total">ทั้งหมด</string>
-    <string name="memory_available">พร้อมใช้งาน</string>
-    <string name="memory_cached">แคช</string>
-    <string name="memory_swap">Swap ว่าง</string>
+    <string name="memory_title">ผู้จัดการหน่วยความจำ</string>
+    <string name="memory_summary">RAM สลับและรันกระบวนการ</string>
+    <string name="memory_used">มือสอง</string>
+    <string name="memory_free_summary">%1$s ฟรี</string>
+    <string name="memory_total">รวม</string>
+    <string name="memory_available">ว่าง</string>
+    <string name="memory_cached">แคชไว้</string>
+    <string name="memory_swap">แลกฟรี</string>
     <string name="memory_processes">กระบวนการ</string>
     <string name="memory_no_processes">ไม่มีข้อมูลกระบวนการ</string>
-    <string name="memory_unavailable">ข้อมูลหน่วยความจำไม่พร้อมใช้งานบนอุปกรณ์นี้</string>
-    <string name="memory_low_warning">หน่วยความจำต่ำ — ควรปิดแอปพื้นหลัง</string>
+    <string name="memory_unavailable">ไม่มีข้อมูลหน่วยความจำบนอุปกรณ์นี้</string>
+    <string name="memory_low_warning">หน่วยความจำเหลือน้อย — ลองปิดแอปพื้นหลัง</string>
     <string name="memory_stop">หยุดกระบวนการ</string>
-    <string name="memory_process_stopped">หยุดกระบวนการแล้ว</string>
-
-
-    <!-- ── Display Colours ────────────────────────────────── -->
-    <string name="display_colours_title">สีของการแสดงผล</string>
+    <string name="memory_process_stopped">กระบวนการหยุดทำงาน</string>
+    <string name="memory_process_summary">PSS %1$s · RSS %2$s · ซีพียู %3$s%%</string>
+    <string name="display_colours_title">แสดงสี</string>
     <string name="display_colours_summary">โหมดสีและอุณหภูมิ</string>
-    <string name="display_colours_description">ปรับโหมดสีและสมดุลสีขาวของหน้าจอเพื่อให้ภาพดูเป็นธรรมชาติหรือสดใสมากขึ้น</string>
+    <string name="display_colours_description">ปรับโหมดสีและสมดุลสีขาวของจอแสดงผลเพื่อให้ดูเป็นธรรมชาติหรือสดใสยิ่งขึ้น</string>
     <string name="color_mode_vivid">สดใส</string>
-    <string name="color_mode_saturated">เข้มข้น</string>
+    <string name="color_mode_saturated">อิ่ม</string>
     <string name="color_mode_standard">มาตรฐาน</string>
-    <string name="color_mode_original">ดั้งเดิม</string>
-    <string name="color_mode_p3">DCI-P3</string>
+    <string name="color_mode_original">เดิม</string>
+    <string name="color_mode_p3">ดีซีไอ-P3</string>
     <string name="color_mode_srgb">sRGB</string>
-    <string name="display_colours_failed">ไม่สามารถใช้โหมดสีได้</string>
-    <string name="color_mode_vivid_summary">สีและคอนทราสต์ที่เพิ่มขึ้น</string>
-    <string name="color_mode_saturated_summary">สีเข้มข้นสำหรับการใช้งานประจำวัน</string>
-    <string name="color_mode_standard_summary">ปรับเทียบจากโรงงาน แม่นยำเหมือนจริง</string>
-    <string name="color_mode_original_summary">การจูนสีแบบกว้างเดิม</string>
-    <string name="color_mode_p3_summary">ขอบเขตสีภาพยนตร์ DCI-P3</string>
-    <string name="color_mode_srgb_summary">sRGB แม่นยำสำหรับเว็บและดีไซน์</string>
-
-    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <string name="display_colours_failed">ล้มเหลวในการใช้โหมดสี</string>
+    <string name="color_mode_vivid_summary">เพิ่มสีและคอนทราสต์</string>
+    <string name="color_mode_saturated_summary">สีสันที่หลากหลายสำหรับการใช้งานในชีวิตประจำวัน</string>
+    <string name="color_mode_standard_summary">ปรับเทียบจากโรงงาน สมจริง</string>
+    <string name="color_mode_original_summary">การปรับแต่งช่วงเสียงกว้างดั้งเดิม</string>
+    <string name="color_mode_p3_summary">พื้นที่สีภาพยนตร์ DCI-P3</string>
+    <string name="color_mode_srgb_summary">sRGB ที่แม่นยำสำหรับเว็บและการออกแบบ</string>
     <string name="screen_resolution_title">ความละเอียดหน้าจอ</string>
-    <string name="screen_resolution_home_summary">เปลี่ยนความละเอียดหน้าจอ</string>
-    <string name="screen_resolution_description">การเลือกความละเอียดสูงจะทำให้ภาพคมชัดขึ้นแต่ใช้แบตเตอรี่มากขึ้น ความละเอียดต่ำจะประหยัดแบตเตอรี่</string>
-    <string name="screen_resolution_failed">ไม่สามารถใช้ความละเอียดได้</string>
+    <string name="screen_resolution_home_summary">เปลี่ยนความละเอียดการแสดงผล</string>
+    <string name="screen_resolution_description">การเลือกความละเอียดที่สูงขึ้นจะทำให้จอแสดงผลคมชัดขึ้น แต่ใช้แบตเตอรี่มากขึ้น ความละเอียดที่ต่ำกว่าจะช่วยลดการใช้แบตเตอรี่</string>
+    <string name="screen_resolution_failed">ล้มเหลวในการใช้การแก้ไข</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
-    <string name="screen_resolution_1440p_summary">คมชัดที่สุด — ใช้แบตเตอรี่มากกว่า</string>
-    <string name="screen_resolution_1220p">2712 × 1220 (Native)</string>
-    <string name="screen_resolution_1220p_summary">ความละเอียดของแผงดั้งเดิม</string>
+    <string name="screen_resolution_1440p_summary">คมชัดที่สุด — ใช้แบตเตอรี่มากขึ้น</string>
+    <string name="screen_resolution_1220p">2712 × 1220 (เนทิฟ)</string>
+    <string name="screen_resolution_1220p_summary">ความละเอียดพาเนลดั้งเดิม</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
-    <string name="screen_resolution_1080p_summary">สมดุลระหว่างความคมชัดและแบตเตอรี่</string>
+    <string name="screen_resolution_1080p_summary">ความคมชัดและแบตเตอรี่ที่สมดุล</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
-    <string name="screen_resolution_720p_summary">ประหยัดแบตเตอรี่ที่สุด</string>
-    <string name="screen_resolution_dialog_title">เปลี่ยนความละเอียดหรือไม่?</string>
-    <string name="screen_resolution_restart_hint_body">หลังจากใช้แล้วแนะนำให้รีสตาร์ท System UI หลีกเลี่ยงการเปลี่ยนขนาดหน้าจอในการตั้งค่าหน้าจอของอุปกรณ์ เนื่องจากอาจเกิดความขัดแย้งกัน</string>
-    <string name="screen_resolution_dialog_confirm">ใช้งาน</string>
+    <string name="screen_resolution_720p_summary">อายุการใช้งานแบตเตอรี่ที่ดีที่สุด</string>
+    <string name="screen_resolution_dialog_title">เปลี่ยนความละเอียด?</string>
+    <string name="screen_resolution_restart_hint_body">หลังจากสมัครแล้ว แนะนำให้รีสตาร์ท System UI หลีกเลี่ยงการเปลี่ยนขนาดการแสดงผลในการตั้งค่าการแสดงผลของอุปกรณ์ เนื่องจากอาจขัดแย้งกัน</string>
+    <string name="screen_resolution_dialog_confirm">ใช้</string>
     <string name="screen_resolution_dialog_cancel">ยกเลิก</string>
-
-    <!-- ── Thermal Management ───────────────────────────────── -->
-    <string name="thermal_title">การจัดการความร้อน</string>
-    <string name="thermal_summary">ประสิทธิภาพและอุณหภูมิตามแอป</string>
-    <string name="thermal_enable_title">โปรไฟล์ระบายความร้อน</string>
-    <string name="thermal_enable_summary">ใช้โปรไฟล์ความร้อนตามแอปและระหว่างชาร์จ</string>
-    <string name="thermal_global_label">โปรไฟล์รวม</string>
-    <string name="thermal_global_profile_title">โปรไฟล์ที่ใช้งาน</string>
-    <string name="thermal_per_app_label">โปรไฟล์ตามแอป</string>
+    <string name="thermal_title">การจัดการระบายความร้อน</string>
+    <string name="thermal_summary">ประสิทธิภาพและอุณหภูมิต่อแอป</string>
+    <string name="thermal_enable_title">โปรไฟล์ความร้อน</string>
+    <string name="thermal_enable_summary">ใช้โปรไฟล์ความร้อนต่อแอปและขณะชาร์จ</string>
+    <string name="thermal_safety_label">แทนที่ความปลอดภัย</string>
+    <string name="thermal_disable_throttling_title">ปิดใช้งานการควบคุมปริมาณความร้อน</string>
+    <string name="thermal_disable_throttling_summary">ใช้โปรไฟล์ไม่จำกัดของผู้ขายจนกว่าตัวเลือกนี้จะถูกปิด</string>
+    <string name="thermal_disable_warning_title">ปิดการใช้งานการป้องกันความร้อน?</string>
+    <string name="thermal_disable_warning_body">อุปกรณ์อาจมีความร้อนสูงเกินไป ไม่เสถียร แบตเตอรี่เสียหาย หรือปิดเครื่อง การป้องกันเหตุฉุกเฉินเคอร์เนลอาจยังคงทำงานอยู่ ใช้สิ่งนี้สำหรับการทดสอบสั้นๆ เท่านั้น และอย่าปล่อยอุปกรณ์ทิ้งไว้โดยไม่มีใครดูแล</string>
+    <string name="thermal_disable_confirm">ปิดการใช้งานต่อไป</string>
+    <string name="thermal_global_label">โปรไฟล์ทั่วโลก</string>
+    <string name="thermal_global_profile_title">โปรไฟล์ที่ใช้งานอยู่</string>
+    <string name="thermal_per_app_label">โปรไฟล์ต่อแอป</string>
     <string name="thermal_select_profile">เลือกโปรไฟล์</string>
-    <string name="thermal_apply">ใช้งาน</string>
-    <string name="thermal_no_apps">ยังไม่มีแอปที่ตั้งค่า</string>
-    <string name="thermal_failed_toast">การจัดการความร้อนล้มเหลว</string>
-    <string name="thermal_charging_toast_connected">โปรไฟล์การชาร์จทำงาน</string>
-    <string name="thermal_charging_toast_disconnected">โปรไฟล์ตามแอปกลับมาทำงานแล้ว</string>
-    <string name="thermal_charging_banner_body">โปรไฟล์ตามแอปจะถูกหยุดชั่วคราวระหว่างการชาร์จ</string>
+    <string name="thermal_apply">ใช้</string>
+    <string name="thermal_no_apps">ยังไม่มีการกำหนดค่าแอป</string>
+    <string name="thermal_failed_toast">การดำเนินการระบายความร้อนล้มเหลว</string>
+    <string name="thermal_charging_toast_connected">โปรไฟล์การชาร์จทำงานอยู่</string>
+    <string name="thermal_charging_toast_disconnected">โปรไฟล์ต่อแอปกลับมาทำงานต่อ</string>
+    <string name="thermal_charging_banner_body">โปรไฟล์ต่อแอปจะหยุดชั่วคราวขณะชาร์จ</string>
     <string name="thermal_reset_title">รีเซ็ตโปรไฟล์ทั้งหมด</string>
-    <string name="thermal_reset_summary">คืนค่าโปรไฟล์ตามแอปทั้งหมดเป็นค่าเริ่มต้น</string>
+    <string name="thermal_reset_summary">กู้คืนโปรไฟล์ต่อแอปทั้งหมดเป็นค่าเริ่มต้น</string>
     <string name="thermal_reset_confirm">รีเซ็ต</string>
-    <string name="thermal_reset_confirm_body">การตั้งค่าความร้อนตามแอปทั้งหมดจะถูกล้างและโปรไฟล์จะกลับเป็นค่าเริ่มต้นที่ตรวจจับได้โดยอัตโนมัติ</string>
+    <string name="thermal_reset_confirm_body">การแทนที่ความร้อนต่อแอปทั้งหมดจะถูกล้าง และโปรไฟล์จะเปลี่ยนกลับไปเป็นค่าเริ่มต้นที่ตรวจพบโดยอัตโนมัติ</string>
     <string name="thermal_add_app">เพิ่มแอป</string>
     <string name="thermal_search_apps">ค้นหาแอป</string>
     <string name="thermal_default">ค่าเริ่มต้น</string>
-    <string name="thermal_nolimits">ไม่จำกัด</string>
-    <string name="thermal_navigation">นำทาง</string>
-    <string name="thermal_dialer">โทรออก</string>
+    <string name="thermal_nolimits">ไม่มีขีดจำกัด</string>
+    <string name="thermal_navigation">การนำทาง</string>
+    <string name="thermal_dialer">ตัวหมุนหมายเลข</string>
     <string name="thermal_video_call">วิดีโอคอล</string>
     <string name="thermal_camera">กล้อง</string>
-    <string name="thermal_video">วิดีโอ</string>
+    <string name="thermal_video">วีดีโอ</string>
     <string name="thermal_video_4k">วิดีโอ 4K</string>
-    <string name="thermal_gaming">เกมมิ่ง</string>
-    <string name="thermal_gaming_heavy">เกมมิ่ง (หนัก)</string>
-    <string name="thermal_gaming_competitive">เกมมิ่ง (แข่งขัน)</string>
-    <string name="thermal_yuanshen">Yuanshen</string>
-    <string name="thermal_charge">การชาร์จ</string>
-
-    <!-- ── Touch Boost ───────────────────────────────────────── -->
-    <string name="touch_boost_title">Touch boost</string>
-    <string name="touch_boost_summary">ตอบสนองการสัมผัสเร็วขึ้น</string>
-    <string name="touch_boost_description">เพิ่มอัตราการโพลล์ของตัวควบคุมการสัมผัส ลดความล่าช้าในการตอบสนองการแตะ อาจเพิ่มการใช้พลังงานเล็กน้อยระหว่างการใช้งาน</string>
-    <string name="touch_boost_failed">Touch boost ไม่สามารถใช้ได้</string>
-
-    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
-
-    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="thermal_gaming">เล่นเกม</string>
+    <string name="thermal_gaming_heavy">เล่นเกม (หนัก)</string>
+    <string name="thermal_gaming_competitive">การเล่นเกม (การแข่งขัน)</string>
+    <string name="thermal_yuanshen">หยวนเสิน</string>
+    <string name="thermal_charge">กำลังชาร์จ</string>
+    <string name="touch_boost_title">เพิ่มการสัมผัส</string>
+    <string name="touch_boost_summary">การตอบสนองการสัมผัสเร็วขึ้น</string>
+    <string name="touch_boost_description">เพิ่มอัตราการโพลคอนโทรลเลอร์ระบบสัมผัส ช่วยลดเวลาแฝงในการแตะเพื่อตอบกลับ อาจเพิ่มการดึงพลังเล็กน้อยระหว่างการใช้งาน</string>
+    <string name="touch_boost_failed">ไม่สามารถใช้การเพิ่มการสัมผัสได้</string>
     <string name="fingerprint_calibration_title">การปรับเทียบลายนิ้วมือ</string>
     <string name="fingerprint_calibration_summary">ปรับเทียบเซ็นเซอร์ลายนิ้วมือใหม่</string>
     <string name="fingerprint_calibration_not_found">ไม่มีการปรับเทียบลายนิ้วมือ</string>
     <string name="speaker_calibration_title">การปรับเทียบลำโพง</string>
-    <string name="speaker_calibration_summary">การทดสอบปรับเทียบลำโพงด้วยตัวเองของ CIT</string>
-    <string name="speaker_calibration_not_found">การปรับเทียบลำโพงไม่พร้อมใช้งาน</string>
+    <string name="speaker_calibration_summary">การทดสอบการปรับเทียบตัวเองของลำโพง CIT</string>
+    <string name="speaker_calibration_not_found">ไม่มีการปรับเทียบลำโพง</string>
 </resources>

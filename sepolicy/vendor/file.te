@@ -12,7 +12,6 @@ type vendor_sysfs_usb_supply, fs_type, sysfs_type;
 
 # Camera
 type camera_persist_file, file_type;
-type vendor_camera_data_file, data_file_type, file_type;
 
 # CIT
 type vendor_audio_data_file, data_file_type, file_type;
@@ -50,5 +49,5 @@ type vendor_proc_tp_lockdown, fs_type, proc_type;
 type vendor_sysfs_touch, fs_type, sysfs_type;
 type sysfs_tp_virtual_prox, sysfs_type, fs_type;
 
-# zram resize
-type zram_resize_log_file, data_file_type, file_type, core_data_file_type;
+# XiaomiParts CPU controls
+type vendor_sysfs_cpu_control, fs_type, sysfs_type;
