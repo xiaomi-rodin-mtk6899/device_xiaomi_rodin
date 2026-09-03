@@ -113,6 +113,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2772
 TARGET_SCREEN_WIDTH := 1280
 
+# BypassCharge
+PRODUCT_PACKAGES += \
+    BypassCharge
+
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 PRODUCT_COPY_FILES += \
