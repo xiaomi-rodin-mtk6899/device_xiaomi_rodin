@@ -10,8 +10,6 @@
 
 package com.xiaomi.settings.monitor
 
-import android.app.ActivityManager
-import android.content.Context
 import android.util.Log
 import com.xiaomi.settings.utils.readFile
 import com.xiaomi.settings.utils.readOneLine
@@ -194,87 +192,6 @@ fun readMemInfo(): MemInfo? {
 // ──────────────────────────────────────────────────────────────────────────
 // Processes (task manager)
 // ──────────────────────────────────────────────────────────────────────────
-
-data class ProcessSample(
-    val pid:     Int,
-    val uid:     Int,
-    val name:    String,
-    val pssKb:   Long,
-    val rssKb:   Long,
-    val cpuPercent: Float,
-)
-
-class ProcessSampler(private val context: Context) {
-
-    private val am: ActivityManager =
-        context.getSystemService(ActivityManager::class.java)
-
-    private var lastTicks   = mutableMapOf<Int, Long>()
-    private var lastWall    = 0L
-    private var lastSystem  = 0L
-
-    /** CPU ticks for [pid] from /proc/<pid>/stat (fields 14/15). */
-    private fun pidTicks(pid: Int): Long? {
-        val content = readOneLine("/proc/$pid/stat") ?: return null
-        val endComm = content.lastIndexOf(')')
-        if (endComm < 0) return null
-        val rest = content.substring(endComm + 1).trim().split(" ")
-        if (rest.size < 13) return null
-        val utime = rest.getOrNull(11)?.toLongOrNull() ?: return null
-        val stime = rest.getOrNull(12)?.toLongOrNull() ?: return null
-        return utime + stime
-    }
-
-    private fun systemTicks(): Long {
-        val fields = readOneLine("/proc/stat")
-            ?.split(Regex("\\s+"))
-            ?.drop(1)
-            ?.mapNotNull { it.toLongOrNull() }
-            ?: return 0L
-        return fields.take(4).sum()
-    }
-
-    fun sample(): List<ProcessSample> {
-        val processes = runCatching { am.runningAppProcesses }.getOrNull() ?: return emptyList()
-
-        val pids     = processes.mapNotNull { it?.pid }.distinct().toIntArray()
-        val memInfo  = runCatching { am.getProcessMemoryInfo(pids) }.getOrNull()
-        val pssMap   = memInfo?.mapIndexed { i, info -> pids[i] to (info?.totalPss?.toLong() ?: 0L) }?.toMap() ?: emptyMap()
-        val rssMap   = memInfo?.mapIndexed { i, info -> pids[i] to (info?.totalRss?.toLong() ?: 0L) }?.toMap() ?: emptyMap()
-
-        val nowWall   = System.currentTimeMillis()
-        val nowSystem = systemTicks()
-        val cpuPercent = mutableMapOf<Int, Float>()
-
-        if (lastWall > 0 && nowSystem > lastSystem) {
-            for (pid in pids) {
-                val now  = pidTicks(pid) ?: continue
-                val last = lastTicks[pid]
-                if (last != null && now >= last) {
-                    val pidFrac = (now - last).toFloat() / (nowSystem - lastSystem)
-                    cpuPercent[pid] = pidFrac.coerceIn(0f, 1f) * 100f
-                }
-                lastTicks[pid] = now
-            }
-        } else {
-            for (pid in pids) pidTicks(pid)?.let { lastTicks[pid] = it }
-        }
-        lastWall   = nowWall
-        lastSystem = nowSystem
-
-        return processes.mapNotNull { proc ->
-            val pid = proc?.pid ?: return@mapNotNull null
-            ProcessSample(
-                pid        = pid,
-                uid        = proc.uid,
-                name       = proc.processName ?: proc.pkgList?.firstOrNull() ?: "unknown",
-                pssKb      = pssMap[pid] ?: 0L,
-                rssKb      = rssMap[pid] ?: 0L,
-                cpuPercent = cpuPercent[pid] ?: 0f,
-            )
-        }.sortedByDescending { it.pssKb }
-    }
-}
 
 // ──────────────────────────────────────────────────────────────────────────
 // Misc / device info
