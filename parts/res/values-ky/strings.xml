@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Зымсыз</string>
     <string name="battery_plug_dock">Док</string>
     <string name="battery_plug_none">Батарея</string>
+    <string name="performance_title">Иштин монитору</string>
+    <string name="performance_summary">CPU жүктөө жана жандуу көрсөткүчтөр</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Температуралар</string>
+    <string name="monitor_all_zones">Бардык термикалык зоналар</string>
+    <string name="monitor_cpu_load">CPU жүгү</string>
+    <string name="monitor_load_average">Орточо жүктөө (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Иштөө убактысы</string>
+    <string name="monitor_freq_range">Диапазон %1$s – %2$s</string>
+    <string name="monitor_governor">Губернатор: %1$s</string>
+    <string name="monitor_gpu_freq">GPU жыштыгы</string>
+    <string name="monitor_gpu_load">GPU жүктөө: %1$d%%</string>
+    <string name="monitor_unavailable">Мониторинг маалыматтары бул түзмөктө жеткиликтүү эмес.</string>
     <string name="memory_title">Эстутум менеджери</string>
     <string name="memory_summary">RAM, алмашуу жана иштеп жаткан процесстер</string>
     <string name="memory_used">Колдонулган</string>
@@ -86,7 +100,7 @@
     <string name="memory_processes">Процесстер</string>
     <string name="memory_no_processes">Процесс боюнча маалымат жок.</string>
     <string name="memory_unavailable">Эстутум маалыматы бул түзмөктө жеткиликтүү эмес.</string>
-    <string name="memory_low_warning">Эстутум аз — фон колдонмолорун жабууну карап көрүңүз</string>
+    <string name="memory_low_warning">Эстутум аз — фондо колдонмолорду жабууну карап көрүңүз</string>
     <string name="memory_stop">Процессти токтотуу</string>
     <string name="memory_process_stopped">Процесс токтотулду</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
@@ -103,7 +117,7 @@
     <string name="color_mode_vivid_summary">Көбөйтүлгөн түстөр жана контраст</string>
     <string name="color_mode_saturated_summary">Күнүмдүк колдонуу үчүн бай түстөр</string>
     <string name="color_mode_standard_summary">Фабрикада калибрленген, чыныгы турмуштук</string>
-    <string name="color_mode_original_summary">Оригиналдуу кенен диапазондогу тюнинг</string>
+    <string name="color_mode_original_summary">Оригиналдуу кең диапазондогу тюнинг</string>
     <string name="color_mode_p3_summary">DCI-P3 кинотеатрынын түстүү мейкиндиги</string>
     <string name="color_mode_srgb_summary">Веб жана дизайн үчүн так sRGB</string>
     <string name="screen_resolution_title">Экрандын чечилиши</string>
@@ -117,7 +131,7 @@
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
     <string name="screen_resolution_1080p_summary">Теңдештирилген тактык жана батарея</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
-    <string name="screen_resolution_720p_summary">Эң мыкты батареянын иштөө мөөнөтү</string>
+    <string name="screen_resolution_720p_summary">Батареянын эң жакшы иштөө мөөнөтү</string>
     <string name="screen_resolution_dialog_title">Резолюция өзгөрүлсүнбү?</string>
     <string name="screen_resolution_restart_hint_body">Колдонгондон кийин, Системанын UI кайра иштетүү сунушталат. Түзмөктүн дисплей жөндөөлөрүндө дисплей өлчөмүн өзгөртүүдөн качыңыз, ал карама-каршы келиши мүмкүн.</string>
     <string name="screen_resolution_dialog_confirm">Колдонуу</string>
@@ -125,12 +139,12 @@
     <string name="thermal_title">Жылуулук башкаруу</string>
     <string name="thermal_summary">Ар бир колдонмонун иштеши жана температурасы</string>
     <string name="thermal_enable_title">Термикалык профилдер</string>
-    <string name="thermal_enable_summary">Ар бир колдонмодо жана кубатталып жатканда жылуулук профилдерин колдонуңуз</string>
+    <string name="thermal_enable_summary">Ар бир колдонмого жана кубатталып жатканда жылуулук профилдерин колдонуңуз</string>
     <string name="thermal_safety_label">Коопсуздукту жокко чыгаруу</string>
     <string name="thermal_disable_throttling_title">Термикалык дроссельди өчүрүү</string>
     <string name="thermal_disable_throttling_summary">Бул параметр өчүрүлгөнгө чейин сатуучунун чексиз профилин колдонуңуз</string>
     <string name="thermal_disable_warning_title">Термикалык коргоо өчүрүлсүнбү?</string>
-    <string name="thermal_disable_warning_body">Аппарат ысып, туруксуз болуп, батарейканы бузуп же өчүп калышы мүмкүн. Ядронун өзгөчө кырдаалдардан коргоо каражаттары активдүү бойдон калышы мүмкүн. Муну кыска сыноолор үчүн гана колдонуңуз жана аппаратты эч качан кароосуз калтырбаңыз.</string>
+    <string name="thermal_disable_warning_body">Аппарат ысып, туруксуз болуп, батареяга зыян келтириши же өчүп калышы мүмкүн. Ядронун өзгөчө кырдаалдардан коргоо каражаттары активдүү бойдон калышы мүмкүн. Муну кыска сыноолор үчүн гана колдонуңуз жана аппаратты эч качан кароосуз калтырбаңыз.</string>
     <string name="thermal_disable_confirm">Баары бир өчүрүү</string>
     <string name="thermal_global_label">Глобалдык профиль</string>
     <string name="thermal_global_profile_title">Активдүү профиль</string>
@@ -161,7 +175,7 @@
     <string name="thermal_gaming_competitive">Оюндар (атаандаштык)</string>
     <string name="thermal_yuanshen">Юаньшен</string>
     <string name="thermal_charge">Заряддоо</string>
-    <string name="touch_boost_title">Touch boost</string>
+    <string name="touch_boost_title">Тийүү күчөтүү</string>
     <string name="touch_boost_summary">Тезирээк тийүү жооп</string>
     <string name="touch_boost_description">Сенсордук контроллердин добуш берүү ылдамдыгын жогорулатып, тийүү үчүн жооп күтүү убактысын азайтат. Активдүү колдонуу учурунда кубаттуулукту бир аз көбөйтүүсү мүмкүн.</string>
     <string name="touch_boost_failed">Тийүү күчөтүү колдонулбай калды</string>
@@ -169,6 +183,6 @@
     <string name="fingerprint_calibration_summary">Манжа изинин сенсорун кайра калибрлөө</string>
     <string name="fingerprint_calibration_not_found">Манжа изин калибрлөө жеткиликтүү эмес</string>
     <string name="speaker_calibration_title">Динамикти калибрлөө</string>
-    <string name="speaker_calibration_summary">CIT спикеринин өзүн-өзү калибрлөө тести</string>
+    <string name="speaker_calibration_summary">CIT спикеринин өзүн-өзү калибрлөө сыноосу</string>
     <string name="speaker_calibration_not_found">Динамик калибрлөө жеткиликтүү эмес</string>
 </resources>

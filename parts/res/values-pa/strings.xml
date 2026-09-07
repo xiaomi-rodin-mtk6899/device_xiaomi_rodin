@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">ਵਾਇਰਲੈੱਸ</string>
     <string name="battery_plug_dock">ਡੌਕ</string>
     <string name="battery_plug_none">ਬੈਟਰੀ</string>
+    <string name="performance_title">ਪ੍ਰਦਰਸ਼ਨ ਮਾਨੀਟਰ</string>
+    <string name="performance_summary">CPU ਲੋਡ ਅਤੇ ਲਾਈਵ ਮੈਟ੍ਰਿਕਸ</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">ਤਾਪਮਾਨ</string>
+    <string name="monitor_all_zones">ਸਾਰੇ ਥਰਮਲ ਜ਼ੋਨ</string>
+    <string name="monitor_cpu_load">CPU ਲੋਡ</string>
+    <string name="monitor_load_average">ਲੋਡ ਔਸਤ (1 · 5 · 15)</string>
+    <string name="monitor_uptime">ਅਪਟਾਈਮ</string>
+    <string name="monitor_freq_range">ਰੇਂਜ %1$s – %2$s</string>
+    <string name="monitor_governor">ਰਾਜਪਾਲ: %1$s</string>
+    <string name="monitor_gpu_freq">GPU ਬਾਰੰਬਾਰਤਾ</string>
+    <string name="monitor_gpu_load">GPU ਲੋਡ: %1$d%%</string>
+    <string name="monitor_unavailable">ਇਸ ਡਿਵਾਈਸ \'ਤੇ ਨਿਗਰਾਨੀ ਡੇਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।</string>
     <string name="memory_title">ਮੈਮੋਰੀ ਮੈਨੇਜਰ</string>
     <string name="memory_summary">RAM, ਸਵੈਪ ਅਤੇ ਚੱਲ ਰਹੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ</string>
     <string name="memory_used">ਵਰਤਿਆ ਗਿਆ</string>
@@ -105,7 +119,7 @@
     <string name="color_mode_standard_summary">ਫੈਕਟਰੀ-ਕੈਲੀਬਰੇਟਿਡ, ਸੱਚਾ-ਤੋਂ-ਜੀਵਨ</string>
     <string name="color_mode_original_summary">ਮੂਲ ਵਾਈਡ-ਗਾਮਟ ਟਿਊਨਿੰਗ</string>
     <string name="color_mode_p3_summary">DCI-P3 ਸਿਨੇਮਾ ਕਲਰ ਸਪੇਸ</string>
-    <string name="color_mode_srgb_summary">ਵੈੱਬ ਅਤੇ ਡਿਜ਼ਾਈਨ ਲਈ ਸਹੀ sRGB</string>
+    <string name="color_mode_srgb_summary">ਵੈੱਬ ਅਤੇ ਡਿਜ਼ਾਈਨ ਲਈ ਸਟੀਕ sRGB</string>
     <string name="screen_resolution_title">ਸਕ੍ਰੀਨ ਰੈਜ਼ੋਲਿਊਸ਼ਨ</string>
     <string name="screen_resolution_home_summary">ਡਿਸਪਲੇ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਬਦਲੋ</string>
     <string name="screen_resolution_description">ਉੱਚ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਦੀ ਚੋਣ ਕਰਨਾ ਡਿਸਪਲੇ ਨੂੰ ਹੋਰ ਤਿੱਖਾ ਬਣਾਉਂਦਾ ਹੈ, ਪਰ ਜ਼ਿਆਦਾ ਬੈਟਰੀ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਘੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਬੈਟਰੀ ਦੀ ਵਰਤੋਂ ਨੂੰ ਘਟਾਉਂਦੇ ਹਨ।</string>
@@ -130,7 +144,7 @@
     <string name="thermal_disable_throttling_title">ਥਰਮਲ ਥ੍ਰੋਟਲਿੰਗ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਓ</string>
     <string name="thermal_disable_throttling_summary">ਵਿਕਰੇਤਾ ਨੋ-ਸੀਮਾ ਪ੍ਰੋਫਾਈਲ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਦੋਂ ਤੱਕ ਇਹ ਵਿਕਲਪ ਬੰਦ ਨਹੀਂ ਹੁੰਦਾ</string>
     <string name="thermal_disable_warning_title">ਥਰਮਲ ਸੁਰੱਖਿਆ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਉਣਾ ਹੈ?</string>
-    <string name="thermal_disable_warning_body">ਡਿਵਾਈਸ ਜ਼ਿਆਦਾ ਗਰਮ ਹੋ ਸਕਦੀ ਹੈ, ਅਸਥਿਰ ਹੋ ਸਕਦੀ ਹੈ, ਬੈਟਰੀ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾ ਸਕਦੀ ਹੈ ਜਾਂ ਬੰਦ ਕਰ ਸਕਦੀ ਹੈ। ਕਰਨਲ ਐਮਰਜੈਂਸੀ ਸੁਰੱਖਿਆ ਸਰਗਰਮ ਰਹਿ ਸਕਦੀ ਹੈ। ਇਸਦੀ ਵਰਤੋਂ ਸਿਰਫ ਛੋਟੇ ਟੈਸਟਾਂ ਲਈ ਕਰੋ ਅਤੇ ਡਿਵਾਈਸ ਨੂੰ ਕਦੇ ਵੀ ਅਣਗੌਲਿਆ ਨਾ ਛੱਡੋ।</string>
+    <string name="thermal_disable_warning_body">ਡਿਵਾਈਸ ਜ਼ਿਆਦਾ ਗਰਮ ਹੋ ਸਕਦੀ ਹੈ, ਅਸਥਿਰ ਹੋ ਸਕਦੀ ਹੈ, ਬੈਟਰੀ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾ ਸਕਦੀ ਹੈ ਜਾਂ ਬੰਦ ਹੋ ਸਕਦੀ ਹੈ। ਕਰਨਲ ਐਮਰਜੈਂਸੀ ਸੁਰੱਖਿਆ ਸਰਗਰਮ ਰਹਿ ਸਕਦੀ ਹੈ। ਇਸਦੀ ਵਰਤੋਂ ਸਿਰਫ ਛੋਟੇ ਟੈਸਟਾਂ ਲਈ ਕਰੋ ਅਤੇ ਡਿਵਾਈਸ ਨੂੰ ਕਦੇ ਵੀ ਅਣਗੌਲਿਆ ਨਾ ਛੱਡੋ।</string>
     <string name="thermal_disable_confirm">ਫਿਰ ਵੀ ਅਯੋਗ ਕਰੋ</string>
     <string name="thermal_global_label">ਗਲੋਬਲ ਪ੍ਰੋਫਾਈਲ</string>
     <string name="thermal_global_profile_title">ਕਿਰਿਆਸ਼ੀਲ ਪ੍ਰੋਫਾਈਲ</string>
@@ -148,7 +162,7 @@
     <string name="thermal_reset_confirm_body">ਸਾਰੇ ਪ੍ਰਤੀ-ਐਪ ਥਰਮਲ ਓਵਰਰਾਈਡਾਂ ਨੂੰ ਕਲੀਅਰ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ ਅਤੇ ਪ੍ਰੋਫਾਈਲਾਂ ਉਹਨਾਂ ਦੇ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਖੋਜੇ ਗਏ ਡਿਫੌਲਟ \'ਤੇ ਵਾਪਸ ਆ ਜਾਣਗੀਆਂ।</string>
     <string name="thermal_add_app">ਐਪ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="thermal_search_apps">ਐਪਸ ਖੋਜੋ</string>
-    <string name="thermal_default">ਪੂਰਵ-ਨਿਰਧਾਰਤ</string>
+    <string name="thermal_default">ਡਿਫੌਲਟ</string>
     <string name="thermal_nolimits">ਕੋਈ ਸੀਮਾ ਨਹੀਂ</string>
     <string name="thermal_navigation">ਨੇਵੀਗੇਸ਼ਨ</string>
     <string name="thermal_dialer">ਡਾਇਲਰ</string>

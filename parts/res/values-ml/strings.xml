@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">വയർലെസ്</string>
     <string name="battery_plug_dock">ഡോക്ക്</string>
     <string name="battery_plug_none">ബാറ്ററി</string>
+    <string name="performance_title">പ്രകടന മോണിറ്റർ</string>
+    <string name="performance_summary">സിപിയു ലോഡും ലൈവ് മെട്രിക്കുകളും</string>
+    <string name="monitor_cpu_section">സിപിയു</string>
+    <string name="monitor_gpu_section">ജിപിയു</string>
+    <string name="monitor_temp_section">താപനില</string>
+    <string name="monitor_all_zones">എല്ലാ തെർമൽ സോണുകളും</string>
+    <string name="monitor_cpu_load">സിപിയു ലോഡ്</string>
+    <string name="monitor_load_average">ലോഡ് ശരാശരി (1 · 5 · 15)</string>
+    <string name="monitor_uptime">പ്രവർത്തനസമയം</string>
+    <string name="monitor_freq_range">ശ്രേണി %1$s – %2$s</string>
+    <string name="monitor_governor">ഗവർണർ: %1$s</string>
+    <string name="monitor_gpu_freq">ജിപിയു ആവൃത്തി</string>
+    <string name="monitor_gpu_load">GPU ലോഡ്: %1$d%%</string>
+    <string name="monitor_unavailable">മോണിറ്ററിംഗ് ഡാറ്റ ഈ ഉപകരണത്തിൽ ലഭ്യമല്ല.</string>
     <string name="memory_title">മെമ്മറി മാനേജർ</string>
     <string name="memory_summary">റാം, സ്വാപ്പ്, റൺ ചെയ്യുന്ന പ്രക്രിയകൾ</string>
     <string name="memory_used">ഉപയോഗിച്ചു</string>
@@ -108,7 +122,7 @@
     <string name="color_mode_srgb_summary">വെബിനും ഡിസൈനിനുമുള്ള കൃത്യമായ sRGB</string>
     <string name="screen_resolution_title">സ്ക്രീൻ റെസല്യൂഷൻ</string>
     <string name="screen_resolution_home_summary">ഡിസ്പ്ലേ റെസലൂഷൻ മാറ്റുക</string>
-    <string name="screen_resolution_description">ഉയർന്ന റെസല്യൂഷൻ തിരഞ്ഞെടുക്കുന്നത് ഡിസ്‌പ്ലേയെ മൂർച്ച കൂട്ടുന്നു, പക്ഷേ കൂടുതൽ ബാറ്ററി ഉപയോഗിക്കുന്നു. കുറഞ്ഞ റെസല്യൂഷനുകൾ ബാറ്ററി ഉപയോഗം കുറയ്ക്കുന്നു.</string>
+    <string name="screen_resolution_description">ഉയർന്ന റെസല്യൂഷൻ തിരഞ്ഞെടുക്കുന്നത് ഡിസ്പ്ലേയെ മൂർച്ച കൂട്ടുന്നു, പക്ഷേ കൂടുതൽ ബാറ്ററി ഉപയോഗിക്കുന്നു. കുറഞ്ഞ റെസല്യൂഷനുകൾ ബാറ്ററി ഉപയോഗം കുറയ്ക്കുന്നു.</string>
     <string name="screen_resolution_failed">റെസല്യൂഷൻ പ്രയോഗിക്കുന്നതിൽ പരാജയപ്പെട്ടു</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">ഷാർപെസ്റ്റ് — ഉയർന്ന ബാറ്ററി ഉപയോഗം</string>
@@ -127,7 +141,7 @@
     <string name="thermal_enable_title">തെർമൽ പ്രൊഫൈലുകൾ</string>
     <string name="thermal_enable_summary">ഓരോ ആപ്പിലും ചാർജ്ജ് ചെയ്യുമ്പോൾ തെർമൽ പ്രൊഫൈലുകൾ പ്രയോഗിക്കുക</string>
     <string name="thermal_safety_label">സുരക്ഷാ അസാധുവാക്കൽ</string>
-    <string name="thermal_disable_throttling_title">തെർമൽ ത്രോട്ടിംഗ് പ്രവർത്തനരഹിതമാക്കുക</string>
+    <string name="thermal_disable_throttling_title">തെർമൽ ത്രോട്ടിലിംഗ് പ്രവർത്തനരഹിതമാക്കുക</string>
     <string name="thermal_disable_throttling_summary">ഈ ഓപ്ഷൻ ഓഫാകും വരെ വെണ്ടർ നോ-ലിമിറ്റ് പ്രൊഫൈൽ ഉപയോഗിക്കുക</string>
     <string name="thermal_disable_warning_title">താപ സംരക്ഷണം പ്രവർത്തനരഹിതമാക്കണോ?</string>
     <string name="thermal_disable_warning_body">ഉപകരണം അമിതമായി ചൂടാകാം, അസ്ഥിരമാകാം, ബാറ്ററിക്ക് കേടുപാടുകൾ വരുത്താം അല്ലെങ്കിൽ ഷട്ട്ഡൗൺ ചെയ്യാം. കേർണൽ എമർജൻസി പരിരക്ഷകൾ സജീവമായി തുടരാം. ചെറിയ പരിശോധനകൾക്ക് മാത്രം ഇത് ഉപയോഗിക്കുക, ഉപകരണം ശ്രദ്ധിക്കാതെ വിടരുത്.</string>
@@ -145,7 +159,7 @@
     <string name="thermal_reset_title">എല്ലാ പ്രൊഫൈലുകളും പുനഃസജ്ജമാക്കുക</string>
     <string name="thermal_reset_summary">എല്ലാ ആപ്പ് പ്രൊഫൈലുകളും അവയുടെ ഡിഫോൾട്ടുകളിലേക്ക് പുനഃസ്ഥാപിക്കുക</string>
     <string name="thermal_reset_confirm">പുനഃസജ്ജമാക്കുക</string>
-    <string name="thermal_reset_confirm_body">ഓരോ ആപ്ലിക്കേഷൻ്റെയും എല്ലാ തെർമൽ ഓവർറൈഡുകളും മായ്‌ക്കുകയും പ്രൊഫൈലുകൾ അവയുടെ സ്വയമേവ കണ്ടെത്തിയ ഡിഫോൾട്ടുകളിലേക്ക് പുനഃസ്ഥാപിക്കുകയും ചെയ്യും.</string>
+    <string name="thermal_reset_confirm_body">ഓരോ ആപ്പിനും എല്ലാ തെർമൽ ഓവർറൈഡുകളും മായ്‌ക്കുകയും പ്രൊഫൈലുകൾ അവയുടെ സ്വയമേവ കണ്ടെത്തിയ ഡിഫോൾട്ടുകളിലേക്ക് പുനഃസ്ഥാപിക്കുകയും ചെയ്യും.</string>
     <string name="thermal_add_app">ആപ്പ് ചേർക്കുക</string>
     <string name="thermal_search_apps">ആപ്പുകൾ തിരയുക</string>
     <string name="thermal_default">സ്ഥിരസ്ഥിതി</string>

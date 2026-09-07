@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">ওয়্যারলেস</string>
     <string name="battery_plug_dock">ডক</string>
     <string name="battery_plug_none">ব্যাটারি</string>
+    <string name="performance_title">পারফরম্যান্স মনিটর</string>
+    <string name="performance_summary">CPU লোড এবং লাইভ মেট্রিক্স</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">জিপিইউ</string>
+    <string name="monitor_temp_section">তাপমাত্রা</string>
+    <string name="monitor_all_zones">সমস্ত তাপীয় অঞ্চল</string>
+    <string name="monitor_cpu_load">CPU লোড</string>
+    <string name="monitor_load_average">লোড গড় (1 · 5 · 15)</string>
+    <string name="monitor_uptime">আপটাইম</string>
+    <string name="monitor_freq_range">পরিসর %1$s – %2$s</string>
+    <string name="monitor_governor">গভর্নর: %1$s</string>
+    <string name="monitor_gpu_freq">GPU ফ্রিকোয়েন্সি</string>
+    <string name="monitor_gpu_load">GPU লোড: %1$d%%</string>
+    <string name="monitor_unavailable">এই ডিভাইসে মনিটরিং ডেটা উপলব্ধ নেই৷</string>
     <string name="memory_title">মেমরি ম্যানেজার</string>
     <string name="memory_summary">RAM, সোয়াপ এবং চলমান প্রক্রিয়া</string>
     <string name="memory_used">ব্যবহৃত</string>
@@ -84,11 +98,11 @@
     <string name="memory_cached">ক্যাশেড</string>
     <string name="memory_swap">অদলবদল বিনামূল্যে</string>
     <string name="memory_processes">প্রক্রিয়া</string>
-    <string name="memory_no_processes">কোনো প্রক্রিয়া তথ্য উপলব্ধ নেই।</string>
+    <string name="memory_no_processes">কোন প্রক্রিয়া তথ্য উপলব্ধ নেই.</string>
     <string name="memory_unavailable">এই ডিভাইসে মেমরির তথ্য পাওয়া যায় না।</string>
     <string name="memory_low_warning">কম মেমরি — ব্যাকগ্রাউন্ড অ্যাপ বন্ধ করার কথা বিবেচনা করুন</string>
     <string name="memory_stop">প্রক্রিয়া বন্ধ করুন</string>
-    <string name="memory_process_stopped">প্রক্রিয়া বন্ধ</string>
+    <string name="memory_process_stopped">প্রক্রিয়া বন্ধ হয়েছে</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">ডিসপ্লে রং</string>
     <string name="display_colours_summary">রঙ মোড এবং তাপমাত্রা</string>
@@ -118,7 +132,7 @@
     <string name="screen_resolution_1080p_summary">সুষম তীক্ষ্ণতা এবং ব্যাটারি</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">সেরা ব্যাটারি লাইফ</string>
-    <string name="screen_resolution_dialog_title">রেজল্যুশন পরিবর্তন করবেন?</string>
+    <string name="screen_resolution_dialog_title">রেজোলিউশন পরিবর্তন করবেন?</string>
     <string name="screen_resolution_restart_hint_body">আবেদন করার পরে, সিস্টেম UI পুনরায় চালু করার সুপারিশ করা হয়। ডিভাইস ডিসপ্লে সেটিংসে ডিসপ্লে সাইজ পরিবর্তন করা এড়িয়ে চলুন, এতে বিরোধ হতে পারে।</string>
     <string name="screen_resolution_dialog_confirm">প্রয়োগ করুন</string>
     <string name="screen_resolution_dialog_cancel">বাতিল</string>
@@ -128,9 +142,9 @@
     <string name="thermal_enable_summary">অ্যাপ প্রতি এবং চার্জ করার সময় তাপীয় প্রোফাইল প্রয়োগ করুন</string>
     <string name="thermal_safety_label">নিরাপত্তা ওভাররাইড</string>
     <string name="thermal_disable_throttling_title">থার্মাল থ্রটলিং অক্ষম করুন</string>
-    <string name="thermal_disable_throttling_summary">এই বিকল্পটি বন্ধ না হওয়া পর্যন্ত বিক্রেতার নো-লিমিট প্রোফাইল ব্যবহার করুন</string>
+    <string name="thermal_disable_throttling_summary">এই বিকল্পটি বন্ধ না হওয়া পর্যন্ত বিক্রেতার নো-লিমিট প্রোফাইল ব্যবহার করুন৷</string>
     <string name="thermal_disable_warning_title">তাপ সুরক্ষা নিষ্ক্রিয় করবেন?</string>
-    <string name="thermal_disable_warning_body">ডিভাইসটি অতিরিক্ত গরম হতে পারে, অস্থির হয়ে যেতে পারে, ব্যাটারির ক্ষতি করতে পারে বা বন্ধ হয়ে যেতে পারে। কার্নেল জরুরী সুরক্ষা সক্রিয় থাকতে পারে। এটি শুধুমাত্র সংক্ষিপ্ত পরীক্ষার জন্য ব্যবহার করুন এবং ডিভাইসটিকে কখনই অযত্নে ছেড়ে দেবেন না।</string>
+    <string name="thermal_disable_warning_body">ডিভাইসটি অতিরিক্ত গরম হতে পারে, অস্থির হয়ে যেতে পারে, ব্যাটারির ক্ষতি বা বন্ধ হয়ে যেতে পারে। কার্নেল জরুরী সুরক্ষা সক্রিয় থাকতে পারে। এটি শুধুমাত্র সংক্ষিপ্ত পরীক্ষার জন্য ব্যবহার করুন এবং ডিভাইসটিকে কখনই অযত্নে ছেড়ে দেবেন না।</string>
     <string name="thermal_disable_confirm">যাইহোক নিষ্ক্রিয় করুন</string>
     <string name="thermal_global_label">গ্লোবাল প্রোফাইল</string>
     <string name="thermal_global_profile_title">সক্রিয় প্রোফাইল</string>
@@ -169,6 +183,6 @@
     <string name="fingerprint_calibration_summary">ফিঙ্গারপ্রিন্ট সেন্সর পুনরায় ক্যালিব্রেট করুন</string>
     <string name="fingerprint_calibration_not_found">ফিঙ্গারপ্রিন্ট ক্রমাঙ্কন উপলব্ধ নয়</string>
     <string name="speaker_calibration_title">স্পিকার ক্রমাঙ্কন</string>
-    <string name="speaker_calibration_summary">সিআইটি স্পিকার স্ব-ক্রমণ পরীক্ষা</string>
+    <string name="speaker_calibration_summary">CIT স্পিকার স্ব-ক্রমাঙ্কন পরীক্ষা</string>
     <string name="speaker_calibration_not_found">স্পিকার ক্রমাঙ্কন উপলব্ধ নয়</string>
 </resources>

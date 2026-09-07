@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Juhtmeta</string>
     <string name="battery_plug_dock">Dokk</string>
     <string name="battery_plug_none">Aku</string>
+    <string name="performance_title">Jõudlusmonitor</string>
+    <string name="performance_summary">Protsessori koormus ja reaalajas mõõdikud</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperatuurid</string>
+    <string name="monitor_all_zones">Kõik termilised tsoonid</string>
+    <string name="monitor_cpu_load">CPU koormus</string>
+    <string name="monitor_load_average">Koormus keskmine (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Tööaeg</string>
+    <string name="monitor_freq_range">Vahemik %1$s – %2$s</string>
+    <string name="monitor_governor">Kuberner: %1$s</string>
+    <string name="monitor_gpu_freq">GPU sagedus</string>
+    <string name="monitor_gpu_load">GPU koormus: %1$d%%</string>
+    <string name="monitor_unavailable">Seireandmed pole selles seadmes saadaval.</string>
     <string name="memory_title">Mäluhaldur</string>
     <string name="memory_summary">RAM, vahetamine ja protsesside käivitamine</string>
     <string name="memory_used">Kasutatud</string>
@@ -95,7 +109,7 @@
     <string name="display_colours_description">Reguleerige oma ekraani värvirežiimi ja valge tasakaalu, et saada loomulikum või erksam välimus.</string>
     <string name="color_mode_vivid">Elav</string>
     <string name="color_mode_saturated">Küllastunud</string>
-    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_standard">Standardne</string>
     <string name="color_mode_original">Originaal</string>
     <string name="color_mode_p3">DCI-P3</string>
     <string name="color_mode_srgb">sRGB</string>
@@ -107,7 +121,7 @@
     <string name="color_mode_p3_summary">DCI-P3 kino värviruum</string>
     <string name="color_mode_srgb_summary">Täpne sRGB veebi ja disaini jaoks</string>
     <string name="screen_resolution_title">Ekraani eraldusvõime</string>
-    <string name="screen_resolution_home_summary">Muutke ekraani eraldusvõimet</string>
+    <string name="screen_resolution_home_summary">Ekraani eraldusvõime muutmine</string>
     <string name="screen_resolution_description">Kõrgema eraldusvõime valimine muudab ekraani teravamaks, kuid kasutab rohkem akut. Madalam eraldusvõime vähendab aku kasutamist.</string>
     <string name="screen_resolution_failed">Eraldusvõime rakendamine ebaõnnestus</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
@@ -137,7 +151,7 @@
     <string name="thermal_per_app_label">Rakendusepõhised profiilid</string>
     <string name="thermal_select_profile">Valige profiil</string>
     <string name="thermal_apply">Rakenda</string>
-    <string name="thermal_no_apps">Ühtegi rakendust pole veel konfigureeritud</string>
+    <string name="thermal_no_apps">Rakendusi pole veel konfigureeritud</string>
     <string name="thermal_failed_toast">Termiline töö ebaõnnestus</string>
     <string name="thermal_charging_toast_connected">Laadimisprofiil on aktiivne</string>
     <string name="thermal_charging_toast_disconnected">Rakendusepõhiseid profiile jätkati</string>

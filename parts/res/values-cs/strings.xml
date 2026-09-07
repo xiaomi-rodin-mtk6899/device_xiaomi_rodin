@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Bezdrátové</string>
     <string name="battery_plug_dock">Dok</string>
     <string name="battery_plug_none">Baterie</string>
+    <string name="performance_title">Monitor výkonu</string>
+    <string name="performance_summary">Zatížení CPU a živé metriky</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Teploty</string>
+    <string name="monitor_all_zones">Všechny tepelné zóny</string>
+    <string name="monitor_cpu_load">zatížení procesoru</string>
+    <string name="monitor_load_average">Průměrná zátěž (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Provozní doba</string>
+    <string name="monitor_freq_range">Rozsah %1$s – %2$s</string>
+    <string name="monitor_governor">Guvernér: %1$s</string>
+    <string name="monitor_gpu_freq">Frekvence GPU</string>
+    <string name="monitor_gpu_load">Zatížení GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Údaje o monitorování nejsou na tomto zařízení k dispozici.</string>
     <string name="memory_title">Správce paměti</string>
     <string name="memory_summary">RAM, swap a běžící procesy</string>
     <string name="memory_used">Použité</string>
@@ -90,7 +104,7 @@
     <string name="memory_stop">Zastavit proces</string>
     <string name="memory_process_stopped">Proces zastaven</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
-    <string name="display_colours_title">Zobrazit barvy</string>
+    <string name="display_colours_title">Zobrazte barvy</string>
     <string name="display_colours_summary">Barevný režim a teplota</string>
     <string name="display_colours_description">Upravte barevný režim a vyvážení bílé na displeji pro přirozenější nebo živější vzhled.</string>
     <string name="color_mode_vivid">Živé</string>
@@ -107,7 +121,7 @@
     <string name="color_mode_p3_summary">Barevný prostor kina DCI-P3</string>
     <string name="color_mode_srgb_summary">Přesné sRGB pro web a design</string>
     <string name="screen_resolution_title">Rozlišení obrazovky</string>
-    <string name="screen_resolution_home_summary">Změňte rozlišení displeje</string>
+    <string name="screen_resolution_home_summary">Změna rozlišení displeje</string>
     <string name="screen_resolution_description">Výběrem vyššího rozlišení bude zobrazení ostřejší, ale spotřebuje více baterie. Nižší rozlišení snižuje spotřebu baterie.</string>
     <string name="screen_resolution_failed">Nepodařilo se použít rozlišení</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
@@ -145,7 +159,7 @@
     <string name="thermal_reset_title">Obnovit všechny profily</string>
     <string name="thermal_reset_summary">Obnovte všechny profily jednotlivých aplikací na výchozí hodnoty</string>
     <string name="thermal_reset_confirm">Resetovat</string>
-    <string name="thermal_reset_confirm_body">Všechny přepisy teplot pro jednotlivé aplikace budou vymazány a profily se vrátí na automaticky zjištěné výchozí hodnoty.</string>
+    <string name="thermal_reset_confirm_body">Všechny tepelné přepisy pro jednotlivé aplikace budou vymazány a profily se vrátí na automaticky zjištěné výchozí hodnoty.</string>
     <string name="thermal_add_app">Přidat aplikaci</string>
     <string name="thermal_search_apps">Vyhledávání aplikací</string>
     <string name="thermal_default">Výchozí</string>

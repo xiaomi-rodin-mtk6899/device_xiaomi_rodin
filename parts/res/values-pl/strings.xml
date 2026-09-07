@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Bezprzewodowe</string>
     <string name="battery_plug_dock">Dok</string>
     <string name="battery_plug_none">Bateria</string>
+    <string name="performance_title">Monitor wydajności</string>
+    <string name="performance_summary">Obciążenie procesora i aktualne wskaźniki</string>
+    <string name="monitor_cpu_section">Procesor</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperatury</string>
+    <string name="monitor_all_zones">Wszystkie strefy termiczne</string>
+    <string name="monitor_cpu_load">obciążenie procesora</string>
+    <string name="monitor_load_average">Średnie obciążenie (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Czas pracy</string>
+    <string name="monitor_freq_range">Zakres %1$s – %2$s</string>
+    <string name="monitor_governor">Gubernator: %1$s</string>
+    <string name="monitor_gpu_freq">Częstotliwość procesora graficznego</string>
+    <string name="monitor_gpu_load">obciążenie GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Dane monitorowania nie są dostępne na tym urządzeniu.</string>
     <string name="memory_title">Menedżer pamięci</string>
     <string name="memory_summary">RAM, zamień i uruchomij procesy</string>
     <string name="memory_used">Używany</string>
@@ -104,7 +118,7 @@
     <string name="color_mode_saturated_summary">Bogata kolorystyka do codziennego użytku</string>
     <string name="color_mode_standard_summary">Kalibracja fabryczna, realistyczna</string>
     <string name="color_mode_original_summary">Oryginalne strojenie szerokogamutowe</string>
-    <string name="color_mode_p3_summary">Kinowa przestrzeń barw DCI-P3</string>
+    <string name="color_mode_p3_summary">kinowa przestrzeń barw DCI-P3</string>
     <string name="color_mode_srgb_summary">Dokładne odwzorowanie sRGB w Internecie i projektowaniu</string>
     <string name="screen_resolution_title">Rozdzielczość ekranu</string>
     <string name="screen_resolution_home_summary">Zmień rozdzielczość wyświetlacza</string>
@@ -129,7 +143,7 @@
     <string name="thermal_safety_label">Obejście bezpieczeństwa</string>
     <string name="thermal_disable_throttling_title">Wyłącz dławienie termiczne</string>
     <string name="thermal_disable_throttling_summary">Używaj profilu dostawcy bez limitów, dopóki ta opcja nie zostanie wyłączona</string>
-    <string name="thermal_disable_warning_title">Wyłączyć ochronę termiczną?</string>
+    <string name="thermal_disable_warning_title">Wyłączyć zabezpieczenie termiczne?</string>
     <string name="thermal_disable_warning_body">Urządzenie może się przegrzać, stać się niestabilne, uszkodzić baterię lub wyłączyć się. Zabezpieczenia awaryjne jądra mogą pozostać aktywne. Używaj tego tylko do krótkich testów i nigdy nie zostawiaj urządzenia bez nadzoru.</string>
     <string name="thermal_disable_confirm">Wyłącz mimo to</string>
     <string name="thermal_global_label">Profil globalny</string>
@@ -140,7 +154,7 @@
     <string name="thermal_no_apps">Nie skonfigurowano jeszcze żadnych aplikacji</string>
     <string name="thermal_failed_toast">Operacja termiczna nie powiodła się</string>
     <string name="thermal_charging_toast_connected">Profil ładowania aktywny</string>
-    <string name="thermal_charging_toast_disconnected">Wznowiono profile dla poszczególnych aplikacji</string>
+    <string name="thermal_charging_toast_disconnected">Profile aplikacji zostały wznowione</string>
     <string name="thermal_charging_banner_body">Profile poszczególnych aplikacji są wstrzymywane podczas ładowania</string>
     <string name="thermal_reset_title">Zresetuj wszystkie profile</string>
     <string name="thermal_reset_summary">Przywróć ustawienia domyślne wszystkich profili aplikacji</string>
@@ -161,7 +175,7 @@
     <string name="thermal_gaming_competitive">Gry (konkurencyjne)</string>
     <string name="thermal_yuanshen">Yuanshen</string>
     <string name="thermal_charge">Ładowanie</string>
-    <string name="touch_boost_title">Wzmocnienie dotyku</string>
+    <string name="touch_boost_title">Zwiększenie dotyku</string>
     <string name="touch_boost_summary">Szybsza reakcja na dotyk</string>
     <string name="touch_boost_description">Zwiększa częstotliwość odpytywania kontrolera dotykowego, zmniejszając opóźnienia w odpowiedzi na dotknięcie. Może nieznacznie zwiększyć pobór mocy podczas aktywnego użytkowania.</string>
     <string name="touch_boost_failed">Nie udało się zastosować wzmocnienia dotyku</string>

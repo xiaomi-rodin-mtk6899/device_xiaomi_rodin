@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Simsiz</string>
     <string name="battery_plug_dock">Dok</string>
     <string name="battery_plug_none">Batareya</string>
+    <string name="performance_title">Performans monitoru</string>
+    <string name="performance_summary">CPU yükü və canlı ölçülər</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperaturlar</string>
+    <string name="monitor_all_zones">Bütün istilik zonaları</string>
+    <string name="monitor_cpu_load">CPU yükü</string>
+    <string name="monitor_load_average">Orta yükləmə (1 · 5 · 15)</string>
+    <string name="monitor_uptime">İş vaxtı</string>
+    <string name="monitor_freq_range">Aralıq %1$s – %2$s</string>
+    <string name="monitor_governor">Qubernator: %1$s</string>
+    <string name="monitor_gpu_freq">GPU tezliyi</string>
+    <string name="monitor_gpu_load">GPU yükü: %1$d%%</string>
+    <string name="monitor_unavailable">Monitorinq məlumatları bu cihazda mövcud deyil.</string>
     <string name="memory_title">Yaddaş meneceri</string>
     <string name="memory_summary">RAM, dəyişdirmə və işləyən proseslər</string>
     <string name="memory_used">İstifadə olunub</string>
@@ -88,7 +102,7 @@
     <string name="memory_unavailable">Yaddaş məlumatı bu cihazda mövcud deyil.</string>
     <string name="memory_low_warning">Aşağı yaddaş — fon proqramlarını bağlamağı düşünün</string>
     <string name="memory_stop">Prosesi dayandırın</string>
-    <string name="memory_process_stopped">Proses dayandırıldı</string>
+    <string name="memory_process_stopped">Proses dayandı</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Rəngləri göstərin</string>
     <string name="display_colours_summary">Rəng rejimi və temperatur</string>
@@ -102,7 +116,7 @@
     <string name="display_colours_failed">Rəng rejimini tətbiq etmək alınmadı</string>
     <string name="color_mode_vivid_summary">Artırılmış rənglər və kontrast</string>
     <string name="color_mode_saturated_summary">Gündəlik istifadə üçün zəngin rənglər</string>
-    <string name="color_mode_standard_summary">Zavodda kalibrlənmiş, real həyatdadır</string>
+    <string name="color_mode_standard_summary">Zavod tərəfindən kalibrlənmiş, real həyatdadır</string>
     <string name="color_mode_original_summary">Orijinal geniş gamut tüninq</string>
     <string name="color_mode_p3_summary">DCI-P3 kinoteatrının rəng məkanı</string>
     <string name="color_mode_srgb_summary">Veb və dizayn üçün dəqiq sRGB</string>
@@ -113,7 +127,7 @@
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">Ən kəskin — daha yüksək batareya istifadəsi</string>
     <string name="screen_resolution_1220p">2712 × 1220 (Doğma)</string>
-    <string name="screen_resolution_1220p_summary">Doğma panel ayırdetmə qabiliyyəti</string>
+    <string name="screen_resolution_1220p_summary">Yerli panel ayırdetmə qabiliyyəti</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
     <string name="screen_resolution_1080p_summary">Balanslaşdırılmış kəskinlik və batareya</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
@@ -129,7 +143,7 @@
     <string name="thermal_safety_label">Təhlükəsizlik ləğvi</string>
     <string name="thermal_disable_throttling_title">Termal tənzimləməni söndürün</string>
     <string name="thermal_disable_throttling_summary">Bu seçim söndürülənə qədər satıcının məhdudiyyətsiz profilindən istifadə edin</string>
-    <string name="thermal_disable_warning_title">Termal qorunma deaktiv edilsin?</string>
+    <string name="thermal_disable_warning_title">İstilik mühafizəsi söndürülsün?</string>
     <string name="thermal_disable_warning_body">Cihaz həddindən artıq qıza, qeyri-sabit ola, batareyanı zədələyə və ya bağlana bilər. Kernel fövqəladə mühafizəsi aktiv qala bilər. Bunu yalnız qısa testlər üçün istifadə edin və cihazı heç vaxt nəzarətsiz qoymayın.</string>
     <string name="thermal_disable_confirm">Hər halda deaktiv edin</string>
     <string name="thermal_global_label">Qlobal profil</string>
@@ -137,7 +151,7 @@
     <string name="thermal_per_app_label">Hər proqram üçün profillər</string>
     <string name="thermal_select_profile">Profil seçin</string>
     <string name="thermal_apply">Tətbiq edin</string>
-    <string name="thermal_no_apps">Hələ heç bir proqram konfiqurasiya olunmayıb</string>
+    <string name="thermal_no_apps">Hələ heç bir proqram konfiqurasiya edilməyib</string>
     <string name="thermal_failed_toast">Termal əməliyyat uğursuz oldu</string>
     <string name="thermal_charging_toast_connected">Doldurma profili aktivdir</string>
     <string name="thermal_charging_toast_disconnected">Hər proqram üçün profillər bərpa edildi</string>
@@ -145,7 +159,7 @@
     <string name="thermal_reset_title">Bütün profilləri sıfırlayın</string>
     <string name="thermal_reset_summary">Bütün proqramlar üçün profilləri defoltlarına bərpa edin</string>
     <string name="thermal_reset_confirm">Sıfırlayın</string>
-    <string name="thermal_reset_confirm_body">Tətbiq başına bütün istilik dəyişdirmələri silinəcək və profillər avtomatik aşkar edilmiş defoltlara qayıdacaq.</string>
+    <string name="thermal_reset_confirm_body">Tətbiq başına bütün termal ləğvetmələr silinəcək və profillər avtomatik aşkar edilmiş defoltlara qayıdacaq.</string>
     <string name="thermal_add_app">Proqram əlavə edin</string>
     <string name="thermal_search_apps">Proqramları axtarın</string>
     <string name="thermal_default">Defolt</string>
@@ -169,6 +183,6 @@
     <string name="fingerprint_calibration_summary">Barmaq izi sensorunu yenidən kalibrləyin</string>
     <string name="fingerprint_calibration_not_found">Barmaq izinin kalibrlənməsi mövcud deyil</string>
     <string name="speaker_calibration_title">Dinamikin kalibrlənməsi</string>
-    <string name="speaker_calibration_summary">CIT dinamikinin özünü kalibrləmə testi</string>
+    <string name="speaker_calibration_summary">CIT dinamikinin özünü kalibrləmə sınağı</string>
     <string name="speaker_calibration_not_found">Dinamik kalibrləmə mövcud deyil</string>
 </resources>

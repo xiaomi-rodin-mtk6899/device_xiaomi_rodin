@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Bežično</string>
     <string name="battery_plug_dock">Dok</string>
     <string name="battery_plug_none">Baterija</string>
+    <string name="performance_title">Monitor performansi</string>
+    <string name="performance_summary">CPU opterećenje i živa metrika</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperature</string>
+    <string name="monitor_all_zones">Sve toplinske zone</string>
+    <string name="monitor_cpu_load">CPU opterećenje</string>
+    <string name="monitor_load_average">Prosječno opterećenje (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Radno vrijeme</string>
+    <string name="monitor_freq_range">Raspon %1$s – %2$s</string>
+    <string name="monitor_governor">Guverner: %1$s</string>
+    <string name="monitor_gpu_freq">GPU frekvencija</string>
+    <string name="monitor_gpu_load">GPU opterećenje: %1$d%%</string>
+    <string name="monitor_unavailable">Podaci praćenja nisu dostupni na ovom uređaju.</string>
     <string name="memory_title">Upravitelj memorije</string>
     <string name="memory_summary">RAM, swap i pokrenuti procesi</string>
     <string name="memory_used">Korišteno</string>
@@ -92,7 +106,7 @@
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Prikaz boja</string>
     <string name="display_colours_summary">Način boje i temperatura</string>
-    <string name="display_colours_description">Prilagodite način rada u boji i ravnotežu bijele boje vašeg zaslona za prirodniji ili živopisniji izgled.</string>
+    <string name="display_colours_description">Prilagodite način rada u boji i balans bijele boje vašeg zaslona za prirodniji ili življi izgled.</string>
     <string name="color_mode_vivid">Živopisno</string>
     <string name="color_mode_saturated">Zasićen</string>
     <string name="color_mode_standard">Standardno</string>
@@ -105,7 +119,7 @@
     <string name="color_mode_standard_summary">Tvornički kalibriran, vjeran životu</string>
     <string name="color_mode_original_summary">Izvorno ugađanje širokog raspona</string>
     <string name="color_mode_p3_summary">DCI-P3 kino prostor boja</string>
-    <string name="color_mode_srgb_summary">Točan sRGB za web i dizajn</string>
+    <string name="color_mode_srgb_summary">Precizan sRGB za web i dizajn</string>
     <string name="screen_resolution_title">Razlučivost zaslona</string>
     <string name="screen_resolution_home_summary">Promjena rezolucije zaslona</string>
     <string name="screen_resolution_description">Odabir veće rezolucije čini prikaz oštrijim, ali troši više baterije. Niže rezolucije smanjuju potrošnju baterije.</string>
@@ -145,7 +159,7 @@
     <string name="thermal_reset_title">Resetiraj sve profile</string>
     <string name="thermal_reset_summary">Vratite sve profile po aplikaciji na zadane vrijednosti</string>
     <string name="thermal_reset_confirm">Ponovno postavi</string>
-    <string name="thermal_reset_confirm_body">Sva termalna nadjačavanja po aplikaciji bit će izbrisana i profili će se vratiti na svoje automatski otkrivene zadane vrijednosti.</string>
+    <string name="thermal_reset_confirm_body">Sva termalna nadjačavanja po aplikaciji bit će izbrisana i profili će se vratiti na svoje automatski otkrivene zadane postavke.</string>
     <string name="thermal_add_app">Dodaj aplikaciju</string>
     <string name="thermal_search_apps">Traži aplikacije</string>
     <string name="thermal_default">Zadano</string>
@@ -157,7 +171,7 @@
     <string name="thermal_video">Video</string>
     <string name="thermal_video_4k">Video 4K</string>
     <string name="thermal_gaming">Igre</string>
-    <string name="thermal_gaming_heavy">Igranje (teško)</string>
+    <string name="thermal_gaming_heavy">Igranje (teški)</string>
     <string name="thermal_gaming_competitive">Igre (natjecateljski)</string>
     <string name="thermal_yuanshen">Yuanshen</string>
     <string name="thermal_charge">Punjenje</string>

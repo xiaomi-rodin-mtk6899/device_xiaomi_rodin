@@ -67,7 +67,7 @@ fun PressableCard(
     val pressed    by interaction.collectIsPressedAsState()
     val pressScale  = animateFloatAsState(
         targetValue = if (pressed) 0.97f else 1f,
-        animationSpec = Motion.pressSpec(),
+        animationSpec = androidx.compose.animation.core.spring(),
         label = "pressScale",
     ).value
 
@@ -221,7 +221,7 @@ fun MonitorBar(
 ) {
     val animated = animateFloatAsState(
         targetValue = fraction.coerceIn(0f, 1f),
-        animationSpec = Motion.liveValueSpec(),
+        animationSpec = androidx.compose.animation.core.spring(),
         label = "monitorBar",
     ).value
 

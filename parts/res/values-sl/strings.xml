@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Brezžično</string>
     <string name="battery_plug_dock">Dok</string>
     <string name="battery_plug_none">Baterija</string>
+    <string name="performance_title">Monitor zmogljivosti</string>
+    <string name="performance_summary">Obremenitev procesorja in meritve v živo</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperature</string>
+    <string name="monitor_all_zones">Vse termalne cone</string>
+    <string name="monitor_cpu_load">Obremenitev procesorja</string>
+    <string name="monitor_load_average">Povprečna obremenitev (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Čas delovanja</string>
+    <string name="monitor_freq_range">Razpon %1$s – %2$s</string>
+    <string name="monitor_governor">Guverner: %1$s</string>
+    <string name="monitor_gpu_freq">GPU frekvenca</string>
+    <string name="monitor_gpu_load">Obremenitev GPE: %1$d%%</string>
+    <string name="monitor_unavailable">Podatki o spremljanju niso na voljo v tej napravi.</string>
     <string name="memory_title">Upravljalnik pomnilnika</string>
     <string name="memory_summary">RAM, zamenjava in tekoči procesi</string>
     <string name="memory_used">Rabljeno</string>
@@ -94,7 +108,7 @@
     <string name="display_colours_summary">Barvni način in temperatura</string>
     <string name="display_colours_description">Prilagodite barvni način in ravnovesje beline na zaslonu za bolj naraven ali živ videz.</string>
     <string name="color_mode_vivid">Živahno</string>
-    <string name="color_mode_saturated">Nasičen</string>
+    <string name="color_mode_saturated">Nasičeno</string>
     <string name="color_mode_standard">Standard</string>
     <string name="color_mode_original">Original</string>
     <string name="color_mode_p3">DCI-P3</string>
@@ -118,7 +132,7 @@
     <string name="screen_resolution_1080p_summary">Uravnotežena ostrina in baterija</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Najboljša življenjska doba baterije</string>
-    <string name="screen_resolution_dialog_title">Spremeniti ločljivost?</string>
+    <string name="screen_resolution_dialog_title">Spremenite ločljivost?</string>
     <string name="screen_resolution_restart_hint_body">Po uporabi je priporočljiv ponovni zagon sistemskega uporabniškega vmesnika. Izogibajte se spreminjanju velikosti zaslona v nastavitvah zaslona naprave, saj je lahko v nasprotju.</string>
     <string name="screen_resolution_dialog_confirm">Uporabi</string>
     <string name="screen_resolution_dialog_cancel">Prekliči</string>
@@ -143,7 +157,7 @@
     <string name="thermal_charging_toast_disconnected">Nadaljevanje profilov za posamezne aplikacije</string>
     <string name="thermal_charging_banner_body">Profili posameznih aplikacij so med polnjenjem začasno ustavljeni</string>
     <string name="thermal_reset_title">Ponastavi vse profile</string>
-    <string name="thermal_reset_summary">Obnovite vse profile posameznih aplikacij na privzete vrednosti</string>
+    <string name="thermal_reset_summary">Obnovi vse profile za posamezne aplikacije na njihove privzete vrednosti</string>
     <string name="thermal_reset_confirm">Ponastavi</string>
     <string name="thermal_reset_confirm_body">Vse toplotne preglasitve za posamezno aplikacijo bodo izbrisane in profili se bodo povrnili na samodejno zaznane privzete vrednosti.</string>
     <string name="thermal_add_app">Dodaj aplikacijo</string>

@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Wireless</string>
     <string name="battery_plug_dock">Dock</string>
     <string name="battery_plug_none">Baterya</string>
+    <string name="performance_title">Monitor ng pagganap</string>
+    <string name="performance_summary">CPU load at live na mga sukatan</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperatura</string>
+    <string name="monitor_all_zones">Lahat ng thermal zone</string>
+    <string name="monitor_cpu_load">CPU load</string>
+    <string name="monitor_load_average">Average ng load (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Uptime</string>
+    <string name="monitor_freq_range">Saklaw %1$s – %2$s</string>
+    <string name="monitor_governor">Gobernador: %1$s</string>
+    <string name="monitor_gpu_freq">dalas ng GPU</string>
+    <string name="monitor_gpu_load">GPU load: %1$d%%</string>
+    <string name="monitor_unavailable">Hindi available ang data ng pagsubaybay sa device na ito.</string>
     <string name="memory_title">Tagapamahala ng memorya</string>
     <string name="memory_summary">RAM, swap at pagpapatakbo ng mga proseso</string>
     <string name="memory_used">Ginamit</string>
@@ -111,7 +125,7 @@
     <string name="screen_resolution_description">Ang pagpili ng mas mataas na resolution ay ginagawang mas matalas ang display, ngunit gumagamit ng mas maraming baterya. Ang mas mababang mga resolution ay nakakabawas sa paggamit ng baterya.</string>
     <string name="screen_resolution_failed">Nabigong ilapat ang resolusyon</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
-    <string name="screen_resolution_1440p_summary">Pinakamatalas — mas mataas na paggamit ng baterya</string>
+    <string name="screen_resolution_1440p_summary">Pinakamatalim — mas mataas na paggamit ng baterya</string>
     <string name="screen_resolution_1220p">2712 × 1220 (Katutubo)</string>
     <string name="screen_resolution_1220p_summary">Native panel resolution</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
@@ -137,7 +151,7 @@
     <string name="thermal_per_app_label">Mga per-app na profile</string>
     <string name="thermal_select_profile">Pumili ng profile</string>
     <string name="thermal_apply">Ilapat</string>
-    <string name="thermal_no_apps">Wala pang apps na na-configure</string>
+    <string name="thermal_no_apps">Wala pang app na na-configure</string>
     <string name="thermal_failed_toast">Nabigo ang thermal operation</string>
     <string name="thermal_charging_toast_connected">Aktibo ang profile sa pag-charge</string>
     <string name="thermal_charging_toast_disconnected">Ipinagpatuloy ang mga per-app na profile</string>
@@ -169,6 +183,6 @@
     <string name="fingerprint_calibration_summary">Muling i-calibrate ang fingerprint sensor</string>
     <string name="fingerprint_calibration_not_found">Hindi available ang pagkakalibrate ng fingerprint</string>
     <string name="speaker_calibration_title">Pag-calibrate ng speaker</string>
-    <string name="speaker_calibration_summary">pagsubok sa self-calibration ng speaker ng CIT</string>
+    <string name="speaker_calibration_summary">CIT speaker self-calibration test</string>
     <string name="speaker_calibration_not_found">Hindi available ang pagkakalibrate ng speaker</string>
 </resources>

@@ -75,8 +75,22 @@
     <string name="battery_plug_wireless">Безжичен</string>
     <string name="battery_plug_dock">Док</string>
     <string name="battery_plug_none">Батерија</string>
+    <string name="performance_title">Монитор на перформанси</string>
+    <string name="performance_summary">Оптоварување на процесорот и жива метрика</string>
+    <string name="monitor_cpu_section">процесор</string>
+    <string name="monitor_gpu_section">графички процесор</string>
+    <string name="monitor_temp_section">Температури</string>
+    <string name="monitor_all_zones">Сите топлински зони</string>
+    <string name="monitor_cpu_load">оптоварување на процесорот</string>
+    <string name="monitor_load_average">Просечно оптоварување (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Време на работа</string>
+    <string name="monitor_freq_range">Опсег %1$s – %2$s</string>
+    <string name="monitor_governor">Гувернер: %1$s</string>
+    <string name="monitor_gpu_freq">Фреквенција на графичкиот процесор</string>
+    <string name="monitor_gpu_load">оптоварување на графичкиот процесор: %1$d%%</string>
+    <string name="monitor_unavailable">Податоците за следење не се достапни на овој уред.</string>
     <string name="memory_title">Менаџер за меморија</string>
-    <string name="memory_summary">RAM меморија, размена и процеси кои работат</string>
+    <string name="memory_summary">RAM меморија, замена и извршување процеси</string>
     <string name="memory_used">Искористено</string>
     <string name="memory_free_summary">%1$s бесплатно</string>
     <string name="memory_total">Вкупно</string>
@@ -86,7 +100,7 @@
     <string name="memory_processes">Процеси</string>
     <string name="memory_no_processes">Нема достапни информации за процесот.</string>
     <string name="memory_unavailable">Информациите за меморијата не се достапни на овој уред.</string>
-    <string name="memory_low_warning">Ниска меморија - размислете за затворање на апликациите во заднина</string>
+    <string name="memory_low_warning">Ниска меморија — размислете за затворање на апликациите во заднина</string>
     <string name="memory_stop">Запрете го процесот</string>
     <string name="memory_process_stopped">Процесот е запрен</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
@@ -111,7 +125,7 @@
     <string name="screen_resolution_description">Изборот на повисока резолуција го прави екранот поостар, но користи повеќе батерија. Пониските резолуции го намалуваат користењето на батеријата.</string>
     <string name="screen_resolution_failed">Не успеа да се примени резолуцијата</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
-    <string name="screen_resolution_1440p_summary">Најостро — поголема употреба на батеријата</string>
+    <string name="screen_resolution_1440p_summary">Најостро - поголема употреба на батеријата</string>
     <string name="screen_resolution_1220p">2712 × 1220 (мајчин)</string>
     <string name="screen_resolution_1220p_summary">Природна резолуција на панелот</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
@@ -146,7 +160,7 @@
     <string name="thermal_reset_summary">Вратете ги сите профили по апликација на нивните стандардни вредности</string>
     <string name="thermal_reset_confirm">Ресетирање</string>
     <string name="thermal_reset_confirm_body">Сите термички отстапувања по апликација ќе бидат избришани и профилите ќе се вратат на нивните автоматски откриени стандардни поставки.</string>
-    <string name="thermal_add_app">Додадете апликација</string>
+    <string name="thermal_add_app">Додај апликација</string>
     <string name="thermal_search_apps">Барај апликации</string>
     <string name="thermal_default">Стандардно</string>
     <string name="thermal_nolimits">Нема ограничувања</string>
@@ -156,7 +170,7 @@
     <string name="thermal_camera">Камера</string>
     <string name="thermal_video">Видео</string>
     <string name="thermal_video_4k">Видео 4K</string>
-    <string name="thermal_gaming">Играње</string>
+    <string name="thermal_gaming">Игри на среќа</string>
     <string name="thermal_gaming_heavy">Играње (тешко)</string>
     <string name="thermal_gaming_competitive">Игри на среќа (конкурентни)</string>
     <string name="thermal_yuanshen">Јуаншен</string>
@@ -169,6 +183,6 @@
     <string name="fingerprint_calibration_summary">Рекалибрирајте го сензорот за отпечатоци</string>
     <string name="fingerprint_calibration_not_found">Калибрацијата на отпечаток од прст не е достапна</string>
     <string name="speaker_calibration_title">Калибрација на звучникот</string>
-    <string name="speaker_calibration_summary">Тест за самокалибрација на звучникот CIT</string>
+    <string name="speaker_calibration_summary">Тест за самокалибрација на CIT звучник</string>
     <string name="speaker_calibration_not_found">Калибрацијата на звучникот не е достапна</string>
 </resources>

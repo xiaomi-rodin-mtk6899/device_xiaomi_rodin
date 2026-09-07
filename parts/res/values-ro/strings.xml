@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Wireless</string>
     <string name="battery_plug_dock">Dock</string>
     <string name="battery_plug_none">Baterie</string>
+    <string name="performance_title">Monitor de performanță</string>
+    <string name="performance_summary">Sarcina procesorului și valorile live</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperaturi</string>
+    <string name="monitor_all_zones">Toate zonele termice</string>
+    <string name="monitor_cpu_load">încărcare procesor</string>
+    <string name="monitor_load_average">Încărcare medie (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Timp de funcționare</string>
+    <string name="monitor_freq_range">Interval %1$s – %2$s</string>
+    <string name="monitor_governor">Guvernator: %1$s</string>
+    <string name="monitor_gpu_freq">Frecvența GPU</string>
+    <string name="monitor_gpu_load">încărcare GPU: %1$d%%</string>
+    <string name="monitor_unavailable">Datele de monitorizare nu sunt disponibile pe acest dispozitiv.</string>
     <string name="memory_title">Manager memorie</string>
     <string name="memory_summary">RAM, procese de schimb și rulare</string>
     <string name="memory_used">Folosit</string>
@@ -92,7 +106,7 @@
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Afișează culori</string>
     <string name="display_colours_summary">Mod culoare și temperatură</string>
-    <string name="display_colours_description">Reglați modul de culoare și balansul de alb al afișajului pentru un aspect mai natural sau viu.</string>
+    <string name="display_colours_description">Reglați modul de culoare și balansul de alb al afișajului pentru un aspect mai natural sau mai viu.</string>
     <string name="color_mode_vivid">Vioi</string>
     <string name="color_mode_saturated">Saturat</string>
     <string name="color_mode_standard">Standard</string>
@@ -129,7 +143,7 @@
     <string name="thermal_safety_label">Anulare de siguranță</string>
     <string name="thermal_disable_throttling_title">Dezactivează accelerarea termică</string>
     <string name="thermal_disable_throttling_summary">Utilizați profilul fără limită a furnizorului până când această opțiune este dezactivată</string>
-    <string name="thermal_disable_warning_title">Dezactivează protecția termică?</string>
+    <string name="thermal_disable_warning_title">Dezactivați protecția termică?</string>
     <string name="thermal_disable_warning_body">Dispozitivul se poate supraîncălzi, deveni instabil, poate deteriora bateria sau se poate opri. Protecțiile de urgență ale kernelului pot rămâne active. Folosiți-l numai pentru teste scurte și nu lăsați niciodată dispozitivul nesupravegheat.</string>
     <string name="thermal_disable_confirm">Dezactivați oricum</string>
     <string name="thermal_global_label">Profil global</string>
@@ -164,7 +178,7 @@
     <string name="touch_boost_title">Amplificare la atingere</string>
     <string name="touch_boost_summary">Răspuns la atingere mai rapid</string>
     <string name="touch_boost_description">Mărește rata de interogare a controlerului tactil, reducând latența de la atingere la răspuns. Poate crește ușor consumul de energie în timpul utilizării active.</string>
-    <string name="touch_boost_failed">Amplificarea atingerii nu s-a aplicat</string>
+    <string name="touch_boost_failed">Touch Boost nu s-a aplicat</string>
     <string name="fingerprint_calibration_title">Calibrarea amprentei</string>
     <string name="fingerprint_calibration_summary">Recalibrați senzorul de amprentă</string>
     <string name="fingerprint_calibration_not_found">Calibrarea amprentei nu este disponibilă</string>

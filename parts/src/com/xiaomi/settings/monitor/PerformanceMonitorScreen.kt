@@ -166,7 +166,7 @@ private fun OverviewCard(
 ) {
     val fraction by animateFloatAsState(
         targetValue = cpuLoad,
-        animationSpec = Motion.liveValueSpec(),
+        animationSpec = androidx.compose.animation.core.spring(),
         label = "cpuLoadRing",
     )
     val loadColor = when {

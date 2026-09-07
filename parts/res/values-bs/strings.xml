@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Bežični</string>
     <string name="battery_plug_dock">Dock</string>
     <string name="battery_plug_none">Baterija</string>
+    <string name="performance_title">Monitor performansi</string>
+    <string name="performance_summary">CPU opterećenje i metrika uživo</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Temperature</string>
+    <string name="monitor_all_zones">Sve termalne zone</string>
+    <string name="monitor_cpu_load">Opterećenje procesora</string>
+    <string name="monitor_load_average">Prosjek opterećenja (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Vrijeme rada</string>
+    <string name="monitor_freq_range">Raspon %1$s – %2$s</string>
+    <string name="monitor_governor">Guverner: %1$s</string>
+    <string name="monitor_gpu_freq">GPU frekvencija</string>
+    <string name="monitor_gpu_load">Opterećenje GPU-a: %1$d%%</string>
+    <string name="monitor_unavailable">Podaci za praćenje nisu dostupni na ovom uređaju.</string>
     <string name="memory_title">Memory manager</string>
     <string name="memory_summary">RAM, swap i pokrenuti procesi</string>
     <string name="memory_used">Korišteno</string>
@@ -84,7 +98,7 @@
     <string name="memory_cached">Spremljeno u privremenu memoriju</string>
     <string name="memory_swap">Zamjena besplatna</string>
     <string name="memory_processes">Procesi</string>
-    <string name="memory_no_processes">Nisu dostupne informacije o procesu.</string>
+    <string name="memory_no_processes">Informacije o procesu nisu dostupne.</string>
     <string name="memory_unavailable">Informacije o memoriji nisu dostupne na ovom uređaju.</string>
     <string name="memory_low_warning">Malo memorije — razmislite o zatvaranju pozadinskih aplikacija</string>
     <string name="memory_stop">Zaustavi proces</string>
@@ -102,7 +116,7 @@
     <string name="display_colours_failed">Primjena načina boje nije uspjela</string>
     <string name="color_mode_vivid_summary">Pojačane boje i kontrast</string>
     <string name="color_mode_saturated_summary">Bogate boje za svakodnevnu upotrebu</string>
-    <string name="color_mode_standard_summary">Fabrički kalibrirano, istinito</string>
+    <string name="color_mode_standard_summary">Fabrički kalibriran, istinit</string>
     <string name="color_mode_original_summary">Originalno podešavanje širokog spektra</string>
     <string name="color_mode_p3_summary">DCI-P3 bioskopski prostor boja</string>
     <string name="color_mode_srgb_summary">Precizan sRGB za web i dizajn</string>
@@ -119,7 +133,7 @@
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Najbolje trajanje baterije</string>
     <string name="screen_resolution_dialog_title">Promijeniti rezoluciju?</string>
-    <string name="screen_resolution_restart_hint_body">Nakon primjene, preporučuje se ponovno pokretanje korisničkog interfejsa sistema. Izbjegavajte mijenjanje veličine ekrana u postavkama prikaza uređaja, može doći do sukoba.</string>
+    <string name="screen_resolution_restart_hint_body">Nakon primjene, preporučuje se ponovno pokretanje korisničkog sučelja sistema. Izbjegavajte mijenjanje veličine ekrana u postavkama prikaza uređaja, može doći do sukoba.</string>
     <string name="screen_resolution_dialog_confirm">Primijeni</string>
     <string name="screen_resolution_dialog_cancel">Otkaži</string>
     <string name="thermal_title">Upravljanje toplinom</string>
@@ -127,7 +141,7 @@
     <string name="thermal_enable_title">Toplotni profili</string>
     <string name="thermal_enable_summary">Primijenite termalne profile po aplikaciji i tokom punjenja</string>
     <string name="thermal_safety_label">Sigurnosno nadjačavanje</string>
-    <string name="thermal_disable_throttling_title">Onemogući termalno prigušivanje</string>
+    <string name="thermal_disable_throttling_title">Onemogući termičko prigušivanje</string>
     <string name="thermal_disable_throttling_summary">Koristite profil bez ograničenja dobavljača dok se ova opcija ne isključi</string>
     <string name="thermal_disable_warning_title">Onemogućiti termičku zaštitu?</string>
     <string name="thermal_disable_warning_body">Uređaj se može pregrijati, postati nestabilan, oštetiti bateriju ili se isključiti. Zaštita kernela u hitnim slučajevima može ostati aktivna. Koristite ovo samo za kratke testove i nikada ne ostavljajte uređaj bez nadzora.</string>
@@ -140,7 +154,7 @@
     <string name="thermal_no_apps">Još nema konfiguriranih aplikacija</string>
     <string name="thermal_failed_toast">Termički rad nije uspio</string>
     <string name="thermal_charging_toast_connected">Aktivan je profil punjenja</string>
-    <string name="thermal_charging_toast_disconnected">Nastavljeni profili po aplikaciji</string>
+    <string name="thermal_charging_toast_disconnected">Nastavljeni su profili po aplikaciji</string>
     <string name="thermal_charging_banner_body">Profili po aplikaciji su pauzirani tokom punjenja</string>
     <string name="thermal_reset_title">Poništi sve profile</string>
     <string name="thermal_reset_summary">Vratite sve profile po aplikaciji na njihove zadane vrijednosti</string>
@@ -161,7 +175,7 @@
     <string name="thermal_gaming_competitive">Igranje (takmičarski)</string>
     <string name="thermal_yuanshen">Yuanshen</string>
     <string name="thermal_charge">Punjenje</string>
-    <string name="touch_boost_title">Pojačanje dodira</string>
+    <string name="touch_boost_title">Pojačavanje dodira</string>
     <string name="touch_boost_summary">Brži odgovor na dodir</string>
     <string name="touch_boost_description">Povećava stopu prozivanja dodirnog kontrolera, smanjujući kašnjenje dodira do odgovora. Može malo povećati potrošnju energije tokom aktivne upotrebe.</string>
     <string name="touch_boost_failed">Primjena pojačanja dodirom nije uspjela</string>

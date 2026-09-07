@@ -75,6 +75,20 @@
     <string name="battery_plug_wireless">Vezeték nélküli</string>
     <string name="battery_plug_dock">Dokk</string>
     <string name="battery_plug_none">Akkumulátor</string>
+    <string name="performance_title">Teljesítményfigyelő</string>
+    <string name="performance_summary">CPU terhelés és élő mérőszámok</string>
+    <string name="monitor_cpu_section">CPU</string>
+    <string name="monitor_gpu_section">GPU</string>
+    <string name="monitor_temp_section">Hőmérsékletek</string>
+    <string name="monitor_all_zones">Minden termikus zóna</string>
+    <string name="monitor_cpu_load">CPU terhelés</string>
+    <string name="monitor_load_average">Terhelési átlag (1 · 5 · 15)</string>
+    <string name="monitor_uptime">Üzemidő</string>
+    <string name="monitor_freq_range">Tartomány %1$s – %2$s</string>
+    <string name="monitor_governor">Kormányzó: %1$s</string>
+    <string name="monitor_gpu_freq">GPU frekvencia</string>
+    <string name="monitor_gpu_load">GPU terhelés: %1$d%%</string>
+    <string name="monitor_unavailable">A megfigyelési adatok nem érhetők el ezen az eszközön.</string>
     <string name="memory_title">Memóriakezelő</string>
     <string name="memory_summary">RAM, csere és folyamatok futtatása</string>
     <string name="memory_used">Használt</string>
@@ -84,7 +98,7 @@
     <string name="memory_cached">Gyorsítótárazott</string>
     <string name="memory_swap">Csere ingyenes</string>
     <string name="memory_processes">Folyamatok</string>
-    <string name="memory_no_processes">Nem áll rendelkezésre feldolgozási információ.</string>
+    <string name="memory_no_processes">Nem áll rendelkezésre információ a folyamatról.</string>
     <string name="memory_unavailable">A memóriainformáció nem érhető el ezen az eszközön.</string>
     <string name="memory_low_warning">Kevés a memória – fontolja meg a háttéralkalmazások bezárását</string>
     <string name="memory_stop">A folyamat leállítása</string>
@@ -125,7 +139,7 @@
     <string name="thermal_title">Hőkezelés</string>
     <string name="thermal_summary">Alkalmazásonkénti teljesítmény és hőmérséklet</string>
     <string name="thermal_enable_title">Hőprofilok</string>
-    <string name="thermal_enable_summary">Hőprofilok alkalmazása alkalmazásonként és töltés közben</string>
+    <string name="thermal_enable_summary">Alkalmazzon hőprofilokat alkalmazásonként és töltés közben</string>
     <string name="thermal_safety_label">Biztonsági felülbírálás</string>
     <string name="thermal_disable_throttling_title">A hőszabályozás letiltása</string>
     <string name="thermal_disable_throttling_summary">Használja a szállítói korlátozás nélküli profilt mindaddig, amíg ezt a lehetőséget ki nem kapcsolja</string>
@@ -163,7 +177,7 @@
     <string name="thermal_charge">Töltés</string>
     <string name="touch_boost_title">Touch boost</string>
     <string name="touch_boost_summary">Gyorsabb érintésre adott válasz</string>
-    <string name="touch_boost_description">Növeli az érintésvezérlő lekérdezési arányát, csökkentve az érintéssel történő válaszadás késését. Aktív használat során kismértékben növelheti az áramfelvételt.</string>
+    <string name="touch_boost_description">Növeli az érintésvezérlő lekérdezési gyakoriságát, csökkentve az érintéssel történő válaszadás késését. Aktív használat során kismértékben növelheti az áramfelvételt.</string>
     <string name="touch_boost_failed">Az érintésnövelés alkalmazása nem sikerült</string>
     <string name="fingerprint_calibration_title">Ujjlenyomat-kalibrálás</string>
     <string name="fingerprint_calibration_summary">Kalibrálja újra az ujjlenyomat-érzékelőt</string>
