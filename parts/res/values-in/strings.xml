@@ -8,7 +8,7 @@
     <string name="display_category">Tampilan</string>
     <string name="performance_category">Kinerja</string>
     <string name="system_category">Sistem</string>
-    <string name="dismiss">Singkirkan</string>
+    <string name="dismiss">Tutup</string>
     <string name="cancel">Batal</string>
     <string name="navigate_up">Navigasi ke atas</string>
     <string name="cpu_control_title">Kontrol CPU</string>

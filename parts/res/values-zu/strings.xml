@@ -8,7 +8,7 @@
     <string name="display_category">Isibonisi</string>
     <string name="performance_category">Ukusebenza</string>
     <string name="system_category">Uhlelo</string>
-    <string name="dismiss">Cashisa</string>
+    <string name="dismiss">Chitha</string>
     <string name="cancel">Khansela</string>
     <string name="navigate_up">Zulazula uye phezulu</string>
     <string name="cpu_control_title">Ukulawulwa kwe-CPU</string>
@@ -86,13 +86,13 @@
     <string name="memory_processes">Izinqubo</string>
     <string name="memory_no_processes">Alukho ulwazi lwenqubo olutholakalayo.</string>
     <string name="memory_unavailable">Ulwazi lwenkumbulo alutholakali kule divayisi.</string>
-    <string name="memory_low_warning">Inkumbulo ephansi — cabanga ukuvala izinhlelo zokusebenza zasemuva</string>
+    <string name="memory_low_warning">Imemori ephansi — cabanga ukuvala izinhlelo zokusebenza zasemuva</string>
     <string name="memory_stop">Misa inqubo</string>
     <string name="memory_process_stopped">Inqubo imisiwe</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Bonisa imibala</string>
     <string name="display_colours_summary">Imodi yombala nezinga lokushisa</string>
-    <string name="display_colours_description">Lungisa imodi yombala nebhalansi emhlophe yesibonisi sakho ukuze kubonakale okungokwemvelo noma okugqamile.</string>
+    <string name="display_colours_description">Lungisa imodi yombala kanye nebhalansi emhlophe yesibonisi sakho ukuze kubonakale okungokwemvelo noma okugqamile.</string>
     <string name="color_mode_vivid">Okucacile</string>
     <string name="color_mode_saturated">Kugcwele</string>
     <string name="color_mode_standard">Okujwayelekile</string>
@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Impilo yebhethri ehamba phambili</string>
     <string name="screen_resolution_dialog_title">Shintsha ukulungiswa?</string>
-    <string name="screen_resolution_restart_hint_body">Ngemva kokufaka isicelo, ukuqalisa kabusha i-UI Yesistimu kuyanconywa. Gwema ukushintsha usayizi wesibonisi kuzilungiselelo zokubonisa idivayisi, kungase kungqubuzane.</string>
+    <string name="screen_resolution_restart_hint_body">Ngemva kokufaka isicelo, ukuqalisa kabusha i-UI Yesistimu kuyanconywa. Gwema ukushintsha usayizi wokuboniswa kuzilungiselelo zokubonisa idivayisi, kungase kungqubuzane.</string>
     <string name="screen_resolution_dialog_confirm">Faka</string>
     <string name="screen_resolution_dialog_cancel">Khansela</string>
     <string name="thermal_title">Ukuphathwa kwe-thermal</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">Iyashaja</string>
     <string name="touch_boost_title">I-Touch boost</string>
     <string name="touch_boost_summary">Impendulo yokuthinta esheshayo</string>
-    <string name="touch_boost_description">Ikhuphula izinga lokuvota kwesilawuli sokuthinta, yehlisa ukubambezeleka kokuthepha kuya ekuphenduleni. Ingase inyuse kancane ukudonsa kwamandla ngesikhathi sokusebenza.</string>
+    <string name="touch_boost_description">Inyusa izinga lokuvotela isilawuli sokuthinta, yehlisa ukubambezeleka kokuthepha kuya ekuphenduleni. Ingase inyuse kancane ukudonsa kwamandla ngesikhathi sokusebenza.</string>
     <string name="touch_boost_failed">I-Touch boost ihlulekile ukusebenza</string>
     <string name="fingerprint_calibration_title">Ukulinganisa izigxivizo zeminwe</string>
     <string name="fingerprint_calibration_summary">Linganisa kabusha inzwa yezigxivizo zeminwe</string>

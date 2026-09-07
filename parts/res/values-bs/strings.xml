@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Najbolje trajanje baterije</string>
     <string name="screen_resolution_dialog_title">Promijeniti rezoluciju?</string>
-    <string name="screen_resolution_restart_hint_body">Nakon primjene, preporučuje se ponovno pokretanje korisničkog sučelja sistema. Izbjegavajte mijenjanje veličine ekrana u postavkama prikaza uređaja, može doći do sukoba.</string>
+    <string name="screen_resolution_restart_hint_body">Nakon primjene, preporučuje se ponovno pokretanje korisničkog interfejsa sistema. Izbjegavajte mijenjanje veličine ekrana u postavkama prikaza uređaja, može doći do sukoba.</string>
     <string name="screen_resolution_dialog_confirm">Primijeni</string>
     <string name="screen_resolution_dialog_cancel">Otkaži</string>
     <string name="thermal_title">Upravljanje toplinom</string>

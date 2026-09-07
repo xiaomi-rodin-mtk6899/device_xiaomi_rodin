@@ -8,7 +8,7 @@
     <string name="display_category">प्रदर्शन</string>
     <string name="performance_category">प्रदर्शन</string>
     <string name="system_category">प्रणाली</string>
-    <string name="dismiss">खारेज गर्नुहोस्</string>
+    <string name="dismiss">बन्द गर्नुहोस्</string>
     <string name="cancel">रद्द गर्नुहोस्</string>
     <string name="navigate_up">माथि नेभिगेट गर्नुहोस्</string>
     <string name="cpu_control_title">CPU नियन्त्रण</string>
@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">१६०० × ७२० (HD+)</string>
     <string name="screen_resolution_720p_summary">उत्तम ब्याट्री जीवन</string>
     <string name="screen_resolution_dialog_title">रिजोल्युसन परिवर्तन गर्ने हो?</string>
-    <string name="screen_resolution_restart_hint_body">आवेदन गरेपछि, प्रणाली UI पुन: सुरु गर्न सिफारिस गरिन्छ। डिभाइस डिस्प्ले सेटिङहरूमा डिस्प्ले साइज परिवर्तन नगर्नुहोस्, यसले विवाद गर्न सक्छ।</string>
+    <string name="screen_resolution_restart_hint_body">आवेदन गरेपछि, प्रणाली UI पुन: सुरु गर्न सिफारिस गरिन्छ। डिभाइस डिस्प्ले सेटिङहरूमा डिस्प्ले साइज परिवर्तन नगर्नुहोस्, यसले द्वन्द्व हुन सक्छ।</string>
     <string name="screen_resolution_dialog_confirm">लागू गर्नुहोस्</string>
     <string name="screen_resolution_dialog_cancel">रद्द गर्नुहोस्</string>
     <string name="thermal_title">थर्मल व्यवस्थापन</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">सबै प्रोफाइलहरू रिसेट गर्नुहोस्</string>
     <string name="thermal_reset_summary">सबै प्रति-एप प्रोफाइलहरूलाई तिनीहरूको पूर्वनिर्धारितमा पुनर्स्थापना गर्नुहोस्</string>
     <string name="thermal_reset_confirm">रिसेट गर्नुहोस्</string>
-    <string name="thermal_reset_confirm_body">सबै प्रति-एप थर्मल ओभरराइडहरू खाली गरिनेछ र प्रोफाइलहरू तिनीहरूको स्वचालित रूपमा पत्ता लगाइएको पूर्वनिर्धारितहरूमा फर्किनेछन्।</string>
+    <string name="thermal_reset_confirm_body">सबै प्रति-एप थर्मल ओभरराइडहरू खाली गरिनेछ र प्रोफाइलहरू तिनीहरूको स्वचालित रूपमा पत्ता लगाइएका पूर्वनिर्धारितहरूमा फर्किनेछन्।</string>
     <string name="thermal_add_app">एप थप्नुहोस्</string>
     <string name="thermal_search_apps">एपहरू खोज्नुहोस्</string>
     <string name="thermal_default">पूर्वनिर्धारित</string>

@@ -26,7 +26,7 @@
     <string name="cpu_profile_custom">ಕಸ್ಟಮ್</string>
     <string name="cpu_profile_custom_summary">ಹಸ್ತಚಾಲಿತ ಆವರ್ತನ ಮತ್ತು ಕೋರ್ ಕಾನ್ಫಿಗರೇಶನ್</string>
     <string name="cpu_extreme_warning_title">ಹೆಚ್ಚಿನ ವಿದ್ಯುತ್ ಬಳಕೆ</string>
-    <string name="cpu_extreme_warning">ಎಕ್ಸ್ಟ್ರೀಮ್ ಮೋಡ್ ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚು ಶಾಖ ಮತ್ತು ಬ್ಯಾಟರಿ ಡ್ರೈನ್ ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ. ಥರ್ಮಲ್ ಥ್ರೊಟ್ಲಿಂಗ್ ಅನ್ನು ಎಂದಿಗೂ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="cpu_extreme_warning">ಎಕ್ಸ್ಟ್ರೀಮ್ ಮೋಡ್ ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚಿನ ಶಾಖ ಮತ್ತು ಬ್ಯಾಟರಿ ಡ್ರೈನ್ ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ. ಥರ್ಮಲ್ ಥ್ರೊಟ್ಲಿಂಗ್ ಅನ್ನು ಎಂದಿಗೂ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿಲ್ಲ.</string>
     <string name="cpu_frequencies_category">ಹಸ್ತಚಾಲಿತ ಆವರ್ತನ ಮಿತಿಗಳು</string>
     <string name="cpu_cores_category">CPU ಕೋರ್ಗಳು</string>
     <string name="cpu_efficiency_cluster">ದಕ್ಷತೆಯ ಕ್ಲಸ್ಟರ್</string>
@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಮತ್ತು ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಥರ್ಮಲ್ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ</string>
     <string name="thermal_safety_label">ಸುರಕ್ಷತೆ ಅತಿಕ್ರಮಣ</string>
     <string name="thermal_disable_throttling_title">ಥರ್ಮಲ್ ಥ್ರೊಟ್ಲಿಂಗ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
-    <string name="thermal_disable_throttling_summary">ಈ ಆಯ್ಕೆಯನ್ನು ಆಫ್ ಮಾಡುವವರೆಗೆ ಮಾರಾಟಗಾರರ ಮಿತಿ-ಮಿತಿಗಳಿಲ್ಲದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಬಳಸಿ</string>
+    <string name="thermal_disable_throttling_summary">ಈ ಆಯ್ಕೆಯನ್ನು ಆಫ್ ಆಗುವವರೆಗೆ ಮಾರಾಟಗಾರರ ಯಾವುದೇ ಮಿತಿಗಳ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಬಳಸಿ</string>
     <string name="thermal_disable_warning_title">ಉಷ್ಣ ರಕ್ಷಣೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದೇ?</string>
     <string name="thermal_disable_warning_body">ಸಾಧನವು ಅತಿಯಾಗಿ ಬಿಸಿಯಾಗಬಹುದು, ಅಸ್ಥಿರವಾಗಬಹುದು, ಬ್ಯಾಟರಿಯನ್ನು ಹಾನಿಗೊಳಿಸಬಹುದು ಅಥವಾ ಸ್ಥಗಿತಗೊಳಿಸಬಹುದು. ಕರ್ನಲ್ ತುರ್ತು ರಕ್ಷಣೆಗಳು ಸಕ್ರಿಯವಾಗಿರಬಹುದು. ಸಣ್ಣ ಪರೀಕ್ಷೆಗಳಿಗೆ ಮಾತ್ರ ಇದನ್ನು ಬಳಸಿ ಮತ್ತು ಸಾಧನವನ್ನು ಗಮನಿಸದೆ ಬಿಡಬೇಡಿ.</string>
     <string name="thermal_disable_confirm">ಹೇಗಾದರೂ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">ಎಲ್ಲಾ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ</string>
     <string name="thermal_reset_summary">ಎಲ್ಲಾ ಪ್ರತಿ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರೊಫೈಲ್‌ಗಳನ್ನು ಅವುಗಳ ಡಿಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಸ್ಥಾಪಿಸಿ</string>
     <string name="thermal_reset_confirm">ಮರುಹೊಂದಿಸಿ</string>
-    <string name="thermal_reset_confirm_body">ಎಲ್ಲಾ ಪ್ರತಿ-ಅಪ್ಲಿಕೇಶನ್ ಥರ್ಮಲ್ ಓವರ್‌ರೈಡ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರೊಫೈಲ್‌ಗಳು ಅವುಗಳ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಯಾದ ಡಿಫಾಲ್ಟ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗುತ್ತವೆ.</string>
+    <string name="thermal_reset_confirm_body">ಎಲ್ಲಾ ಪ್ರತಿ-ಅಪ್ಲಿಕೇಶನ್ ಥರ್ಮಲ್ ಓವರ್‌ರೈಡ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರೊಫೈಲ್‌ಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಯಾದ ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗುತ್ತವೆ.</string>
     <string name="thermal_add_app">ಅಪ್ಲಿಕೇಶನ್ ಸೇರಿಸಿ</string>
     <string name="thermal_search_apps">ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಹುಡುಕಿ</string>
     <string name="thermal_default">ಡೀಫಾಲ್ಟ್</string>

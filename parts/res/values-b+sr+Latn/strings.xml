@@ -8,7 +8,7 @@
     <string name="display_category">Display</string>
     <string name="performance_category">Performance</string>
     <string name="system_category">System</string>
-    <string name="dismiss">Dismiss</string>
+    <string name="dismiss">Odbaci</string>
     <string name="cancel">Otkaži</string>
     <string name="navigate_up">Navigate up</string>
     <string name="cpu_control_title">CPU control</string>

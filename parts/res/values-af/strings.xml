@@ -8,7 +8,7 @@
     <string name="display_category">Vertoon</string>
     <string name="performance_category">Prestasie</string>
     <string name="system_category">Stelsel</string>
-    <string name="dismiss">Ontslaan</string>
+    <string name="dismiss">Maak toe</string>
     <string name="cancel">Kanselleer </string>
     <string name="navigate_up">Navigeer op</string>
     <string name="cpu_control_title">SVE beheer</string>

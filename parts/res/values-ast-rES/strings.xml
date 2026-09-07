@@ -9,7 +9,7 @@
     <string name="performance_category">Performance</string>
     <string name="system_category">System</string>
     <string name="dismiss">Dismiss</string>
-    <string name="cancel">Encaboxar</string>
+    <string name="cancel">Cancel</string>
     <string name="navigate_up">Navigate up</string>
     <string name="cpu_control_title">CPU control</string>
     <string name="cpu_control_summary">Performance profiles, frequencies and cores</string>
@@ -41,7 +41,7 @@
     <string name="cpu_core_online">Online</string>
     <string name="cpu_core_offline">Offline</string>
     <string name="cpu_core_required">Boot core — always online</string>
-    <string name="cpu_apply">Aplicar</string>
+    <string name="cpu_apply">Apply</string>
     <string name="cpu_refresh">Refresh CPU state</string>
     <string name="cpu_apply_failed">Some CPU settings could not be applied</string>
     <string name="cpu_not_supported">CPU frequency control is not exposed by this kernel</string>
@@ -120,8 +120,8 @@
     <string name="screen_resolution_720p_summary">Best battery life</string>
     <string name="screen_resolution_dialog_title">Change resolution?</string>
     <string name="screen_resolution_restart_hint_body">After applying, System UI restart is recommended. Avoid changing display size in Device Display settings, it may conflict.</string>
-    <string name="screen_resolution_dialog_confirm">Aplicar</string>
-    <string name="screen_resolution_dialog_cancel">Encaboxar</string>
+    <string name="screen_resolution_dialog_confirm">Apply</string>
+    <string name="screen_resolution_dialog_cancel">Cancel</string>
     <string name="thermal_title">Thermal management</string>
     <string name="thermal_summary">Per-app performance and temperature</string>
     <string name="thermal_enable_title">Thermal profiles</string>
@@ -136,7 +136,7 @@
     <string name="thermal_global_profile_title">Active profile</string>
     <string name="thermal_per_app_label">Per-app profiles</string>
     <string name="thermal_select_profile">Select profile</string>
-    <string name="thermal_apply">Aplicar</string>
+    <string name="thermal_apply">Apply</string>
     <string name="thermal_no_apps">No apps configured yet</string>
     <string name="thermal_failed_toast">Thermal operation failed</string>
     <string name="thermal_charging_toast_connected">Charging profile active</string>

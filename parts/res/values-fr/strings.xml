@@ -8,7 +8,7 @@
     <string name="display_category">Affichage</string>
     <string name="performance_category">Performances</string>
     <string name="system_category">Système</string>
-    <string name="dismiss">Rejeter</string>
+    <string name="dismiss">Ignorer</string>
     <string name="cancel">Annuler</string>
     <string name="navigate_up">Naviguer vers le haut</string>
     <string name="cpu_control_title">Contrôle du processeur</string>
@@ -70,7 +70,7 @@
     <string name="battery_technology">Technologie</string>
     <string name="battery_plug_type">Source d\'alimentation</string>
     <string name="battery_cycle_count">Nombre de cycles</string>
-    <string name="battery_plug_ac">AC</string>
+    <string name="battery_plug_ac">CA</string>
     <string name="battery_plug_usb">USB</string>
     <string name="battery_plug_wireless">Sans fil</string>
     <string name="battery_plug_dock">Quai</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">Réinitialiser tous les profils</string>
     <string name="thermal_reset_summary">Restaurer tous les profils par application à leurs valeurs par défaut</string>
     <string name="thermal_reset_confirm">Réinitialiser</string>
-    <string name="thermal_reset_confirm_body">Tous les remplacements thermiques par application seront effacés et les profils reviendront à leurs valeurs par défaut détectées automatiquement.</string>
+    <string name="thermal_reset_confirm_body">Tous les remplacements thermiques par application seront effacés et les profils reviendront à leurs valeurs par défaut automatiquement détectées.</string>
     <string name="thermal_add_app">Ajouter une application</string>
     <string name="thermal_search_apps">Rechercher des applications</string>
     <string name="thermal_default">Par défaut</string>

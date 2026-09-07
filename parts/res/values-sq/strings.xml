@@ -8,7 +8,7 @@
     <string name="display_category">Ekrani</string>
     <string name="performance_category">Performanca</string>
     <string name="system_category">Sistemi</string>
-    <string name="dismiss">Pushoni</string>
+    <string name="dismiss">Hiq</string>
     <string name="cancel">Anulo</string>
     <string name="navigate_up">Navigoni lart</string>
     <string name="cpu_control_title">Kontrolli i procesorit</string>
@@ -18,7 +18,7 @@
     <string name="cpu_profile_economy">Kursyesi i baterisë</string>
     <string name="cpu_profile_economy_summary">Vetëm bërthamat e efikasitetit, frekuencat e kufizuara për jetëgjatësi më të gjatë të baterisë</string>
     <string name="cpu_profile_normal">Normale</string>
-    <string name="cpu_profile_normal_summary">Të gjitha bërthamat e aktivizuara me diapazonin normal adaptiv të kernelit</string>
+    <string name="cpu_profile_normal_summary">Të gjitha bërthamat e aktivizuara me gamën normale adaptive të kernelit</string>
     <string name="cpu_profile_boost">Nxitje</string>
     <string name="cpu_profile_boost_summary">Të gjitha bërthamat e aktivizuara me një dysheme me frekuencë më të lartë</string>
     <string name="cpu_profile_extreme">Ekstrem</string>
@@ -66,16 +66,16 @@
     <string name="battery_voltage">Tensioni</string>
     <string name="battery_current_now">Aktual tani</string>
     <string name="battery_power">Fuqia</string>
-    <string name="battery_charge_counter">Numër i karikimit</string>
+    <string name="battery_charge_counter">Njehsuesi i karikimit</string>
     <string name="battery_technology">Teknologjia</string>
     <string name="battery_plug_type">Burimi i energjisë</string>
-    <string name="battery_cycle_count">Numërimi i ciklit</string>
+    <string name="battery_cycle_count">Numri i ciklit</string>
     <string name="battery_plug_ac">AC</string>
     <string name="battery_plug_usb">USB</string>
     <string name="battery_plug_wireless">Wireless</string>
     <string name="battery_plug_dock">Dok</string>
     <string name="battery_plug_none">Bateri</string>
-    <string name="memory_title">Menaxheri i kujtesës</string>
+    <string name="memory_title">Menaxheri i memories</string>
     <string name="memory_summary">RAM, ndërrimi dhe ekzekutimi i proceseve</string>
     <string name="memory_used">E përdorur</string>
     <string name="memory_free_summary">%1$s falas</string>

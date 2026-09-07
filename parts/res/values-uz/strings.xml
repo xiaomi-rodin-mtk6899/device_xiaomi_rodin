@@ -8,7 +8,7 @@
     <string name="display_category">Displey</string>
     <string name="performance_category">Ishlash</string>
     <string name="system_category">Tizim</string>
-    <string name="dismiss">Rad etish</string>
+    <string name="dismiss">Yopish</string>
     <string name="cancel">Bekor qilish</string>
     <string name="navigate_up">Yuqoriga o\'ting</string>
     <string name="cpu_control_title">CPU boshqaruvi</string>
@@ -22,7 +22,7 @@
     <string name="cpu_profile_boost">Boost</string>
     <string name="cpu_profile_boost_summary">Barcha yadrolar yuqori chastotali qavat bilan yoqilgan</string>
     <string name="cpu_profile_extreme">Ekstremal</string>
-    <string name="cpu_profile_extreme_summary">Har bir klasterni maksimal chastotada qulflaydi</string>
+    <string name="cpu_profile_extreme_summary">Har bir klasterni maksimal chastotada bloklaydi</string>
     <string name="cpu_profile_custom">Maxsus</string>
     <string name="cpu_profile_custom_summary">Manuel chastota va yadro konfiguratsiyasi</string>
     <string name="cpu_extreme_warning_title">Yuqori quvvat sarfi</string>
@@ -85,16 +85,16 @@
     <string name="memory_swap">Bepul almashtiring</string>
     <string name="memory_processes">Jarayonlar</string>
     <string name="memory_no_processes">Jarayon haqida ma\'lumot mavjud emas.</string>
-    <string name="memory_unavailable">Xotira ma\'lumotlari ushbu qurilmada mavjud emas.</string>
+    <string name="memory_unavailable">Xotira maʼlumotlari ushbu qurilmada mavjud emas.</string>
     <string name="memory_low_warning">Xotira kam — fon ilovalarini yopish haqida o‘ylab ko‘ring</string>
     <string name="memory_stop">Jarayonni to\'xtatish</string>
-    <string name="memory_process_stopped">Jarayon to\'xtatildi</string>
+    <string name="memory_process_stopped">Jarayon toʻxtatildi</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Displey ranglari</string>
     <string name="display_colours_summary">Rang rejimi va harorat</string>
-    <string name="display_colours_description">Tabiiy yoki yorqinroq ko\'rinish uchun displeyingizning rang rejimi va oq balansini sozlang.</string>
+    <string name="display_colours_description">Tabiiy yoki yorqinroq ko‘rinish uchun displeyingizning rang rejimi va oq balansini sozlang.</string>
     <string name="color_mode_vivid">Jonli</string>
-    <string name="color_mode_saturated">Toʻyingan</string>
+    <string name="color_mode_saturated">To‘yingan</string>
     <string name="color_mode_standard">Standart</string>
     <string name="color_mode_original">Original</string>
     <string name="color_mode_p3">DCI-P3</string>
@@ -125,7 +125,7 @@
     <string name="thermal_title">Issiqlik boshqaruvi</string>
     <string name="thermal_summary">Har bir ilovaning ishlashi va harorati</string>
     <string name="thermal_enable_title">Termal profillar</string>
-    <string name="thermal_enable_summary">Har bir ilova va quvvat olayotganda termal profillarni qo\'llang</string>
+    <string name="thermal_enable_summary">Har bir ilovada va quvvat olayotganda termal profillarni qo\'llang</string>
     <string name="thermal_safety_label">Xavfsizlikni bekor qilish</string>
     <string name="thermal_disable_throttling_title">Termal o\'chirishni o\'chiring</string>
     <string name="thermal_disable_throttling_summary">Ushbu parametr o\'chirilmaguncha sotuvchining cheklovlarsiz profilidan foydalaning</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">Zaryadlanmoqda</string>
     <string name="touch_boost_title">Sensorni kuchaytirish</string>
     <string name="touch_boost_summary">Tezroq teginish javobi</string>
-    <string name="touch_boost_description">Sensorli kontrollerning ovoz berish tezligini oshiradi, bu esa teginish uchun javob kutish vaqtini kamaytiradi. Faol foydalanish paytida quvvat sarfini biroz oshirishi mumkin.</string>
+    <string name="touch_boost_description">Sensorli kontrollerning ovoz berish tezligini oshiradi, bu esa teginish-javob kechikishini kamaytiradi. Faol foydalanish paytida quvvat sarfini biroz oshirishi mumkin.</string>
     <string name="touch_boost_failed">Sensorni kuchaytirish qo‘llanilmadi</string>
     <string name="fingerprint_calibration_title">Barmoq izini kalibrlash</string>
     <string name="fingerprint_calibration_summary">Barmoq izi sensorini qayta sozlang</string>

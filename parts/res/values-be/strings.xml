@@ -8,7 +8,7 @@
     <string name="display_category">Дысплей</string>
     <string name="performance_category">Спектакль</string>
     <string name="system_category">Сістэма</string>
-    <string name="dismiss">Звольніць</string>
+    <string name="dismiss">Закрыць</string>
     <string name="cancel">Скасаваць</string>
     <string name="navigate_up">Перайсці ўверх</string>
     <string name="cpu_control_title">Кіраванне працэсарам</string>
@@ -92,7 +92,7 @@
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · ЦП %3$s%%</string>
     <string name="display_colours_title">Дысплей колераў</string>
     <string name="display_colours_summary">Каляровы рэжым і тэмпература</string>
-    <string name="display_colours_description">Адрэгулюйце каляровы рэжым і баланс белага вашага дысплея для больш натуральнага або яркага выгляду.</string>
+    <string name="display_colours_description">Наладзьце каляровы рэжым і баланс белага вашага дысплея для больш натуральнага або яркага выгляду.</string>
     <string name="color_mode_vivid">Яркі</string>
     <string name="color_mode_saturated">Насычаны</string>
     <string name="color_mode_standard">Стандарт</string>
@@ -169,6 +169,6 @@
     <string name="fingerprint_calibration_summary">Адкалібруйце датчык адбіткаў пальцаў</string>
     <string name="fingerprint_calibration_not_found">Каліброўка адбіткаў пальцаў недаступная</string>
     <string name="speaker_calibration_title">Каліброўка дынамікаў</string>
-    <string name="speaker_calibration_summary">Тэст самакаліброўкі дынаміка CIT</string>
-    <string name="speaker_calibration_not_found">Каліброўка дынаміка недаступная</string>
+    <string name="speaker_calibration_summary">Тэст самакаліброўкі дынамікаў CIT</string>
+    <string name="speaker_calibration_not_found">Каліброўка дынамікаў недаступная</string>
 </resources>

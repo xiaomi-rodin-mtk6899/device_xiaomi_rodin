@@ -8,7 +8,7 @@
     <string name="display_category">العرض</string>
     <string name="performance_category">الأداء</string>
     <string name="system_category">النظام</string>
-    <string name="dismiss">استبعاد</string>
+    <string name="dismiss">إغلاق</string>
     <string name="cancel">إلغاء</string>
     <string name="navigate_up">انتقل لأعلى</string>
     <string name="cpu_control_title">التحكم في وحدة المعالجة المركزية</string>
@@ -40,7 +40,7 @@
     <string name="cpu_core">وحدة المعالجة المركزية %1$d</string>
     <string name="cpu_core_online">اونلاين</string>
     <string name="cpu_core_offline">غير متصل</string>
-    <string name="cpu_core_required">مركز التمهيد — متصل دائمًا</string>
+    <string name="cpu_core_required">قلب التمهيد — متصل دائمًا</string>
     <string name="cpu_apply">تطبيق</string>
     <string name="cpu_refresh">تحديث حالة وحدة المعالجة المركزية</string>
     <string name="cpu_apply_failed">لا يمكن تطبيق بعض إعدادات وحدة المعالجة المركزية</string>
@@ -92,7 +92,7 @@
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · وحدة المعالجة المركزية %3$s%%</string>
     <string name="display_colours_title">ألوان العرض</string>
     <string name="display_colours_summary">وضع اللون ودرجة الحرارة</string>
-    <string name="display_colours_description">اضبط وضع الألوان وتوازن اللون الأبيض لشاشتك للحصول على مظهر أكثر طبيعية وحيوية.</string>
+    <string name="display_colours_description">اضبط وضع الألوان وتوازن اللون الأبيض في شاشتك للحصول على مظهر أكثر طبيعية وحيوية.</string>
     <string name="color_mode_vivid">حية</string>
     <string name="color_mode_saturated">مشبعة</string>
     <string name="color_mode_standard">قياسي</string>

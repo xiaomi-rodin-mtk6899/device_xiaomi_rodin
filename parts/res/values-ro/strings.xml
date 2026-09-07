@@ -8,7 +8,7 @@
     <string name="display_category">Afișare</string>
     <string name="performance_category">Performanță</string>
     <string name="system_category">Sistem</string>
-    <string name="dismiss">Respingeți</string>
+    <string name="dismiss">Închide</string>
     <string name="cancel">Anulează</string>
     <string name="navigate_up">Navigați în sus</string>
     <string name="cpu_control_title">Control CPU</string>
@@ -25,7 +25,7 @@
     <string name="cpu_profile_extreme_summary">Blocează fiecare cluster la frecvența sa maximă</string>
     <string name="cpu_profile_custom">Personalizat</string>
     <string name="cpu_profile_custom_summary">Frecvența manuală și configurația de bază</string>
-    <string name="cpu_extreme_warning_title">Utilizare de putere mare</string>
+    <string name="cpu_extreme_warning_title">Utilizare de mare putere</string>
     <string name="cpu_extreme_warning">Modul Extrem generează mult mai multă căldură și consumul bateriei. Reglarea termică nu este niciodată dezactivată.</string>
     <string name="cpu_frequencies_category">Limite manuale de frecvență</string>
     <string name="cpu_cores_category">nuclee CPU</string>
@@ -146,7 +146,7 @@
     <string name="thermal_reset_summary">Restabiliți toate profilurile per aplicație la valorile implicite</string>
     <string name="thermal_reset_confirm">Resetare</string>
     <string name="thermal_reset_confirm_body">Toate anulările termice per aplicație vor fi șterse și profilurile vor reveni la valorile implicite detectate automat.</string>
-    <string name="thermal_add_app">Adăugați aplicația</string>
+    <string name="thermal_add_app">Adăugați aplicație</string>
     <string name="thermal_search_apps">Căutați aplicații</string>
     <string name="thermal_default">Implicit</string>
     <string name="thermal_nolimits">Fără limite</string>

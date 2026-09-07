@@ -15,7 +15,7 @@
     <string name="cpu_control_summary">Ytelsesprofiler, frekvenser og kjerner</string>
     <string name="cpu_control_description">Profiler tilpasser seg frekvensene som eksponeres av kjernen. Android termisk beskyttelse forblir aktiv i alle moduser.</string>
     <string name="cpu_profiles_category">Ytelsesprofil</string>
-    <string name="cpu_profile_economy">Batterisparing</string>
+    <string name="cpu_profile_economy">Økonomi</string>
     <string name="cpu_profile_economy_summary">Kun effektivitetskjerner, frekvenser begrenset for lengre batterilevetid</string>
     <string name="cpu_profile_normal">Normal</string>
     <string name="cpu_profile_normal_summary">Alle kjerner aktivert med kjernens normale adaptive rekkevidde</string>
@@ -41,7 +41,7 @@
     <string name="cpu_core_online">Online</string>
     <string name="cpu_core_offline">Frakoblet</string>
     <string name="cpu_core_required">Boot core - alltid online</string>
-    <string name="cpu_apply">Bruk</string>
+    <string name="cpu_apply">Søk</string>
     <string name="cpu_refresh">Oppdater CPU-tilstand</string>
     <string name="cpu_apply_failed">Noen CPU-innstillinger kunne ikke brukes</string>
     <string name="cpu_not_supported">CPU-frekvenskontroll er ikke eksponert av denne kjernen</string>
@@ -49,7 +49,7 @@
     <string name="battery_status_summary">Helse, lading og live-målinger</string>
     <string name="battery_live_section">Batteri</string>
     <string name="battery_wear_section">Helse</string>
-    <string name="battery_status_charging">Lader</string>
+    <string name="battery_status_charging">Lading</string>
     <string name="battery_status_discharging">Utlading</string>
     <string name="battery_status_full">Full</string>
     <string name="battery_status_not_charging">Lader ikke</string>
@@ -120,7 +120,7 @@
     <string name="screen_resolution_720p_summary">Best batterilevetid</string>
     <string name="screen_resolution_dialog_title">Endre oppløsning?</string>
     <string name="screen_resolution_restart_hint_body">Etter påføring anbefales omstart av systemgrensesnittet. Unngå å endre skjermstørrelsen i Device Display-innstillingene, det kan komme i konflikt.</string>
-    <string name="screen_resolution_dialog_confirm">Bruk</string>
+    <string name="screen_resolution_dialog_confirm">Søk</string>
     <string name="screen_resolution_dialog_cancel">Avbryt</string>
     <string name="thermal_title">Termisk styring</string>
     <string name="thermal_summary">Ytelse og temperatur per app</string>
@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">Bruk termiske profiler per app og mens du lader</string>
     <string name="thermal_safety_label">Sikkerhetsoverstyring</string>
     <string name="thermal_disable_throttling_title">Deaktiver termisk struping</string>
-    <string name="thermal_disable_throttling_summary">Bruk leverandørens profil uten grenser til dette alternativet er slått av</string>
+    <string name="thermal_disable_throttling_summary">Bruk leverandøren ingen grenser-profilen til dette alternativet er slått av</string>
     <string name="thermal_disable_warning_title">Deaktivere termisk beskyttelse?</string>
     <string name="thermal_disable_warning_body">Enheten kan overopphetes, bli ustabil, skade batteriet eller slå seg av. Kjernens nødbeskyttelse kan forbli aktiv. Bruk denne kun for korte tester og la aldri enheten være uten tilsyn.</string>
     <string name="thermal_disable_confirm">Deaktiver uansett</string>
@@ -136,7 +136,7 @@
     <string name="thermal_global_profile_title">Aktiv profil</string>
     <string name="thermal_per_app_label">Profiler per app</string>
     <string name="thermal_select_profile">Velg profil</string>
-    <string name="thermal_apply">Bruk</string>
+    <string name="thermal_apply">Søk</string>
     <string name="thermal_no_apps">Ingen apper er konfigurert ennå</string>
     <string name="thermal_failed_toast">Termisk drift mislyktes</string>
     <string name="thermal_charging_toast_connected">Ladeprofil aktiv</string>

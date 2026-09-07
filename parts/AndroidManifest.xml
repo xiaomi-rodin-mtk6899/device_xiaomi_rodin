@@ -23,7 +23,7 @@
 
     <application
         android:name=".XiaomiPartsApp"
-        android:label="Xiaomi Parts"
+        android:label="@string/app_name"
         android:theme="@style/XiaomiParts.Theme"
         android:enableOnBackInvokedCallback="true"
         android:defaultToDeviceProtectedStorage="true"
@@ -55,7 +55,7 @@
 
         <activity
             android:name=".XiaomiPartsActivity"
-            android:label="Xiaomi Parts"
+            android:label="@string/xiaomi_parts_title"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,7 +67,7 @@
         <activity-alias
             android:name=".XiaomiPartsSettingsTile"
             android:targetActivity=".XiaomiPartsActivity"
-            android:label="Xiaomi Parts"
+            android:label="@string/xiaomi_parts_title"
             android:icon="@drawable/ic_xiaomi_parts"
             android:exported="true">
 
@@ -92,16 +92,11 @@
 
             <meta-data
                 android:name="com.android.settings.title"
-                android:value="Xiaomi Parts" />
+                android:resource="@string/xiaomi_parts_title" />
 
             <meta-data
                 android:name="com.android.settings.summary"
-                android:value="Display, Performance &amp; System" />
-
-            <!-- Launch the full Activity instead of embedding as a fragment -->
-            <meta-data
-                android:name="com.android.settings.ACTIVITY_ACTION"
-                android:value="android.intent.action.MAIN" />
+                android:resource="@string/xiaomi_parts_summary" />
 
             <meta-data
                 android:name="com.android.settings.icon"

@@ -8,7 +8,7 @@
     <string name="display_category">காட்சி</string>
     <string name="performance_category">செயல்திறன்</string>
     <string name="system_category">அமைப்பு</string>
-    <string name="dismiss">நிராகரி</string>
+    <string name="dismiss">மூடு</string>
     <string name="cancel">வேண்டாம்</string>
     <string name="navigate_up">மேலே செல்லவும்</string>
     <string name="cpu_control_title">CPU கட்டுப்பாடு</string>
@@ -18,7 +18,7 @@
     <string name="cpu_profile_economy">பேட்டரி சேமிப்பு</string>
     <string name="cpu_profile_economy_summary">திறன் கோர்கள் மட்டும், நீண்ட பேட்டரி ஆயுள் கொண்ட அதிர்வெண்கள்</string>
     <string name="cpu_profile_normal">இயல்பானது</string>
-    <string name="cpu_profile_normal_summary">கர்னலின் இயல்பான அடாப்டிவ் வரம்பில் அனைத்து கோர்களும் இயக்கப்பட்டன</string>
+    <string name="cpu_profile_normal_summary">கர்னலின் இயல்பான அடாப்டிவ் வரம்பில் அனைத்து கோர்களும் இயக்கப்பட்டுள்ளன</string>
     <string name="cpu_profile_boost">பூஸ்ட்</string>
     <string name="cpu_profile_boost_summary">அதிக அதிர்வெண் தளத்துடன் அனைத்து கோர்களும் இயக்கப்பட்டன</string>
     <string name="cpu_profile_extreme">எக்ஸ்ட்ரீம்</string>
@@ -130,7 +130,7 @@
     <string name="thermal_disable_throttling_title">தெர்மல் த்ரோட்டிங்கை முடக்கு</string>
     <string name="thermal_disable_throttling_summary">இந்த விருப்பம் முடக்கப்படும் வரை விற்பனையாளர் வரம்புகள் இல்லாத சுயவிவரத்தைப் பயன்படுத்தவும்</string>
     <string name="thermal_disable_warning_title">வெப்ப பாதுகாப்பை முடக்கவா?</string>
-    <string name="thermal_disable_warning_body">சாதனம் அதிக வெப்பமடையலாம், நிலையற்றதாக மாறலாம், பேட்டரியை சேதப்படுத்தலாம் அல்லது மூடலாம். கர்னல் அவசரகால பாதுகாப்புகள் செயலில் இருக்கலாம். குறுகிய சோதனைகளுக்கு மட்டுமே இதைப் பயன்படுத்தவும் மற்றும் சாதனத்தை கவனிக்காமல் விடாதீர்கள்.</string>
+    <string name="thermal_disable_warning_body">சாதனம் அதிக வெப்பமடையலாம், நிலையற்றதாக மாறலாம், பேட்டரியை சேதப்படுத்தலாம் அல்லது மூடலாம். கர்னல் அவசரகால பாதுகாப்புகள் செயலில் இருக்கலாம். குறுகிய சோதனைகளுக்கு மட்டுமே இதைப் பயன்படுத்தவும், சாதனத்தை கவனிக்காமல் விடவும்.</string>
     <string name="thermal_disable_confirm">எப்படியும் முடக்கு</string>
     <string name="thermal_global_label">உலகளாவிய சுயவிவரம்</string>
     <string name="thermal_global_profile_title">செயலில் உள்ள சுயவிவரம்</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">எல்லா சுயவிவரங்களையும் மீட்டமைக்கவும்</string>
     <string name="thermal_reset_summary">எல்லா ஆப்ஸ் சுயவிவரங்களையும் அவற்றின் இயல்புநிலைக்கு மீட்டமைக்கவும்</string>
     <string name="thermal_reset_confirm">மீட்டமை</string>
-    <string name="thermal_reset_confirm_body">ஒரு பயன்பாட்டிற்கான அனைத்து வெப்ப மேலெழுதுதல்களும் அழிக்கப்படும் மற்றும் சுயவிவரங்கள் தானாகவே கண்டறியப்பட்ட இயல்புநிலைகளுக்குத் திரும்பும்.</string>
+    <string name="thermal_reset_confirm_body">ஒவ்வொரு பயன்பாட்டிற்கும் அனைத்து வெப்ப மேலெழுதுதல்கள் அழிக்கப்படும் மற்றும் சுயவிவரங்கள் தானாகவே கண்டறியப்பட்ட இயல்புநிலைகளுக்கு மாற்றப்படும்.</string>
     <string name="thermal_add_app">பயன்பாட்டைச் சேர்</string>
     <string name="thermal_search_apps">தேடல் பயன்பாடுகள்</string>
     <string name="thermal_default">இயல்புநிலை</string>

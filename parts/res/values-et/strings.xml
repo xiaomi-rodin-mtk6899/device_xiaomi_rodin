@@ -11,7 +11,7 @@
     <string name="dismiss">Loobu</string>
     <string name="cancel">Tühista</string>
     <string name="navigate_up">Navigeerige üles</string>
-    <string name="cpu_control_title">Protsessori juhtimine</string>
+    <string name="cpu_control_title">CPU juhtimine</string>
     <string name="cpu_control_summary">Jõudlusprofiilid, sagedused ja tuumad</string>
     <string name="cpu_control_description">Profiilid kohanduvad kerneli eksponeeritud sagedustega. Androidi termokaitse jääb aktiivseks igas režiimis.</string>
     <string name="cpu_profiles_category">Toimivusprofiil</string>
@@ -19,8 +19,8 @@
     <string name="cpu_profile_economy_summary">Ainult tõhusad südamikud, sagedused on aku pikema tööea tagamiseks piiratud</string>
     <string name="cpu_profile_normal">Tavaline</string>
     <string name="cpu_profile_normal_summary">Kõik tuumad on lubatud kerneli tavalises adaptiivses vahemikus</string>
-    <string name="cpu_profile_boost">Boost</string>
-    <string name="cpu_profile_boost_summary">Kõik südamikud on lubatud kõrgema sageduse alammääraga</string>
+    <string name="cpu_profile_boost">Tõstu</string>
+    <string name="cpu_profile_boost_summary">Kõik tuumad on lubatud kõrgema sageduse alammääraga</string>
     <string name="cpu_profile_extreme">Äärmuslik</string>
     <string name="cpu_profile_extreme_summary">Lukustab iga klastri maksimaalse sagedusega</string>
     <string name="cpu_profile_custom">Kohandatud</string>

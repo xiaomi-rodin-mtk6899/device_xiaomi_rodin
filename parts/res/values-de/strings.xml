@@ -8,7 +8,7 @@
     <string name="display_category">Anzeige</string>
     <string name="performance_category">Leistung</string>
     <string name="system_category">-System</string>
-    <string name="dismiss">Entlassen</string>
+    <string name="dismiss">Schließen</string>
     <string name="cancel">Abbrechen</string>
     <string name="navigate_up">Nach oben navigieren</string>
     <string name="cpu_control_title">CPU-Steuerung</string>

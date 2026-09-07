@@ -8,7 +8,7 @@
     <string name="display_category">Дэлгэц</string>
     <string name="performance_category">Гүйцэтгэл</string>
     <string name="system_category">Систем</string>
-    <string name="dismiss">Хасах</string>
+    <string name="dismiss">Хаах</string>
     <string name="cancel">Цуцлах</string>
     <string name="navigate_up">Дээш шилжих</string>
     <string name="cpu_control_title">CPU-ийн удирдлага</string>
@@ -26,7 +26,7 @@
     <string name="cpu_profile_custom">Захиалгат</string>
     <string name="cpu_profile_custom_summary">Гар давтамж ба үндсэн тохиргоо</string>
     <string name="cpu_extreme_warning_title">Өндөр хүчин чадалтай</string>
-    <string name="cpu_extreme_warning">Хэт их горим нь илүү их дулааныг бий болгож, батарейг зарцуулдаг. Дулаан тохируулагчийг хэзээ ч идэвхгүй болгодоггүй.</string>
+    <string name="cpu_extreme_warning">Extreme горим нь илүү их дулааныг бий болгож, батарейг зарцуулдаг. Дулаан тохируулагчийг хэзээ ч идэвхгүй болгодоггүй.</string>
     <string name="cpu_frequencies_category">Гар давтамжийн хязгаар</string>
     <string name="cpu_cores_category">CPU-ийн цөм</string>
     <string name="cpu_efficiency_cluster">Үр ашгийн кластер</string>
@@ -92,8 +92,8 @@
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Дэлгэцийн өнгө</string>
     <string name="display_colours_summary">Өнгөний горим ба температур</string>
-    <string name="display_colours_description">Дэлгэцийнхээ өнгөний горим болон цагаан өнгийн тэнцвэрийг тохируулан илүү байгалийн эсвэл тод харагдуулна.</string>
-    <string name="color_mode_vivid">тод</string>
+    <string name="display_colours_description">Дэлгэцийнхээ өнгөний горим болон цагаан өнгийн тэнцвэрийг тохируулан илүү байгалийн буюу тод харагдуулна.</string>
+    <string name="color_mode_vivid">Тод</string>
     <string name="color_mode_saturated">ханасан</string>
     <string name="color_mode_standard">Стандарт</string>
     <string name="color_mode_original">Жинхэнэ</string>
@@ -115,7 +115,7 @@
     <string name="screen_resolution_1220p">2712 × 1220 (Уугуул)</string>
     <string name="screen_resolution_1220p_summary">Үндсэн самбарын нягтрал</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
-    <string name="screen_resolution_1080p_summary">Тодруулга ба батарейг тэнцвэржүүлсэн</string>
+    <string name="screen_resolution_1080p_summary">Тэнцвэртэй тод байдал ба батерей</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Батерейны хамгийн сайн ажиллах хугацаа</string>
     <string name="screen_resolution_dialog_title">Нарийвчлалыг өөрчлөх үү?</string>

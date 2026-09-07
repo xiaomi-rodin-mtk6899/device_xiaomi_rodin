@@ -8,12 +8,12 @@
     <string name="display_category">תצוגה</string>
     <string name="performance_category">ביצועים</string>
     <string name="system_category">מערכת</string>
-    <string name="dismiss">ביטול</string>
+    <string name="dismiss">סגירה</string>
     <string name="cancel">ביטול</string>
     <string name="navigate_up">נווט למעלה</string>
     <string name="cpu_control_title">בקרת מעבד</string>
     <string name="cpu_control_summary">פרופילי ביצועים, תדרים וליבות</string>
-    <string name="cpu_control_description">פרופילים מסתגלים לתדרים שנחשפים על ידי הקרנל. ההגנה התרמית של אנדרואיד נשארת פעילה בכל מצב.</string>
+    <string name="cpu_control_description">פרופילים מסתגלים לתדרים שנחשפים על ידי הליבה. ההגנה התרמית של אנדרואיד נשארת פעילה בכל מצב.</string>
     <string name="cpu_profiles_category">פרופיל ביצועים</string>
     <string name="cpu_profile_economy">חיסכון בסוללה</string>
     <string name="cpu_profile_economy_summary">ליבות יעילות בלבד, תדרים מוגבלים לחיי סוללה ארוכים יותר</string>
@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">החל פרופילים תרמיים לכל אפליקציה ותוך כדי טעינה</string>
     <string name="thermal_safety_label">עקיפת בטיחות</string>
     <string name="thermal_disable_throttling_title">השבת מצערת תרמית</string>
-    <string name="thermal_disable_throttling_summary">השתמש בפרופיל הספק ללא הגבלות עד לביטול אפשרות זו</string>
+    <string name="thermal_disable_throttling_summary">השתמש בפרופיל ללא הגבלות של הספק עד לביטול אפשרות זו</string>
     <string name="thermal_disable_warning_title">לבטל את ההגנה התרמית?</string>
     <string name="thermal_disable_warning_body">המכשיר עלול להתחמם יתר על המידה, להפוך לא יציב, להזיק לסוללה או לכבות. הגנות חירום של ליבה עשויות להישאר פעילות. השתמש בזה רק לבדיקות קצרות ולעולם אל תשאיר את המכשיר ללא השגחה.</string>
     <string name="thermal_disable_confirm">השבת בכל מקרה</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">אפס את כל הפרופילים</string>
     <string name="thermal_reset_summary">שחזר את כל הפרופילים לכל אפליקציה לברירות המחדל שלהם</string>
     <string name="thermal_reset_confirm">איפוס</string>
-    <string name="thermal_reset_confirm_body">כל העקיפות התרמיות לכל אפליקציה ימוקו והפרופילים יחזרו לברירות המחדל שלהם שזוהו אוטומטית.</string>
+    <string name="thermal_reset_confirm_body">כל העקיפות התרמיות לכל אפליקציה יימחקו והפרופילים יחזרו לברירות המחדל המזוהות אוטומטית שלהם.</string>
     <string name="thermal_add_app">הוסף אפליקציה</string>
     <string name="thermal_search_apps">חיפוש אפליקציות</string>
     <string name="thermal_default">ברירת מחדל</string>

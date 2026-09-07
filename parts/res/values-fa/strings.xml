@@ -8,7 +8,7 @@
     <string name="display_category">نمایشگر</string>
     <string name="performance_category">عملکرد</string>
     <string name="system_category">سیستم</string>
-    <string name="dismiss">اخراج</string>
+    <string name="dismiss">بستن</string>
     <string name="cancel">لغو</string>
     <string name="navigate_up">پیمایش به بالا</string>
     <string name="cpu_control_title">کنترل CPU</string>
@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">پروفایل های حرارتی را در هر برنامه و هنگام شارژ اعمال کنید</string>
     <string name="thermal_safety_label">نادیده گرفتن ایمنی</string>
     <string name="thermal_disable_throttling_title">دریچه گاز حرارتی را غیرفعال کنید</string>
-    <string name="thermal_disable_throttling_summary">تا زمانی که این گزینه خاموش نشود از نمایه فروشنده بدون محدودیت استفاده کنید</string>
+    <string name="thermal_disable_throttling_summary">تا زمانی که این گزینه خاموش نشود، از نمایه فروشنده بدون محدودیت استفاده کنید</string>
     <string name="thermal_disable_warning_title">حفاظت حرارتی را غیرفعال کنید؟</string>
     <string name="thermal_disable_warning_body">دستگاه ممکن است بیش از حد گرم شود، ناپایدار شود، به باتری آسیب برساند یا خاموش شود. حفاظت اضطراری هسته ممکن است فعال باقی بماند. از این فقط برای تست های کوتاه استفاده کنید و هرگز دستگاه را بدون مراقبت رها نکنید.</string>
     <string name="thermal_disable_confirm">به هر حال غیرفعال شود</string>

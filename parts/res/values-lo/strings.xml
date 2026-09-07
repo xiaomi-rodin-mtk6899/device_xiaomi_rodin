@@ -8,7 +8,7 @@
     <string name="display_category">ຈໍສະແດງຜົນ</string>
     <string name="performance_category">ປະສິດທິພາບ</string>
     <string name="system_category">ລະບົບ</string>
-    <string name="dismiss">ປິດ</string>
+    <string name="dismiss">ປິດໄວ້</string>
     <string name="cancel">ຍົກເລີກ</string>
     <string name="navigate_up">ເລື່ອນຂຶ້ນ</string>
     <string name="cpu_control_title">ການຄວບຄຸມ CPU</string>
@@ -130,7 +130,7 @@
     <string name="thermal_disable_throttling_title">ປິດການນຳໃຊ້ການຄວບຄຸມຄວາມຮ້ອນ</string>
     <string name="thermal_disable_throttling_summary">ໃຊ້ໂປຣໄຟລ໌ບໍ່ຈຳກັດຂອງຜູ້ຂາຍຈົນກວ່າຕົວເລືອກນີ້ຖືກປິດ</string>
     <string name="thermal_disable_warning_title">ປິດການປ້ອງກັນຄວາມຮ້ອນບໍ?</string>
-    <string name="thermal_disable_warning_body">ອຸປະກອນສາມາດເຮັດຄວາມຮ້ອນເກີນ, ບໍ່ສະຖຽນ, ເຮັດໃຫ້ແບັດເຕີຣີເສຍຫາຍ ຫຼື ປິດເຄື່ອງ. ການປົກປ້ອງສຸກເສີນ Kernel ອາດຈະຍັງເຮັດວຽກຢູ່. ໃຊ້ອັນນີ້ເພື່ອທົດສອບໄລຍະສັ້ນເທົ່ານັ້ນ ແລະຢ່າປະໄວ້ອຸປະກອນໂດຍບໍ່ມີການໃສ່ໃຈ.</string>
+    <string name="thermal_disable_warning_body">ອຸປະກອນສາມາດເຮັດໃຫ້ຄວາມຮ້ອນເກີນ, ບໍ່ສະຖຽນ, ເຮັດໃຫ້ແບັດເຕີຣີເສຍຫາຍ ຫຼື ປິດເຄື່ອງ. ການປົກປ້ອງສຸກເສີນ Kernel ອາດຈະຍັງເຮັດວຽກຢູ່. ໃຊ້ອັນນີ້ເພື່ອທົດສອບໄລຍະສັ້ນເທົ່ານັ້ນ ແລະຢ່າປະໄວ້ອຸປະກອນໂດຍບໍ່ມີການໃສ່ໃຈ.</string>
     <string name="thermal_disable_confirm">ປິດການໃຊ້ງານຢ່າງໃດກໍ່ຕາມ</string>
     <string name="thermal_global_label">ໂປຣໄຟລ໌ທົ່ວໂລກ</string>
     <string name="thermal_global_profile_title">ໂປຣໄຟລ໌ທີ່ໃຊ້ຢູ່</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">ກຳລັງສາກ</string>
     <string name="touch_boost_title">ແຕະ boost</string>
     <string name="touch_boost_summary">ການຕອບສະໜອງການສໍາພັດໄວຂຶ້ນ</string>
-    <string name="touch_boost_description">ເພີ່ມອັດຕາການສໍາຜັດຂອງຕົວຄວບຄຸມການສໍາພັດ, ຫຼຸດຜ່ອນເວລາແອັກເພື່ອຕອບສະໜອງ. ອາດຈະເພີ່ມການດຶງພະລັງງານເລັກນ້ອຍໃນລະຫວ່າງການໃຊ້ງານ.</string>
+    <string name="touch_boost_description">ເພີ່ມອັດຕາການສໍາພັດຂອງຕົວຄວບຄຸມການສໍາພັດ, ຫຼຸດຜ່ອນການຕອບສະໜອງການແຕະເພື່ອຕອບສະໜອງ. ອາດຈະເພີ່ມການດຶງພະລັງງານເລັກນ້ອຍໃນລະຫວ່າງການໃຊ້ງານ.</string>
     <string name="touch_boost_failed">ການຊຸກຍູ້ການສຳຜັດບໍ່ສຳເລັດ</string>
     <string name="fingerprint_calibration_title">ການປັບຕົວສະແກນລາຍນິ້ວມື</string>
     <string name="fingerprint_calibration_summary">ປັບເຊັນເຊີລາຍນິ້ວມືຄືນໃໝ່</string>

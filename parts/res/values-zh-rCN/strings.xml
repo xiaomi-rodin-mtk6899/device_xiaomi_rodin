@@ -8,7 +8,7 @@
     <string name="display_category">显示</string>
     <string name="performance_category">性能</string>
     <string name="system_category">系统</string>
-    <string name="dismiss">解雇</string>
+    <string name="dismiss">忽略</string>
     <string name="cancel">取消</string>
     <string name="navigate_up">向上导航</string>
     <string name="cpu_control_title">CPU控制</string>
@@ -57,7 +57,7 @@
     <string name="battery_health_good">好</string>
     <string name="battery_health_overheat">过热</string>
     <string name="battery_health_dead">死了</string>
-    <string name="battery_health_over_voltage">过电压</string>
+    <string name="battery_health_over_voltage">过压</string>
     <string name="battery_health_cold">冷</string>
     <string name="battery_health_failure">失败</string>
     <string name="battery_status">状态</string>

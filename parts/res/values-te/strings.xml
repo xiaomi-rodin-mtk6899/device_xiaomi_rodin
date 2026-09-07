@@ -8,7 +8,7 @@
     <string name="display_category">ప్రదర్శన</string>
     <string name="performance_category">పనితీరు</string>
     <string name="system_category">వ్యవస్థ</string>
-    <string name="dismiss">తొలగించు</string>
+    <string name="dismiss">విస్మరించండి</string>
     <string name="cancel">రద్దు చేయండి</string>
     <string name="navigate_up">పైకి నావిగేట్ చేయండి</string>
     <string name="cpu_control_title">CPU నియంత్రణ</string>
@@ -16,7 +16,7 @@
     <string name="cpu_control_description">ప్రొఫైల్‌లు కెర్నల్ ద్వారా బహిర్గతమయ్యే ఫ్రీక్వెన్సీలకు అనుగుణంగా ఉంటాయి. Android థర్మల్ రక్షణ ప్రతి మోడ్‌లో సక్రియంగా ఉంటుంది.</string>
     <string name="cpu_profiles_category">పనితీరు ప్రొఫైల్</string>
     <string name="cpu_profile_economy">బ్యాటరీ సేవర్</string>
-    <string name="cpu_profile_economy_summary">ఎఫిషియెన్సీ కోర్‌లు మాత్రమే, ఎక్కువ బ్యాటరీ లైఫ్ కోసం ఫ్రీక్వెన్సీలు పరిమితం చేయబడ్డాయి</string>
+    <string name="cpu_profile_economy_summary">సమర్థత కోర్లు మాత్రమే, ఎక్కువ బ్యాటరీ లైఫ్ కోసం ఫ్రీక్వెన్సీలు పరిమితం చేయబడ్డాయి</string>
     <string name="cpu_profile_normal">సాధారణం</string>
     <string name="cpu_profile_normal_summary">అన్ని కోర్లు కెర్నల్ యొక్క సాధారణ అనుకూల పరిధితో ప్రారంభించబడ్డాయి</string>
     <string name="cpu_profile_boost">బూస్ట్</string>
@@ -108,7 +108,7 @@
     <string name="color_mode_srgb_summary">వెబ్ మరియు డిజైన్ కోసం ఖచ్చితమైన sRGB</string>
     <string name="screen_resolution_title">స్క్రీన్ రిజల్యూషన్</string>
     <string name="screen_resolution_home_summary">ప్రదర్శన రిజల్యూషన్‌ని మార్చండి</string>
-    <string name="screen_resolution_description">అధిక రిజల్యూషన్‌ని ఎంచుకోవడం వలన డిస్‌ప్లే పదునుగా మారుతుంది, కానీ ఎక్కువ బ్యాటరీని ఉపయోగిస్తుంది. తక్కువ రిజల్యూషన్‌లు బ్యాటరీ వినియోగాన్ని తగ్గిస్తాయి.</string>
+    <string name="screen_resolution_description">అధిక రిజల్యూషన్‌ని ఎంచుకోవడం వలన డిస్‌ప్లే మరింత పదునుగా మారుతుంది, కానీ ఎక్కువ బ్యాటరీని ఉపయోగిస్తుంది. తక్కువ రిజల్యూషన్‌లు బ్యాటరీ వినియోగాన్ని తగ్గిస్తాయి.</string>
     <string name="screen_resolution_failed">రిజల్యూషన్‌ని వర్తింపజేయడంలో విఫలమైంది</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">షార్పెస్ట్ — అధిక బ్యాటరీ వినియోగం</string>
@@ -125,7 +125,7 @@
     <string name="thermal_title">ఉష్ణ నిర్వహణ</string>
     <string name="thermal_summary">ఒక్కో యాప్ పనితీరు మరియు ఉష్ణోగ్రత</string>
     <string name="thermal_enable_title">థర్మల్ ప్రొఫైల్స్</string>
-    <string name="thermal_enable_summary">ఒక్కో యాప్‌కి మరియు ఛార్జింగ్ చేస్తున్నప్పుడు థర్మల్ ప్రొఫైల్‌లను వర్తింపజేయండి</string>
+    <string name="thermal_enable_summary">ఒక్కో యాప్‌కు మరియు ఛార్జింగ్ చేస్తున్నప్పుడు థర్మల్ ప్రొఫైల్‌లను వర్తింపజేయండి</string>
     <string name="thermal_safety_label">భద్రత భర్తీ</string>
     <string name="thermal_disable_throttling_title">థర్మల్ థ్రోట్లింగ్‌ని నిలిపివేయండి</string>
     <string name="thermal_disable_throttling_summary">ఈ ఎంపిక ఆపివేయబడే వరకు విక్రేత ఎటువంటి పరిమితుల ప్రొఫైల్‌ను ఉపయోగించండి</string>
@@ -170,5 +170,5 @@
     <string name="fingerprint_calibration_not_found">వేలిముద్ర అమరిక అందుబాటులో లేదు</string>
     <string name="speaker_calibration_title">స్పీకర్ క్రమాంకనం</string>
     <string name="speaker_calibration_summary">CIT స్పీకర్ స్వీయ-కాలిబ్రేషన్ పరీక్ష</string>
-    <string name="speaker_calibration_not_found">స్పీకర్ క్రమాంకనం అందుబాటులో లేదు</string>
+    <string name="speaker_calibration_not_found">స్పీకర్ కాలిబ్రేషన్ అందుబాటులో లేదు</string>
 </resources>

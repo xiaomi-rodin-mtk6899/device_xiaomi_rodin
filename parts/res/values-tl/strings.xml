@@ -86,7 +86,7 @@
     <string name="memory_processes">Mga Proseso</string>
     <string name="memory_no_processes">Walang available na impormasyon sa proseso.</string>
     <string name="memory_unavailable">Hindi available ang impormasyon ng memorya sa device na ito.</string>
-    <string name="memory_low_warning">Mababang memory — isaalang-alang ang pagsasara ng mga background na app</string>
+    <string name="memory_low_warning">Mababang memory — isaalang-alang ang pagsasara ng mga background app</string>
     <string name="memory_stop">Ihinto ang proseso</string>
     <string name="memory_process_stopped">Nahinto ang proseso</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
@@ -169,6 +169,6 @@
     <string name="fingerprint_calibration_summary">Muling i-calibrate ang fingerprint sensor</string>
     <string name="fingerprint_calibration_not_found">Hindi available ang pagkakalibrate ng fingerprint</string>
     <string name="speaker_calibration_title">Pag-calibrate ng speaker</string>
-    <string name="speaker_calibration_summary">CIT speaker self-calibration test</string>
+    <string name="speaker_calibration_summary">pagsubok sa self-calibration ng speaker ng CIT</string>
     <string name="speaker_calibration_not_found">Hindi available ang pagkakalibrate ng speaker</string>
 </resources>

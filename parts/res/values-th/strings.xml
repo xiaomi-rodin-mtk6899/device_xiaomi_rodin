@@ -8,7 +8,7 @@
     <string name="display_category">จอแสดงผล</string>
     <string name="performance_category">การแสดง</string>
     <string name="system_category">ระบบ</string>
-    <string name="dismiss">ยกเลิก</string>
+    <string name="dismiss">ปิด</string>
     <string name="cancel">ยกเลิก</string>
     <string name="navigate_up">นำทางขึ้น</string>
     <string name="cpu_control_title">การควบคุมซีพียู</string>
@@ -46,7 +46,7 @@
     <string name="cpu_apply_failed">การตั้งค่า CPU บางอย่างไม่สามารถใช้งานได้</string>
     <string name="cpu_not_supported">เคอร์เนลนี้ไม่ได้เปิดเผยการควบคุมความถี่ CPU</string>
     <string name="battery_status_title">สถานะแบตเตอรี่</string>
-    <string name="battery_status_summary">สุขภาพ การชาร์จ และการวัดแบบสด</string>
+    <string name="battery_status_summary">สุขภาพ การชาร์จ และการวัดสด</string>
     <string name="battery_live_section">แบตเตอรี่</string>
     <string name="battery_wear_section">สุขภาพ</string>
     <string name="battery_status_charging">กำลังชาร์จ</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">กำลังชาร์จ</string>
     <string name="touch_boost_title">เพิ่มการสัมผัส</string>
     <string name="touch_boost_summary">การตอบสนองการสัมผัสเร็วขึ้น</string>
-    <string name="touch_boost_description">เพิ่มอัตราการโพลคอนโทรลเลอร์ระบบสัมผัส ช่วยลดเวลาแฝงในการแตะเพื่อตอบกลับ อาจเพิ่มการดึงพลังเล็กน้อยระหว่างการใช้งาน</string>
+    <string name="touch_boost_description">เพิ่มอัตราการโพลของคอนโทรลเลอร์ระบบสัมผัส ช่วยลดเวลาแฝงในการแตะเพื่อตอบกลับ อาจเพิ่มการดึงพลังเล็กน้อยระหว่างการใช้งาน</string>
     <string name="touch_boost_failed">ไม่สามารถใช้การเพิ่มการสัมผัสได้</string>
     <string name="fingerprint_calibration_title">การปรับเทียบลายนิ้วมือ</string>
     <string name="fingerprint_calibration_summary">ปรับเทียบเซ็นเซอร์ลายนิ้วมือใหม่</string>

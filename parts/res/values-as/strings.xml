@@ -8,7 +8,7 @@
     <string name="display_category">প্ৰদৰ্শন</string>
     <string name="performance_category">পৰিৱেশন</string>
     <string name="system_category">ব্যৱস্থা</string>
-    <string name="dismiss">চাকৰিৰ পৰা বৰ্খাস্ত কৰা</string>
+    <string name="dismiss">অগ্ৰাহ্য কৰক</string>
     <string name="cancel">বাতিল কৰক</string>
     <string name="navigate_up">ওপৰলৈ নেভিগেট কৰক</string>
     <string name="cpu_control_title">চিপিইউ নিয়ন্ত্ৰণ</string>
@@ -44,7 +44,7 @@
     <string name="cpu_apply">প্ৰয়োগ কৰক</string>
     <string name="cpu_refresh">CPU অৱস্থা সতেজ কৰক</string>
     <string name="cpu_apply_failed">কিছুমান CPU সংহতি প্ৰয়োগ কৰিব পৰা নগ\'ল</string>
-    <string name="cpu_not_supported">CPU কম্পাঙ্ক নিয়ন্ত্ৰণ এই কাৰ্ণেল দ্বাৰা উন্মোচিত কৰা হোৱা নাই</string>
+    <string name="cpu_not_supported">CPU কম্পাঙ্ক নিয়ন্ত্ৰণ এই কাৰ্ণেলৰ দ্বাৰা উন্মোচিত কৰা হোৱা নাই</string>
     <string name="battery_status_title">বেটাৰীৰ অৱস্থা</string>
     <string name="battery_status_summary">স্বাস্থ্য, চাৰ্জিং আৰু লাইভ মেট্ৰিক্স</string>
     <string name="battery_live_section">বেটাৰী</string>
@@ -108,7 +108,7 @@
     <string name="color_mode_srgb_summary">ৱেব আৰু ডিজাইনৰ বাবে সঠিক sRGB</string>
     <string name="screen_resolution_title">পৰ্দাৰ ৰিজ\'লিউচন</string>
     <string name="screen_resolution_home_summary">প্ৰদৰ্শন ৰিজ\'লিউচন সলনি কৰক</string>
-    <string name="screen_resolution_description">এটা উচ্চ ৰিজ\'লিউচন নিৰ্ব্বাচন কৰিলে প্ৰদৰ্শন চোকা হয়, কিন্তু অধিক বেটাৰী ব্যৱহাৰ কৰে। কম ৰিজ’লিউচনে বেটাৰীৰ ব্যৱহাৰ হ্ৰাস কৰে।</string>
+    <string name="screen_resolution_description">এটা উচ্চ ৰিজ\'লিউচন নিৰ্ব্বাচন কৰিলে প্ৰদৰ্শন চোকা হয়, কিন্তু অধিক বেটাৰি ব্যৱহাৰ কৰে। কম ৰিজ’লিউচনে বেটাৰীৰ ব্যৱহাৰ হ্ৰাস কৰে।</string>
     <string name="screen_resolution_failed">ৰিজ\'লিউচন প্ৰয়োগ কৰাত ব্যৰ্থ</string>
     <string name="screen_resolution_1440p">২৫৬০ × ১৪৪০ (কিউএইচডি+)</string>
     <string name="screen_resolution_1440p_summary">আটাইতকৈ চোকা — বেটাৰীৰ ব্যৱহাৰ বেছি</string>

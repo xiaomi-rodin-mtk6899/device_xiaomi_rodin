@@ -8,7 +8,7 @@
     <string name="display_category">Hiển thị</string>
     <string name="performance_category">Hiệu suất</string>
     <string name="system_category">Hệ thống</string>
-    <string name="dismiss">Loại bỏ</string>
+    <string name="dismiss">Đóng</string>
     <string name="cancel">Hủy</string>
     <string name="navigate_up">Điều hướng lên trên</string>
     <string name="cpu_control_title">Điều khiển CPU</string>
@@ -30,7 +30,7 @@
     <string name="cpu_frequencies_category">Giới hạn tần số thủ công</string>
     <string name="cpu_cores_category">lõi CPU</string>
     <string name="cpu_efficiency_cluster">Cụm hiệu quả</string>
-    <string name="cpu_performance_cluster">Cụm hiệu suất</string>
+    <string name="cpu_performance_cluster">Cụm hiệu năng</string>
     <string name="cpu_prime_cluster">Cụm chính</string>
     <string name="cpu_cluster">Cụm %1$d</string>
     <string name="cpu_frequency_range">%1$s – %2$s</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">Đặt lại tất cả hồ sơ</string>
     <string name="thermal_reset_summary">Khôi phục tất cả cấu hình trên mỗi ứng dụng về mặc định</string>
     <string name="thermal_reset_confirm">Đặt lại</string>
-    <string name="thermal_reset_confirm_body">Tất cả các phần ghi đè nhiệt trên mỗi ứng dụng sẽ bị xóa và cấu hình sẽ trở về mặc định được phát hiện tự động.</string>
+    <string name="thermal_reset_confirm_body">Tất cả các phần ghi đè nhiệt trên mỗi ứng dụng sẽ bị xóa và cấu hình sẽ trở lại mặc định được phát hiện tự động.</string>
     <string name="thermal_add_app">Thêm ứng dụng</string>
     <string name="thermal_search_apps">Tìm kiếm ứng dụng</string>
     <string name="thermal_default">Mặc định</string>

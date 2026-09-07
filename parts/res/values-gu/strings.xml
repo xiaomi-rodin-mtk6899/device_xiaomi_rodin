@@ -8,7 +8,7 @@
     <string name="display_category">ડિસ્પ્લે</string>
     <string name="performance_category">પ્રદર્શન</string>
     <string name="system_category">સિસ્ટમ</string>
-    <string name="dismiss">કાઢી નાખો</string>
+    <string name="dismiss">છોડી દો</string>
     <string name="cancel">રદ કરો</string>
     <string name="navigate_up">ઉપર નેવિગેટ કરો</string>
     <string name="cpu_control_title">CPU નિયંત્રણ</string>
@@ -38,7 +38,7 @@
     <string name="cpu_min_frequency">ન્યૂનતમ: %1$s</string>
     <string name="cpu_max_frequency">મહત્તમ: %1$s</string>
     <string name="cpu_core">CPU %1$d</string>
-    <string name="cpu_core_online">ઑનલાઇન</string>
+    <string name="cpu_core_online">ઓનલાઇન</string>
     <string name="cpu_core_offline">ઑફલાઇન</string>
     <string name="cpu_core_required">બુટ કોર — હંમેશા ઓનલાઇન</string>
     <string name="cpu_apply">લાગુ કરો</string>
@@ -57,7 +57,7 @@
     <string name="battery_health_good">સારું</string>
     <string name="battery_health_overheat">વધારે ગરમ</string>
     <string name="battery_health_dead">મૃત</string>
-    <string name="battery_health_over_voltage">ઓવરવોલ્ટેજ</string>
+    <string name="battery_health_over_voltage">ઓવર વોલ્ટેજ</string>
     <string name="battery_health_cold">ઠંડી</string>
     <string name="battery_health_failure">નિષ્ફળતા</string>
     <string name="battery_status">સ્થિતિ</string>
@@ -143,7 +143,7 @@
     <string name="thermal_charging_toast_disconnected">પ્રતિ-એપ્લિકેશન પ્રોફાઇલ્સ ફરી શરૂ થઈ</string>
     <string name="thermal_charging_banner_body">ચાર્જ કરતી વખતે પ્રતિ-એપ પ્રોફાઇલ થોભાવવામાં આવે છે</string>
     <string name="thermal_reset_title">બધી પ્રોફાઇલ રીસેટ કરો</string>
-    <string name="thermal_reset_summary">દરેક એપ્લિકેશન પ્રોફાઇલને તેમના ડિફોલ્ટ પર પુનઃસ્થાપિત કરો</string>
+    <string name="thermal_reset_summary">દરેક-એપ્લિકેશન પ્રોફાઇલ્સને તેમના ડિફોલ્ટ પર પુનઃસ્થાપિત કરો</string>
     <string name="thermal_reset_confirm">રીસેટ કરો</string>
     <string name="thermal_reset_confirm_body">બધા પ્રતિ-એપ્લિકેશન થર્મલ ઓવરરાઇડ્સ સાફ થઈ જશે અને પ્રોફાઇલ્સ તેમના આપમેળે શોધાયેલ ડિફોલ્ટ્સ પર પાછા આવશે.</string>
     <string name="thermal_add_app">એપ્લિકેશન ઉમેરો</string>

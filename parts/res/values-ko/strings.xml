@@ -102,13 +102,13 @@
     <string name="display_colours_failed">컬러 모드를 적용하지 못했습니다.</string>
     <string name="color_mode_vivid_summary">향상된 색상 및 대비</string>
     <string name="color_mode_saturated_summary">매일 사용하기 좋은 풍부한 컬러</string>
-    <string name="color_mode_standard_summary">공장에서 보정되어 실제와 다름 없음</string>
+    <string name="color_mode_standard_summary">공장에서 보정되어 실제와 다름</string>
     <string name="color_mode_original_summary">독창적인 넓은 영역 튜닝</string>
     <string name="color_mode_p3_summary">DCI-P3 시네마 색 공간</string>
     <string name="color_mode_srgb_summary">웹과 디자인을 위한 정확한 sRGB</string>
     <string name="screen_resolution_title">화면 해상도</string>
     <string name="screen_resolution_home_summary">디스플레이 해상도 변경</string>
-    <string name="screen_resolution_description">더 높은 해상도를 선택하면 디스플레이가 더 선명해지지만 배터리를 더 많이 소모합니다. 해상도가 낮을수록 배터리 사용량이 줄어듭니다.</string>
+    <string name="screen_resolution_description">더 높은 해상도를 선택하면 디스플레이가 더 선명해 지지만 배터리를 더 많이 소모합니다. 해상도가 낮을수록 배터리 사용량이 줄어듭니다.</string>
     <string name="screen_resolution_failed">해결 방법을 적용하지 못했습니다.</string>
     <string name="screen_resolution_1440p">2560 × 1440(QHD+)</string>
     <string name="screen_resolution_1440p_summary">가장 선명함 — 더 높은 배터리 사용량</string>

@@ -9,16 +9,16 @@
     <string name="performance_category">ئەدای کارکردن</string>
     <string name="system_category">سیستەم</string>
     <string name="dismiss">دەرکردن</string>
-    <string name="cancel">پاشگەزبوونەوە</string>
+    <string name="cancel">هەڵوەشاندنەوە</string>
     <string name="navigate_up">بەرەو سەرەوە بڕۆن</string>
     <string name="cpu_control_title">کۆنترۆڵی سی پی یو</string>
     <string name="cpu_control_summary">پرۆفایلی ئەدای کارکردن و فرێکوێنسی و ناوکەکان</string>
     <string name="cpu_control_description">پرۆفایلەکان خۆیان لەگەڵ ئەو فرێکوێنسیانەدا دەگونجێنن کە لەلایەن ناوکەوە بەرکەوتوو دەبن. پاراستنی گەرمی ئەندرۆید لە هەموو دۆخێکدا چالاک دەمێنێتەوە.</string>
     <string name="cpu_profiles_category">پرۆفایلی ئەدای کارکردن</string>
-    <string name="cpu_profile_economy">پاشکەوتکاری باتری</string>
+    <string name="cpu_profile_economy">ئابووری</string>
     <string name="cpu_profile_economy_summary">تەنها ناوەکی کارایی، فرێکوێنسیەکان بۆ تەمەنی پاتری درێژتر</string>
     <string name="cpu_profile_normal">ئاسایی</string>
-    <string name="cpu_profile_normal_summary">هەموو ناوکەکان چالاک کراون بە مەودای گونجاوی ئاسایی ناوک</string>
+    <string name="cpu_profile_normal_summary">هەموو ناوکەکان بە مەودای گونجاوی ئاسایی ناوک چالاک کراون</string>
     <string name="cpu_profile_boost">بووست</string>
     <string name="cpu_profile_boost_summary">هەموو ناوکەکان چالاک کراون بە زەوییەکی فرێکوێنسی بەرزتر</string>
     <string name="cpu_profile_extreme">توندڕەو</string>
@@ -41,7 +41,7 @@
     <string name="cpu_core_online">ئۆنلاین</string>
     <string name="cpu_core_offline">ئۆفلاین</string>
     <string name="cpu_core_required">ناوەکی بووت — هەمیشە ئۆنلاین</string>
-    <string name="cpu_apply">جێبەجێکردن</string>
+    <string name="cpu_apply">داواکاری پێشکەش بکە</string>
     <string name="cpu_refresh">دۆخی CPU نوێ بکەرەوە</string>
     <string name="cpu_apply_failed">هەندێک ڕێکخستنەکانی CPU نەتوانرا جێبەجێ بکرێن</string>
     <string name="cpu_not_supported">کۆنترۆڵی فرێکوێنسی CPU لەلایەن ئەم ناوکەوە ئاشکرا نابێت</string>
@@ -52,7 +52,7 @@
     <string name="battery_status_charging">شەحنکردنەوە</string>
     <string name="battery_status_discharging">دەرچوون</string>
     <string name="battery_status_full">تەواو</string>
-    <string name="battery_status_not_charging">شەحن نەکردنەوە</string>
+    <string name="battery_status_not_charging">شەحن ناکاتەوە</string>
     <string name="battery_status_unknown">نەزانراوە</string>
     <string name="battery_health_good">باشە</string>
     <string name="battery_health_overheat">زۆر گەرم بووە</string>
@@ -120,8 +120,8 @@
     <string name="screen_resolution_720p_summary">باشترین تەمەنی پاتری</string>
     <string name="screen_resolution_dialog_title">گۆڕینی چارەسەر؟</string>
     <string name="screen_resolution_restart_hint_body">دوای جێبەجێکردن، پێشنیار دەکرێت System UI دووبارە دەستپێبکرێتەوە. دوور بکەوەرەوە لە گۆڕینی قەبارەی پیشاندانی لە ڕێکخستنەکانی Device Display، لەوانەیە ناکۆک بێت.</string>
-    <string name="screen_resolution_dialog_confirm">جێبەجێکردن</string>
-    <string name="screen_resolution_dialog_cancel">پاشگەزبوونەوە</string>
+    <string name="screen_resolution_dialog_confirm">داواکاری پێشکەش بکە</string>
+    <string name="screen_resolution_dialog_cancel">هەڵوەشاندنەوە</string>
     <string name="thermal_title">بەڕێوەبردنی گەرمی</string>
     <string name="thermal_summary">کارایی و پلەی گەرمی هەر ئەپێک</string>
     <string name="thermal_enable_title">پرۆفایلی گەرمی</string>
@@ -136,7 +136,7 @@
     <string name="thermal_global_profile_title">پرۆفایلی چالاک</string>
     <string name="thermal_per_app_label">پرۆفایلی هەر ئەپێک</string>
     <string name="thermal_select_profile">پرۆفایلی هەڵبژێرە</string>
-    <string name="thermal_apply">جێبەجێکردن</string>
+    <string name="thermal_apply">داواکاری پێشکەش بکە</string>
     <string name="thermal_no_apps">هێشتا هیچ ئەپێک ڕێکنەخراوە</string>
     <string name="thermal_failed_toast">کارکردنی گەرمی شکستی هێنا</string>
     <string name="thermal_charging_toast_connected">پرۆفایلی شەحنکردنەوە چالاکە</string>

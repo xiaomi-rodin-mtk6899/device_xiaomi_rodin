@@ -8,7 +8,7 @@
     <string name="display_category">Display</string>
     <string name="performance_category">Prestanda</string>
     <string name="system_category">System</string>
-    <string name="dismiss">Avvisa</string>
+    <string name="dismiss">Stäng</string>
     <string name="cancel">Avbryt</string>
     <string name="navigate_up">Navigera upp</string>
     <string name="cpu_control_title">CPU-kontroll</string>
@@ -143,7 +143,7 @@
     <string name="thermal_charging_toast_disconnected">Profiler per app har återupptagits</string>
     <string name="thermal_charging_banner_body">Profiler per app pausas under laddning</string>
     <string name="thermal_reset_title">Återställ alla profiler</string>
-    <string name="thermal_reset_summary">Återställ alla profiler per app till deras standardinställningar</string>
+    <string name="thermal_reset_summary">Återställ alla profiler per app till standardinställningarna</string>
     <string name="thermal_reset_confirm">Återställ</string>
     <string name="thermal_reset_confirm_body">Alla termiska åsidosättningar per app kommer att rensas och profiler återgår till sina automatiskt upptäckta standardinställningar.</string>
     <string name="thermal_add_app">Lägg till app</string>

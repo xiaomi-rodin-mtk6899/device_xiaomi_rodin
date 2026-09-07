@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">Redefinir todos os perfis</string>
     <string name="thermal_reset_summary">Restaure todos os perfis por aplicativo para seus padrões</string>
     <string name="thermal_reset_confirm">Redefinir</string>
-    <string name="thermal_reset_confirm_body">Todas as substituições térmicas por aplicativo serão apagadas e os perfis serão revertidos para seus padrões detectados automaticamente.</string>
+    <string name="thermal_reset_confirm_body">Todas as substituições térmicas por aplicativo serão apagadas e os perfis reverterão para seus padrões detectados automaticamente.</string>
     <string name="thermal_add_app">Adicionar aplicativo</string>
     <string name="thermal_search_apps">Pesquisar aplicativos</string>
     <string name="thermal_default">Padrão</string>

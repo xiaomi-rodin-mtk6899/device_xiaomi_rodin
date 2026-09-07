@@ -8,7 +8,7 @@
     <string name="display_category">ディスプレイ</string>
     <string name="performance_category">パフォーマンス</string>
     <string name="system_category">システム</string>
-    <string name="dismiss">却下</string>
+    <string name="dismiss">閉じる</string>
     <string name="cancel">キャンセル</string>
     <string name="navigate_up">上に移動</string>
     <string name="cpu_control_title">CPU制御</string>
@@ -102,7 +102,7 @@
     <string name="display_colours_failed">カラー モードの適用に失敗しました</string>
     <string name="color_mode_vivid_summary">色とコントラストの向上</string>
     <string name="color_mode_saturated_summary">日常使いにぴったりな豊富なカラー</string>
-    <string name="color_mode_standard_summary">工場で校正された、忠実な再現</string>
+    <string name="color_mode_standard_summary">工場で調整された、忠実な再現</string>
     <string name="color_mode_original_summary">独自の広色域チューニング</string>
     <string name="color_mode_p3_summary">DCI-P3 映画の色空間</string>
     <string name="color_mode_srgb_summary">Web およびデザイン向けの正確な sRGB</string>
@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">充電中にアプリごとに温度プロファイルを適用する</string>
     <string name="thermal_safety_label">安全オーバーライド</string>
     <string name="thermal_disable_throttling_title">サーマル スロットリングを無効にする</string>
-    <string name="thermal_disable_throttling_summary">このオプションがオフになるまで、ベンダーの制限なしプロファイルを使用してください</string>
+    <string name="thermal_disable_throttling_summary">このオプションがオフになるまではベンダーの制限なしプロファイルを使用してください</string>
     <string name="thermal_disable_warning_title">熱保護を無効にしますか?</string>
     <string name="thermal_disable_warning_body">デバイスが過熱したり、不安定になったり、バッテリーに損傷を与えたり、シャットダウンしたりする可能性があります。カーネルの緊急保護はアクティブなままになる場合があります。これは短いテストの場合にのみ使用し、デバイスから目を離さないでください。</string>
     <string name="thermal_disable_confirm">とにかく無効にする</string>

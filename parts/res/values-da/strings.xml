@@ -8,14 +8,14 @@
     <string name="display_category">Skærm</string>
     <string name="performance_category">Ydelse</string>
     <string name="system_category">System</string>
-    <string name="dismiss">Afvis</string>
+    <string name="dismiss">Luk</string>
     <string name="cancel">Annuller</string>
     <string name="navigate_up">Naviger op</string>
     <string name="cpu_control_title">CPU kontrol</string>
     <string name="cpu_control_summary">Ydelsesprofiler, frekvenser og kerner</string>
     <string name="cpu_control_description">Profiler tilpasser sig de frekvenser, der eksponeres af kernen. Android termisk beskyttelse forbliver aktiv i alle tilstande.</string>
     <string name="cpu_profiles_category">Præstationsprofil</string>
-    <string name="cpu_profile_economy">Batterisparefunktion</string>
+    <string name="cpu_profile_economy">Batterispare­funktion</string>
     <string name="cpu_profile_economy_summary">Kun effektivitetskerner, frekvenser begrænset for længere batterilevetid</string>
     <string name="cpu_profile_normal">Normal</string>
     <string name="cpu_profile_normal_summary">Alle kerner aktiveret med kernens normale adaptive område</string>

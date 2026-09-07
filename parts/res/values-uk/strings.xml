@@ -8,7 +8,7 @@
     <string name="display_category">Дисплей</string>
     <string name="performance_category">Продуктивність</string>
     <string name="system_category">Система</string>
-    <string name="dismiss">Звільнити</string>
+    <string name="dismiss">Закрити</string>
     <string name="cancel">Скасувати</string>
     <string name="navigate_up">Перейти вгору</string>
     <string name="cpu_control_title">Керування процесором</string>
@@ -77,7 +77,7 @@
     <string name="battery_plug_none">Акумулятор</string>
     <string name="memory_title">Менеджер пам\'яті</string>
     <string name="memory_summary">Оперативна пам\'ять, обмін і запущені процеси</string>
-    <string name="memory_used">Б/у</string>
+    <string name="memory_used">Б/в</string>
     <string name="memory_free_summary">%1$s безкоштовно</string>
     <string name="memory_total">Всього</string>
     <string name="memory_available">В наявності</string>

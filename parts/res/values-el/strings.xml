@@ -8,7 +8,7 @@
     <string name="display_category">Εμφάνιση</string>
     <string name="performance_category">Απόδοση</string>
     <string name="system_category">Σύστημα</string>
-    <string name="dismiss">Απόρριψη</string>
+    <string name="dismiss">Παράβλεψη</string>
     <string name="cancel">Ακύρωση</string>
     <string name="navigate_up">Πλοηγηθείτε προς τα πάνω</string>
     <string name="cpu_control_title">Έλεγχος CPU</string>
@@ -170,5 +170,5 @@
     <string name="fingerprint_calibration_not_found">Η βαθμονόμηση δακτυλικών αποτυπωμάτων δεν είναι διαθέσιμη</string>
     <string name="speaker_calibration_title">Βαθμονόμηση ηχείων</string>
     <string name="speaker_calibration_summary">Δοκιμή αυτοβαθμονόμησης ηχείων CIT</string>
-    <string name="speaker_calibration_not_found">Η βαθμονόμηση ηχείων δεν είναι διαθέσιμη</string>
+    <string name="speaker_calibration_not_found">Η βαθμονόμηση ηχείου δεν είναι διαθέσιμη</string>
 </resources>

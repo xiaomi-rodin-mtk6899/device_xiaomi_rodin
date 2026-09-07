@@ -8,7 +8,7 @@
     <string name="display_category">Weergave</string>
     <string name="performance_category">Prestaties</string>
     <string name="system_category">Systeem</string>
-    <string name="dismiss">Afwijzen</string>
+    <string name="dismiss">Sluiten</string>
     <string name="cancel">Annuleren</string>
     <string name="navigate_up">Navigeer omhoog</string>
     <string name="cpu_control_title">CPU-besturing</string>
@@ -70,13 +70,13 @@
     <string name="battery_technology">Technologie</string>
     <string name="battery_plug_type">Stroombron</string>
     <string name="battery_cycle_count">Aantal cycli</string>
-    <string name="battery_plug_ac">wisselstroom</string>
+    <string name="battery_plug_ac">Wisselstroom</string>
     <string name="battery_plug_usb">USB</string>
     <string name="battery_plug_wireless">Draadloos</string>
     <string name="battery_plug_dock">Dock</string>
     <string name="battery_plug_none">Batterij</string>
     <string name="memory_title">Geheugenbeheer</string>
-    <string name="memory_summary">RAM, swap en lopende processen</string>
+    <string name="memory_summary">RAM, swap en actieve processen</string>
     <string name="memory_used">Gebruikt</string>
     <string name="memory_free_summary">%1$s gratis</string>
     <string name="memory_total">Totaal</string>

@@ -18,7 +18,7 @@
     <string name="cpu_profile_economy">बॅटरी सेव्‍हर</string>
     <string name="cpu_profile_economy_summary">केवळ कार्यक्षमता कोर, दीर्घ बॅटरी आयुष्यासाठी फ्रिक्वेन्सी मर्यादित</string>
     <string name="cpu_profile_normal">सामान्य</string>
-    <string name="cpu_profile_normal_summary">कर्नलच्या सामान्य अनुकूली श्रेणीसह सर्व कोर सक्षम केले आहेत</string>
+    <string name="cpu_profile_normal_summary">सर्व कोर कर्नलच्या सामान्य अनुकूली श्रेणीसह सक्षम केले आहेत</string>
     <string name="cpu_profile_boost">बूस्ट</string>
     <string name="cpu_profile_boost_summary">सर्व कोर उच्च वारंवारता मजल्यासह सक्षम आहेत</string>
     <string name="cpu_profile_extreme">अत्यंत</string>
@@ -126,7 +126,7 @@
     <string name="thermal_summary">प्रति-ॲप कार्यप्रदर्शन आणि तापमान</string>
     <string name="thermal_enable_title">थर्मल प्रोफाइल</string>
     <string name="thermal_enable_summary">प्रति ॲप आणि चार्जिंग करताना थर्मल प्रोफाइल लागू करा</string>
-    <string name="thermal_safety_label">सुरक्षा ओव्हरराइड</string>
+    <string name="thermal_safety_label">सुरक्षितता ओव्हरराइड</string>
     <string name="thermal_disable_throttling_title">थर्मल थ्रॉटलिंग अक्षम करा</string>
     <string name="thermal_disable_throttling_summary">हा पर्याय बंद होईपर्यंत विक्रेता नो-लिमिट प्रोफाइल वापरा</string>
     <string name="thermal_disable_warning_title">थर्मल संरक्षण अक्षम करायचे?</string>
@@ -144,7 +144,7 @@
     <string name="thermal_charging_banner_body">प्रति-ॲप प्रोफाइल चार्ज होत असताना विराम दिला जातो</string>
     <string name="thermal_reset_title">सर्व प्रोफाइल रीसेट करा</string>
     <string name="thermal_reset_summary">सर्व प्रति-ॲप प्रोफाइल त्यांच्या डीफॉल्टवर पुनर्संचयित करा</string>
-    <string name="thermal_reset_confirm">रीसेट करा</string>
+    <string name="thermal_reset_confirm">रीसेट</string>
     <string name="thermal_reset_confirm_body">सर्व प्रति-ॲप थर्मल ओव्हरराइड्स साफ केले जातील आणि प्रोफाइल त्यांच्या स्वयंचलितपणे आढळलेल्या डीफॉल्टवर परत येतील.</string>
     <string name="thermal_add_app">ॲप जोडा</string>
     <string name="thermal_search_apps">ॲप्स शोधा</string>

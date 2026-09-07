@@ -8,7 +8,7 @@
     <string name="display_category">Дисплей</string>
     <string name="performance_category">Производительность</string>
     <string name="system_category">Система</string>
-    <string name="dismiss">Отклонить</string>
+    <string name="dismiss">Закрыть</string>
     <string name="cancel">Отмена</string>
     <string name="navigate_up">Перейти вверх</string>
     <string name="cpu_control_title">управление процессором</string>
@@ -77,7 +77,7 @@
     <string name="battery_plug_none">Батарея</string>
     <string name="memory_title">Менеджер памяти</string>
     <string name="memory_summary">ОЗУ, подкачка и запущенные процессы</string>
-    <string name="memory_used">Б/У</string>
+    <string name="memory_used">Б/у</string>
     <string name="memory_free_summary">%1$s бесплатно</string>
     <string name="memory_total">Итого</string>
     <string name="memory_available">Доступен</string>
@@ -130,7 +130,7 @@
     <string name="thermal_disable_throttling_title">Отключить термическое регулирование</string>
     <string name="thermal_disable_throttling_summary">Используйте профиль без ограничений поставщика, пока эта опция не будет отключена.</string>
     <string name="thermal_disable_warning_title">Отключить тепловую защиту?</string>
-    <string name="thermal_disable_warning_body">Устройство может перегреться, работать нестабильно, повредить аккумулятор или выключиться. Средства аварийной защиты ядра могут оставаться активными. Используйте это только для коротких тестов и никогда не оставляйте устройство без присмотра.</string>
+    <string name="thermal_disable_warning_body">Устройство может перегреться, работать нестабильно, повредить аккумулятор или выключиться. Аварийная защита ядра может оставаться активной. Используйте это только для коротких тестов и никогда не оставляйте устройство без присмотра.</string>
     <string name="thermal_disable_confirm">Все равно отключить</string>
     <string name="thermal_global_label">Глобальный профиль</string>
     <string name="thermal_global_profile_title">Активный профиль</string>

@@ -8,7 +8,7 @@
     <string name="display_category">Дисплей</string>
     <string name="performance_category">Изпълнение</string>
     <string name="system_category">Система</string>
-    <string name="dismiss">Отхвърли</string>
+    <string name="dismiss">Отхвърляне</string>
     <string name="cancel">Отказ</string>
     <string name="navigate_up">Навигирайте нагоре</string>
     <string name="cpu_control_title">контрол на процесора</string>

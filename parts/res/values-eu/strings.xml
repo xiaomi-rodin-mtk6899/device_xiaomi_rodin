@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">Aplikatu profil termikoak aplikazio bakoitzeko eta kargatzen ari zaren bitartean</string>
     <string name="thermal_safety_label">Segurtasuna gainidaztea</string>
     <string name="thermal_disable_throttling_title">Desgaitu throttling termikoa</string>
-    <string name="thermal_disable_throttling_summary">Erabili saltzaileak mugarik gabeko profila aukera hau desaktibatu arte</string>
+    <string name="thermal_disable_throttling_summary">Erabili saltzaileen mugarik gabeko profila aukera hau desaktibatu arte</string>
     <string name="thermal_disable_warning_title">Babes termikoa desgaitu?</string>
     <string name="thermal_disable_warning_body">Gailua gehiegi berotu, ezegonkorra izan daiteke, bateria kaltetu edo itzali egin daiteke. Kerneleko larrialdi-babesak aktibo egon daitezke. Erabili proba laburrak egiteko soilik eta ez utzi gailua arretarik gabe.</string>
     <string name="thermal_disable_confirm">Desgaitu hala ere</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">Berrezarri profil guztiak</string>
     <string name="thermal_reset_summary">Berrezarri aplikazio bakoitzeko profil guztiak lehenespenetara</string>
     <string name="thermal_reset_confirm">Berrezarri</string>
-    <string name="thermal_reset_confirm_body">Aplikazio bakoitzeko baliogabetze termiko guztiak garbituko dira eta profilak automatikoki detektatutako lehenetsietara itzuliko dira.</string>
+    <string name="thermal_reset_confirm_body">Aplikazio bakoitzeko baliogabetze termiko guztiak garbituko dira eta profilak automatikoki detektatu diren lehenespenetara itzuliko dira.</string>
     <string name="thermal_add_app">Gehitu aplikazioa</string>
     <string name="thermal_search_apps">Bilatu aplikazioak</string>
     <string name="thermal_default">Lehenetsia</string>
@@ -156,7 +156,7 @@
     <string name="thermal_camera">Kamera</string>
     <string name="thermal_video">Bideoa</string>
     <string name="thermal_video_4k">Bideoa 4K</string>
-    <string name="thermal_gaming">Jolasa</string>
+    <string name="thermal_gaming">Jokoa</string>
     <string name="thermal_gaming_heavy">Jokoa (astua)</string>
     <string name="thermal_gaming_competitive">Jokoa (lehiaketa)</string>
     <string name="thermal_yuanshen">Yuanshen</string>

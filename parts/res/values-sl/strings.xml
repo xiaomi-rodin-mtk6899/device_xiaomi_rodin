@@ -8,7 +8,7 @@
     <string name="display_category">Zaslon</string>
     <string name="performance_category">Uspešnost</string>
     <string name="system_category">Sistem</string>
-    <string name="dismiss">Odpusti</string>
+    <string name="dismiss">Opusti</string>
     <string name="cancel">Prekliči</string>
     <string name="navigate_up">Pomaknite se navzgor</string>
     <string name="cpu_control_title">Nadzor procesorja</string>

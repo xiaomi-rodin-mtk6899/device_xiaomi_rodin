@@ -170,5 +170,5 @@
     <string name="fingerprint_calibration_not_found">ការក្រិតស្នាមម្រាមដៃមិនមានទេ។</string>
     <string name="speaker_calibration_title">ការក្រិតតាមខ្នាតឧបករណ៍បំពងសម្លេង</string>
     <string name="speaker_calibration_summary">ការធ្វើតេស្តការក្រិតតាមខ្នាតដោយខ្លួនឯងរបស់ឧបករណ៍បំពងសំឡេង CIT</string>
-    <string name="speaker_calibration_not_found">ការក្រិតឧបករណ៍បំពងសំឡេងមិនមានទេ។</string>
+    <string name="speaker_calibration_not_found">ការក្រិតតាមខ្នាតឧបករណ៍បំពងសំឡេងមិនមានទេ។</string>
 </resources>

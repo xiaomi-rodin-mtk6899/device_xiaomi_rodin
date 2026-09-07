@@ -8,7 +8,7 @@
     <string name="display_category">ჩვენება</string>
     <string name="performance_category">შესრულება</string>
     <string name="system_category">სისტემა</string>
-    <string name="dismiss">გათავისუფლება</string>
+    <string name="dismiss">დახურვა</string>
     <string name="cancel">გაუქმება</string>
     <string name="navigate_up">ნავიგაცია ზემოთ</string>
     <string name="cpu_control_title">CPU კონტროლი</string>
@@ -108,7 +108,7 @@
     <string name="color_mode_srgb_summary">ზუსტი sRGB ვებსა და დიზაინისთვის</string>
     <string name="screen_resolution_title">ეკრანის გარჩევადობა</string>
     <string name="screen_resolution_home_summary">ეკრანის გარჩევადობის შეცვლა</string>
-    <string name="screen_resolution_description">უფრო მაღალი გარჩევადობის არჩევა დისპლეს უფრო მკვეთრს ხდის, მაგრამ მეტ ბატარეას ხარჯავს. დაბალი გარჩევადობა ამცირებს ბატარეის მოხმარებას.</string>
+    <string name="screen_resolution_description">უფრო მაღალი გარჩევადობის არჩევა ეკრანს უფრო მკვეთრს ხდის, მაგრამ მეტ ბატარეას იყენებს. დაბალი გარჩევადობა ამცირებს ბატარეის მოხმარებას.</string>
     <string name="screen_resolution_failed">რეზოლუციის გამოყენება ვერ მოხერხდა</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">ყველაზე მკვეთრი — ბატარეის უფრო მაღალი მოხმარება</string>
@@ -130,7 +130,7 @@
     <string name="thermal_disable_throttling_title">გამორთეთ თერმული throttling</string>
     <string name="thermal_disable_throttling_summary">გამოიყენეთ გამყიდველის უსაზღვრო პროფილი, სანამ ეს პარამეტრი არ გამოირთვება</string>
     <string name="thermal_disable_warning_title">გამორთეთ თერმული დაცვა?</string>
-    <string name="thermal_disable_warning_body">მოწყობილობა შეიძლება გადახურდეს, გახდეს არასტაბილური, დააზიანოს ბატარეა ან გამორთოს. ბირთვის საგანგებო დაცვა შეიძლება აქტიური დარჩეს. გამოიყენეთ ეს მხოლოდ მოკლე ტესტებისთვის და არასოდეს დატოვოთ მოწყობილობა უყურადღებოდ.</string>
+    <string name="thermal_disable_warning_body">მოწყობილობა შეიძლება გადახურდეს, გახდეს არასტაბილური, დაზიანდეს ბატარეა ან გამორთოს. ბირთვის საგანგებო დაცვა შეიძლება აქტიური დარჩეს. გამოიყენეთ ეს მხოლოდ მოკლე ტესტებისთვის და არასოდეს დატოვოთ მოწყობილობა უყურადღებოდ.</string>
     <string name="thermal_disable_confirm">მაინც გამორთე</string>
     <string name="thermal_global_label">გლობალური პროფილი</string>
     <string name="thermal_global_profile_title">აქტიური პროფილი</string>

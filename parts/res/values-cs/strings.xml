@@ -8,7 +8,7 @@
     <string name="display_category">Displej</string>
     <string name="performance_category">Výkon</string>
     <string name="system_category">Systém</string>
-    <string name="dismiss">Odmítnout</string>
+    <string name="dismiss">Zavřít</string>
     <string name="cancel">Zrušit</string>
     <string name="navigate_up">Přejděte nahoru</string>
     <string name="cpu_control_title">ovládání CPU</string>
@@ -90,7 +90,7 @@
     <string name="memory_stop">Zastavit proces</string>
     <string name="memory_process_stopped">Proces zastaven</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
-    <string name="display_colours_title">Zobrazte barvy</string>
+    <string name="display_colours_title">Zobrazit barvy</string>
     <string name="display_colours_summary">Barevný režim a teplota</string>
     <string name="display_colours_description">Upravte barevný režim a vyvážení bílé na displeji pro přirozenější nebo živější vzhled.</string>
     <string name="color_mode_vivid">Živé</string>
@@ -128,7 +128,7 @@
     <string name="thermal_enable_summary">Použijte tepelné profily pro každou aplikaci a během nabíjení</string>
     <string name="thermal_safety_label">Přepsání bezpečnosti</string>
     <string name="thermal_disable_throttling_title">Zakázat tepelné škrcení</string>
-    <string name="thermal_disable_throttling_summary">Používejte profil bez omezení dodavatele, dokud nebude tato možnost vypnuta</string>
+    <string name="thermal_disable_throttling_summary">Používejte profil bez omezení dodavatele, dokud tuto možnost nevypnete</string>
     <string name="thermal_disable_warning_title">Vypnout tepelnou ochranu?</string>
     <string name="thermal_disable_warning_body">Zařízení se může přehřát, stát se nestabilní, poškodit baterii nebo se vypnout. Nouzové ochrany jádra mohou zůstat aktivní. Používejte pouze pro krátké testy a nikdy nenechávejte zařízení bez dozoru.</string>
     <string name="thermal_disable_confirm">Přesto zakázat</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">Nabíjení</string>
     <string name="touch_boost_title">Zesílení dotyku</string>
     <string name="touch_boost_summary">Rychlejší odezva na dotyk</string>
-    <string name="touch_boost_description">Zvyšuje rychlost dotazování dotykového ovladače a snižuje latenci odezvy klepnutím. Při aktivním používání může mírně zvýšit spotřebu energie.</string>
+    <string name="touch_boost_description">Zvyšuje rychlost dotazování dotykového ovladače a snižuje latenci odezvy po klepnutí. Při aktivním používání může mírně zvýšit spotřebu energie.</string>
     <string name="touch_boost_failed">Zesílení dotyku se nepodařilo použít</string>
     <string name="fingerprint_calibration_title">Kalibrace otisku prstu</string>
     <string name="fingerprint_calibration_summary">Znovu zkalibrujte snímač otisků prstů</string>

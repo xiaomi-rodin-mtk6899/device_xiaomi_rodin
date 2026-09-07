@@ -8,7 +8,7 @@
     <string name="display_category">Ցուցադրում</string>
     <string name="performance_category">Կատարում</string>
     <string name="system_category">Համակարգ</string>
-    <string name="dismiss">Ազատել</string>
+    <string name="dismiss">Փակել</string>
     <string name="cancel">Չեղարկել</string>
     <string name="navigate_up">Նավարկեք վերև</string>
     <string name="cpu_control_title">պրոցեսորի կառավարում</string>
@@ -62,7 +62,7 @@
     <string name="battery_health_failure">Անհաջողություն</string>
     <string name="battery_status">Կարգավիճակ</string>
     <string name="battery_health">Առողջություն</string>
-    <string name="battery_temperature">Ջերմաստիճան</string>
+    <string name="battery_temperature">Ջերմաստիճանը</string>
     <string name="battery_voltage">Լարման</string>
     <string name="battery_current_now">Ընթացիկ հիմա</string>
     <string name="battery_power">Հզորություն</string>
@@ -86,9 +86,9 @@
     <string name="memory_processes">Գործընթացներ</string>
     <string name="memory_no_processes">Գործընթացի մասին տեղեկություններ չկան:</string>
     <string name="memory_unavailable">Հիշողության մասին տեղեկությունները հասանելի չեն այս սարքում:</string>
-    <string name="memory_low_warning">Հիշողության ցածր մակարդակ — մտածեք ֆոնային հավելվածները փակելու մասին</string>
+    <string name="memory_low_warning">Հիշողության պակաս — մտածեք փակելու ֆոնային հավելվածները</string>
     <string name="memory_stop">Դադարեցրեք գործընթացը</string>
-    <string name="memory_process_stopped">Գործընթացը դադարեցվեց</string>
+    <string name="memory_process_stopped">Գործընթացը դադարեցվել է</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
     <string name="display_colours_title">Ցուցադրել գույները</string>
     <string name="display_colours_summary">Գույնի ռեժիմ և ջերմաստիճան</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">Լիցքավորում</string>
     <string name="touch_boost_title">Հպման ուժեղացում</string>
     <string name="touch_boost_summary">Ավելի արագ հպման արձագանք</string>
-    <string name="touch_boost_description">Բարձրացնում է սենսորային կարգավորիչի քվեարկության արագությունը՝ նվազեցնելով հպում-արձագանքման հետաձգումը: Ակտիվ օգտագործման ընթացքում կարող է մի փոքր մեծացնել էներգիայի սպառումը:</string>
+    <string name="touch_boost_description">Բարձրացնում է սենսորային կարգավորիչի քվեարկության արագությունը՝ նվազեցնելով հպում-արձագանքման հետաձգումը: Ակտիվ օգտագործման ժամանակ կարող է մի փոքր մեծացնել էներգիայի սպառումը:</string>
     <string name="touch_boost_failed">Հպման ուժեղացումը չհաջողվեց կիրառել</string>
     <string name="fingerprint_calibration_title">Մատնահետքի չափորոշում</string>
     <string name="fingerprint_calibration_summary">Վերականգնել մատնահետքի սենսորը</string>

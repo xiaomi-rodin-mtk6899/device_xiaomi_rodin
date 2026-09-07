@@ -8,7 +8,7 @@
     <string name="display_category">Ekranas</string>
     <string name="performance_category">Našumas</string>
     <string name="system_category">Sistema</string>
-    <string name="dismiss">Atsisakyti</string>
+    <string name="dismiss">Uždaryti</string>
     <string name="cancel">Atšaukti</string>
     <string name="navigate_up">Eikite aukštyn</string>
     <string name="cpu_control_title">CPU valdymas</string>
@@ -17,7 +17,7 @@
     <string name="cpu_profiles_category">Našumo profilis</string>
     <string name="cpu_profile_economy">Akumuliator. tausoj. priem.</string>
     <string name="cpu_profile_economy_summary">Tik efektyvūs branduoliai, riboti dažniai, kad akumuliatorius veiktų ilgiau</string>
-    <string name="cpu_profile_normal">Įprasta</string>
+    <string name="cpu_profile_normal">Normalus</string>
     <string name="cpu_profile_normal_summary">Visi branduoliai įjungti naudojant įprastą branduolio prisitaikymo diapazoną</string>
     <string name="cpu_profile_boost">Padidinti</string>
     <string name="cpu_profile_boost_summary">Visi branduoliai įjungti su aukštesnio dažnio žemiausia riba</string>
@@ -108,7 +108,7 @@
     <string name="color_mode_srgb_summary">Tikslus sRGB žiniatinkliui ir dizainui</string>
     <string name="screen_resolution_title">Ekrano skiriamoji geba</string>
     <string name="screen_resolution_home_summary">Keisti ekrano skiriamąją gebą</string>
-    <string name="screen_resolution_description">Pasirinkus didesnę skyrą, ekranas tampa ryškesnis, tačiau sunaudojama daugiau akumuliatoriaus. Mažesnė skiriamoji geba sumažina akumuliatoriaus naudojimą.</string>
+    <string name="screen_resolution_description">Pasirinkus didesnę raišką, ekranas tampa ryškesnis, tačiau sunaudojama daugiau akumuliatoriaus. Mažesnė skiriamoji geba sumažina akumuliatoriaus naudojimą.</string>
     <string name="screen_resolution_failed">Nepavyko pritaikyti skyros</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">Aštriausias – didesnis akumuliatoriaus naudojimas</string>

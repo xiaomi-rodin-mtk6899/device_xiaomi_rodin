@@ -8,7 +8,7 @@
     <string name="display_category">ഡിസ്പ്ലേ</string>
     <string name="performance_category">പ്രകടനം</string>
     <string name="system_category">സിസ്റ്റം</string>
-    <string name="dismiss">ഡിസ്മിസ്</string>
+    <string name="dismiss">ഡിസ്‌മിസ് ചെയ്യുക</string>
     <string name="cancel">റദ്ദാക്കുക</string>
     <string name="navigate_up">മുകളിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക</string>
     <string name="cpu_control_title">സിപിയു നിയന്ത്രണം</string>
@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">മികച്ച ബാറ്ററി ലൈഫ്</string>
     <string name="screen_resolution_dialog_title">റെസല്യൂഷൻ മാറ്റണോ?</string>
-    <string name="screen_resolution_restart_hint_body">അപേക്ഷിച്ചതിന് ശേഷം, സിസ്റ്റം യുഐ പുനരാരംഭിക്കുന്നത് ശുപാർശ ചെയ്യുന്നു. ഉപകരണ ഡിസ്‌പ്ലേ ക്രമീകരണങ്ങളിൽ ഡിസ്‌പ്ലേ വലുപ്പം മാറ്റുന്നത് ഒഴിവാക്കുക, അത് വൈരുദ്ധ്യമാകാം.</string>
+    <string name="screen_resolution_restart_hint_body">അപേക്ഷിച്ചതിന് ശേഷം, സിസ്റ്റം യുഐ പുനരാരംഭിക്കുന്നത് ശുപാർശ ചെയ്യുന്നു. ഉപകരണ ഡിസ്പ്ലേ ക്രമീകരണങ്ങളിൽ ഡിസ്പ്ലേ വലുപ്പം മാറ്റുന്നത് ഒഴിവാക്കുക, അത് വൈരുദ്ധ്യമാകാം.</string>
     <string name="screen_resolution_dialog_confirm">ബാധകമാക്കുക</string>
     <string name="screen_resolution_dialog_cancel">റദ്ദാക്കുക</string>
     <string name="thermal_title">തെർമൽ മാനേജ്മെൻ്റ്</string>

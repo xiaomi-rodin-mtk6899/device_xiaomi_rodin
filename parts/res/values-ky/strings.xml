@@ -8,11 +8,11 @@
     <string name="display_category">Дисплей</string>
     <string name="performance_category">Performance</string>
     <string name="system_category">Система</string>
-    <string name="dismiss">Отставкага кетирүү</string>
+    <string name="dismiss">Жабуу</string>
     <string name="cancel">Жок</string>
     <string name="navigate_up">Жогору багыттоо</string>
     <string name="cpu_control_title">CPU башкаруу</string>
-    <string name="cpu_control_summary">Аткаруу профилдери, жыштыктар жана өзөктөр</string>
+    <string name="cpu_control_summary">Аткаруу профилдери, жыштыктары жана өзөктөрү</string>
     <string name="cpu_control_description">Профильдер ядро тарабынан ачылган жыштыктарга ылайыкташат. Android жылуулук коргоо ар бир режимде активдүү бойдон калууда.</string>
     <string name="cpu_profiles_category">Аткаруу профили</string>
     <string name="cpu_profile_economy">Батареяны үнөмдөгүч</string>
@@ -22,8 +22,8 @@
     <string name="cpu_profile_boost">Boost</string>
     <string name="cpu_profile_boost_summary">Бардык өзөктөр жогорку жыштыктык кабат менен иштетилген</string>
     <string name="cpu_profile_extreme">Экстремалдуу</string>
-    <string name="cpu_profile_extreme_summary">Ар бир кластерди максималдуу жыштыгында бекитет</string>
-    <string name="cpu_profile_custom">Custom</string>
+    <string name="cpu_profile_extreme_summary">Ар бир кластерди максималдуу жыштыгы менен бекитет</string>
+    <string name="cpu_profile_custom">Ыңгайлаштырылган</string>
     <string name="cpu_profile_custom_summary">Кол менен жыштык жана негизги конфигурация</string>
     <string name="cpu_extreme_warning_title">Жогорку кубаттуулукту колдонуу</string>
     <string name="cpu_extreme_warning">Экстремалдуу режим бир кыйла көбүрөөк жылуулукту жаратат жана батарейканын чыгымын азайтат. Термикалык дроссель эч качан өчүрүлбөйт.</string>
@@ -86,7 +86,7 @@
     <string name="memory_processes">Процесстер</string>
     <string name="memory_no_processes">Процесс боюнча маалымат жок.</string>
     <string name="memory_unavailable">Эстутум маалыматы бул түзмөктө жеткиликтүү эмес.</string>
-    <string name="memory_low_warning">Эстутум аз — фондо колдонмолорду жабууну карап көрүңүз</string>
+    <string name="memory_low_warning">Эстутум аз — фон колдонмолорун жабууну карап көрүңүз</string>
     <string name="memory_stop">Процессти токтотуу</string>
     <string name="memory_process_stopped">Процесс токтотулду</string>
     <string name="memory_process_summary">PSS %1$s · RSS %2$s · CPU %3$s%%</string>
@@ -125,12 +125,12 @@
     <string name="thermal_title">Жылуулук башкаруу</string>
     <string name="thermal_summary">Ар бир колдонмонун иштеши жана температурасы</string>
     <string name="thermal_enable_title">Термикалык профилдер</string>
-    <string name="thermal_enable_summary">Ар бир колдонмого жана кубатталып жатканда жылуулук профилдерин колдонуңуз</string>
+    <string name="thermal_enable_summary">Ар бир колдонмодо жана кубатталып жатканда жылуулук профилдерин колдонуңуз</string>
     <string name="thermal_safety_label">Коопсуздукту жокко чыгаруу</string>
     <string name="thermal_disable_throttling_title">Термикалык дроссельди өчүрүү</string>
     <string name="thermal_disable_throttling_summary">Бул параметр өчүрүлгөнгө чейин сатуучунун чексиз профилин колдонуңуз</string>
     <string name="thermal_disable_warning_title">Термикалык коргоо өчүрүлсүнбү?</string>
-    <string name="thermal_disable_warning_body">Аппарат ысып, туруксуз болуп, батареяга зыян келтириши же өчүп калышы мүмкүн. Ядронун өзгөчө кырдаалдардан коргоолору активдүү бойдон калышы мүмкүн. Муну кыска сыноолор үчүн гана колдонуңуз жана аппаратты эч качан кароосуз калтырбаңыз.</string>
+    <string name="thermal_disable_warning_body">Аппарат ысып, туруксуз болуп, батарейканы бузуп же өчүп калышы мүмкүн. Ядронун өзгөчө кырдаалдардан коргоо каражаттары активдүү бойдон калышы мүмкүн. Муну кыска сыноолор үчүн гана колдонуңуз жана аппаратты эч качан кароосуз калтырбаңыз.</string>
     <string name="thermal_disable_confirm">Баары бир өчүрүү</string>
     <string name="thermal_global_label">Глобалдык профиль</string>
     <string name="thermal_global_profile_title">Активдүү профиль</string>
@@ -161,7 +161,7 @@
     <string name="thermal_gaming_competitive">Оюндар (атаандаштык)</string>
     <string name="thermal_yuanshen">Юаньшен</string>
     <string name="thermal_charge">Заряддоо</string>
-    <string name="touch_boost_title">Тийүү күчөтүү</string>
+    <string name="touch_boost_title">Touch boost</string>
     <string name="touch_boost_summary">Тезирээк тийүү жооп</string>
     <string name="touch_boost_description">Сенсордук контроллердин добуш берүү ылдамдыгын жогорулатып, тийүү үчүн жооп күтүү убактысын азайтат. Активдүү колдонуу учурунда кубаттуулукту бир аз көбөйтүүсү мүмкүн.</string>
     <string name="touch_boost_failed">Тийүү күчөтүү колдонулбай калды</string>

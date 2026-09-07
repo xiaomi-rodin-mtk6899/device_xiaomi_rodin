@@ -8,7 +8,7 @@
     <string name="display_category">ڈسپلے</string>
     <string name="performance_category">کارکردگی</string>
     <string name="system_category">سسٹم</string>
-    <string name="dismiss">برخاست کریں۔</string>
+    <string name="dismiss">برخاست کریں</string>
     <string name="cancel">منسوخ کریں</string>
     <string name="navigate_up">اوپر تشریف لے جائیں۔</string>
     <string name="cpu_control_title">CPU کنٹرول</string>
@@ -16,7 +16,7 @@
     <string name="cpu_control_description">پروفائلز دانا کے ذریعہ سامنے آنے والی تعدد کے مطابق ہوتے ہیں۔ اینڈرائیڈ تھرمل پروٹیکشن ہر موڈ میں فعال رہتا ہے۔</string>
     <string name="cpu_profiles_category">پرفارمنس پروفائل</string>
     <string name="cpu_profile_economy">بیٹری سیور</string>
-    <string name="cpu_profile_economy_summary">صرف ایفیشنسی کور، طویل بیٹری لائف کے لیے فریکوئنسی محدود</string>
+    <string name="cpu_profile_economy_summary">صرف ایفیشنسی کور، طویل بیٹری لائف کے لیے فریکوئنسی کیپ</string>
     <string name="cpu_profile_normal">نارمل</string>
     <string name="cpu_profile_normal_summary">تمام کور دانا کی عام موافقت کی حد کے ساتھ فعال ہیں۔</string>
     <string name="cpu_profile_boost">فروغ</string>
@@ -108,7 +108,7 @@
     <string name="color_mode_srgb_summary">ویب اور ڈیزائن کے لیے درست sRGB</string>
     <string name="screen_resolution_title">اسکرین ریزولوشن</string>
     <string name="screen_resolution_home_summary">ڈسپلے ریزولوشن تبدیل کریں۔</string>
-    <string name="screen_resolution_description">زیادہ ریزولوشن کا انتخاب ڈسپلے کو تیز کرتا ہے، لیکن زیادہ بیٹری استعمال کرتا ہے۔ کم قراردادیں بیٹری کے استعمال کو کم کرتی ہیں۔</string>
+    <string name="screen_resolution_description">زیادہ ریزولوشن کا انتخاب ڈسپلے کو تیز تر بناتا ہے، لیکن زیادہ بیٹری استعمال کرتا ہے۔ کم قراردادیں بیٹری کے استعمال کو کم کرتی ہیں۔</string>
     <string name="screen_resolution_failed">ریزولوشن لاگو کرنے میں ناکام</string>
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">تیز ترین — بیٹری کا زیادہ استعمال</string>

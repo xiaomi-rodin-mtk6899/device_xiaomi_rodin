@@ -8,7 +8,7 @@
     <string name="display_category">Ekran</string>
     <string name="performance_category">Performans</string>
     <string name="system_category">Sistem</string>
-    <string name="dismiss">İşdən çıxarın</string>
+    <string name="dismiss">Rədd edin</string>
     <string name="cancel">Ləğv edin</string>
     <string name="navigate_up">Yuxarı gedin</string>
     <string name="cpu_control_title">CPU nəzarəti</string>
@@ -113,7 +113,7 @@
     <string name="screen_resolution_1440p">2560 × 1440 (QHD+)</string>
     <string name="screen_resolution_1440p_summary">Ən kəskin — daha yüksək batareya istifadəsi</string>
     <string name="screen_resolution_1220p">2712 × 1220 (Doğma)</string>
-    <string name="screen_resolution_1220p_summary">Yerli panel ayırdetmə qabiliyyəti</string>
+    <string name="screen_resolution_1220p_summary">Doğma panel ayırdetmə qabiliyyəti</string>
     <string name="screen_resolution_1080p">2400 × 1080 (FHD+)</string>
     <string name="screen_resolution_1080p_summary">Balanslaşdırılmış kəskinlik və batareya</string>
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>

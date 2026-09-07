@@ -8,7 +8,7 @@
     <string name="display_category">Displej</string>
     <string name="performance_category">Výkon</string>
     <string name="system_category">Systém</string>
-    <string name="dismiss">Odmietnuť</string>
+    <string name="dismiss">Zavrieť</string>
     <string name="cancel">Zrušiť</string>
     <string name="navigate_up">Prejsť nahor</string>
     <string name="cpu_control_title">ovládanie procesora</string>
@@ -22,7 +22,7 @@
     <string name="cpu_profile_boost">Zosilnenie</string>
     <string name="cpu_profile_boost_summary">Všetky jadrá sú povolené s vyššou spodnou hranicou frekvencie</string>
     <string name="cpu_profile_extreme">Extrémne</string>
-    <string name="cpu_profile_extreme_summary">Uzamkne každý klaster na jeho maximálnej frekvencii</string>
+    <string name="cpu_profile_extreme_summary">Uzamkne každý klaster pri jeho maximálnej frekvencii</string>
     <string name="cpu_profile_custom">Vlastné</string>
     <string name="cpu_profile_custom_summary">Manuálna konfigurácia frekvencie a jadra</string>
     <string name="cpu_extreme_warning_title">Vysoká spotreba energie</string>

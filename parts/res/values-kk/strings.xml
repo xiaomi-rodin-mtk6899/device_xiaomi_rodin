@@ -8,7 +8,7 @@
     <string name="display_category">Дисплей</string>
     <string name="performance_category">Өнімділік</string>
     <string name="system_category">Жүйе</string>
-    <string name="dismiss">Бас тарту</string>
+    <string name="dismiss">Жабу</string>
     <string name="cancel">Бас тарту</string>
     <string name="navigate_up">Жоғары шарлау</string>
     <string name="cpu_control_title">процессорды басқару</string>
@@ -31,7 +31,7 @@
     <string name="cpu_cores_category">CPU ядролары</string>
     <string name="cpu_efficiency_cluster">Тиімділік кластері</string>
     <string name="cpu_performance_cluster">Өнімділік кластері</string>
-    <string name="cpu_prime_cluster">Басты кластер</string>
+    <string name="cpu_prime_cluster">Прайм кластері</string>
     <string name="cpu_cluster">Кластер %1$d</string>
     <string name="cpu_frequency_range">%1$s – %2$s</string>
     <string name="cpu_frequency_dialog_title">%1$s жиіліктері</string>
@@ -141,11 +141,11 @@
     <string name="thermal_failed_toast">Термиялық жұмыс орындалмады</string>
     <string name="thermal_charging_toast_connected">Зарядтау профилі белсенді</string>
     <string name="thermal_charging_toast_disconnected">Әр қолданба профильдері жалғасты</string>
-    <string name="thermal_charging_banner_body">Зарядтау кезінде әр қолданба профильдері кідіртіледі</string>
+    <string name="thermal_charging_banner_body">Зарядтау кезінде әр қолданбаның профильдері кідіртіледі</string>
     <string name="thermal_reset_title">Барлық профильдерді қалпына келтіріңіз</string>
-    <string name="thermal_reset_summary">Барлық қолданба профильдерін әдепкі параметрлеріне қалпына келтіріңіз</string>
+    <string name="thermal_reset_summary">Барлық қолданба профильдерін әдепкі мәндеріне қалпына келтіріңіз</string>
     <string name="thermal_reset_confirm">Қалпына келтіру</string>
-    <string name="thermal_reset_confirm_body">Барлық қолданбадағы термиялық қайта анықтаулар өшіріледі және профильдер автоматты түрде анықталған әдепкі мәндеріне қайтарылады.</string>
+    <string name="thermal_reset_confirm_body">Барлық қолданбадағы термиялық қайта анықтаулар жойылады және профильдер автоматты түрде анықталған әдепкі мәндеріне қайтарылады.</string>
     <string name="thermal_add_app">Қолданба қосу</string>
     <string name="thermal_search_apps">Қолданбаларды іздеу</string>
     <string name="thermal_default">Әдепкі</string>

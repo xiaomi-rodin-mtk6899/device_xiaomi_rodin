@@ -125,10 +125,10 @@
     <string name="thermal_title">Hőkezelés</string>
     <string name="thermal_summary">Alkalmazásonkénti teljesítmény és hőmérséklet</string>
     <string name="thermal_enable_title">Hőprofilok</string>
-    <string name="thermal_enable_summary">Alkalmazzon hőprofilokat alkalmazásonként és töltés közben</string>
+    <string name="thermal_enable_summary">Hőprofilok alkalmazása alkalmazásonként és töltés közben</string>
     <string name="thermal_safety_label">Biztonsági felülbírálás</string>
     <string name="thermal_disable_throttling_title">A hőszabályozás letiltása</string>
-    <string name="thermal_disable_throttling_summary">Használja a szállítói korlátozás nélküli profilt, amíg ezt a lehetőséget ki nem kapcsolja</string>
+    <string name="thermal_disable_throttling_summary">Használja a szállítói korlátozás nélküli profilt mindaddig, amíg ezt a lehetőséget ki nem kapcsolja</string>
     <string name="thermal_disable_warning_title">Letiltja a hővédelmet?</string>
     <string name="thermal_disable_warning_body">A készülék túlmelegedhet, instabillá válhat, károsíthatja az akkumulátort vagy leállhat. A kernel vészvédelme aktív maradhat. Ezt csak rövid tesztekhez használja, és soha ne hagyja felügyelet nélkül a készüléket.</string>
     <string name="thermal_disable_confirm">Mindenképpen letiltja</string>
@@ -163,7 +163,7 @@
     <string name="thermal_charge">Töltés</string>
     <string name="touch_boost_title">Touch boost</string>
     <string name="touch_boost_summary">Gyorsabb érintésre adott válasz</string>
-    <string name="touch_boost_description">Növeli az érintésvezérlő lekérdezési gyakoriságát, csökkentve az érintéssel történő válaszadás késését. Aktív használat során kismértékben növelheti az áramfelvételt.</string>
+    <string name="touch_boost_description">Növeli az érintésvezérlő lekérdezési arányát, csökkentve az érintéssel történő válaszadás késését. Aktív használat során kismértékben növelheti az áramfelvételt.</string>
     <string name="touch_boost_failed">Az érintésnövelés alkalmazása nem sikerült</string>
     <string name="fingerprint_calibration_title">Ujjlenyomat-kalibrálás</string>
     <string name="fingerprint_calibration_summary">Kalibrálja újra az ujjlenyomat-érzékelőt</string>

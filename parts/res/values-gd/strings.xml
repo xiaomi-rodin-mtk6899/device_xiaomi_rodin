@@ -15,7 +15,7 @@
     <string name="cpu_control_summary">Pròifilean coileanaidh, tricead agus coraichean</string>
     <string name="cpu_control_description">Bidh pròifilean ag atharrachadh a rèir na tricead a tha an kernel a’ nochdadh. Tha dìon teirmeach Android fhathast gnìomhach anns a h-uile modh.</string>
     <string name="cpu_profiles_category">Pròifil dèanadais</string>
-    <string name="cpu_profile_economy">Caomhnaiche a’ bhataraidh</string>
+    <string name="cpu_profile_economy">Eaconamaidh</string>
     <string name="cpu_profile_economy_summary">Coraichean èifeachdais a-mhàin, triceadan cuibhrichte airson beatha bataraidh nas fhaide</string>
     <string name="cpu_profile_normal">àbhaisteach</string>
     <string name="cpu_profile_normal_summary">A h-uile cores air a chomasachadh le raon atharrachail àbhaisteach an kernel</string>
@@ -41,7 +41,7 @@
     <string name="cpu_core_online">Air-loidhne</string>
     <string name="cpu_core_offline">Offline</string>
     <string name="cpu_core_required">Boot core - an-còmhnaidh air-loidhne</string>
-    <string name="cpu_apply">Cuir an sàs</string>
+    <string name="cpu_apply">Cuir a-steach</string>
     <string name="cpu_refresh">Ùraich staid CPU</string>
     <string name="cpu_apply_failed">Cha b’ urrainn cuid de shuidheachaidhean CPU a chur an sàs</string>
     <string name="cpu_not_supported">Chan eil smachd tricead CPU air a nochdadh leis an kernel seo</string>
@@ -64,7 +64,7 @@
     <string name="battery_health">Slàinte</string>
     <string name="battery_temperature">Teòthachd</string>
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_current_now">An-dràsta</string>
+    <string name="battery_current_now">An-dràsta fhèin</string>
     <string name="battery_power">Cumhachd</string>
     <string name="battery_charge_counter">Cunntas cosgais</string>
     <string name="battery_technology">Teicneòlas</string>
@@ -120,7 +120,7 @@
     <string name="screen_resolution_720p_summary">Beatha bataraidh as fheàrr</string>
     <string name="screen_resolution_dialog_title">Atharraich an rùn?</string>
     <string name="screen_resolution_restart_hint_body">Às deidh dhut tagradh a dhèanamh, thathas a’ moladh ath-thòiseachadh System UI. Seachain atharrachadh meud taisbeanaidh ann an roghainnean Taisbeanaidh Innealan, faodaidh e còmhstri.</string>
-    <string name="screen_resolution_dialog_confirm">Cuir an sàs</string>
+    <string name="screen_resolution_dialog_confirm">Cuir a-steach</string>
     <string name="screen_resolution_dialog_cancel">Sguir dheth</string>
     <string name="thermal_title">Stiùireadh teirmeach</string>
     <string name="thermal_summary">Coileanadh per-app agus teòthachd</string>
@@ -136,7 +136,7 @@
     <string name="thermal_global_profile_title">Pròifil gnìomhach</string>
     <string name="thermal_per_app_label">Pròifilean per-app</string>
     <string name="thermal_select_profile">Tagh pròifil</string>
-    <string name="thermal_apply">Cuir an sàs</string>
+    <string name="thermal_apply">Cuir a-steach</string>
     <string name="thermal_no_apps">Chan eil aplacaidean air an rèiteachadh fhathast</string>
     <string name="thermal_failed_toast">Dh\'fhàillig obrachadh teirmeach</string>
     <string name="thermal_charging_toast_connected">pròifil cosgais gnìomhach</string>
@@ -156,7 +156,7 @@
     <string name="thermal_camera">Camara</string>
     <string name="thermal_video">Bhidio</string>
     <string name="thermal_video_4k">Bhidio 4K</string>
-    <string name="thermal_gaming">Geamannan</string>
+    <string name="thermal_gaming">Geama</string>
     <string name="thermal_gaming_heavy">Gaming (trom)</string>
     <string name="thermal_gaming_competitive">Gaming (farpaiseach)</string>
     <string name="thermal_yuanshen">Yuanshen</string>

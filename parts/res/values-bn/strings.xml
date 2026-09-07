@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Machine-translated baseline with official AOSP terminology where available. -->
 <resources>
-    <string name="app_name">Xiaomi যন্ত্রাংশ</string>
+    <string name="app_name">Xiaomi পার্টস</string>
     <string name="xiaomi_parts_title">Xiaomi পার্টস</string>
     <string name="xiaomi_parts_summary">প্রদর্শন, কর্মক্ষমতা, স্পর্শ এবং ডায়াগনস্টিকস</string>
     <string name="xiaomi_parts_category_diagnostics">ডায়াগনস্টিকস</string>
     <string name="display_category">প্রদর্শন</string>
     <string name="performance_category">কর্মক্ষমতা</string>
     <string name="system_category">সিস্টেম</string>
-    <string name="dismiss">খারিজ</string>
+    <string name="dismiss">বাতিল করুন</string>
     <string name="cancel">বাতিল</string>
     <string name="navigate_up">উপরে নেভিগেট করুন</string>
     <string name="cpu_control_title">CPU নিয়ন্ত্রণ</string>

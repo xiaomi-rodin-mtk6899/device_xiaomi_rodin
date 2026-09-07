@@ -8,7 +8,7 @@
     <string name="display_category">Wyświetlacz</string>
     <string name="performance_category">Wydajność</string>
     <string name="system_category">Systemu</string>
-    <string name="dismiss">Odrzuć</string>
+    <string name="dismiss">Zamknij</string>
     <string name="cancel">Anuluj</string>
     <string name="navigate_up">Przejdź w górę</string>
     <string name="cpu_control_title">Sterowanie procesorem</string>
@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Najlepsza żywotność baterii</string>
     <string name="screen_resolution_dialog_title">Zmienić rozdzielczość?</string>
-    <string name="screen_resolution_restart_hint_body">Po zastosowaniu zalecane jest ponowne uruchomienie interfejsu systemowego. Unikaj zmiany rozmiaru wyświetlacza w ustawieniach wyświetlacza urządzenia, może to powodować konflikty.</string>
+    <string name="screen_resolution_restart_hint_body">Po zastosowaniu zalecane jest ponowne uruchomienie interfejsu użytkownika systemu. Unikaj zmiany rozmiaru wyświetlacza w ustawieniach wyświetlacza urządzenia, może to spowodować konflikt.</string>
     <string name="screen_resolution_dialog_confirm">Zastosuj</string>
     <string name="screen_resolution_dialog_cancel">Anuluj</string>
     <string name="thermal_title">Zarządzanie ciepłem</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">Zresetuj wszystkie profile</string>
     <string name="thermal_reset_summary">Przywróć ustawienia domyślne wszystkich profili aplikacji</string>
     <string name="thermal_reset_confirm">Resetuj</string>
-    <string name="thermal_reset_confirm_body">Wszystkie nadpisania termiczne dla poszczególnych aplikacji zostaną usunięte, a profile powrócą do automatycznie wykrytych wartości domyślnych.</string>
+    <string name="thermal_reset_confirm_body">Wszystkie nadpisania termiczne dla poszczególnych aplikacji zostaną usunięte, a profile powrócą do automatycznie wykrytych ustawień domyślnych.</string>
     <string name="thermal_add_app">Dodaj aplikację</string>
     <string name="thermal_search_apps">Wyszukaj aplikacje</string>
     <string name="thermal_default">Domyślnie</string>

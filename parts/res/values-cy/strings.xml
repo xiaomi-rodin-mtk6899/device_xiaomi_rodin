@@ -15,7 +15,7 @@
     <string name="cpu_control_summary">Proffiliau perfformiad, amlder a chraidd</string>
     <string name="cpu_control_description">Mae proffiliau\'n addasu i\'r amleddau a ddatgelir gan y cnewyllyn. Mae amddiffyniad thermol Android yn parhau i fod yn weithredol ym mhob modd.</string>
     <string name="cpu_profiles_category">Proffil perfformiad</string>
-    <string name="cpu_profile_economy">Arbedwr Batri</string>
+    <string name="cpu_profile_economy">Economi</string>
     <string name="cpu_profile_economy_summary">creiddiau effeithlonrwydd yn unig, amlder wedi\'i gapio ar gyfer bywyd batri hirach</string>
     <string name="cpu_profile_normal">Normal</string>
     <string name="cpu_profile_normal_summary">Pob craidd wedi\'i alluogi gydag ystod addasol arferol y cnewyllyn</string>
@@ -41,7 +41,7 @@
     <string name="cpu_core_online">Ar-lein</string>
     <string name="cpu_core_offline">All-lein</string>
     <string name="cpu_core_required">Boot craidd - bob amser ar-lein</string>
-    <string name="cpu_apply">Gosod</string>
+    <string name="cpu_apply">Gwnewch gais</string>
     <string name="cpu_refresh">Adnewyddu cyflwr CPU</string>
     <string name="cpu_apply_failed">Nid oedd modd cymhwyso rhai gosodiadau CPU</string>
     <string name="cpu_not_supported">Nid yw rheolaeth amledd CPU yn cael ei amlygu gan y cnewyllyn hwn</string>
@@ -120,7 +120,7 @@
     <string name="screen_resolution_720p_summary">Bywyd batri gorau</string>
     <string name="screen_resolution_dialog_title">Newid cydraniad?</string>
     <string name="screen_resolution_restart_hint_body">Ar ôl gwneud cais, argymhellir ailgychwyn System UI. Osgoi newid maint arddangos mewn gosodiadau Arddangos Dyfais, gall wrthdaro.</string>
-    <string name="screen_resolution_dialog_confirm">Gosod</string>
+    <string name="screen_resolution_dialog_confirm">Gwnewch gais</string>
     <string name="screen_resolution_dialog_cancel">Diddymu</string>
     <string name="thermal_title">Rheolaeth thermol</string>
     <string name="thermal_summary">Perfformiad a thymheredd fesul ap</string>
@@ -136,7 +136,7 @@
     <string name="thermal_global_profile_title">Proffil gweithredol</string>
     <string name="thermal_per_app_label">Proffiliau fesul ap</string>
     <string name="thermal_select_profile">Dewiswch broffil</string>
-    <string name="thermal_apply">Gosod</string>
+    <string name="thermal_apply">Gwnewch gais</string>
     <string name="thermal_no_apps">Dim apps wedi\'u ffurfweddu eto</string>
     <string name="thermal_failed_toast">Methodd gweithrediad thermol</string>
     <string name="thermal_charging_toast_connected">Proffil codi tâl yn weithredol</string>

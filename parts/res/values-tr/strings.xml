@@ -163,7 +163,7 @@
     <string name="thermal_charge">Şarj oluyor</string>
     <string name="touch_boost_title">Dokunma güçlendirme</string>
     <string name="touch_boost_summary">Daha hızlı dokunma tepkisi</string>
-    <string name="touch_boost_description">Dokunma-yanıt gecikmesini azaltarak dokunmatik kontrol cihazının yoklama oranını artırır. Aktif kullanım sırasında güç tüketimini biraz artırabilir.</string>
+    <string name="touch_boost_description">Dokunma kumandasının yoklama oranını yükselterek dokunmadan yanıtlama gecikmesini azaltır. Aktif kullanım sırasında güç tüketimini biraz artırabilir.</string>
     <string name="touch_boost_failed">Dokunma güçlendirme uygulanamadı</string>
     <string name="fingerprint_calibration_title">Parmak izi kalibrasyonu</string>
     <string name="fingerprint_calibration_summary">Parmak izi sensörünü yeniden kalibre edin</string>

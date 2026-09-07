@@ -8,7 +8,7 @@
     <string name="display_category">Displejs</string>
     <string name="performance_category">Veiktspēja</string>
     <string name="system_category">Sistēma</string>
-    <string name="dismiss">Atlaist</string>
+    <string name="dismiss">Nerādīt</string>
     <string name="cancel">Atcelt</string>
     <string name="navigate_up">Virzieties uz augšu</string>
     <string name="cpu_control_title">CPU vadība</string>
@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">1600 × 720 (HD+)</string>
     <string name="screen_resolution_720p_summary">Vislabākais akumulatora darbības laiks</string>
     <string name="screen_resolution_dialog_title">Vai mainīt izšķirtspēju?</string>
-    <string name="screen_resolution_restart_hint_body">Pēc pieteikšanās ir ieteicams restartēt sistēmas lietotāja interfeisu. Izvairieties no displeja lieluma maiņas ierīces displeja iestatījumos, jo tas var būt pretrunā.</string>
+    <string name="screen_resolution_restart_hint_body">Pēc pieteikšanās ieteicams restartēt sistēmas lietotāja interfeisu. Izvairieties no displeja lieluma maiņas ierīces displeja iestatījumos, jo tas var būt pretrunā.</string>
     <string name="screen_resolution_dialog_confirm">Lietot</string>
     <string name="screen_resolution_dialog_cancel">Atcelt</string>
     <string name="thermal_title">Termiskā vadība</string>

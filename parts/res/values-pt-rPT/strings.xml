@@ -8,7 +8,7 @@
     <string name="display_category">Exibição</string>
     <string name="performance_category">Desempenho</string>
     <string name="system_category">Sistema</string>
-    <string name="dismiss">Dispensar</string>
+    <string name="dismiss">Ignorar</string>
     <string name="cancel">Cancelar</string>
     <string name="navigate_up">Navegue para cima</string>
     <string name="cpu_control_title">Controle de CPU</string>
@@ -145,7 +145,7 @@
     <string name="thermal_reset_title">Redefinir todos os perfis</string>
     <string name="thermal_reset_summary">Restaure todos os perfis por aplicativo para seus padrões</string>
     <string name="thermal_reset_confirm">Redefinir</string>
-    <string name="thermal_reset_confirm_body">Todas as substituições térmicas por aplicativo serão apagadas e os perfis serão revertidos para seus padrões detectados automaticamente.</string>
+    <string name="thermal_reset_confirm_body">Todas as substituições térmicas por aplicativo serão apagadas e os perfis reverterão para seus padrões detectados automaticamente.</string>
     <string name="thermal_add_app">Adicionar aplicativo</string>
     <string name="thermal_search_apps">Pesquisar aplicativos</string>
     <string name="thermal_default">Padrão</string>

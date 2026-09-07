@@ -57,7 +57,7 @@
     <string name="battery_health_good">ጥሩ</string>
     <string name="battery_health_overheat">ከመጠን በላይ ሙቀት</string>
     <string name="battery_health_dead">ሞቷል።</string>
-    <string name="battery_health_over_voltage">ከቮልቴጅ በላይ</string>
+    <string name="battery_health_over_voltage">በላይ ቮልቴጅ</string>
     <string name="battery_health_cold">ቀዝቃዛ</string>
     <string name="battery_health_failure">ውድቀት</string>
     <string name="battery_status">ሁኔታ</string>
@@ -119,7 +119,7 @@
     <string name="screen_resolution_720p">1600 × 720 (ኤችዲ+)</string>
     <string name="screen_resolution_720p_summary">ምርጥ የባትሪ ህይወት</string>
     <string name="screen_resolution_dialog_title">መፍትሄ ይቀየር?</string>
-    <string name="screen_resolution_restart_hint_body">ማመልከቻ ካስገቡ በኋላ የስርዓት UI እንደገና መጀመር ይመከራል። በመሣሪያ ማሳያ ቅንጅቶች ውስጥ የማሳያ መጠንን ከመቀየር ይቆጠቡ፣ ሊጋጭ ይችላል።</string>
+    <string name="screen_resolution_restart_hint_body">ማመልከቻ ካስገቡ በኋላ የስርዓት UI ዳግም መጀመር ይመከራል። በመሣሪያ ማሳያ ቅንጅቶች ውስጥ የማሳያ መጠንን ከመቀየር ይቆጠቡ ፣ ሊጋጭ ይችላል።</string>
     <string name="screen_resolution_dialog_confirm">ተግብር</string>
     <string name="screen_resolution_dialog_cancel">ይቅር</string>
     <string name="thermal_title">የሙቀት አስተዳደር</string>

@@ -8,7 +8,7 @@
     <string name="display_category">顯示</string>
     <string name="performance_category">效能</string>
     <string name="system_category">系統</string>
-    <string name="dismiss">解僱</string>
+    <string name="dismiss">關閉</string>
     <string name="cancel">取消</string>
     <string name="navigate_up">向上導航</string>
     <string name="cpu_control_title">CPU控制</string>
@@ -57,7 +57,7 @@
     <string name="battery_health_good">好</string>
     <string name="battery_health_overheat">過熱</string>
     <string name="battery_health_dead">死了</string>
-    <string name="battery_health_over_voltage">過電壓</string>
+    <string name="battery_health_over_voltage">過壓</string>
     <string name="battery_health_cold">冷</string>
     <string name="battery_health_failure">失敗</string>
     <string name="battery_status">狀態</string>
@@ -99,7 +99,7 @@
     <string name="color_mode_original">原版</string>
     <string name="color_mode_p3">DCI-P3</string>
     <string name="color_mode_srgb">sRGB</string>
-    <string name="display_colours_failed">應用色彩模式失敗</string>
+    <string name="display_colours_failed">應用顏色模式失敗</string>
     <string name="color_mode_vivid_summary">增強色彩和對比度</string>
     <string name="color_mode_saturated_summary">豐富的色彩適合日常使用</string>
     <string name="color_mode_standard_summary">工廠校準，逼真</string>
