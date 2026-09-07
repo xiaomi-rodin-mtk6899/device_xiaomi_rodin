@@ -19,4 +19,7 @@ allow hypsys_vendor block_device:dir search;
 allow hypsys_vendor { servicemanager misys_core hypsys_vendor }:binder call;
 allow hypsys_vendor vendor_sysfs_displayfeature:dir search;
 allow hypsys_vendor misys_core_service:service_manager find;
+allow hypsys_vendor kmsg_device:chr_file read;
+allow hypsys_vendor servicemanager:binder transfer;
+allow hypsys_vendor block_device:blk_file getattr;
 
