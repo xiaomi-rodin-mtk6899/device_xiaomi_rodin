@@ -35,3 +35,7 @@ ro.product.marketname=Poco X7 Pro
 wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
+
+# XPerience  Camera props
+ro.device.front_cam=20MP
+ro.device.rear_cam=50MP+8MP
