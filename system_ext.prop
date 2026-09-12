@@ -35,3 +35,7 @@ ro.product.marketname=Poco X7 Pro
 wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
+
+# camera
+ro.product.model=Poco X7 Pro
+ro.product.name=Poco X7 Pro
