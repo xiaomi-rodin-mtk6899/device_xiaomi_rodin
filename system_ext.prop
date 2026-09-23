@@ -39,6 +39,3 @@ wifi.tethering.interface=ap0
 # XPerience  Camera props
 ro.device.front_cam=20MP
 ro.device.rear_cam=50MP+8MP
-# camera
-ro.product.model=Poco X7 Pro
-ro.product.name=Poco X7 Pro
