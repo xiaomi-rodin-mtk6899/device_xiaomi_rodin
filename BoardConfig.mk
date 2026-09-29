@@ -217,3 +217,4 @@ WIFI_FEATURE_SUPPLICANT_11AX := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/rodin/BoardConfigVendor.mk
+include device/xiaomi/rodin-miuicamera/BoardConfig.mk
