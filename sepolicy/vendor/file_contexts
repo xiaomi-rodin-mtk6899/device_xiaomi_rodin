@@ -13,7 +13,6 @@
 /(vendor|system/vendor)/bin/hw/vendor.xiaomi.hardware.batteryantiaging-service               u:object_r:hal_batteryantiaging_default_exec:s0
 
 # Camera
-/data/vendor/camera(/.*)?                                                                              u:object_r:vendor_camera_data_file:s0
 /mnt/vendor/persist/camera(/.*)?                                                                       u:object_r:camera_persist_file:s0
 /odm/bin/crossbuild(/.*)?    u:object_r:vendor_bin_crossbuild_file:s0
 
@@ -107,10 +106,8 @@
 /vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service    u:object_r:hal_vibrator_default_exec:s0
 
 # MiSys
-/vendor/bin/hypsys_vendor                                   u:object_r:hypsys_vendor_exec:s0
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.misys\.core-service    u:object_r:misys_core_exec:s0
-/vendor/lib64/vendor\.xiaomi\.hardware\.misys\.core-V1-ndk\.so  u:object_r:misys_core_exec:s0
 
 # Dynamic zram (swap) resize helper for Xiaomi Parts
 /vendor/bin/zram_resize\.sh    u:object_r:zram_resize_exec:s0
 /data/local/tmp/zram_resize\.log    u:object_r:zram_resize_log_file:s0
+/dev/camlog    u:object_r:camlog_device:s0

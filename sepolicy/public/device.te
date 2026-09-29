@@ -1,3 +1,9 @@
+# MIEV
+type miev_dev, dev_type, mlstrustedobject;
+
+# MIGT
+type migt_dev, dev_type, mlstrustedobject;
+
 # --- dmabuf_heap_device ---
 typeattribute dmabuf_heap_device dev_type;
 typeattribute dmabuf_heap_device mlstrustedobject;

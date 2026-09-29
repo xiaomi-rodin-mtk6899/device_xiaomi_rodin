@@ -18,7 +18,3 @@ type hal_mtdservice_service, protected_service, service_manager_type, hal_servic
 
 # Sensors
 type vendor_hal_citsensorservice_xiaomi_service, protected_service, service_manager_type, hal_service_type;
-
-# MiSys
-type misys_core_service, service_manager_type;
-type misys_blackbox_service, service_manager_type;
