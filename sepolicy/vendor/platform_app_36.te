@@ -1,6 +1,17 @@
 # ximi parts com.jiiov.fingerprint_factorytest
-allow platform_app_36 vendor_sysfs_displayfeature:dir { search };
+allow platform_app_36 vendor_sysfs_displayfeature:dir search;
 allow platform_app_36 vendor_sysfs_displayfeature:file rw_file_perms;
 allow platform_app_36 vendor_fingerprint_prop:file r_file_perms;
-allow platform_app_36 hal_fingerprint_service:service_manager { find };
-allow platform_app_36 hal_fingerprint_default:binder call;
+allow platform_app_36 hal_fingerprint_service:service_manager find;
+
+binder_call(platform_app_36, hal_fingerprint_default)
+binder_call(hal_fingerprint_default, platform_app_36)
+
+# Access fingerprint data for calibration results
+allow platform_app_36 vendor_data_file:dir search;
+allow platform_app_36 fingerprint_vendor_data_file:dir rw_dir_perms;
+allow platform_app_36 fingerprint_vendor_data_file:file create_file_perms;
+allow platform_app_36 vendor_fingerprint_data_file:dir rw_dir_perms;
+allow platform_app_36 vendor_fingerprint_data_file:file create_file_perms;
+allow platform_app_36 vendor_fingerprint_data_file_fpdump:dir rw_dir_perms;
+allow platform_app_36 vendor_fingerprint_data_file_fpdump:file rw_file_perms;
