@@ -33,6 +33,7 @@ vendor.xiaomi.hardware.idmanager.ISecidService/default        u:object_r:hal_idm
 
 # Misys
 vendor.xiaomi.hardware.misys.common.IMiSysImpl/default       u:object_r:hal_misys_vendor_service_custom:s0
+vendor.xiaomi.hardware.misys.common.IHypSysIntl/default      u:object_r:hal_misys_vendor_service_custom:s0
 vendor.xiaomi.hardware.misys.core.IMiSysCore/default        u:object_r:misys_core_service:s0
 vendor.xiaomi.hardware.mtkblackbox.IMtkblackboxImpl/default  u:object_r:misys_blackbox_service:s0
 

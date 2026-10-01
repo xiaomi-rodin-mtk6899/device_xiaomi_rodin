@@ -7,3 +7,8 @@ init_daemon_domain(hal_misys_vendor_default)
 allow hal_misys_vendor_default mnt_vendor_file:dir rw_dir_perms;
 allow hal_misys_vendor_default mnt_vendor_file:file rw_file_perms;
 allow hal_misys_vendor_default property_socket:sock_file write;
+
+binder_call(hal_misys_vendor_default, miuicamera_app)
+allow hal_misys_vendor_default miuicamera_app:fd use;
+binder_call(hal_misys_vendor_default, mtk_hal_camera)
+allow hal_misys_vendor_default mtk_hal_camera:fd use;

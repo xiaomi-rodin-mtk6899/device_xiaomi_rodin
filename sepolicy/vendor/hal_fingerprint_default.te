@@ -1,4 +1,5 @@
 allow hal_fingerprint_default touchfeature_device:chr_file rw_file_perms;
+binder_call(hal_fingerprint_default, platform_app)
 
 allow hal_fingerprint_default persist_data_file:dir search;
 allow hal_fingerprint_default persist_data_file:file rw_file_perms;

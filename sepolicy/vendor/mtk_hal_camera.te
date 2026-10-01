@@ -1,6 +1,8 @@
 binder_call(system_app, mtk_hal_camera)
-
-permissive mtk_hal_camera;
+binder_call(mtk_hal_camera, miuicamera_app)
+typeattribute mtk_hal_camera mlstrustedsubject;
+allow mtk_hal_camera appdomain_tmpfs:file rw_file_perms;
+hal_client_domain(mtk_hal_camera, hal_mtk_mali_platform_default)
 
 allow mtk_hal_camera proc_pressure_mem:file rw_file_perms;
 allow mtk_hal_camera procfs_memory:file r_file_perms;
@@ -19,7 +21,7 @@ r_dir_file(mtk_hal_camera, vendor_bin_crossbuild_file)
 
 # Memecam wb_avail_buf
 allow mtk_hal_camera sysfs:file r_file_perms;
-allow mtk_hal_camera hal_aidlbgservice_service:service_manager find;
+hal_server_domain(mtk_hal_camera, hal_aidlbgservice)
 dontaudit mtk_hal_camera default_prop:file { read write };
 allow mtk_hal_camera hal_graphics_allocator_default_tmpfs:file ioctl;
 allowxperm mtk_hal_camera hal_graphics_allocator_default_tmpfs:file ioctl { 0x6201 };
@@ -40,7 +42,13 @@ allow mtk_hal_camera unlabeled:filesystem getattr;
 # MiSys (MIVI still capture path)
 allow mtk_hal_camera hal_misys_vendor_service_custom:service_manager find;
 allow mtk_hal_camera misys_core_service:service_manager find;
+allow mtk_hal_camera misys_blackbox_service:service_manager find;
 binder_call(mtk_hal_camera, hypsys_vendor)
+binder_call(hypsys_vendor, mtk_hal_camera)
+binder_call(mtk_hal_camera, misys_core)
+binder_call(misys_core, mtk_hal_camera)
+binder_call(mtk_hal_camera, hal_misys_vendor_default)
+binder_call(hal_misys_vendor_default, mtk_hal_camera)
 
 allow mtk_hal_camera sysfs_dmabuf_stats:dir r_dir_perms;
 allow mtk_hal_camera sysfs_dmabuf_stats:file r_file_perms;

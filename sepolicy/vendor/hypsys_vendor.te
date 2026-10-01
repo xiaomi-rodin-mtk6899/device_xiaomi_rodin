@@ -1,8 +1,6 @@
 type hypsys_vendor, domain;
 type hypsys_vendor_exec, exec_type, vendor_file_type, file_type;
 
-permissive hypsys_vendor;
-
 init_daemon_domain(hypsys_vendor)
 
 get_prop(hypsys_vendor, vendor_fingerprint_prop)
@@ -23,5 +21,14 @@ allow hypsys_vendor misys_core_service:service_manager find;
 allow hypsys_vendor vendor_camera_data_file:dir search;
 
 # miui cam
-allow hypsys_vendor vendor_camera_data_file:file { create getattr setattr };
-allow hypsys_vendor vendor_camera_data_file:dir  { add_name write getattr };
+allow hypsys_vendor vendor_camera_data_file:dir { create rw_dir_perms };
+allow hypsys_vendor vendor_camera_data_file:file create_file_perms;
+allow hypsys_vendor appdomain_tmpfs:file rw_file_perms;
+typeattribute hypsys_vendor mlstrustedsubject;
+allow hypsys_vendor vendor_data_file:dir search;
+binder_call(hypsys_vendor, miuicamera_app)
+binder_call(hypsys_vendor, mtk_hal_camera)
+binder_use(hypsys_vendor)
+allow hypsys_vendor hal_misys_vendor_service_custom:service_manager add;
+allow hypsys_vendor misys_blackbox_service:service_manager add;
+allow hypsys_vendor kmsg_device:chr_file rw_file_perms;
