@@ -1,0 +1,2 @@
+allow servicemanager hypsys_vendor:binder { call transfer };
+allow servicemanager misys_core:binder  { call transfer };

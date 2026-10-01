@@ -23,5 +23,5 @@ allow hypsys_vendor misys_core_service:service_manager find;
 allow hypsys_vendor vendor_camera_data_file:dir search;
 
 # miui cam
-allow hypsys_vendor vendor_camera_data_file:file { create getattr };
+allow hypsys_vendor vendor_camera_data_file:file { create getattr setattr };
 allow hypsys_vendor vendor_camera_data_file:dir  { add_name write getattr };
