@@ -16,8 +16,13 @@ allow hypsys_vendor vendor_sysfs_displayfeature:file r_file_perms;
 allow hypsys_vendor sysfs:file rw_file_perms;
 allow hypsys_vendor sysfs_soc:file r_file_perms;
 allow hypsys_vendor block_device:dir search;
-allow hypsys_vendor { servicemanager misys_core hypsys_vendor }:binder call;
+allow hypsys_vendor block_device:blk_file { read open write getattr };
+allow hypsys_vendor { servicemanager misys_core hypsys_vendor }:binder { transfer call };
 allow hypsys_vendor vendor_sysfs_displayfeature:dir search;
 allow hypsys_vendor misys_core_service:service_manager find;
 allow hypsys_vendor vendor_camera_data_file:dir search;
 
+# miui cam
+allow hypsys_vendor vendor_camera_data_file:file { add_name create getattr };
+allow hypsys_vendor vendor_camera_data_file:dir  { write getattr };
+allow hypsys_vendor miuicamera_app:fd { use };

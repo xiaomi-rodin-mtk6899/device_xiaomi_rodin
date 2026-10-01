@@ -29,6 +29,7 @@ binder_call(parts_app, hal_touchfeature_xiaomi_default)
 allow parts_app system_app_data_file:dir create_dir_perms;
 allow parts_app system_app_data_file:file create_file_perms;
 allow parts_app system_app_data_file:lnk_file create_file_perms;
+allow parts_app system_app:file r_file_perms;
 allow parts_app sysfs_therm:file rw_file_perms;
 
 allow parts_app app_function_service:service_manager find;
@@ -93,3 +94,7 @@ allow parts_app hal_fingerprint_service:service_manager find;
 # Xiaomi fingerprint properties
 get_prop(parts_app, vendor_fingerprint_prop)
 
+# hint service
+allow parts_app hint_service:service_manager find;
+
+allow parts_app protolog_configuration_service:service_manager find; 

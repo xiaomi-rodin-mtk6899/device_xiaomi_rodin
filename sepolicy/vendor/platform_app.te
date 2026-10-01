@@ -37,5 +37,3 @@ allow platform_app hal_misys_vendor_service_custom:service_manager find;
 allow platform_app vendor_sysfs_displayfeature:dir { search };
 allow platform_app vendor_sysfs_displayfeature:file rw_file_perms;
 allow platform_app vendor_fingerprint_prop:file read;
-allow platform_app_36 vendor_sysfs_displayfeature:dir { search };
-allow platform_app_36 vendor_sysfs_displayfeature:file rw_file_perms;
