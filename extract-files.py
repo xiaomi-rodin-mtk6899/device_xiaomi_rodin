@@ -5,6 +5,7 @@
 #
 
 import os
+import re
 import shutil
 
 from extract_utils.file import File
@@ -76,6 +77,39 @@ def blob_fixup_camera_lut(
         os.path.basename(file.dst),
     )
     shutil.copyfile(lut_path, file_path)
+
+
+def blob_fixup_micamera_aidl_device(
+    ctx: BlobFixupCtx,
+    file: File,
+    file_path: str,
+    *args,
+    **kwargs,
+):
+    with open(file_path, 'rb') as f:
+        data = f.read()
+
+    # Prevent abort() when MTK HAL returns empty metadata with non-zero partialResult
+    pattern = re.compile(
+        rb'(\x48\x23\x1c\x9b\x08\x79\x40\xb9)'
+        rb'([\x00-\xff]{3}[\x34\x35])'
+        rb'(\x88\x02\x40\xf9[\x00-\xff]{4}\x08\x01\x09\x8b\x1f\x05\x00\xf9)'
+        rb'(\x88\x02\x40\xf9\x08\x01\x09\x8b)'
+    )
+
+    def repl(m):
+        return (
+            m.group(1)
+            + b'\x1f\x20\x03\xd5'  # nop (bypass abort)
+            + m.group(3)
+            + b'\x1f\xe9\x00\xb9'  # str wzr, [x8, #0xe8] (force partialResult = 0)
+            + b'\x1f\x20\x03\xd5'  # nop
+        )
+
+    patched_data, count = pattern.subn(repl, data)
+    if count > 0:
+        with open(file_path, 'wb') as f:
+            f.write(patched_data)
 
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
@@ -284,6 +318,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libbase.so', 'libbase-v35.so')
         .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V3-ndk-v35.so')
         .replace_needed('libcppcose_rkp.so', 'libcppcose_rkp-v35.so'),
+    'vendor/lib64/libmicamera_aidl_device.so': blob_fixup()
+        .call(blob_fixup_micamera_aidl_device),
     'vendor/lib64/libmicamera_hal_core.so': blob_fixup()
         .call(blob_fixup_graphic_buffer_size)
         .add_needed('libprocessgroup_shim.so')
