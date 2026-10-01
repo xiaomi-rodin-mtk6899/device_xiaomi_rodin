@@ -44,7 +44,6 @@ binder_call(mtk_hal_camera, hypsys_vendor)
 
 allow mtk_hal_camera sysfs_dmabuf_stats:dir r_dir_perms;
 allow mtk_hal_camera sysfs_dmabuf_stats:file r_file_perms;
-allow mtk_hal_camera miuicamera_app:binder call;
 
 # cpu scaling
 allow mtk_hal_camera vendor_sysfs_cpu_control:file { r_file_perms };

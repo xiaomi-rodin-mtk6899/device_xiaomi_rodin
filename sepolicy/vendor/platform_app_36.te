@@ -2,3 +2,4 @@
 allow platform_app_36 vendor_sysfs_displayfeature:dir { search };
 allow platform_app_36 vendor_sysfs_displayfeature:file rw_file_perms;
 allow platform_app_36 vendor_fingerprint_prop:file r_file_perms;
+allow platform_app_36 hal_fingerprint_service:service_manager { find };

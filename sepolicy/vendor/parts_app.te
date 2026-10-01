@@ -97,4 +97,5 @@ get_prop(parts_app, vendor_fingerprint_prop)
 # hint service
 allow parts_app hint_service:service_manager find;
 
-allow parts_app protolog_configuration_service:service_manager find; 
+# media session crash fix
+allow parts_app media_session_service:service_manager find;
