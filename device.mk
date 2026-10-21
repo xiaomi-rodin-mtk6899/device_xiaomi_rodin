@@ -486,3 +486,7 @@ $(call inherit-product, vendor/xiaomi/rodin/rodin-vendor.mk)
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.arm64.memtag.default=off \
     persist.arm64.memtag.system_server=off
+
+
+# Hide useless cameras from GPay QR scanner and Chrome
+PRODUCT_VENDOR_PROPERTIES += vendor.camera.aux.packageexcludelist=in.org.npci.upiapp,com.google.android.apps.nbu.paisa.user,com.android.chrome
