@@ -17,6 +17,9 @@ persist.vendor.XDRVersion    u:object_r:vendor_mtk_camera_prop:s0
 # CIT App
 vendor.audio.cit.spkcal.copy   u:object_r:vendor_audio_cit_prop:s0
 
+# Audio features
+AUDIO_FEATURE_REVERSE_MIC_DIRECTION_SUPPORT    u:object_r:vendor_mtk_audio_prop:s0 exact bool
+
 # DisplayFeature
 persist.vendor.dc_backlight.enable                u:object_r:vendor_displayfeature_prop:s0
 persist.vendor.max.brightness                     u:object_r:vendor_displayfeature_prop:s0
