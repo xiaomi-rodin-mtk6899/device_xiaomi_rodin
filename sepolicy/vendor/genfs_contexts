@@ -1,5 +1,6 @@
 # Audio
 genfscon sysfs /kernel/smartpa/smartpa_type    u:object_r:sysfs_chip_vendor:s0
+genfscon sysfs /class/smartpa/re25_calib u:object_r:sysfs_fsm_re25:s0
 genfscon sysfs /class/fs16xx/fsm_re25 u:object_r:sysfs_fsm_re25:s0
 genfscon sysfs /class/fs16xx/fsm_f0 u:object_r:sysfs_fsm_f0:s0
 
