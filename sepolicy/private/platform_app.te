@@ -1,0 +1,8 @@
+# Bypass charge
+allow platform_app sysfs_batteryinfo:dir search;
+allow platform_app sysfs_batteryinfo:file rw_file_perms;
+
+# Updater
+allow platform_app update_engine_service:service_manager find;
+binder_call(platform_app, update_engine)
+binder_call(update_engine, platform_app)

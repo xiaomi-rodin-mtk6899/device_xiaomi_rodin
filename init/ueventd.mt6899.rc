@@ -9,6 +9,7 @@
 /dev/block/sda                                   0660    root    system
 /dev/block/sdb                                   0660    root    system
 /dev/block/sdc                                   0660    root    system
+/dev/ufs-bsg*                                    0660    root    system
 
 # eMMC/UFS common
 /dev/block/by-name/misc2     0660    root    system
@@ -30,7 +31,7 @@
 /dev/block/by-name/modem_a  0640    root    system
 /dev/block/by-name/modem_b  0640    root    system
 /dev/block/by-name/md1dsp    0660    root    system
-/dev/block/by-name/boot_para 0640    root    system
+/dev/block/by-name/boot_para 0660    root    system
 
 # blackbox
 /dev/block/by-name/blackbox  0660    root    system
