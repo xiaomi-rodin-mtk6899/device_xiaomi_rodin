@@ -51,3 +51,8 @@ ro.opa.eligible_device=true
 
 # zRAM
 ro.zram_backing_device_min_free_mb=1536
+
+
+# MTE
+persist.arm64.memtag.default=off
+persist.arm64.memtag.system_server=off
