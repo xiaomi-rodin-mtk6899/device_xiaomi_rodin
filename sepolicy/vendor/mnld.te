@@ -1,0 +1,10 @@
+# GPS sensor fusion manager
+allow mnld hf_manager_device:chr_file rw_file_perms;
+
+# Binder IPC to servicemanager for MPE sensor fusion
+allow mnld servicemanager:binder { call transfer };
+allow mnld fwk_sensor_service:service_manager find;
+
+# Suppress harmless fallback denials
+dontaudit mnld default_prop:file r_file_perms;
+dontaudit mnld default_android_service:service_manager find;

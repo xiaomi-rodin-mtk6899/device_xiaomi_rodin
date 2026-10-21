@@ -6,4 +6,5 @@ allow init vendorcodec:process { siginh rlimitinh };
 allow init vendorcodec_exec:file { read getattr map execute open };
 dontaudit init vendorcodec:process noatsecure;
 type_transition init vendorcodec_exec:process vendorcodec;
-
+# Allow init to configure swappiness
+allow init proc_swappiness:file rw_file_perms;
