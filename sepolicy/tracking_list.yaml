@@ -1,0 +1,13 @@
+# SELinux Treble Labeling allowlist
+# Platform apps that require vendor domain assignment
+platform_apps_in_vendor_seapp_contexts:
+  - apk: XiaomiParts.apk
+    bug: 0
+  - name: com.xiaomi.settings
+    bug: 0
+
+non_coredomain_for_platform_apps:
+  - apk: XiaomiParts.apk
+    bug: 0
+  - name: com.xiaomi.settings
+    bug: 0

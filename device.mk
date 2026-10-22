@@ -488,3 +488,7 @@ $(call inherit-product, vendor/xiaomi/rodin/rodin-vendor.mk)
 # Hide useless cameras from GPay QR scanner and Chrome
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.camera.aux.packageexcludelist=in.org.npci.upiapp,com.google.android.apps.nbu.paisa.user,com.android.chrome
+
+# SEPolicy Treble Labeling exemptions
+PRODUCT_SELINUX_TREBLE_LABELING_TRACKING_LIST_FILE := device/xiaomi/rodin/sepolicy/tracking_list.yaml
+
