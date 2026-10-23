@@ -6,6 +6,7 @@
 DEVICE_PATH := device/xiaomi/rodin
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # Architecture
 TARGET_ARCH := arm64
